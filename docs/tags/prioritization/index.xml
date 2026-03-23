@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Prioritization on Devika Jallegowda</title>
-    <link>http://localhost:1313/devika-showcase/tags/prioritization/</link>
+    <link>https://gdevika423.github.io/devika-portfolio/tags/prioritization/</link>
     <description>Recent content in Prioritization on Devika Jallegowda</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/devika-showcase/tags/prioritization/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gdevika423.github.io/devika-portfolio/tags/prioritization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Feature Prioritization Framework</title>
-      <link>http://localhost:1313/devika-showcase/product/feature-prioritization/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/product/feature-prioritization/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/devika-showcase/product/feature-prioritization/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/product/feature-prioritization/</guid>
       <description>&lt;p&gt;As part of a 3-month MVP sprint, I supported the founding team by:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Defining user stories and epics&lt;/li&gt;&#xA;&lt;li&gt;Prioritizing backlog using a value-impact matrix&lt;/li&gt;&#xA;&lt;li&gt;Leading async sprint planning with dev + design teams&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Tools: Notion, Figma, Slack, Google Docs&lt;/p&gt;</description>
     </item>
   </channel>

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devika Jallegowda</title>
-    <link>http://localhost:1313/devika-showcase/about/</link>
+    <link>https://gdevika423.github.io/devika-portfolio/about/</link>
     <description>Recent content on Devika Jallegowda</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/devika-showcase/about/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gdevika423.github.io/devika-portfolio/about/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

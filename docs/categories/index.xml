@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Devika Jallegowda</title>
-    <link>http://localhost:1313/devika-showcase/categories/</link>
+    <link>https://gdevika423.github.io/devika-portfolio/categories/</link>
     <description>Recent content in Categories on Devika Jallegowda</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 04 Jan 2023 23:21:18 +0100</lastBuildDate>
-    <atom:link href="http://localhost:1313/devika-showcase/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gdevika423.github.io/devika-portfolio/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>temas</title>
-      <link>http://localhost:1313/devika-showcase/categoria/temas/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/categoria/temas/</link>
       <pubDate>Wed, 04 Jan 2023 23:21:18 +0100</pubDate>
-      <guid>http://localhost:1313/devika-showcase/categoria/temas/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/categoria/temas/</guid>
       <description></description>
     </item>
     <item>
       <title>sintaxe</title>
-      <link>http://localhost:1313/devika-showcase/categoria/sintaxe/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/categoria/sintaxe/</link>
       <pubDate>Wed, 04 Jan 2023 23:21:06 +0100</pubDate>
-      <guid>http://localhost:1313/devika-showcase/categoria/sintaxe/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/categoria/sintaxe/</guid>
       <description></description>
     </item>
   </channel>

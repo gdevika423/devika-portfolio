@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Devika Jallegowda</title>
-    <link>http://localhost:1313/devika-showcase/tags/</link>
+    <link>https://gdevika423.github.io/devika-portfolio/tags/</link>
     <description>Recent content in Tags on Devika Jallegowda</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/devika-showcase/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://gdevika423.github.io/devika-portfolio/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agile</title>
-      <link>http://localhost:1313/devika-showcase/tags/agile/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/tags/agile/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/devika-showcase/tags/agile/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/tags/agile/</guid>
       <description></description>
     </item>
     <item>
       <title>Documentation</title>
-      <link>http://localhost:1313/devika-showcase/tags/documentation/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/tags/documentation/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/devika-showcase/tags/documentation/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/tags/documentation/</guid>
       <description></description>
     </item>
     <item>
       <title>Onboarding</title>
-      <link>http://localhost:1313/devika-showcase/tags/onboarding/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/tags/onboarding/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/devika-showcase/tags/onboarding/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/tags/onboarding/</guid>
       <description></description>
     </item>
     <item>
       <title>Prioritization</title>
-      <link>http://localhost:1313/devika-showcase/tags/prioritization/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/tags/prioritization/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/devika-showcase/tags/prioritization/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/tags/prioritization/</guid>
       <description></description>
     </item>
     <item>
       <title>Product Strategy</title>
-      <link>http://localhost:1313/devika-showcase/tags/product-strategy/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/tags/product-strategy/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/devika-showcase/tags/product-strategy/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/tags/product-strategy/</guid>
       <description></description>
     </item>
     <item>
       <title>UX Writing</title>
-      <link>http://localhost:1313/devika-showcase/tags/ux-writing/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/tags/ux-writing/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/devika-showcase/tags/ux-writing/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/tags/ux-writing/</guid>
       <description></description>
     </item>
     <item>
       <title>API Documentation</title>
-      <link>http://localhost:1313/devika-showcase/tags/api-documentation/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/tags/api-documentation/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/devika-showcase/tags/api-documentation/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/tags/api-documentation/</guid>
       <description></description>
     </item>
     <item>
       <title>Developer Experience</title>
-      <link>http://localhost:1313/devika-showcase/tags/developer-experience/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/tags/developer-experience/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/devika-showcase/tags/developer-experience/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/tags/developer-experience/</guid>
       <description></description>
     </item>
     <item>
       <title>Publishing Optimization</title>
-      <link>http://localhost:1313/devika-showcase/tags/publishing-optimization/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/tags/publishing-optimization/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/devika-showcase/tags/publishing-optimization/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/tags/publishing-optimization/</guid>
       <description></description>
     </item>
     <item>
       <title>Códigos curtos</title>
-      <link>http://localhost:1313/devika-showcase/tags/shortcodes/</link>
+      <link>https://gdevika423.github.io/devika-portfolio/tags/shortcodes/</link>
       <pubDate>Wed, 04 Jan 2023 11:51:36 +0100</pubDate>
-      <guid>http://localhost:1313/devika-showcase/tags/shortcodes/</guid>
+      <guid>https://gdevika423.github.io/devika-portfolio/tags/shortcodes/</guid>
       <description></description>
     </item>
   </channel>
