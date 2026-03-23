@@ -1,0 +1,77 @@
+baseURL = "http://localhost:1313/devika-showcase/"
+title = "Devika Jallegowda"
+theme = "hugo-coder"
+languageCode = "en"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableEmoji = true
+
+[pagination]
+pagerSize = 30
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[params]
+author = "Devika Jallegowda"
+description = "Portfolio of Devika Jallegowda – documentation systems strategist and product thinker"
+keywords = "documentation, product management, technical writing, content strategy, API docs"
+info = "Documentation systems strategist | Product thinker"
+avatarURL = "images/avatar.jpg"
+logo = "images/logo.png"  # The clickable behavior is handled in the template
+dateFormat = "January 2, 2006"
+since = 2019
+commit = "https://github.com/luizdepra/hugo-coder/tree/"
+rtl = false
+colorScheme = "auto"
+hideColorSchemeToggle = false
+maxSeeAlsoItems = 5
+customCSS = ["css/custom.css"]
+customSCSS = []
+customJS = []
+customRemoteJS = []
+
+
+[[params.social]]
+name = "LinkedIn"
+icon = "fa-brands fa-linkedin fa-2x"
+weight = 2
+url = "https://www.linkedin.com/in/devikaj/"
+
+[[menu.main]]
+name = "About"
+weight = 1
+url = "about/"
+
+[[menu.main]]
+name = "Impact Stories"
+weight = 2
+url = "showcase/"
+
+[[menu.main]]
+name = "Projects"
+weight = 3
+url = "projects/"
+
+[[menu.main]]
+name = "Documentation Showcase"
+weight = 4
+url = "content-samples/"
+
+[[menu.main]]
+name = "Docs"
+weight = 5
+url = "docs/"
+
+[[menu.main]]
+name = "Product Work"
+weight = 6
+url = "product/"
+
+[[menu.main]]
+name = "Contact me"
+weight = 7
+url = "contact/"

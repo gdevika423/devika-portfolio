@@ -1,0 +1,4 @@
+git add .gitignore
+git commit -m "Cleanup .gitignore for Hugo project"
+git push
+

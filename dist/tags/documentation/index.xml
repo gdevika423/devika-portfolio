@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Documentation on Devika Jallegowda</title>
+    <link>http://localhost:1313/devika-showcase/tags/documentation/</link>
+    <description>Recent content in Documentation on Devika Jallegowda</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/devika-showcase/tags/documentation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Taskly: Content-led Onboarding</title>
+      <link>http://localhost:1313/devika-showcase/docs/taskly-onboarding/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devika-showcase/docs/taskly-onboarding/</guid>
+      <description>&lt;p&gt;I designed and wrote onboarding documentation for Taskly — a productivity SaaS tool — to help users:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Understand the product’s value in &amp;lt; 5 minutes&lt;/li&gt;&#xA;&lt;li&gt;Complete their first setup flow&lt;/li&gt;&#xA;&lt;li&gt;Reduce reliance on support tickets&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;strong&gt;What I Delivered&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Step-by-step walkthrough&lt;/li&gt;&#xA;&lt;li&gt;Empty state and tooltip copy&lt;/li&gt;&#xA;&lt;li&gt;Onboarding audit and lifecycle email copy&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

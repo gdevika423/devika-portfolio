@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publishing Optimization on Devika Jallegowda</title>
+    <link>http://localhost:1313/devika-showcase/tags/publishing-optimization/</link>
+    <description>Recent content in Publishing Optimization on Devika Jallegowda</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/devika-showcase/tags/publishing-optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Streamlining API Reference Documentation at Zeta</title>
+      <link>http://localhost:1313/devika-showcase/projects/api-reference-workflow/</link>
+      <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/devika-showcase/projects/api-reference-workflow/</guid>
+      <description>Standardized API documentation workflows at Zeta, improving publishing speed by 30–40% and enhancing documentation quality through structured engineering collaboration.</description>
+    </item>
+  </channel>
+</rss>

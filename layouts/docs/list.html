@@ -1,0 +1,14 @@
+<section>
+    <h1>{{ .Title }}</h1>
+    <p>{{ .Content }}</p>
+  
+    <div class="cards">
+      {{ range .Pages }}
+        <div class="card">
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p>{{ .Params.summary }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </section>
+  

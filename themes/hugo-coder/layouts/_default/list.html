@@ -1,0 +1,19 @@
+{{ define "title" }}
+  {{- if eq .Kind "term" -}}
+    {{- i18n .Data.Plural 1 | title -}}
+    {{- print ": " -}}
+  {{- end -}}
+  {{- i18n (lower .Title) | default .Title | title }} · {{ .Site.Title -}}
+{{ end }}
+
+{{ define "content" }}
+  
+  {{ if .Content }}
+    <div class="section-intro">
+      {{ .Content }}
+    </div>
+  {{ end }}
+
+  {{ partial "list.html" . }}
+
+{{ end }}

@@ -1,0 +1,17 @@
+{{ define "content" }}
+  <div class="page-wrapper">  <!-- ✅ Added wrapper -->
+    {{ partial "page.html" . }}
+    {{ partial "posts/math.html" . }}
+
+    {{ if or .Prev .Next }}
+      <div class="project-navigation">
+        {{ if .Prev }}
+          <a href="{{ .Prev.RelPermalink }}" class="btn-nav">← {{ .Prev.Title }}</a>
+        {{ end }}
+        {{ if .Next }}
+          <a href="{{ .Next.RelPermalink }}" class="btn-nav">{{ .Next.Title }} →</a>
+        {{ end }}
+      </div>
+    {{ end }}
+  </div>  <!-- ✅ Close wrapper -->
+{{ end }}

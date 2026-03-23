@@ -1,0 +1,10 @@
+{{ if or .Prev .Next }}
+  <div class="project-nav">
+    {{ if .Prev }}
+      <a class="nav-btn prev" href="{{ .Prev.RelPermalink }}">← {{ .Prev.Title }}</a>
+    {{ end }}
+    {{ if .Next }}
+      <a class="nav-btn next" href="{{ .Next.RelPermalink }}">{{ .Next.Title }} →</a>
+    {{ end }}
+  </div>
+{{ end }}

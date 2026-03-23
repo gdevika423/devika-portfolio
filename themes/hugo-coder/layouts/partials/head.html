@@ -1,0 +1,17 @@
+<head>
+    <title>{{ block "title" . }}{{ .Site.Params.HeadTitle | default .Site.Title }}{{ end }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <!-- Load Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  
+    {{ partialCached "head/theme-styles.html" . }}
+    {{ partialCached "head/color-scheme.html" . }}
+    {{ partialCached "head/custom-styles.html" . }}
+    {{ partialCached "head/custom-icons.html" . }}
+    {{ partial "head/alternative-output-formats.html" . }}
+    {{ if .IsHome }}{{ partial "head/hugo-generator.html" . }}{{ end }}
+    {{ partial "head/extensions.html" . }}
+  </head>
+  

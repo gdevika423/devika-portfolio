@@ -1,0 +1,14 @@
+{{- $page := .page }}
+{{- range .menuEntries }}
+  {{- $isActive := or ($page.IsMenuCurrent .Menu .) ($page.HasMenuCurrent .Menu .) }}
+  <li class="{{ if $isActive }}active{{ end }}">
+    <a href="{{ .URL }}">
+      {{ .Name }}
+    </a>
+    {{- with .Children }}
+      <ul class="submenu">
+        {{- partial "menu/walk.html" (dict "page" $page "menuEntries" .) }}
+      </ul>
+    {{- end }}
+  </li>
+{{- end }}

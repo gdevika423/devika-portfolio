@@ -1,0 +1,23 @@
+<nav class="navigation">
+  <section class="container nav-flex">
+    <div class="nav-logo">
+      <a class="navigation-title" href="{{ "/" | relLangURL }}">
+        <img src="{{ .Site.Params.logo | relURL }}" alt="{{ .Site.Title }}" height="60" />
+      </a>
+    </div>
+
+    <ul class="navigation-list">
+      {{ with .Site.Menus.main }}
+        {{ range sort . }}
+          <li class="navigation-item">
+            <a class="navigation-link {{ .Params.class }}" href="{{ index (apply (slice .URL) (.Params.urlFunc | default "relLangURL") ".") 0 }}">
+              {{ .Name }}
+            </a>
+          </li>
+        {{ end }}
+      {{ end }}
+    </ul>
+  </section>
+</nav>
+
+<div class="nav-separator"></div>

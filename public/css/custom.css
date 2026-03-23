@@ -1,0 +1,174 @@
+/* Typography and base styles */
+/* Reset font size globally to avoid unintended scaling */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.5rem; /* Base 16px for all elements unless overridden */
+  line-height: 1.5;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply only to paragraph blocks */
+p {
+  font-size: 1.5rem; /* About 20px */
+  line-height: 1.5;
+  margin-bottom: 0.6rem;
+}
+
+li {
+  font-size: 1.5rem; /* Keeps bullets at base size */
+  line-height: 1.6;
+}
+
+.navigation-title img {
+  cursor: pointer;
+}
+
+.nav-logo img {
+  cursor: pointer;
+  display: block;
+}
+
+
+h1, h2, h3 {
+  font-weight: 600;
+  margin-bottom: 0.50rem;
+  line-height: 1.4;
+  font-size: 2rem;
+}
+/* Navigation bar layout */
+nav.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0.75rem 2rem;
+}
+
+/* Logo styling */
+.navigation-title img,
+.nav-logo img {
+  height: 100px;               /* ✅ This sets logo size */
+  width: auto;                /* Maintain aspect ratio */
+  display: block;
+  vertical-align: middle;     /* Aligns with text */
+  margin-right: 2rem;
+}
+
+/* Navigation links */
+.navigation-list {
+  display: flex;
+  gap: 2rem;                  /* ✅ Space between nav items */
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-link {
+  white-space: nowrap;        /* ✅ Prevents nav link from wrapping */
+}
+
+/* Navigation layout wrapper */
+.nav-flex {
+  display: flex;
+  align-items: center;        /* ✅ Align logo + nav vertically */
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+}
+
+/* Hero section */
+.home-hero {
+  max-width: 800px;
+  margin: 3rem auto;
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Button styles */
+.btn {
+  background-color: #007acc;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  margin-right: 1rem;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+.btn-outline {
+  border: 2px solid #007acc;
+  color: #007acc;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 500;
+}
+
+/* Card layout */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Page containers */
+.about-container {
+  max-width: 750px;
+  margin: 3rem auto;
+  padding: 0 1.5rem;
+  font-size: 1.05rem;
+}
+
+.page-wrapper {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+
+nav.navigation {
+  background-color: #303335;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #a21b1b;
+  margin-bottom: 2rem;
+  z-index: 10;
+  position: relative;  
+}
+
+.nav-separator {
+  height: 2px;
+  background-color: #e0e0e0;
+  margin-bottom: 2rem;  /* Push content down */
+  border-bottom: 1px solid #dcdcdc;
+  margin-top: 2rem;
+  height: 2px;
+  background-color: #9e1b1b; /* Or any accent line color */
+  margin: 0 auto;
+  position: relative;
+  z-index: 0;
+}

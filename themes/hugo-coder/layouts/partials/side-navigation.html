@@ -1,0 +1,15 @@
+{{- $page := .page }}
+{{- $menuID := .menuID }}
+
+{{- with index site.Menus $menuID }}
+<aside id="SideNavigation" class="side-menu">
+  {{ if $page.Params.menuTitle }}
+    <h6 class="menu-title">{{ $page.Params.menuTitle }}</h6>
+  {{ end }}
+  <nav class="side-menu-nav">
+    <ul>
+      {{- partial "menu/walk.html" (dict "page" $page "menuEntries" .) }}
+    </ul>
+  </nav>
+</aside>
+{{- end }}
