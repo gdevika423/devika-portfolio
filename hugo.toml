@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/devika-showcase/"
+baseURL = "https://gdevika423.github.io/devika-portfolio/"
 title = "Devika Jallegowda"
 theme = "hugo-coder"
 languageCode = "en"
