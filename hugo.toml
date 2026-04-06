@@ -28,6 +28,9 @@ rtl = false
 name = "Devika Jallegowda"
 email = "gdevika423@gmail.com"
 
+[params.page]
+toc = false
+
 [[menu.main]]
 name = "About"
 weight = 1
@@ -39,28 +42,18 @@ weight = 2
 url = "showcase/"
 
 [[menu.main]]
-name = "Projects"
+name = "Product Thinking"
 weight = 3
-url = "projects/"
+url = "product-thinking/"
 
 [[menu.main]]
-name = "Documentation Showcase"
+name = "Platform & Systems"
 weight = 4
-url = "content-samples/"
+url = "platform-systems/"
 
 [[menu.main]]
-name = "Docs"
+name = "Contact"
 weight = 5
-url = "docs/"
-
-[[menu.main]]
-name = "Product Work"
-weight = 6
-url = "product/"
-
-[[menu.main]]
-name = "Contact me"
-weight = 7
 url = "contact/"
 
 [module]

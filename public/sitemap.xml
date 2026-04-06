@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/devika-portfolio/</loc>
+    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/devika-portfolio/tags/ai/</loc>
     <lastmod>2026-04-05T00:00:00+00:00</lastmod>
   </url><url>
@@ -12,9 +15,6 @@
     <lastmod>2026-04-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/tags/enterprise-platforms/</loc>
-    <lastmod>2026-04-05T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/devika-portfolio/</loc>
     <lastmod>2026-04-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/tags/product-management/</loc>
@@ -143,6 +143,8 @@
     <loc>http://localhost:1313/devika-portfolio/showcase/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/platform-systems/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/product-thinking/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/posts/</loc>
   </url>

@@ -1,181 +1,133 @@
-/* =========================
-   Global layout
-========================= */
-
-main {
-  max-width: 1040px;
-  margin: 0 auto;
+.home-hero {
+  padding: 2rem 0 3rem;
+  max-width: 760px;
 }
 
-/* =========================
-   Header
-========================= */
-
-header {
-  max-width: 1040px;
-  margin: 0 auto 28px;
-  padding: 18px 0 14px;
-  border-bottom: 1px solid #e5e5e5;
-}
-
-/* =========================
-   Logo
-========================= */
-
-header img,
-header .logo img {
-  max-height: 56px;
-  width: auto;
-  margin-bottom: 8px;
-}
-
-/* =========================
-   Navigation
-========================= */
-
-header nav,
-header ul,
-header .menu {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 28px;
-  margin-top: 6px;
-  flex-wrap: wrap;
-}
-
-header a,
-header nav a {
-  font-size: 14px;
+.home-eyebrow {
+  font-size: 0.95rem;
   font-weight: 600;
-  letter-spacing: 0.01em;
-  color: #2a2a2a;
-  text-decoration: none;
-  position: relative;
-  padding-bottom: 6px;
-  transition: color 0.2s ease;
-}
-
-header a:hover,
-header nav a:hover {
-  color: #000;
-}
-
-/* Premium underline animation */
-
-header a::after,
-header nav a::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-  background: #111;
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.22s ease;
-}
-
-header a:hover::after,
-header nav a:hover::after {
-  transform: scaleX(1);
-}
-
-/* =========================
-   Hero section
-========================= */
-
-main h1 {
-  font-size: 2.6rem;
-  margin-top: 42px;
-  margin-bottom: 18px;
-  display: block;
-  position: static;
-  padding-bottom: 0;
-}
-
-main > p:first-of-type {
-  font-size: 17px;
+  letter-spacing: 0.02em;
   color: #555;
+  margin-bottom: 0.75rem;
+}
+
+.home-hero h1 {
+  font-size: 3rem;
+  line-height: 1.1;
+  margin-bottom: 1rem;
+}
+
+.home-lead {
+  font-size: 1.2rem;
+  line-height: 1.75;
+  color: #333;
   max-width: 720px;
-  line-height: 1.7;
-  margin-top: 8px;
+  margin-bottom: 1.5rem;
 }
 
-/* =========================
-   Story cards
-========================= */
-
-.story-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-  gap: 30px;
-  margin-top: 44px;
+.home-cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  margin-top: 1.5rem;
 }
 
-.story-card {
-  border: 1px solid #e7e7e7;
-  border-radius: 10px;
-  padding: 22px;
-  background: #fff;
-  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.05);
-  transition: transform 0.18s ease, box-shadow 0.18s ease;
-}
-
-.story-card:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.08);
-}
-
-.story-card h2 {
-  font-size: 18px;
-  margin-top: 0;
-  margin-bottom: 10px;
-}
-
-.story-card p,
-.story-card li {
-  line-height: 1.6;
-}
-
-.story-card ul {
-  padding-left: 18px;
-}
-
-.story-card a {
+.btn-primary,
+.btn-secondary {
+  display: inline-block;
+  padding: 0.8rem 1.2rem;
+  border-radius: 999px;
+  text-decoration: none;
   font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #111827;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  opacity: 0.92;
   text-decoration: none;
 }
 
-/* =========================
-   Mobile
-========================= */
+.btn-secondary {
+  border: 1px solid #d1d5db;
+  color: #111827;
+  background: #fff;
+}
+
+.btn-secondary:hover {
+  background: #f9fafb;
+  text-decoration: none;
+}
+
+.home-section {
+  margin: 3.5rem 0;
+}
+
+.home-section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1.25rem;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+}
+
+.home-card,
+.feature-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 18px;
+  padding: 1.4rem;
+  background: #fff;
+}
+
+.home-card h3,
+.feature-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.15rem;
+}
+
+.home-card p,
+.feature-card p {
+  margin-bottom: 0;
+  line-height: 1.7;
+  color: #374151;
+}
+
+.feature-tag {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #6b7280;
+  margin-bottom: 0.6rem;
+}
+
+.text-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-weight: 600;
+}
+
+.home-connect {
+  text-align: left;
+  padding-bottom: 2rem;
+}
 
 @media (max-width: 900px) {
-  main {
-    padding-left: 18px;
-    padding-right: 18px;
-  }
-
-  header {
-    padding-left: 18px;
-    padding-right: 18px;
-    margin-bottom: 24px;
-  }
-
-  header nav,
-  header ul,
-  header .menu {
-    gap: 20px;
-  }
-
-  main h1 {
-    font-size: 2.1rem;
-    margin-top: 32px;
-  }
-
-  .story-grid {
+  .home-grid {
     grid-template-columns: 1fr;
+  }
+
+  .home-hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .home-lead {
+    font-size: 1.05rem;
   }
 }
