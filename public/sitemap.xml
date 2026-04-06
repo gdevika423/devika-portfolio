@@ -136,9 +136,13 @@
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/devika-portfolio/showcase/</loc>
+    <loc>http://localhost:1313/devika-portfolio/platform-systems/sap-operations-automation-platform/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/contact/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/showcase/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/platform-systems/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/posts/</loc>
   </url>
