@@ -20,5 +20,5 @@ This visual simplifies six key documentation principles into an easy-to-scan for
 By using clear hierarchy, grouping, and color, it shows how strong visuals can make complex ideas faster to understand, easier to retain, and more actionable for users.
 
 <div style="display: flex; justify-content: center;">
-  <img src="/devika-showcase/images/principles.png" alt="Documentation Success Principles" style="max-width: 80%; height: auto;">
+  <img src="../../images/principles.png" alt="Documentation Success Principles" style="max-width: 80%; height: auto;">
 </div>

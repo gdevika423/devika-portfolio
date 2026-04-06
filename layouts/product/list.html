@@ -1,14 +1,41 @@
-<section>
-    <h1>{{ .Title }}</h1>
-    <p>{{ .Content }}</p>
-  
-    <div class="cards">
-      {{ range .Pages }}
-        <div class="card">
-          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-          <p>{{ .Params.summary }}</p>
-        </div>
+{{ define "content" }}
+<div class="product-list">
+
+  <h1>{{ .Title }}</h1>
+
+  {{ with .Content }}
+  <div class="product-intro">{{ . }}</div>
+  {{ end }}
+
+  <div class="case-study-grid">
+    {{ range .Pages }}
+    <a href="{{ .RelPermalink }}" class="case-study-card">
+
+      <div class="case-study-meta">
+        {{ with .Params.company }}
+          <span class="cs-company">{{ . }}</span>
+        {{ end }}
+        {{ with .Params.status }}
+          <span class="cs-status">{{ . }}</span>
+        {{ end }}
+      </div>
+
+      <h2>{{ .Title }}</h2>
+      <p>{{ .Params.summary }}</p>
+
+      {{ with .Params.tags }}
+      <div class="cs-tags">
+        {{ range . }}
+        <span class="cs-tag">{{ . }}</span>
+        {{ end }}
+      </div>
       {{ end }}
-    </div>
-  </section>
-  
+
+      <span class="cs-read">Read case study →</span>
+
+    </a>
+    {{ end }}
+  </div>
+
+</div>
+{{ end }}

@@ -4,7 +4,7 @@ date: 2025-04-20
 ---
 
 <div style="display: flex; justify-content: center;">
-  <img src="/devika-showcase/images/scaling.png" alt="Documentation Success Principles" style="max-width: 110%; height: auto;">
+  <img src="../../images/scaling.png" alt="Documentation Success Principles" style="max-width: 110%; height: auto;">
 </div>
 
 
@@ -26,8 +26,8 @@ When implemented strategically, a CMS unlocks powerful advantages:
 > **In a fast-moving business, finding knowledge fast isn’t optional — it’s a competitive advantage.**
 
 
-<div style="text-align: center;">
-  <img src="/images/cms.png" alt="Content Management System" style="max-width: 70%; height: auto;">
+<div style="display: flex; justify-content: center;">
+  <img src="../../images/cms.png" alt="Content Management System" style="max-width: 70%; height: auto;">
 </div>
 
 

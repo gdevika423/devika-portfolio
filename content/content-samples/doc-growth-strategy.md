@@ -47,7 +47,7 @@ When documentation is positioned strategically, it becomes a powerful hub that f
 </details>
 
 <div style="display: flex; justify-content: center;">
-  <img src="/devika-showcase/images/strategic-documentation-hub.png" alt="Documentation Success Principles" style="max-width: 70%; height: auto;">
+  <img src="../../images/strategic-documentation-hub.png" alt="Documentation Success Principles" style="max-width: 70%; height: auto;">
 </div>
 
 ## 📈 Use Case
