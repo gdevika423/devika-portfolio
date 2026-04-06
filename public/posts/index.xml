@@ -1,11 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Published Work on Devika Jallegowda</title>
+    <title>Devika Jallegowda – Published Work</title>
     <link>http://localhost:1313/devika-portfolio/posts/</link>
     <description>Recent content in Published Work on Devika Jallegowda</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/devika-portfolio/posts/index.xml" rel="self" type="application/rss+xml" />
+    <managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor>
+    <webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster>
+    
+	  <atom:link href="http://localhost:1313/devika-portfolio/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
   </channel>
 </rss>

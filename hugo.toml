@@ -1,6 +1,5 @@
 baseURL = "https://gdevika423.github.io/devika-portfolio/"
 title = "Devika Jallegowda"
-theme = "hugo-coder"
 languageCode = "en"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -16,30 +15,18 @@ pagerSize = 30
     unsafe = true
 
 [params]
-author = "Devika Jallegowda"
 description = "Portfolio of Devika Jallegowda – documentation systems strategist and product thinker"
 keywords = "documentation, product management, technical writing, content strategy, API docs"
 info = "Documentation systems strategist | Product thinker"
 avatarURL = "images/avatar.jpg"
-logo = "images/logo.png"  # The clickable behavior is handled in the template
+logo = "images/logo.png"
 dateFormat = "January 2, 2006"
 since = 2019
-commit = "https://github.com/luizdepra/hugo-coder/tree/"
 rtl = false
-colorScheme = "auto"
-hideColorSchemeToggle = false
-maxSeeAlsoItems = 5
-customCSS = ["css/custom.css"]
-customSCSS = []
-customJS = []
-customRemoteJS = []
 
-
-[[params.social]]
-name = "LinkedIn"
-icon = "fa-brands fa-linkedin fa-2x"
-weight = 2
-url = "https://www.linkedin.com/in/devikaj/"
+[params.author]
+name = "Devika Jallegowda"
+email = "gdevika423@gmail.com"
 
 [[menu.main]]
 name = "About"
@@ -75,3 +62,7 @@ url = "product/"
 name = "Contact me"
 weight = 7
 url = "contact/"
+
+[module]
+  [[module.imports]]
+    path = "github.com/imfing/hextra"
