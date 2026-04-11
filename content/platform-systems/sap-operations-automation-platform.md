@@ -1,204 +1,140 @@
 ---
-title: "Building an AI-enabled automation platform for SAP operations"
-description: "A platform product case study on automating SAP BASIS operations using microservices and AI-assisted monitoring"
+title: "Nordia SAP Operations Automation Platform"
 toc: true
+type: showcase
+weight: 1
 ---
 
-## Context
+<hr class="page-divider">
 
-Enterprise organizations rely on SAP systems to run core business operations including finance, logistics, and supply chain management.  
+This page describes the platform architecture behind the proposed SAP Operations Automation system.
 
-Behind these systems is the **SAP BASIS operational layer**, responsible for maintaining system health, managing transports, administering users, monitoring jobs, and ensuring system stability across landscapes.
+The goal of the platform is to provide a centralized operational layer that continuously monitors SAP environments, evaluates system conditions, and surfaces actionable alerts to operations teams.
 
-In many organizations, BASIS operations are still performed through a mix of manual processes, fragmented scripts, and engineer-driven workflows. While these tasks are necessary for system reliability, they introduce operational overhead and make it difficult to scale operations efficiently.
+Rather than relying on manual monitoring across multiple tools, the platform consolidates operational signals into a unified monitoring and alerting system.
 
-This case study explores how recurring BASIS operations can be re-imagined as **reusable automation services** and orchestrated through a centralized operations platform.
+## Platform Objective
 
----
+The platform focuses on improving operational visibility and reducing manual monitoring effort across SAP landscapes.
 
-## Problem
+Key objectives include:
 
-During discussions with BASIS engineers and operations teams, several recurring challenges became visible.
+- continuous monitoring of system health signals  
+- automated detection of abnormal system behavior  
+- centralized operational visibility  
+- faster incident detection and response  
 
-### High operational workload
-
-Many BASIS tasks are repetitive and operational in nature. Examples include:
-
-- user creation and role assignment
-- transport imports
-- system health checks
-- job monitoring
-- log inspection
-
-These tasks consume a significant portion of engineering time.
-
-### Fragmented operational tooling
-
-Automation often exists in the form of ad-hoc scripts or tools built for specific environments. These scripts:
-
-- are difficult to reuse across systems
-- lack consistent interfaces
-- require manual coordination between teams
-
-### Reactive incident handling
-
-Operational monitoring often depends on engineers manually reviewing logs and alerts. This leads to:
-
-- delayed detection of issues
-- slower incident response
-- increased operational risk
-
-As system landscapes grow more complex, these issues become harder to manage using manual workflows.
+The platform acts as an operational intelligence layer on top of existing SAP infrastructure.
 
 ---
 
-## Discovery
+## Platform Architecture Overview
 
-The discovery phase focused on understanding the structure of SAP BASIS operations and identifying where automation could create meaningful operational impact.
+<p align="center">
+  <img src="/devika-portfolio/images/platform-architecture.png" alt="SAP Automation Platform Architecture" width="500">
+</p>
 
-This involved:
+The platform architecture consists of four primary layers:
 
-• mapping common BASIS operational workflows  
-• identifying tasks with high frequency and manual effort  
-• reviewing how automation is currently implemented through scripts or tools  
-• identifying areas where automation could be standardized as reusable services  
+1. Signal Collection Layer  
+2. Monitoring and Rule Engine  
+3. Alerting and Incident Detection  
+4. Operations Dashboard  
 
-Through this analysis, it became clear that many operational activities share common characteristics:
-
-- they follow repeatable steps  
-- they operate on defined system objects  
-- they can be triggered through well-defined inputs  
-
-This makes them strong candidates for **API-driven automation services**.
+Each layer performs a specific function in the monitoring pipeline.
 
 ---
 
-## Opportunity landscape
+## Signal Collection Layer
 
-Automation opportunities were identified across several BASIS operational domains.
+The signal collection layer gathers operational data from SAP systems.
 
-### User administration
+Typical signals include:
 
-User lifecycle management is a frequent operational task.
+- CPU utilization  
+- memory usage  
+- work process availability  
+- background job status  
+- system dump logs  
 
-Potential automation services include:
+These signals provide the raw inputs required for system monitoring.
 
-- user creation (single and bulk)
-- role assignment and removal
-- password reset automation
-- inactive user detection
-- authorization comparison
-
-### Transport management
-
-Transport workflows involve coordination between development, quality, and production systems.
-
-Automation opportunities include:
-
-- transport request creation and release
-- automated transport imports
-- transport dependency analysis
-- transport log inspection
-
-### System monitoring
-
-System monitoring currently depends heavily on manual inspection.
-
-Automation services could include:
-
-- system health checks
-- dump and error log analysis
-- performance monitoring
-- anomaly detection in system metrics
-
-### Job monitoring
-
-Background jobs play a critical role in SAP operations.
-
-Automation opportunities include:
-
-- job failure detection
-- automated job restart workflows
-- job performance analysis
-- alert generation for job anomalies
-
-### Database and infrastructure monitoring
-
-Database growth and system resource utilization require continuous monitoring.
-
-Automation opportunities include:
-
-- database health checks
-- storage growth monitoring
-- backup validation
-- automated alert generation
+The platform aggregates these signals into a structured monitoring stream.
 
 ---
 
-## Product vision
+## Monitoring and Rule Engine
 
-The long-term vision is to convert recurring operational tasks into **independent automation services** that can be composed into larger workflows.
+The monitoring engine evaluates system signals using predefined operational rules.
 
-The architecture would include three layers.
+Example rules may include:
 
-### Automation services layer
+- CPU utilization exceeding defined thresholds  
+- failed background jobs  
+- increasing system dump frequency  
+- unavailable work processes  
 
-Individual operational tasks are implemented as **microservices with defined APIs**. Examples:
-
-- user management service
-- transport management service
-- monitoring and diagnostics service
-- job management service
-
-Each service exposes standardized interfaces that allow it to be reused across environments.
-
-### Orchestration layer
-
-Automation services can be combined into **workflow pipelines** that represent common operational scenarios such as:
-
-- system refresh workflows  
-- automated transport promotion pipelines  
-- incident response workflows  
-
-This layer manages execution order, dependencies, and operational visibility.
-
-### Intelligence layer
-
-AI-assisted analysis can enhance operational monitoring by identifying patterns in:
-
-- system logs
-- performance metrics
-- job execution history
-
-This layer can support capabilities such as:
-
-- anomaly detection
-- predictive alerts
-- automated diagnostics recommendations
+This layer identifies abnormal operational conditions and triggers alerts when rules are violated.
 
 ---
 
-## Why this matters
+## Alerting and Incident Detection
 
-This work sits at the intersection of **enterprise operations, automation design, and platform product thinking**.
+When monitoring rules detect abnormal conditions, the platform generates alerts.
 
-Instead of treating automation as isolated scripts, the approach reframes operational work as **reusable platform capabilities**.
+Alerts typically include:
 
-The benefits include:
+- affected SAP system  
+- timestamp  
+- severity level  
+- operational context  
 
-- reduced manual operational effort
-- improved consistency across system environments
-- faster incident detection and resolution
-- a foundation for scalable operations automation
-
-For product teams, this also illustrates how **structured operational knowledge can be transformed into platform products**.
+This enables engineers to investigate issues quickly and respond before they escalate into major incidents.
 
 ---
 
-## Key takeaway
+## Operations Dashboard
 
-Enterprise operations generate a large number of repeatable tasks that are traditionally handled through manual workflows.
+The dashboard provides centralized visibility into system health across multiple SAP environments.
 
-By modeling these tasks as **automation services with clear interfaces**, organizations can gradually evolve from manual operations toward a centralized operations automation platform.
+Engineers can:
 
-This case study demonstrates how documentation, system understanding, and product thinking can combine to shape the design of such platforms.
+- monitor system metrics  
+- review active alerts  
+- track operational incidents  
+- navigate across systems  
+
+The dashboard acts as the primary operational interface for monitoring system stability.
+
+---
+
+## Platform Design Principles
+
+Several design principles guided the architecture.
+
+**Signal-driven monitoring**  
+System monitoring is based on continuous evaluation of operational signals.
+
+**Rule-based detection**  
+Operational conditions are evaluated using deterministic monitoring rules.
+
+**Centralized visibility**  
+Engineers should be able to monitor multiple SAP systems from a single interface.
+
+**Extensible architecture**  
+The system should support future automation capabilities.
+
+---
+
+## Future Platform Capabilities
+
+The architecture allows the platform to evolve over time.
+
+Potential extensions include:
+
+- automated remediation workflows  
+- predictive operational analytics  
+- AI-assisted incident investigation  
+- cross-system operational insights  
+
+This progression allows the platform to move from monitoring infrastructure toward intelligent operations management.

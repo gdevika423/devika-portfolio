@@ -2,13 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/devika-portfolio/toolkit/documentation-maturity-model/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/platform-systems/sap-operations-automation-platform/</loc>
+  </url><url>
     <loc>http://localhost:1313/devika-portfolio/product-thinking/nordia-product-discovery/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/toolkit/5cs-content-audit-model/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/product-thinking/automation-opportunity-map/</loc>
   </url><url>
+    <loc>http://localhost:1313/devika-portfolio/platform-systems/knowledge-architecture/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/toolkit/documentation-development-lifecycle-ddlc/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/platform-systems/documentation-infrastructure/</loc>
+  </url><url>
     <loc>http://localhost:1313/devika-portfolio/product-thinking/mvp-prioritization/</loc>
   </url><url>
+    <loc>http://localhost:1313/devika-portfolio/toolkit/documentation-governance-framework/</loc>
+  </url><url>
     <loc>http://localhost:1313/devika-portfolio/product-thinking/product-strategy-notes/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/platform-systems/automation-workflows/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/toolkit/prioritization-execution-models/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/</loc>
     <lastmod>2026-04-05T00:00:00+00:00</lastmod>
@@ -144,8 +162,6 @@
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/devika-portfolio/platform-systems/sap-operations-automation-platform/</loc>
-  </url><url>
     <loc>http://localhost:1313/devika-portfolio/contact/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/showcase/</loc>
@@ -155,5 +171,7 @@
     <loc>http://localhost:1313/devika-portfolio/product-thinking/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/posts/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/toolkit/</loc>
   </url>
 </urlset>

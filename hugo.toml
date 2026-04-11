@@ -52,9 +52,15 @@ weight = 4
 url = "/platform-systems/"
 
 [[menu.main]]
-name = "Contact"
+name = "Toolkit"
 weight = 5
+url = "/toolkit/"
+
+[[menu.main]]
+name = "Contact"
+weight = 6
 url = "/contact/"
+
 
 [module]
   [[module.imports]]

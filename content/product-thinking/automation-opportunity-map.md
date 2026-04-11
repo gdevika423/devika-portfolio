@@ -1,7 +1,6 @@
 ---
 title: "Automation Opportunity Map"
 toc: true
-type: showcase
 weight: 2
 ---
 
@@ -9,11 +8,20 @@ weight: 2
 
 Automation opportunity mapping helps identify where manual operational workflows can be converted into scalable software capabilities.
 
+<div class="story-grid">
+
+<div class="story-card">
+
+## Automation Opportunity Mapping for SAP Operations
+
+**Context:** SAP BASIS operational workflows across enterprise SAP landscapes.  
+**Focus:** Identifying repetitive operational tasks that could evolve into automation capabilities within a product platform.
+
 During product discovery for the SAP Operations Automation initiative at Nordia Infotech, the goal was to understand how SAP BASIS operational tasks are performed today and identify which workflows present the strongest opportunities for automation.
 
 Rather than starting with predefined features, the discovery process focused on analyzing operational patterns across common SAP administration tasks.
 
-## Context
+### Operational Context
 
 SAP BASIS engineers manage the operational stability of SAP landscapes.
 
@@ -29,11 +37,9 @@ Many of these tasks follow **repetitive operational workflows** and are often ex
 
 This makes them strong candidates for automation.
 
----
+### Discovery Approach
 
-## Discovery Approach
-
-Automation opportunities were evaluated using three key dimensions:
+Automation opportunities were evaluated using three key dimensions.
 
 **Frequency**  
 How often the task occurs in day-to-day operations.
@@ -46,13 +52,10 @@ How easily the task could be automated using deterministic rules or monitoring s
 
 These criteria helped identify workflows that would produce the greatest operational value if automated.
 
----
-
-## Automation Opportunity Landscape
+### Automation Opportunity Landscape
 
 <p align="center">
-  <!-- Opportunity Map Visualization Placeholder -->
-  <img src="/devika-portfolio/images/opportunity-map.png" alt="Automation Opportunity Map" width="500">
+  <img src="/devika-portfolio/images/opportunity-map.png" alt="Automation Opportunity Map" width="400">
 </p>
 
 The following operational domains were analyzed during discovery.
@@ -68,19 +71,17 @@ The following operational domains were analyzed during discovery.
 | Security and audit checks | Low | High | Medium |
 | System refresh operations | Low | Medium | Low |
 
----
-
-## Key Observations
+### Key Observations
 
 Several patterns emerged during the opportunity mapping process.
 
-### Monitoring tasks dominate operational workload
+#### Monitoring tasks dominate operational workload
 
 A large portion of operational effort involves reviewing system health indicators such as CPU usage, job status, and error logs.
 
 These checks are often repeated across multiple SAP environments.
 
-### Many operational checks are rule-based
+#### Many operational checks are rule-based
 
 Examples include:
 
@@ -91,13 +92,11 @@ Examples include:
 
 These conditions can be detected automatically using monitoring rules.
 
-### Early automation opportunities exist in monitoring workflows
+#### Early automation opportunities exist in monitoring workflows
 
 Because monitoring tasks are both frequent and rule-driven, they represent the **lowest-risk entry point for automation**.
 
----
-
-## Prioritization Insight
+### Prioritization Insight
 
 Based on the discovery analysis, monitoring workflows emerged as the strongest candidates for an initial product scope.
 
@@ -109,9 +108,7 @@ These workflows:
 
 As a result, the initial product direction focused on **monitoring automation**.
 
----
-
-## Resulting Product Direction
+### Resulting Product Direction
 
 The automation opportunity map informed the MVP definition for the SAP Operations Automation initiative.
 
@@ -125,9 +122,7 @@ The initial scope prioritized capabilities such as:
 
 This allowed the product to deliver immediate operational value while establishing the foundation for a broader automation platform.
 
----
-
-## Why Opportunity Mapping Matters
+### Why Opportunity Mapping Matters
 
 Opportunity mapping helps ensure that product decisions are grounded in real operational workflows rather than assumptions.
 
