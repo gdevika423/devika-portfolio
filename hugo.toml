@@ -1,4 +1,4 @@
-baseURL = "https://gdevika423.github.io/devika-portfolio/"
+baseURL = "http://localhost:1313/devika-portfolio/"
 title = "Devika Jallegowda"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -34,27 +34,27 @@ toc = false
 [[menu.main]]
 name = "About"
 weight = 1
-url = "about/"
+url = "/about/"
 
 [[menu.main]]
 name = "Impact Stories"
 weight = 2
-url = "showcase/"
+url = "/showcase/"
 
 [[menu.main]]
 name = "Product Thinking"
 weight = 3
-url = "product-thinking/"
+url = "/product-thinking/"
 
 [[menu.main]]
 name = "Platform & Systems"
 weight = 4
-url = "platform-systems/"
+url = "/platform-systems/"
 
 [[menu.main]]
 name = "Contact"
 weight = 5
-url = "contact/"
+url = "/contact/"
 
 [module]
   [[module.imports]]

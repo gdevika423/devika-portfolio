@@ -1,10 +1,6 @@
 ---
 title: "Impact Stories"
 ---
-
-
-# Impact Stories
-
 <hr class="page-divider">
 
 
@@ -27,6 +23,10 @@ Each project below tells the story of how I’ve applied **content strategy**, *
 
 **Outcome:** Reduced editorial review cycles by 30–40%.
 
+<p align="center">
+  <img src="/devika-portfolio/images/editorial_reviews.png" alt="GenAI Editorial Review Case Study" width="900">
+</p>
+
 [Case Study →](https://devika-portfolio-7v9r8ym.gamma.site/untitled-page-6)
 
 </div>
@@ -45,6 +45,10 @@ Each project below tells the story of how I’ve applied **content strategy**, *
 
 **Outcome:**  
 Enabled long-term scalability and delivered a 20–25% improvement in readability and user comprehension.
+
+<p align="center">
+  <img src="/devika-portfolio/images/scaling.jpg" alt="Content Strategy and Governance" width="900">
+</p>
 
 [Case Study →](https://devika-portfolio-7v9r8ym.gamma.site/maturity-modeling)
 
@@ -117,6 +121,10 @@ This initiative reinforced the power of **early involvement**, **structured owne
 **Outcome:**
 
 Achieved a **30–40% increase in publishing speed** by reducing documentation bottlenecks, improving API discoverability, and enabling faster developer onboarding.
+
+<p align="center">
+  <img src="/devika-portfolio/images/scalable-api.png" alt="API Documentation and Developer Experience" width="900">
+</p>
 
 [Case Study →](https://devika-portfolio-7v9r8ym.gamma.site/api-casestudy)
 
