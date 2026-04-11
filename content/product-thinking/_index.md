@@ -1,9 +1,10 @@
 ---
 title: "Product Thinking"
+toc: false
 ---
 
 This section captures how I approach product discovery, platform thinking, workflow design, and structured problem solving across complex systems.
----
+
 
 # SAP Operations Automation - Product Discovery & Strategy
 
