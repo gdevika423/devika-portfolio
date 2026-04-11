@@ -1,17 +1,89 @@
 ---
 title: "Platform & Systems"
-description: "Platform case studies, systems thinking, and product work"
-toc: false
+toc: true
 ---
 
-# Platform & Systems
+<hr class="page-divider">
 
-This section brings together my work at the intersection of documentation systems, enterprise platforms, developer experience, and product thinking.
+This section highlights how I think about systems architecture, reusable workflows, knowledge infrastructure, and platform-oriented problem solving.
 
-## Featured work
+## SAP Operations Automation Platform
 
-### Building an AI-enabled automation platform for SAP operations
+**Context:** Enterprise SAP BASIS operations  
+**Focus:** Platform strategy, automation design, and operational scalability  
 
-A platform thinking case study exploring how repetitive SAP BASIS operations can be transformed into reusable automation microservices and orchestrated through a centralized operations layer.
+### Platform perspective
 
-[Read the case study](/platform-systems/sap-automation-platform/)
+The opportunity was not just to automate isolated manual tasks, but to define the foundation for a reusable operations platform.
+
+The platform vision centered on:
+
+- rule-based operational monitoring
+- centralized visibility across SAP environments
+- reusable automation building blocks
+- scalable workflows for operational detection and response
+
+### Why platform thinking mattered
+
+Manual SAP operations are often distributed across tools, logs, dashboards, and repeated human checks.
+
+A platform approach helps create:
+
+- shared operational visibility
+- repeatable system logic
+- reusable monitoring capabilities
+- a stronger foundation for future automation
+
+### System design direction
+
+The initial system design direction pointed toward a platform that could support:
+
+- signal collection across SAP environments
+- rule evaluation and alert generation
+- monitoring dashboards for centralized visibility
+- future extensions for predictive and AI-assisted operations
+
+### Long-term value
+
+A platform approach creates long-term leverage because it shifts effort from one-time manual interventions to reusable operational capabilities.
+
+That enables:
+
+- better scalability
+- lower operational dependency
+- clearer productization potential
+- stronger technical consistency across environments
+
+## Knowledge Architecture and Documentation Systems
+
+**Context:** Enterprise product and documentation environments  
+**Focus:** Designing content systems that support usability, scale, and self-service  
+
+### Systems view
+
+Documentation is not just content. It is part of the product system.
+
+Strong documentation infrastructure supports:
+
+- developer onboarding
+- internal knowledge reuse
+- faster issue resolution
+- more consistent product adoption
+
+### Design priorities
+
+The systems I have worked on typically prioritize:
+
+- structured information architecture
+- reusable content models
+- scalable governance
+- easier discoverability
+
+### Platform outcome
+
+When knowledge systems are treated as platform capabilities rather than static documents, teams gain:
+
+- better operational efficiency
+- improved consistency
+- easier maintenance at scale
+- stronger support for product growth
