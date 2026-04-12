@@ -7,11 +7,15 @@
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/product-thinking/automation-opportunity-map/</loc>
   </url><url>
+    <loc>http://localhost:1313/devika-portfolio/showcase/genai-process-innovation/</loc>
+  </url><url>
     <loc>http://localhost:1313/devika-portfolio/platform-systems/sap-operations-automation-platform/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/product-thinking/nordia-product-discovery/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/toolkit/5cs-content-audit-model/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/showcase/api-documentation-developer-experience/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/platform-systems/knowledge-architecture/</loc>
   </url><url>
@@ -211,14 +215,24 @@
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/about/</loc>
   </url><url>
+    <loc>http://localhost:1313/devika-portfolio/backup/</loc>
+  </url><url>
     <loc>http://localhost:1313/devika-portfolio/contact/</loc>
   </url><url>
+    <loc>http://localhost:1313/devika-portfolio/showcase/content-strategy-governance/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/showcase/documentation-agile-development/</loc>
+  </url><url>
     <loc>http://localhost:1313/devika-portfolio/showcase/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/showcase/knowledge-base-architecture/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/platform-systems/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/product-thinking/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/posts/</loc>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/backup/genai/genai-process-innovation/</loc>
   </url>
 </urlset>

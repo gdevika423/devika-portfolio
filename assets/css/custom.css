@@ -217,3 +217,52 @@
 .page-wrapper h1 {
   text-align: left;
 }
+
+.system-diagram {
+  display:flex;
+  justify-content:center;
+  margin:40px 0;
+  }
+  
+  .system-diagram img {
+  width:100%;
+  max-width:900px;
+  height:auto;
+  border-radius:12px;
+  }
+
+  .story-grid {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap:28px;
+    margin-top:40px;
+    }
+    
+    .story-card {
+    background:#fff;
+    border:1px solid #e6e8eb;
+    border-radius:14px;
+    padding:24px;
+    transition:all 0.2s ease;
+    }
+    
+    .story-card:hover {
+    box-shadow:0 6px 20px rgba(0,0,0,0.06);
+    transform:translateY(-2px);
+    }
+    
+    .story-meta {
+    color:#6b7280;
+    font-size:14px;
+    margin-bottom:10px;
+    }
+    
+    .story-problem {
+    margin-bottom:14px;
+    color:#374151;
+    }
+    
+    .story-link {
+    font-weight:600;
+    text-decoration:none;
+    }  
