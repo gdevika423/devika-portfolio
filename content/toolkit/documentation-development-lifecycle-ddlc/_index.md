@@ -1,15 +1,13 @@
 ---
 title: "Documentation Development Lifecycle (DDLC)"
 toc: true
-type: showcase
 weight: 3
+type: showcase
 ---
 
 <hr class="page-divider">
 
 The Documentation Development Lifecycle defines how documentation moves from planning to publishing and maintenance.
-
-## Documentation Development Lifecycle (DDLC)
 
 **Context:** Product and engineering environments where documentation needs to scale with releases.  
 **Focus:** A lifecycle model for planning, writing, reviewing, publishing, and maintaining documentation.

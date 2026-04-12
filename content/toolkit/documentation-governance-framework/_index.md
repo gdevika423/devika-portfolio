@@ -1,15 +1,13 @@
 ---
 title: "Documentation Governance Framework"
 toc: true
-type: showcase
 weight: 4
+type: showcase
 ---
 
 <hr class="page-divider">
 
 This framework defines how documentation quality, ownership, standards, and maintenance are managed over time.
-
-## Documentation Governance Framework
 
 **Context:** Documentation systems with multiple contributors, teams, and stakeholders.  
 **Focus:** Ensuring documentation remains accurate, usable, and sustainable at scale.

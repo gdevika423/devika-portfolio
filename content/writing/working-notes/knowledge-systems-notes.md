@@ -2,6 +2,7 @@
 title: "Knowledge Systems Notes"
 description: "Observations about how knowledge flows through engineering organizations."
 date: 2026-04-12
+type: docs
 ---
 
 ### Observation

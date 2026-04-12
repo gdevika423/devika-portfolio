@@ -2,6 +2,7 @@
 title: "Discovery Before Solutions"
 description: "Why strong product work starts with understanding problems before building solutions."
 date: 2026-04-12
+type: docs
 ---
 
 Many product efforts fail because teams jump to solutions before fully understanding the underlying problem.

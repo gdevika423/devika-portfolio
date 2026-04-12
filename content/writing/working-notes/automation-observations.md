@@ -2,6 +2,7 @@
 title: "Automation Observations"
 description: "Short reflections on patterns observed in operational automation opportunities."
 date: 2026-04-12
+type: docs
 ---
 
 ### Observation

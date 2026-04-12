@@ -2,6 +2,7 @@
 title: "Product Discovery Notes"
 description: "Working observations from product discovery and problem exploration."
 date: 2026-04-12
+type: docs
 ---
 
 ### Observation

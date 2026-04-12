@@ -2,6 +2,7 @@
 title: "Automation in Enterprise Systems"
 description: "Exploring automation opportunities within complex enterprise operations."
 date: 2026-04-12
+type: docs
 ---
 
 ## Context

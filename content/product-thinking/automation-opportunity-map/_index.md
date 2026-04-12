@@ -1,7 +1,8 @@
 ---
 title: "Automation Opportunity Map"
+type: showcase
 toc: true
-weight: 2
+weight: 1
 ---
 
 <hr class="page-divider">

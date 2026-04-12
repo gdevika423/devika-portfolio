@@ -1,15 +1,13 @@
 ---
 title: "Prioritization & Execution Models"
 toc: true
-type: showcase
 weight: 5
+type: showcase
 ---
 
 <hr class="page-divider">
 
 These models help documentation and platform teams decide what to work on first and how to execute systematically.
-
-## Prioritization & Execution Models
 
 **Context:** Documentation and knowledge system initiatives competing for limited team capacity.  
 **Focus:** Structured decision-making for prioritization and execution.

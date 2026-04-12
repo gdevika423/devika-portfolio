@@ -2,6 +2,8 @@
 title: "Knowledge Systems in Engineering Organizations"
 description: "Why engineering teams require structured knowledge systems as products and platforms scale."
 date: 2026-04-12
+type: docs
+toc: true
 ---
 
 ## Context

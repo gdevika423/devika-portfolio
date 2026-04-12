@@ -2,6 +2,7 @@
 title: "Thinking in Platforms"
 description: "Why successful engineering organizations often evolve from tools to platforms."
 date: 2026-04-12
+type: docs
 ---
 
 ## Context

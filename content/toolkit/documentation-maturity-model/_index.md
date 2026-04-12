@@ -1,15 +1,15 @@
 ---
 title: "Documentation Maturity Model"
-toc: true
+description: "A framework for assessing the maturity of documentation systems."
+date: 2026-04-12
 type: showcase
+toc: true
 weight: 1
 ---
 
 <hr class="page-divider">
 
 This framework is used to assess how mature a documentation system is across structure, quality, governance, workflows, and scalability.
-
-## Documentation Maturity Model
 
 **Context:** Documentation programs that need a structured way to evaluate growth and capability.  
 **Focus:** Measuring current-state maturity and identifying where improvement is needed.

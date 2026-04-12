@@ -2,6 +2,7 @@
 title: "Writing"
 toc: true
 type: showcase
+toc: true
 ---
 
 <hr class="page-divider">

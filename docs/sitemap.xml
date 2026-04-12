@@ -3,14 +3,15 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://localhost:1313/devika-portfolio/toolkit/documentation-maturity-model/</loc>
+    <lastmod>2026-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/product-thinking/automation-opportunity-map/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/platform-systems/sap-operations-automation-platform/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/product-thinking/nordia-product-discovery/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/toolkit/5cs-content-audit-model/</loc>
-  </url><url>
-    <loc>http://localhost:1313/devika-portfolio/product-thinking/automation-opportunity-map/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/platform-systems/knowledge-architecture/</loc>
   </url><url>
@@ -68,6 +69,9 @@
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/writing/product-platform-thinking/thinking-in-platforms/</loc>
+    <lastmod>2026-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/devika-portfolio/toolkit/</loc>
     <lastmod>2026-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/writing/working-notes/</loc>
@@ -216,7 +220,5 @@
     <loc>http://localhost:1313/devika-portfolio/product-thinking/</loc>
   </url><url>
     <loc>http://localhost:1313/devika-portfolio/posts/</loc>
-  </url><url>
-    <loc>http://localhost:1313/devika-portfolio/toolkit/</loc>
   </url>
 </urlset>

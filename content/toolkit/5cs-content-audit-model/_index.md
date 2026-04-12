@@ -1,15 +1,13 @@
 ---
 title: "5Cs Content Audit Model"
 toc: true
-type: showcase
 weight: 2
+type: showcase
 ---
 
 <hr class="page-divider">
 
 The 5Cs model is used to evaluate the quality and completeness of documentation systems during content audits.
-
-## 5Cs Content Audit Model
 
 **Context:** Large documentation repositories that need structured quality evaluation.  
 **Focus:** A repeatable model for auditing content quality at scale.

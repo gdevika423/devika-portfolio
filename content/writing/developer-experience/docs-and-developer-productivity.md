@@ -2,6 +2,8 @@
 title: "Documentation and Developer Productivity"
 description: "How well designed documentation systems improve developer productivity across engineering teams."
 date: 2026-04-12
+type: docs
+toc: true
 ---
 
 ## Context

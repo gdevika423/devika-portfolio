@@ -2,6 +2,7 @@
 title: "Products vs Services"
 description: "Understanding how operational services evolve into scalable software products."
 date: 2026-04-12
+type: docs
 ---
 
 ## Context

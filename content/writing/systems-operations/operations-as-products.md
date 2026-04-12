@@ -2,6 +2,7 @@
 title: "Operations as Products"
 description: "How operational workflows can evolve into structured software products."
 date: 2026-04-12
+type: docs
 ---
 
 ## Context
