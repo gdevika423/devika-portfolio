@@ -1,7 +1,7 @@
 ---
 title: "Documentation Infrastructure"
 toc: true
-type: showcase
+type: docs
 weight: 3
 ---
 

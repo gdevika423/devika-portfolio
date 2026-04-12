@@ -1,7 +1,7 @@
 ---
 title: "Workflow and Automation Models"
 toc: true
-type: showcase
+type: docs
 weight: 4
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Knowledge Architecture Systems"
 toc: true
-type: showcase
+type: docs
 weight: 2
 ---
 
