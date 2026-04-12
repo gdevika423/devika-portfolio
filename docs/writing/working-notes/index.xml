@@ -1,0 +1,78 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devika Jallegowda – Working Notes</title>
+    <link>http://localhost:1313/devika-portfolio/writing/working-notes/</link>
+    <description>Recent content in Working Notes on Devika Jallegowda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor>
+    <webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
+    
+	  <atom:link href="http://localhost:1313/devika-portfolio/writing/working-notes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>Automation Observations</title>
+      <link>http://localhost:1313/devika-portfolio/writing/working-notes/automation-observations/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
+      <guid>http://localhost:1313/devika-portfolio/writing/working-notes/automation-observations/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;Observation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;observation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#observation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Operational tasks that follow predictable patterns are strong candidates for automation.&lt;/p&gt;
+&lt;h3&gt;Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Monitoring workflows in enterprise environments often involve repeated checks across multiple systems.&lt;/p&gt;
+&lt;h3&gt;Question&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;question&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#question&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;How can operational signals be aggregated so engineers can understand system health without performing manual checks?&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Knowledge Systems Notes</title>
+      <link>http://localhost:1313/devika-portfolio/writing/working-notes/knowledge-systems-notes/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
+      <guid>http://localhost:1313/devika-portfolio/writing/working-notes/knowledge-systems-notes/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;Observation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;observation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#observation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Documentation challenges are often system design problems rather than writing problems.&lt;/p&gt;
+&lt;h3&gt;Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;When ownership, lifecycle management, and governance are unclear, documentation becomes outdated quickly.&lt;/p&gt;
+&lt;h3&gt;Question&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;question&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#question&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;What governance structures help ensure knowledge systems remain reliable as products evolve?&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Product Discovery Notes</title>
+      <link>http://localhost:1313/devika-portfolio/writing/working-notes/product-discovery-notes/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
+      <guid>http://localhost:1313/devika-portfolio/writing/working-notes/product-discovery-notes/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;Observation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;observation&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#observation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Teams often attempt to solve problems before understanding the underlying workflow.&lt;/p&gt;
+&lt;h3&gt;Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;example&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;In enterprise operations environments, automation initiatives frequently begin without a full understanding of operational processes.&lt;/p&gt;
+&lt;h3&gt;Question&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;question&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#question&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;What discovery methods best reveal hidden constraints within operational workflows?&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -58,10 +58,15 @@ url = "/toolkit/"
 
 [[menu.main]]
 name = "Contact"
-weight = 6
+weight = 7
 url = "/contact/"
 
 
 [module]
   [[module.imports]]
     path = "github.com/imfing/hextra"
+[[menu.main]]
+name = "Writing"
+weight = 6
+url = "/writing/"
+
