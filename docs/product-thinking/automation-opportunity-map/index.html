@@ -366,15 +366,11 @@ monitoring system health and performance managing transports across environments
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#monitoring-dominates-operational-workload">Monitoring dominates operational workload
-        </a>
-      </li>
-      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#many-operational-checks-are-rule-based">Many operational checks are rule-based
-        </a>
-      </li>
-      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
         <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#product-direction">Product Direction
+        </a>
+      </li>
+      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
+        <a class="hx:ltr:pl-4 hx:rtl:pr-4 hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#product-decision">Product Decision
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
@@ -498,29 +494,54 @@ monitoring system health and performance managing transports across environments
 </table>
 <hr>
 <h2>Product Insight<span class="hx:absolute hx:-mt-20" id="product-insight"></span>
-    <a href="#product-insight" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Two patterns emerged during discovery.</p>
-<h3>Monitoring dominates operational workload<span class="hx:absolute hx:-mt-20" id="monitoring-dominates-operational-workload"></span>
-    <a href="#monitoring-dominates-operational-workload" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Engineers spend significant time reviewing system health indicators such as CPU usage, job status, and system logs across multiple SAP environments.</p>
-<h3>Many operational checks are rule-based<span class="hx:absolute hx:-mt-20" id="many-operational-checks-are-rule-based"></span>
-    <a href="#many-operational-checks-are-rule-based" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>Examples include:</p>
-<ul>
-<li>CPU threshold breaches</li>
-<li>background job failures</li>
-<li>recurring system dumps</li>
-<li>unavailable work processes</li>
-</ul>
-<p>These conditions can be detected automatically using rule-based monitoring systems.</p>
-<hr>
+    <a href="#product-insight" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Two key operational patterns emerged during discovery.</p>
+<table>
+  <thead>
+      <tr>
+          <th>Insight</th>
+          <th>Observation</th>
+          <th>Examples</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>Monitoring dominates operational workload</strong></td>
+          <td>Engineers spend significant time reviewing system health indicators across multiple SAP environments.</td>
+          <td>CPU usage monitoring, background job status checks, system log reviews</td>
+      </tr>
+      <tr>
+          <td><strong>Many operational checks are rule-based</strong></td>
+          <td>Several operational checks follow deterministic patterns that can be evaluated automatically.</td>
+          <td>CPU threshold breaches, background job failures, recurring system dumps, unavailable work processes</td>
+      </tr>
+  </tbody>
+</table>
 <h2>Product Direction<span class="hx:absolute hx:-mt-20" id="product-direction"></span>
     <a href="#product-direction" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Monitoring workflows emerged as the strongest candidates for initial automation.</p>
-<p>They:</p>
-<ul>
-<li>occur frequently</li>
-<li>follow deterministic evaluation patterns</li>
-<li>deliver immediate operational value</li>
-</ul>
-<p><strong>Product Decision</strong></p>
-<p>The initial MVP scope focused on <strong>monitoring automation capabilities</strong>, including:</p>
+<table>
+  <thead>
+      <tr>
+          <th>Decision Criteria</th>
+          <th>Rationale</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>High frequency</strong></td>
+          <td>Monitoring tasks occur continuously across SAP environments</td>
+      </tr>
+      <tr>
+          <td><strong>Deterministic evaluation patterns</strong></td>
+          <td>Monitoring conditions follow rule-based logic</td>
+      </tr>
+      <tr>
+          <td><strong>Immediate operational value</strong></td>
+          <td>Automation reduces manual monitoring effort and improves response times</td>
+      </tr>
+  </tbody>
+</table>
+<h3>Product Decision<span class="hx:absolute hx:-mt-20" id="product-decision"></span>
+    <a href="#product-decision" class="subheading-anchor" aria-label="Permalink for this section"></a></h3><p>The initial MVP scope focused on monitoring automation capabilities.</p>
 <ul>
 <li>system health monitoring</li>
 <li>background job failure detection</li>
@@ -528,8 +549,6 @@ monitoring system health and performance managing transports across environments
 <li>rule-based alert generation</li>
 <li>centralized monitoring visibility</li>
 </ul>
-<p>This analysis informed the <strong>initial product direction for the SAP Operations Automation platform</strong>, enabling early operational value while establishing the foundation for broader automation capabilities.</p>
-<hr>
 <h2>Key Takeaway<span class="hx:absolute hx:-mt-20" id="key-takeaway"></span>
     <a href="#key-takeaway" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Automation opportunity mapping grounds product decisions in real operational workflows.</p>
 <p>By evaluating <strong>frequency, impact, and feasibility</strong>, product teams can prioritize opportunities that deliver meaningful operational value while minimizing implementation risk.</p>
