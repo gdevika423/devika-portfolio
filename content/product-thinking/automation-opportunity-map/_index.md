@@ -7,113 +7,108 @@ weight: 1
 
 <hr class="page-divider">
 
-Automation opportunity mapping helps identify where manual operational workflows can be converted into scalable software capabilities.
+Mapped operational workflows across SAP BASIS environments to identify which manual tasks could evolve into scalable automation capabilities.
 
-<div class="story-grid">
+## 60-Second Summary
 
-<div class="story-card">
+<p align="center">
+<img src="/images/opp-map.png" alt="60-Second Summary" width="900">
+</p>
 
-## Automation Opportunity Mapping for SAP Operations
 
-**Context:** SAP BASIS operational workflows across enterprise SAP landscapes.  
-**Focus:** Identifying repetitive operational tasks that could evolve into automation capabilities within a product platform.
+## Problem
 
-During product discovery for the SAP Operations Automation initiative at Nordia Infotech, the goal was to understand how SAP BASIS operational tasks are performed today and identify which workflows present the strongest opportunities for automation.
-
-Rather than starting with predefined features, the discovery process focused on analyzing operational patterns across common SAP administration tasks.
-
-### Operational Context
-
-SAP BASIS engineers manage the operational stability of SAP landscapes.
+SAP BASIS engineers manage operational stability across complex SAP landscapes.
 
 Typical responsibilities include:
 
 - monitoring system health and performance  
-- managing transports across SAP environments  
+- managing transports across environments  
 - monitoring background jobs  
 - reviewing system logs and dumps  
 - maintaining security and access controls  
 
-Many of these tasks follow **repetitive operational workflows** and are often executed manually across multiple systems.
+Many of these tasks follow **repetitive operational workflows executed manually across multiple SAP systems**, creating opportunities for automation.
 
-This makes them strong candidates for automation.
+---
 
-### Discovery Approach
+## Decision Framework
 
-Automation opportunities were evaluated using three key dimensions.
-
-**Frequency**  
-How often the task occurs in day-to-day operations.
-
-**Operational Impact**  
-How critical the task is to system stability or business continuity.
-
-**Automation Feasibility**  
-How easily the task could be automated using deterministic rules or monitoring signals.
-
-These criteria helped identify workflows that would produce the greatest operational value if automated.
-
-### Automation Opportunity Landscape
+Automation opportunities were evaluated using three criteria to identify workflows with the highest automation value.
 
 <p align="center">
-  <img src="/images/opportunity-map.png" alt="Automation Opportunity Map" width="400">
+<img src="/images/framework.png" alt="Decision Framework">
 </p>
 
-The following operational domains were analyzed during discovery.
+The framework evaluates each operational workflow across three dimensions:
+
+- **Frequency** — how often the task occurs in day-to-day operations  
+- **Operational Impact** — how critical the task is for system stability or business continuity  
+- **Automation Feasibility** — how easily the task can be automated using deterministic rules or monitoring signals  
+
+---
+
+## Opportunity Matrix
+
+Automation opportunities were mapped across **frequency and operational impact** to identify the strongest candidates for initial automation.
+
+<p align="center">
+<img src="/images/matrix.png" alt="Automation Opportunity Matrix" width="200">
+</p>
+
+Monitoring-related workflows clustered in the **high-frequency, high-impact quadrant**, making them the strongest candidates for early automation.
+
+---
+
+## Opportunity Landscape
 
 | Operational Domain | Frequency | Impact | Automation Potential |
 |--------------------|----------|--------|----------------------|
 | System health monitoring | High | High | High |
 | Background job monitoring | High | Medium | High |
 | System dump detection | Medium | High | High |
-| Transport management validation | Medium | High | Medium |
+| Transport validation | Medium | High | Medium |
 | User administration | Medium | Medium | Medium |
 | Interface monitoring | Medium | Medium | Medium |
-| Security and audit checks | Low | High | Medium |
+| Security checks | Low | High | Medium |
 | System refresh operations | Low | Medium | Low |
 
-### Key Observations
+---
 
-Several patterns emerged during the opportunity mapping process.
+## Product Insight
 
-#### Monitoring tasks dominate operational workload
+Two patterns emerged during discovery.
 
-A large portion of operational effort involves reviewing system health indicators such as CPU usage, job status, and error logs.
+### Monitoring dominates operational workload
 
-These checks are often repeated across multiple SAP environments.
+Engineers spend significant time reviewing system health indicators such as CPU usage, job status, and system logs across multiple SAP environments.
 
-#### Many operational checks are rule-based
+### Many operational checks are rule-based
 
 Examples include:
 
-- CPU utilization exceeding predefined thresholds  
+- CPU threshold breaches  
 - background job failures  
 - recurring system dumps  
 - unavailable work processes  
 
-These conditions can be detected automatically using monitoring rules.
+These conditions can be detected automatically using rule-based monitoring systems.
 
-#### Early automation opportunities exist in monitoring workflows
+---
 
-Because monitoring tasks are both frequent and rule-driven, they represent the **lowest-risk entry point for automation**.
+## Product Direction
 
-### Prioritization Insight
+Monitoring workflows emerged as the strongest candidates for initial automation.
 
-Based on the discovery analysis, monitoring workflows emerged as the strongest candidates for an initial product scope.
-
-These workflows:
+They:
 
 - occur frequently  
 - follow deterministic evaluation patterns  
-- produce immediate operational benefits  
+- deliver immediate operational value  
 
-As a result, the initial product direction focused on **monitoring automation**.
+**Product Decision**
 
-### Resulting Product Direction
-
-The automation opportunity map informed the MVP definition for the SAP Operations Automation initiative.
-
-The initial scope prioritized capabilities such as:
+The initial MVP scope focused on **monitoring automation capabilities**, including:
 
 - system health monitoring  
 - background job failure detection  
@@ -121,12 +116,14 @@ The initial scope prioritized capabilities such as:
 - rule-based alert generation  
 - centralized monitoring visibility  
 
-This allowed the product to deliver immediate operational value while establishing the foundation for a broader automation platform.
+This analysis informed the **initial product direction for the SAP Operations Automation platform**, enabling early operational value while establishing the foundation for broader automation capabilities.
 
-### Why Opportunity Mapping Matters
+---
 
-Opportunity mapping helps ensure that product decisions are grounded in real operational workflows rather than assumptions.
+## Key Takeaway
 
-By evaluating frequency, impact, and feasibility, product teams can focus on opportunities that deliver the greatest value while minimizing implementation risk.
+Automation opportunity mapping grounds product decisions in real operational workflows.
 
-In complex enterprise environments, this structured approach is essential for transforming operational services into scalable software platforms.
+By evaluating **frequency, impact, and feasibility**, product teams can prioritize opportunities that deliver meaningful operational value while minimizing implementation risk.
+
+This structured approach helps transform operational services into **scalable product capabilities**.

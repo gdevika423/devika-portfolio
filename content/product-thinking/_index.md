@@ -14,12 +14,6 @@ My approach follows a discovery-driven process that moves from understanding ope
 
 The SAP Operations Automation initiative followed a structured discovery process.
 
-```text
-Operational Discovery
-        ↓
-Automation Opportunity Mapping
-        ↓
-MVP Prioritization
-        ↓
-Product Strategy Direction
-```
+<p align="center">
+<img src="/images/operations.png" alt="60-Second Summary" width="900">
+</p>
