@@ -7,6 +7,17 @@ toc: true
 type: docs
 ---
 
+Integrated documentation workflows directly into Agile product development, reducing post-release documentation gaps and improving release readiness.
+
+## 60-Second Summary
+
+
+<p align="center">
+<img src="/devika-portfolio/images/agile1.png" alt="60-Second Summary" width="900">
+</p>
+
+
+
 ## Problem
 
 Documentation was frequently written **after product releases**, leading to gaps between product functionality and available documentation.

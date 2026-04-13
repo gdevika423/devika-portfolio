@@ -10,22 +10,11 @@ weight: 2
 
 This initiative improved developer experience by standardizing API documentation practices and integrating documentation directly into engineering workflows.
 
-## Executive Snapshot
+## 60-Second Summary
 
-**Business Context**
-
-Zeta’s platform teams were expanding their API ecosystem to support new products and integrations.
-
-As API adoption grew, developers needed clear and consistent documentation to understand and integrate APIs quickly. However, documentation practices varied across engineering teams, creating friction in developer onboarding.
-
-**Problem**  
-API documentation across engineering teams was inconsistent and fragmented, creating onboarding friction and slowing developer adoption.
-
-**Action**  
-Designed and implemented a structured API documentation framework that standardized documentation patterns and integrated documentation practices into engineering workflows.
-
-**Outcome**  
-Improved documentation publishing speed, increased API discoverability, and created consistent documentation standards across engineering teams.
+<p align="center">
+<img src="/devika-portfolio/images/devx.png" alt="60-Second Summary" width="900">
+</p>
 
 
 ## Problem

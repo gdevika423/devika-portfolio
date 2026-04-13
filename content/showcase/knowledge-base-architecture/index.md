@@ -7,6 +7,15 @@ toc: true
 type: docs
 ---
 
+Designed a centralized knowledge base architecture that improved information discoverability across teams and reduced support ticket volume by 25%.
+
+## 60-Second Summary
+
+
+<p align="center">
+<img src="/devika-portfolio/images/kb.png" alt="60-Second Summary" width="900">
+</p>
+
 ## Problem
 
 Product documentation and operational knowledge were scattered across teams and tools.

@@ -12,10 +12,9 @@ This initiative explored how generative AI could transform editorial workflows b
 
 ## 60-Second Summary
 
-This initiative introduced an AI-assisted editorial review process that reduced manual effort, improved documentation consistency, and accelerated publishing workflows.
 
 <p align="center">
-  <img src="/devika-portfolio/images/clear-metrics-1.png" alt="GenAI Editorial Review Case Study">
+  <img src="/devika-portfolio/images/clear-metrics-1.png" alt="GenAI Editorial Review Case Study" width= "900">
 </p>
 
 ## Context

@@ -1,16 +1,22 @@
 ---
 title: "Content Strategy and Governance"
-type: showcase
 company: "Zeta"
 role: "Content Systems Strategist"
 toc: true
 type: docs
 ---
+Designed a documentation governance framework that standardized quality evaluation across product teams and improved documentation usability by 20–25%.
+
+## 60-Second Summary
+
+
+<p align="center">
+  <img src="/devika-portfolio/images/governance.png" alt="GenAI Editorial Review Case Study" width= "900">
+</p>
 
 ## Problem
 
-Documentation quality varied significantly across teams.  
-Without a shared framework, content quality, structure, and usability differed across product areas.
+As documentation expanded across multiple product teams, quality, structure, and usability became inconsistent. Without a shared framework, content quality, structure, and usability differed across product areas.
 
 This created challenges in:
 
@@ -20,7 +26,7 @@ This created challenges in:
 
 ## Approach
 
-I designed a **structured content strategy and governance framework**.
+I designed a **structured content strategy and governance framework**. Conducted documentation audits across multiple product areas using the 5Cs framework.
 
 Key initiatives included:
 
@@ -33,11 +39,12 @@ The goal was to shift documentation quality from subjective feedback to **struct
 
 ## Impact
 
-- Improved documentation readability and usability by **20–25%**
+- Improved documentation readability and usability by 20–25% across audited documentation sets. Improvements were measured using structured content scoring and readability evaluations during successive audit cycles
 - Enabled teams to evaluate documentation quality consistently
 - Created scalable governance models for documentation systems
 - Increased cross-team adoption of documentation standards
+- Standardized documentation patterns improved information discoverability for developers and product users.
 
 <p align="center">
-<img src="/images/scaling.jpg" alt="Content Strategy and Governance" width="900">
+<img src="/devika-portfolio/images/scaling.jpg" alt="Content Strategy and Governance" width="900">
 </p>
