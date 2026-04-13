@@ -1,4 +1,0 @@
-{{ range .Site.Params.customCSS }}
-  {{ $style := resources.Get . }}
-  <link rel="stylesheet" href="{{ $style.RelPermalink }}" media="screen">
-{{ end }}
