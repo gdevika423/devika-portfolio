@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devika Jallegowda – Docs</title>
-    <link>http://localhost:1313/devika-portfolio/docs/</link>
+    <link>https://productnorth.in/docs/</link>
     <description>Recent content in Docs on Devika Jallegowda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -9,7 +9,7 @@
     <webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster>
     <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/devika-portfolio/docs/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://productnorth.in/docs/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -19,17 +19,17 @@
     
     <item>
       <title>GenAI Process Innovation</title>
-      <link>http://localhost:1313/devika-portfolio/showcase/genai-process-innovation/</link>
+      <link>https://productnorth.in/showcase/genai-process-innovation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/showcase/genai-process-innovation/</guid>
+      <guid>https://productnorth.in/showcase/genai-process-innovation/</guid>
       <description>
         
         
         &lt;p&gt;This initiative explored how generative AI could transform editorial workflows by reducing repetitive review tasks and improving documentation consistency at scale.&lt;/p&gt;
 &lt;h2&gt;60-Second Summary&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;60-second-summary&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#60-second-summary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/devika-portfolio/images/clear-metrics-1.png&#34; alt=&#34;GenAI Editorial Review Case Study&#34; width= &#34;900&#34;&gt;
+  &lt;img src=&#34;https://productnorth.in/devika-portfolio/images/clear-metrics-1.png&#34; alt=&#34;GenAI Editorial Review Case Study&#34; width= &#34;900&#34;&gt;
 &lt;/p&gt;
 &lt;h2&gt;Context&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;context&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#context&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;As Zeta’s product footprint expanded, the documentation team needed to support faster product releases without sacrificing editorial quality.&lt;/p&gt;
@@ -43,7 +43,7 @@
 &lt;h2&gt;Problem&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;problem&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#problem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Three structural issues limited editorial efficiency.&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/devika-portfolio/images/issues.png&#34; alt=&#34;Issues&#34; width=&#34;900&#34;&gt;
+  &lt;img src=&#34;https://productnorth.in/devika-portfolio/images/issues.png&#34; alt=&#34;Issues&#34; width=&#34;900&#34;&gt;
 &lt;/p&gt;
 &lt;h2&gt;Approach&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;approach&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#approach&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I designed and piloted a GenAI-assisted editorial workflow specifically for documentation operations.&lt;/p&gt;
@@ -51,19 +51,19 @@
 &lt;h3&gt;Two-Stage Editorial Framework&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;two-stage-editorial-framework&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#two-stage-editorial-framework&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;This framework separates language quality from structural validation, ensuring documentation is both clear to read and consistent with internal standards.&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/devika-portfolio/images/two-stage.png&#34; alt=&#34;Two-Stage Editorial Framework&#34; width=&#34;900&#34;&gt;
+  &lt;img src=&#34;https://productnorth.in/devika-portfolio/images/two-stage.png&#34; alt=&#34;Two-Stage Editorial Framework&#34; width=&#34;900&#34;&gt;
 &lt;/p&gt;
 &lt;h2&gt;Workflow Transformation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;workflow-transformation&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#workflow-transformation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This transformation redesigned the editorial workflow to reduce manual review effort, enforce consistent documentation standards, and allow editors to focus on higher-value content decisions.&lt;/p&gt;
 &lt;p&gt;
 &lt;p&gt;AI-assisted review reduced repetitive editorial tasks and enabled editors to focus on higher-value content decisions.&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/devika-portfolio/images/workflow-1.png&#34; alt=&#34;Editorial Workflow Transformation&#34; width=&#34;900&#34;&gt;
+  &lt;img src=&#34;https://productnorth.in/devika-portfolio/images/workflow-1.png&#34; alt=&#34;Editorial Workflow Transformation&#34; width=&#34;900&#34;&gt;
 &lt;/p&gt;
 &lt;h2&gt;Impact&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;impact&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#impact&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The pilot demonstrated measurable improvements in documentation operations, including reduced editorial review effort and improved publishing efficiency.&lt;/p&gt;
 &lt;p align=&#34;center&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/devika-portfolio/images/impact.png&#34; alt=&#34;Operational Impact&#34; width=&#34;900&#34;&gt;
+  &lt;img src=&#34;https://productnorth.in/devika-portfolio/images/impact.png&#34; alt=&#34;Operational Impact&#34; width=&#34;900&#34;&gt;
 &lt;/p&gt;
 &lt;h2&gt;Strategic Contribution&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;strategic-contribution&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#strategic-contribution&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Beyond workflow automation, the initiative introduced a structured AI framework for documentation operations.&lt;/p&gt;
@@ -85,10 +85,10 @@
     
     <item>
       <title>Nordia SAP Operations Automation Platform</title>
-      <link>http://localhost:1313/devika-portfolio/platform-systems/sap-operations-automation-platform/</link>
+      <link>https://productnorth.in/platform-systems/sap-operations-automation-platform/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/platform-systems/sap-operations-automation-platform/</guid>
+      <guid>https://productnorth.in/platform-systems/sap-operations-automation-platform/</guid>
       <description>
         
         
@@ -109,7 +109,7 @@
 &lt;hr&gt;
 &lt;h2&gt;Platform Architecture Overview&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;platform-architecture-overview&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#platform-architecture-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/devika-portfolio/images/platform-architecture.png&#34; alt=&#34;SAP Automation Platform Architecture&#34; width=&#34;500&#34;&gt;
+  &lt;img src=&#34;https://productnorth.in/devika-portfolio/images/platform-architecture.png&#34; alt=&#34;SAP Automation Platform Architecture&#34; width=&#34;500&#34;&gt;
 &lt;/p&gt;
 &lt;p&gt;The platform architecture consists of four primary layers:&lt;/p&gt;
 &lt;ol&gt;
@@ -193,17 +193,17 @@ The system should support future automation capabilities.&lt;/p&gt;
     
     <item>
       <title>API Documentation and Developer Experience</title>
-      <link>http://localhost:1313/devika-portfolio/showcase/api-documentation-developer-experience/</link>
+      <link>https://productnorth.in/showcase/api-documentation-developer-experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/showcase/api-documentation-developer-experience/</guid>
+      <guid>https://productnorth.in/showcase/api-documentation-developer-experience/</guid>
       <description>
         
         
         &lt;p&gt;This initiative improved developer experience by standardizing API documentation practices and integrating documentation directly into engineering workflows.&lt;/p&gt;
 &lt;h2&gt;60-Second Summary&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;60-second-summary&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#60-second-summary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/devika-portfolio/images/devx.png&#34; alt=&#34;60-Second Summary&#34; width=&#34;900&#34;&gt;
+&lt;img src=&#34;https://productnorth.in/devika-portfolio/images/devx.png&#34; alt=&#34;60-Second Summary&#34; width=&#34;900&#34;&gt;
 &lt;/p&gt;
 &lt;h2&gt;Problem&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;problem&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#problem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;API documentation across engineering teams lacked consistency and structure.&lt;br&gt;
@@ -236,17 +236,17 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
 &lt;li&gt;created consistent documentation patterns across engineering teams&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/devika-portfolio/images/scalable-api.png&#34; alt=&#34;API Documentation and Developer Experience&#34; width=&#34;900&#34;&gt;
+&lt;img src=&#34;https://productnorth.in/devika-portfolio/images/scalable-api.png&#34; alt=&#34;API Documentation and Developer Experience&#34; width=&#34;900&#34;&gt;
 &lt;/p&gt;
       </description>
     </item>
     
     <item>
       <title>Knowledge Architecture Systems</title>
-      <link>http://localhost:1313/devika-portfolio/platform-systems/knowledge-architecture/</link>
+      <link>https://productnorth.in/platform-systems/knowledge-architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/platform-systems/knowledge-architecture/</guid>
+      <guid>https://productnorth.in/platform-systems/knowledge-architecture/</guid>
       <description>
         
         
@@ -333,10 +333,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Documentation Infrastructure</title>
-      <link>http://localhost:1313/devika-portfolio/platform-systems/documentation-infrastructure/</link>
+      <link>https://productnorth.in/platform-systems/documentation-infrastructure/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/platform-systems/documentation-infrastructure/</guid>
+      <guid>https://productnorth.in/platform-systems/documentation-infrastructure/</guid>
       <description>
         
         
@@ -410,10 +410,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Workflow and Automation Models</title>
-      <link>http://localhost:1313/devika-portfolio/platform-systems/automation-workflows/</link>
+      <link>https://productnorth.in/platform-systems/automation-workflows/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/platform-systems/automation-workflows/</guid>
+      <guid>https://productnorth.in/platform-systems/automation-workflows/</guid>
       <description>
         
         
@@ -484,10 +484,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Automation in Enterprise Systems</title>
-      <link>http://localhost:1313/devika-portfolio/writing/systems-operations/automation-in-enterprise-systems/</link>
+      <link>https://productnorth.in/writing/systems-operations/automation-in-enterprise-systems/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/systems-operations/automation-in-enterprise-systems/</guid>
+      <guid>https://productnorth.in/writing/systems-operations/automation-in-enterprise-systems/</guid>
       <description>
         
         
@@ -506,10 +506,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Automation Observations</title>
-      <link>http://localhost:1313/devika-portfolio/writing/working-notes/automation-observations/</link>
+      <link>https://productnorth.in/writing/working-notes/automation-observations/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/working-notes/automation-observations/</guid>
+      <guid>https://productnorth.in/writing/working-notes/automation-observations/</guid>
       <description>
         
         
@@ -525,10 +525,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Discovery Before Solutions</title>
-      <link>http://localhost:1313/devika-portfolio/writing/product-platform-thinking/discovery-before-solutions/</link>
+      <link>https://productnorth.in/writing/product-platform-thinking/discovery-before-solutions/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/product-platform-thinking/discovery-before-solutions/</guid>
+      <guid>https://productnorth.in/writing/product-platform-thinking/discovery-before-solutions/</guid>
       <description>
         
         
@@ -553,10 +553,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Documentation and Developer Productivity</title>
-      <link>http://localhost:1313/devika-portfolio/writing/developer-experience/docs-and-developer-productivity/</link>
+      <link>https://productnorth.in/writing/developer-experience/docs-and-developer-productivity/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/developer-experience/docs-and-developer-productivity/</guid>
+      <guid>https://productnorth.in/writing/developer-experience/docs-and-developer-productivity/</guid>
       <description>
         
         
@@ -581,10 +581,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Knowledge Systems in Engineering Organizations</title>
-      <link>http://localhost:1313/devika-portfolio/writing/developer-experience/knowledge-systems-in-engineering/</link>
+      <link>https://productnorth.in/writing/developer-experience/knowledge-systems-in-engineering/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/developer-experience/knowledge-systems-in-engineering/</guid>
+      <guid>https://productnorth.in/writing/developer-experience/knowledge-systems-in-engineering/</guid>
       <description>
         
         
@@ -604,10 +604,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Knowledge Systems Notes</title>
-      <link>http://localhost:1313/devika-portfolio/writing/working-notes/knowledge-systems-notes/</link>
+      <link>https://productnorth.in/writing/working-notes/knowledge-systems-notes/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/working-notes/knowledge-systems-notes/</guid>
+      <guid>https://productnorth.in/writing/working-notes/knowledge-systems-notes/</guid>
       <description>
         
         
@@ -623,10 +623,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Operations as Products</title>
-      <link>http://localhost:1313/devika-portfolio/writing/systems-operations/operations-as-products/</link>
+      <link>https://productnorth.in/writing/systems-operations/operations-as-products/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/systems-operations/operations-as-products/</guid>
+      <guid>https://productnorth.in/writing/systems-operations/operations-as-products/</guid>
       <description>
         
         
@@ -644,10 +644,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Product Discovery Notes</title>
-      <link>http://localhost:1313/devika-portfolio/writing/working-notes/product-discovery-notes/</link>
+      <link>https://productnorth.in/writing/working-notes/product-discovery-notes/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/working-notes/product-discovery-notes/</guid>
+      <guid>https://productnorth.in/writing/working-notes/product-discovery-notes/</guid>
       <description>
         
         
@@ -663,10 +663,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Products vs Services</title>
-      <link>http://localhost:1313/devika-portfolio/writing/product-platform-thinking/products-vs-services/</link>
+      <link>https://productnorth.in/writing/product-platform-thinking/products-vs-services/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/product-platform-thinking/products-vs-services/</guid>
+      <guid>https://productnorth.in/writing/product-platform-thinking/products-vs-services/</guid>
       <description>
         
         
@@ -686,10 +686,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Thinking in Platforms</title>
-      <link>http://localhost:1313/devika-portfolio/writing/product-platform-thinking/thinking-in-platforms/</link>
+      <link>https://productnorth.in/writing/product-platform-thinking/thinking-in-platforms/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/product-platform-thinking/thinking-in-platforms/</guid>
+      <guid>https://productnorth.in/writing/product-platform-thinking/thinking-in-platforms/</guid>
       <description>
         
         
@@ -708,10 +708,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Taskly: Content-led Onboarding</title>
-      <link>http://localhost:1313/devika-portfolio/docs/taskly-onboarding/</link>
+      <link>https://productnorth.in/docs/taskly-onboarding/</link>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/docs/taskly-onboarding/</guid>
+      <guid>https://productnorth.in/docs/taskly-onboarding/</guid>
       <description>
         
         
@@ -733,17 +733,17 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Content Strategy and Governance</title>
-      <link>http://localhost:1313/devika-portfolio/showcase/content-strategy-governance/</link>
+      <link>https://productnorth.in/showcase/content-strategy-governance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/showcase/content-strategy-governance/</guid>
+      <guid>https://productnorth.in/showcase/content-strategy-governance/</guid>
       <description>
         
         
         &lt;p&gt;Designed a documentation governance framework that standardized quality evaluation across product teams and improved documentation usability by 20–25%.&lt;/p&gt;
 &lt;h2&gt;60-Second Summary&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;60-second-summary&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#60-second-summary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
-  &lt;img src=&#34;http://localhost:1313/devika-portfolio/images/governance.png&#34; alt=&#34;GenAI Editorial Review Case Study&#34; width= &#34;900&#34;&gt;
+  &lt;img src=&#34;https://productnorth.in/devika-portfolio/images/governance.png&#34; alt=&#34;GenAI Editorial Review Case Study&#34; width= &#34;900&#34;&gt;
 &lt;/p&gt;
 &lt;h2&gt;Problem&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;problem&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#problem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;As documentation expanded across multiple product teams, quality, structure, and usability became inconsistent. Without a shared framework, content quality, structure, and usability differed across product areas.&lt;/p&gt;
@@ -772,24 +772,24 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
 &lt;li&gt;Standardized documentation patterns improved information discoverability for developers and product users.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/devika-portfolio/images/scaling.jpg&#34; alt=&#34;Content Strategy and Governance&#34; width=&#34;900&#34;&gt;
+&lt;img src=&#34;https://productnorth.in/devika-portfolio/images/scaling.jpg&#34; alt=&#34;Content Strategy and Governance&#34; width=&#34;900&#34;&gt;
 &lt;/p&gt;
       </description>
     </item>
     
     <item>
       <title>Documentation in Agile Product Development</title>
-      <link>http://localhost:1313/devika-portfolio/showcase/documentation-agile-development/</link>
+      <link>https://productnorth.in/showcase/documentation-agile-development/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/showcase/documentation-agile-development/</guid>
+      <guid>https://productnorth.in/showcase/documentation-agile-development/</guid>
       <description>
         
         
         &lt;p&gt;Integrated documentation workflows directly into Agile product development, reducing post-release documentation gaps and improving release readiness.&lt;/p&gt;
 &lt;h2&gt;60-Second Summary&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;60-second-summary&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#60-second-summary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/devika-portfolio/images/agile1.png&#34; alt=&#34;60-Second Summary&#34; width=&#34;900&#34;&gt;
+&lt;img src=&#34;https://productnorth.in/devika-portfolio/images/agile1.png&#34; alt=&#34;60-Second Summary&#34; width=&#34;900&#34;&gt;
 &lt;/p&gt;
 &lt;h2&gt;Problem&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;problem&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#problem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Documentation was frequently written &lt;strong&gt;after product releases&lt;/strong&gt;, leading to gaps between product functionality and available documentation.&lt;/p&gt;
@@ -821,17 +821,17 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Knowledge Base Architecture</title>
-      <link>http://localhost:1313/devika-portfolio/showcase/knowledge-base-architecture/</link>
+      <link>https://productnorth.in/showcase/knowledge-base-architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/showcase/knowledge-base-architecture/</guid>
+      <guid>https://productnorth.in/showcase/knowledge-base-architecture/</guid>
       <description>
         
         
         &lt;p&gt;Designed a centralized knowledge base architecture that improved information discoverability across teams and reduced support ticket volume by 25%.&lt;/p&gt;
 &lt;h2&gt;60-Second Summary&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;60-second-summary&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#60-second-summary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
-&lt;img src=&#34;http://localhost:1313/devika-portfolio/images/kb.png&#34; alt=&#34;60-Second Summary&#34; width=&#34;900&#34;&gt;
+&lt;img src=&#34;https://productnorth.in/devika-portfolio/images/kb.png&#34; alt=&#34;60-Second Summary&#34; width=&#34;900&#34;&gt;
 &lt;/p&gt;
 &lt;h2&gt;Problem&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;problem&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#problem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Product documentation and operational knowledge were scattered across teams and tools.&lt;/p&gt;
@@ -864,10 +864,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     
     <item>
       <title>Scaling Editorial Reviews with GenAI</title>
-      <link>http://localhost:1313/devika-portfolio/backup/genai/genai-process-innovation/</link>
+      <link>https://productnorth.in/backup/genai/genai-process-innovation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/backup/genai/genai-process-innovation/</guid>
+      <guid>https://productnorth.in/backup/genai/genai-process-innovation/</guid>
       <description>
         
         

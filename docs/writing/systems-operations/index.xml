@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devika Jallegowda – Systems and Operations</title>
-    <link>http://localhost:1313/devika-portfolio/writing/systems-operations/</link>
+    <link>https://productnorth.in/writing/systems-operations/</link>
     <description>Recent content in Systems and Operations on Devika Jallegowda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -9,7 +9,7 @@
     <webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster>
     <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/devika-portfolio/writing/systems-operations/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://productnorth.in/writing/systems-operations/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -19,10 +19,10 @@
     
     <item>
       <title>Automation in Enterprise Systems</title>
-      <link>http://localhost:1313/devika-portfolio/writing/systems-operations/automation-in-enterprise-systems/</link>
+      <link>https://productnorth.in/writing/systems-operations/automation-in-enterprise-systems/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/systems-operations/automation-in-enterprise-systems/</guid>
+      <guid>https://productnorth.in/writing/systems-operations/automation-in-enterprise-systems/</guid>
       <description>
         
         
@@ -41,10 +41,10 @@
     
     <item>
       <title>Operations as Products</title>
-      <link>http://localhost:1313/devika-portfolio/writing/systems-operations/operations-as-products/</link>
+      <link>https://productnorth.in/writing/systems-operations/operations-as-products/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/systems-operations/operations-as-products/</guid>
+      <guid>https://productnorth.in/writing/systems-operations/operations-as-products/</guid>
       <description>
         
         

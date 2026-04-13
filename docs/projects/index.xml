@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devika Jallegowda – Projects</title>
-    <link>http://localhost:1313/devika-portfolio/projects/</link>
+    <link>https://productnorth.in/projects/</link>
     <description>Recent content in Projects on Devika Jallegowda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -9,7 +9,7 @@
     <webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster>
     <lastBuildDate>Fri, 18 Apr 2025 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/devika-portfolio/projects/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://productnorth.in/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -19,10 +19,10 @@
     
     <item>
       <title>Streamlining API Reference Documentation at Zeta</title>
-      <link>http://localhost:1313/devika-portfolio/projects/api-reference-workflow/</link>
+      <link>https://productnorth.in/projects/api-reference-workflow/</link>
       <pubDate>Fri, 18 Apr 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/projects/api-reference-workflow/</guid>
+      <guid>https://productnorth.in/projects/api-reference-workflow/</guid>
       <description>
         
         
@@ -32,10 +32,10 @@
     
     <item>
       <title>Using ChatGPT to Streamline Technical Communication Workflows at Zeta</title>
-      <link>http://localhost:1313/devika-portfolio/projects/chatgpt/chatgpt-editorial-pilot/</link>
+      <link>https://productnorth.in/projects/chatgpt/chatgpt-editorial-pilot/</link>
       <pubDate>Tue, 01 Apr 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/projects/chatgpt/chatgpt-editorial-pilot/</guid>
+      <guid>https://productnorth.in/projects/chatgpt/chatgpt-editorial-pilot/</guid>
       <description>
         
         
@@ -72,10 +72,10 @@ This pilot confirmed that &lt;strong&gt;AI + Human Collaboration&lt;/strong&gt; 
     
     <item>
       <title>Elevating Documentation Quality and Tracking Through Content Audits and Maturity Modeling</title>
-      <link>http://localhost:1313/devika-portfolio/projects/content-audit/</link>
+      <link>https://productnorth.in/projects/content-audit/</link>
       <pubDate>Sat, 25 Jan 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/projects/content-audit/</guid>
+      <guid>https://productnorth.in/projects/content-audit/</guid>
       <description>
         
         
@@ -85,10 +85,10 @@ This pilot confirmed that &lt;strong&gt;AI + Human Collaboration&lt;/strong&gt; 
     
     <item>
       <title>API Documentation Migration and Optimization</title>
-      <link>http://localhost:1313/devika-portfolio/projects/api-docs-migration/</link>
+      <link>https://productnorth.in/projects/api-docs-migration/</link>
       <pubDate>Fri, 10 Jan 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/projects/api-docs-migration/</guid>
+      <guid>https://productnorth.in/projects/api-docs-migration/</guid>
       <description>
         
         
@@ -105,10 +105,10 @@ This pilot confirmed that &lt;strong&gt;AI + Human Collaboration&lt;/strong&gt; 
     
     <item>
       <title>Building the Zeta Knowledge Base</title>
-      <link>http://localhost:1313/devika-portfolio/projects/zeta-knowledge-base/</link>
+      <link>https://productnorth.in/projects/zeta-knowledge-base/</link>
       <pubDate>Sun, 15 Dec 2024 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/projects/zeta-knowledge-base/</guid>
+      <guid>https://productnorth.in/projects/zeta-knowledge-base/</guid>
       <description>
         
         
@@ -126,10 +126,10 @@ This initiative reduced support ticket volumes by 25%, streamlined onboarding fo
     
     <item>
       <title>Embedding Documentation into Agile Sprints</title>
-      <link>http://localhost:1313/devika-portfolio/projects/agile-doc-process/</link>
+      <link>https://productnorth.in/projects/agile-doc-process/</link>
       <pubDate>Wed, 20 Nov 2024 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/projects/agile-doc-process/</guid>
+      <guid>https://productnorth.in/projects/agile-doc-process/</guid>
       <description>
         
         

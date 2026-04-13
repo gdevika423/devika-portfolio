@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devika Jallegowda – SAP</title>
-    <link>http://localhost:1313/devika-portfolio/tags/sap/</link>
+    <link>https://productnorth.in/tags/sap/</link>
     <description>Recent content in SAP on Devika Jallegowda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -9,7 +9,7 @@
     <webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster>
     <lastBuildDate>Sun, 05 Apr 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/devika-portfolio/tags/sap/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://productnorth.in/tags/sap/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -19,10 +19,10 @@
     
     <item>
       <title>Building an AI Automation Platform for SAP Operations</title>
-      <link>http://localhost:1313/devika-portfolio/product/nordia-sap-automation-platform/</link>
+      <link>https://productnorth.in/product/nordia-sap-automation-platform/</link>
       <pubDate>Sun, 05 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/product/nordia-sap-automation-platform/</guid>
+      <guid>https://productnorth.in/product/nordia-sap-automation-platform/</guid>
       <description>
         
         

@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devika Jallegowda – Working Notes</title>
-    <link>http://localhost:1313/devika-portfolio/writing/working-notes/</link>
+    <link>https://productnorth.in/writing/working-notes/</link>
     <description>Recent content in Working Notes on Devika Jallegowda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -9,7 +9,7 @@
     <webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster>
     <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/devika-portfolio/writing/working-notes/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://productnorth.in/writing/working-notes/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -19,10 +19,10 @@
     
     <item>
       <title>Automation Observations</title>
-      <link>http://localhost:1313/devika-portfolio/writing/working-notes/automation-observations/</link>
+      <link>https://productnorth.in/writing/working-notes/automation-observations/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/working-notes/automation-observations/</guid>
+      <guid>https://productnorth.in/writing/working-notes/automation-observations/</guid>
       <description>
         
         
@@ -38,10 +38,10 @@
     
     <item>
       <title>Knowledge Systems Notes</title>
-      <link>http://localhost:1313/devika-portfolio/writing/working-notes/knowledge-systems-notes/</link>
+      <link>https://productnorth.in/writing/working-notes/knowledge-systems-notes/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/working-notes/knowledge-systems-notes/</guid>
+      <guid>https://productnorth.in/writing/working-notes/knowledge-systems-notes/</guid>
       <description>
         
         
@@ -57,10 +57,10 @@
     
     <item>
       <title>Product Discovery Notes</title>
-      <link>http://localhost:1313/devika-portfolio/writing/working-notes/product-discovery-notes/</link>
+      <link>https://productnorth.in/writing/working-notes/product-discovery-notes/</link>
       <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/writing/working-notes/product-discovery-notes/</guid>
+      <guid>https://productnorth.in/writing/working-notes/product-discovery-notes/</guid>
       <description>
         
         

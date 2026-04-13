@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Devika Jallegowda – Content Architecture and Documentation Projects</title>
-    <link>http://localhost:1313/devika-portfolio/content-samples/</link>
+    <link>https://productnorth.in/content-samples/</link>
     <description>Recent content in Content Architecture and Documentation Projects on Devika Jallegowda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
@@ -9,7 +9,7 @@
     <webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster>
     <lastBuildDate>Sun, 20 Apr 2025 00:00:00 +0000</lastBuildDate>
     
-	  <atom:link href="http://localhost:1313/devika-portfolio/content-samples/index.xml" rel="self" type="application/rss+xml" />
+	  <atom:link href="https://productnorth.in/content-samples/index.xml" rel="self" type="application/rss+xml" />
     
     
       
@@ -19,10 +19,10 @@
     
     <item>
       <title></title>
-      <link>http://localhost:1313/devika-portfolio/content-samples/scaling/</link>
+      <link>https://productnorth.in/content-samples/scaling/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/content-samples/scaling/</guid>
+      <guid>https://productnorth.in/content-samples/scaling/</guid>
       <description>
         
         
@@ -85,10 +85,10 @@ After implementing a structured CMS with metadata tagging, version control, and 
     
     <item>
       <title>Documentation Team Playbook</title>
-      <link>http://localhost:1313/devika-portfolio/content-samples/playbook/</link>
+      <link>https://productnorth.in/content-samples/playbook/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/content-samples/playbook/</guid>
+      <guid>https://productnorth.in/content-samples/playbook/</guid>
       <description>
         
         
@@ -170,10 +170,10 @@ Every document we create is a reflection of our product, our team, and our brand
     
     <item>
       <title>Leadership Vision Card</title>
-      <link>http://localhost:1313/devika-portfolio/content-samples/leadership/</link>
+      <link>https://productnorth.in/content-samples/leadership/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/content-samples/leadership/</guid>
+      <guid>https://productnorth.in/content-samples/leadership/</guid>
       <description>
         
         
@@ -215,10 +215,10 @@ Tie documentation to measurable KPIs — onboarding speed, support load reductio
     
     <item>
       <title>Leadership Vision: Building High-Impact Documentation Teams</title>
-      <link>http://localhost:1313/devika-portfolio/content-samples/vision/</link>
+      <link>https://productnorth.in/content-samples/vision/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/content-samples/vision/</guid>
+      <guid>https://productnorth.in/content-samples/vision/</guid>
       <description>
         
         
@@ -230,10 +230,10 @@ Tie documentation to measurable KPIs — onboarding speed, support load reductio
     
     <item>
       <title>my Content</title>
-      <link>http://localhost:1313/devika-portfolio/content-samples/demo-content/</link>
+      <link>https://productnorth.in/content-samples/demo-content/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/content-samples/demo-content/</guid>
+      <guid>https://productnorth.in/content-samples/demo-content/</guid>
       <description>
         
         
@@ -244,10 +244,10 @@ Tie documentation to measurable KPIs — onboarding speed, support load reductio
     
     <item>
       <title>New Writer Onboarding and Growth Plan</title>
-      <link>http://localhost:1313/devika-portfolio/content-samples/onboarding/</link>
+      <link>https://productnorth.in/content-samples/onboarding/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/content-samples/onboarding/</guid>
+      <guid>https://productnorth.in/content-samples/onboarding/</guid>
       <description>
         
         
@@ -304,10 +304,10 @@ Tie documentation to measurable KPIs — onboarding speed, support load reductio
     
     <item>
       <title>The Power of Visual Storytelling in Documentation</title>
-      <link>http://localhost:1313/devika-portfolio/content-samples/principles/</link>
+      <link>https://productnorth.in/content-samples/principles/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/content-samples/principles/</guid>
+      <guid>https://productnorth.in/content-samples/principles/</guid>
       <description>
         
         
@@ -333,10 +333,10 @@ By using clear hierarchy, grouping, and color, it shows how strong visuals can m
     
     <item>
       <title>Why documentation strategy is a product growth strategy</title>
-      <link>http://localhost:1313/devika-portfolio/content-samples/doc-growth-strategy/</link>
+      <link>https://productnorth.in/content-samples/doc-growth-strategy/</link>
       <pubDate>Sun, 20 Apr 2025 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>http://localhost:1313/devika-portfolio/content-samples/doc-growth-strategy/</guid>
+      <guid>https://productnorth.in/content-samples/doc-growth-strategy/</guid>
       <description>
         
         
