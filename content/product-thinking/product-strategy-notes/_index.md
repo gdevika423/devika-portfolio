@@ -1,8 +1,9 @@
 ---
 title: "Product Strategy Notes"
-toc: true
+hidden: true
 type: showcase
-weight: 4
+weight: 999
+draft: true
 ---
 
 <hr class="page-divider">
