@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/devika-portfolio/"
+baseURL = "https://productnorth.in/"
 title = "Devika Jallegowda"
 languageCode = "en"
 defaultContentLanguage = "en"
