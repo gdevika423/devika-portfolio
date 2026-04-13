@@ -11,7 +11,7 @@ Designed a documentation governance framework that standardized quality evaluati
 
 
 <p align="center">
-  <img src="/devika-portfolio/images/governance.png" alt="GenAI Editorial Review Case Study" width= "900">
+  <img src="/images/governance.png" alt="GenAI Editorial Review Case Study" width= "900">
 </p>
 
 ## Problem
@@ -46,5 +46,5 @@ The goal was to shift documentation quality from subjective feedback to **struct
 - Standardized documentation patterns improved information discoverability for developers and product users.
 
 <p align="center">
-<img src="/devika-portfolio/images/scaling.jpg" alt="Content Strategy and Governance" width="900">
+<img src="/images/scaling.jpg" alt="Content Strategy and Governance" width="900">
 </p>

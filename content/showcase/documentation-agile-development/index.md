@@ -13,7 +13,7 @@ Integrated documentation workflows directly into Agile product development, redu
 
 
 <p align="center">
-<img src="/devika-portfolio/images/agile1.png" alt="60-Second Summary" width="900">
+<img src="/images/agile1.png" alt="60-Second Summary" width="900">
 </p>
 
 

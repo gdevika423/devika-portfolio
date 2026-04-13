@@ -31,7 +31,7 @@ The platform acts as an operational intelligence layer on top of existing SAP in
 ## Platform Architecture Overview
 
 <p align="center">
-  <img src="/devika-portfolio/images/platform-architecture.png" alt="SAP Automation Platform Architecture" width="500">
+  <img src="/images/platform-architecture.png" alt="SAP Automation Platform Architecture" width="500">
 </p>
 
 The platform architecture consists of four primary layers:

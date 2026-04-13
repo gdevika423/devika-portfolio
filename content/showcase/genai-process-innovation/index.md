@@ -14,7 +14,7 @@ This initiative explored how generative AI could transform editorial workflows b
 
 
 <p align="center">
-  <img src="/devika-portfolio/images/clear-metrics-1.png" alt="GenAI Editorial Review Case Study" width= "900">
+  <img src="/images/clear-metrics-1.png" alt="GenAI Editorial Review Case Study" width= "900">
 </p>
 
 ## Context
@@ -34,7 +34,7 @@ These challenges slowed documentation publishing and created operational bottlen
 Three structural issues limited editorial efficiency.
 
 <p align="center">
-  <img src="/devika-portfolio/images/issues.png" alt="Issues" width="900">
+  <img src="/images/issues.png" alt="Issues" width="900">
 </p>
 
 ## Approach
@@ -48,7 +48,7 @@ The goal was to automate repetitive editorial checks while keeping human oversig
 This framework separates language quality from structural validation, ensuring documentation is both clear to read and consistent with internal standards.
 
 <p align="center">
-  <img src="/devika-portfolio/images/two-stage.png" alt="Two-Stage Editorial Framework" width="900">
+  <img src="/images/two-stage.png" alt="Two-Stage Editorial Framework" width="900">
 </p>
 
 ## Workflow Transformation
@@ -60,7 +60,7 @@ This transformation redesigned the editorial workflow to reduce manual review ef
 AI-assisted review reduced repetitive editorial tasks and enabled editors to focus on higher-value content decisions.
 
 <p align="center">
-  <img src="/devika-portfolio/images/workflow-1.png" alt="Editorial Workflow Transformation" width="900">
+  <img src="/images/workflow-1.png" alt="Editorial Workflow Transformation" width="900">
 </p>
 
 ## Impact
@@ -68,7 +68,7 @@ AI-assisted review reduced repetitive editorial tasks and enabled editors to foc
 The pilot demonstrated measurable improvements in documentation operations, including reduced editorial review effort and improved publishing efficiency.
 
 <p align="center">
-  <img src="/devika-portfolio/images/impact.png" alt="Operational Impact" width="900">
+  <img src="/images/impact.png" alt="Operational Impact" width="900">
 </p>
 
 ## Strategic Contribution

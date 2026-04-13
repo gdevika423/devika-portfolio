@@ -13,7 +13,7 @@ Designed a centralized knowledge base architecture that improved information dis
 
 
 <p align="center">
-<img src="/devika-portfolio/images/kb.png" alt="60-Second Summary" width="900">
+<img src="/images/kb.png" alt="60-Second Summary" width="900">
 </p>
 
 ## Problem

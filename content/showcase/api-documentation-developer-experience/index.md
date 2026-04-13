@@ -13,7 +13,7 @@ This initiative improved developer experience by standardizing API documentation
 ## 60-Second Summary
 
 <p align="center">
-<img src="/devika-portfolio/images/devx.png" alt="60-Second Summary" width="900">
+<img src="/images/devx.png" alt="60-Second Summary" width="900">
 </p>
 
 
@@ -59,5 +59,5 @@ Results included:
 - created consistent documentation patterns across engineering teams
 
 <p align="center">
-<img src="/devika-portfolio/images/scalable-api.png" alt="API Documentation and Developer Experience" width="900">
+<img src="/images/scalable-api.png" alt="API Documentation and Developer Experience" width="900">
 </p>

@@ -56,7 +56,7 @@ These criteria helped identify workflows that would produce the greatest operati
 ### Automation Opportunity Landscape
 
 <p align="center">
-  <img src="/devika-portfolio/images/opportunity-map.png" alt="Automation Opportunity Map" width="400">
+  <img src="/images/opportunity-map.png" alt="Automation Opportunity Map" width="400">
 </p>
 
 The following operational domains were analyzed during discovery.

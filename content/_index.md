@@ -18,8 +18,8 @@ toc: false
   </p>
 
   <div class="home-cta">
-    <a class="btn-primary" href="/devika-portfolio/showcase/">Explore impact stories</a>
-    <a class="btn-secondary" href="/devika-portfolio/platform-systems/sap-operations-automation-platform/">Explore the flagship case study</a>
+    <a class="btn-primary" href="/showcase/">Explore impact stories</a>
+    <a class="btn-secondary" href="/platform-systems/sap-operations-automation-platform/">Explore the flagship case study</a>
   </div>
 </div>
 
@@ -55,7 +55,7 @@ Documentation, developer workflows, and operational knowledge often exist as dis
 
 
 <p align="center">
-  <img src="/devika-portfolio/images/think.png" alt="Systems thinking diagram connecting engineering systems, documentation systems, knowledge architecture, developer experience and platform insights width="900">
+  <img src="/images/think.png" alt="Systems thinking diagram connecting engineering systems, documentation systems, knowledge architecture, developer experience and platform insights width="900">
 </p>
 
 <p>
@@ -71,7 +71,7 @@ When documentation systems are designed intentionally, they become more than sup
     <p class="feature-tag">Flagship platform case study</p>
     <h3>Designing an automation platform for SAP operations</h3>
     <p>A platform product case study exploring how repetitive SAP BASIS operations can be transformed into reusable automation microservices and orchestrated through a centralized operations platform.</p>
-    <a class="text-link" href="/devika-portfolio/platform-systems/sap-operations-automation-platform/">Explore the case study →</a>
+    <a class="text-link" href="/platform-systems/sap-operations-automation-platform/">Explore the case study →</a>
   </div>
 </div>
 
@@ -103,5 +103,5 @@ When documentation systems are designed intentionally, they become more than sup
     I work at the intersection of documentation systems, developer experience, enterprise platforms, and product thinking.
   </p>
 
-  <a class="btn-primary" href="/devika-portfolio/contact/">Contact me</a>
+  <a class="btn-primary" href="/contact/">Contact me</a>
 </div>

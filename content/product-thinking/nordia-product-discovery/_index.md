@@ -23,7 +23,7 @@ This section captures how I approach product discovery, platform thinking, workf
 - Evaluated how Nordia could transition from **service-driven operations** to a **product-enabled operations model**
 
 <p align="center">
-  <img src="/devika-portfolio/images/discovery.png" alt="SAP Monitoring Automation Discovery" width="400">
+  <img src="/images/discovery.png" alt="SAP Monitoring Automation Discovery" width="400">
 </p>
 
 ### Key Insight

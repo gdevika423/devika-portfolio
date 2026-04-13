@@ -36,7 +36,7 @@ This evaluation helps identify opportunities that deliver strong value without r
 
 <p align="center">
   <!-- MVP Prioritization Visualization Placeholder -->
-  <img src="/devika-portfolio/images/mvp-prioritization.png" alt="MVP Prioritization Matrix" width="500">
+  <img src="/images/mvp-prioritization.png" alt="MVP Prioritization Matrix" width="500">
 </p>
 
 The discovery analysis produced the following prioritization landscape.

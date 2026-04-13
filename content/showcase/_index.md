@@ -28,7 +28,7 @@ Each story focuses on the <strong>problem, approach, and measurable impact</stro
 Editorial review cycles were slow and repetitive, delaying documentation publishing.
 </p>
 
-<a class="story-link" href="/devika-portfolio/showcase/genai-process-innovation/">
+<a class="story-link" href="/showcase/genai-process-innovation/">
 Read the case study →
 </a>
 
@@ -45,7 +45,7 @@ Read the case study →
 Documentation quality varied across teams without a shared framework for evaluation and improvement.
 </p>
 
-<a class="story-link" href="/devika-portfolio/showcase/content-strategy-governance/">
+<a class="story-link" href="/showcase/content-strategy-governance/">
 Read the case study →
 </a>
 
@@ -62,7 +62,7 @@ Read the case study →
 Product knowledge was scattered across teams, making reliable information difficult to find.
 </p>
 
-<a class="story-link" href="/devika-portfolio/showcase/knowledge-base-architecture/">
+<a class="story-link" href="/showcase/knowledge-base-architecture/">
 Read the case study →
 </a>
 
@@ -79,7 +79,7 @@ Read the case study →
 Documentation was often written after releases, creating gaps between product changes and documentation updates.
 </p>
 
-<a class="story-link" href="/devika-portfolio/showcase/documentation-agile-development/">
+<a class="story-link" href="/showcase/documentation-agile-development/">
 Read the case study →
 </a>
 
@@ -95,7 +95,7 @@ Read the case study →
 <p class="story-problem">
 API documentation was inconsistent across teams, slowing developer onboarding.
 </p>
-<a class="story-link" href="/devika-portfolio/showcase/api-documentation-developer-experience/">
+<a class="story-link" href="/showcase/api-documentation-developer-experience/">
 Read the case study →
 </a>
 
@@ -209,7 +209,7 @@ Editorial review cycles were slow and repetitive, creating delays in publishing 
 Reduced editorial review cycles by **30–40%** and improved publishing efficiency.
 
 <p align="center">
-  <img src="/devika-portfolio/images/editorial_reviews.png" alt="GenAI Editorial Review Case Study" width="900">
+  <img src="/images/editorial_reviews.png" alt="GenAI Editorial Review Case Study" width="900">
 </p>
 
 [Read the case study →](/impact-stories/genai-process-innovation/)
@@ -237,7 +237,7 @@ Documentation quality varied across teams and lacked a shared quality standard.
 Improved documentation readability and user comprehension by **20–25%** while enabling scalable content governance.
 
 <p align="center">
-  <img src="/devika-portfolio/images/scaling.jpg" alt="Content Strategy and Governance" width="900">
+  <img src="/images/scaling.jpg" alt="Content Strategy and Governance" width="900">
 </p>
 
 [Case Study →](https://devika-portfolio-7v9r8ym.gamma.site/maturity-modeling)
@@ -321,7 +321,7 @@ API documentation was inconsistent across engineering teams, slowing developer o
 Improved publishing speed by **30–40%** and increased API discoverability for developers.
 
 <p align="center">
-  <img src="/devika-portfolio/images/scalable-api.png" alt="API Documentation and Developer Experience" width="900">
+  <img src="/images/scalable-api.png" alt="API Documentation and Developer Experience" width="900">
 </p>
 
 [Case Study →](https://devika-portfolio-7v9r8ym.gamma.site/api-casestudy)
