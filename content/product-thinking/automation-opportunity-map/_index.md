@@ -53,7 +53,7 @@ The framework evaluates each operational workflow across three dimensions:
 Automation opportunities were mapped across **frequency and operational impact** to identify the strongest candidates for initial automation.
 
 <p align="center">
-<img src="/images/matrix.png" alt="Automation Opportunity Matrix" width="200">
+<img src="/images/matrix.png" alt="Automation Opportunity Matrix" width="300">
 </p>
 
 Monitoring-related workflows clustered in the **high-frequency, high-impact quadrant**, making them the strongest candidates for early automation.
@@ -77,48 +77,32 @@ Monitoring-related workflows clustered in the **high-frequency, high-impact quad
 
 ## Product Insight
 
-Two patterns emerged during discovery.
+Two key operational patterns emerged during discovery.
 
-### Monitoring dominates operational workload
-
-Engineers spend significant time reviewing system health indicators such as CPU usage, job status, and system logs across multiple SAP environments.
-
-### Many operational checks are rule-based
-
-Examples include:
-
-- CPU threshold breaches  
-- background job failures  
-- recurring system dumps  
-- unavailable work processes  
-
-These conditions can be detected automatically using rule-based monitoring systems.
-
----
+| Insight | Observation | Examples |
+|-------|-------------|---------|
+| **Monitoring dominates operational workload** | Engineers spend significant time reviewing system health indicators across multiple SAP environments. | CPU usage monitoring, background job status checks, system log reviews |
+| **Many operational checks are rule-based** | Several operational checks follow deterministic patterns that can be evaluated automatically. | CPU threshold breaches, background job failures, recurring system dumps, unavailable work processes |
 
 ## Product Direction
 
 Monitoring workflows emerged as the strongest candidates for initial automation.
 
-They:
+| Decision Criteria | Rationale |
+|------------------|-----------|
+| **High frequency** | Monitoring tasks occur continuously across SAP environments |
+| **Deterministic evaluation patterns** | Monitoring conditions follow rule-based logic |
+| **Immediate operational value** | Automation reduces manual monitoring effort and improves response times |
 
-- occur frequently  
-- follow deterministic evaluation patterns  
-- deliver immediate operational value  
+### Product Decision
 
-**Product Decision**
+The initial MVP scope focused on monitoring automation capabilities.
 
-The initial MVP scope focused on **monitoring automation capabilities**, including:
-
-- system health monitoring  
-- background job failure detection  
-- system dump monitoring  
-- rule-based alert generation  
-- centralized monitoring visibility  
-
-This analysis informed the **initial product direction for the SAP Operations Automation platform**, enabling early operational value while establishing the foundation for broader automation capabilities.
-
----
+- system health monitoring 
+- background job failure detection 
+- system dump monitoring 
+- rule-based alert generation 
+- centralized monitoring visibility
 
 ## Key Takeaway
 
