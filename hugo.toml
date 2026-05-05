@@ -44,7 +44,7 @@ weight = 2
 url = "/showcase/"
 
 [[menu.main]]
-name = "Product Thinking"
+name = "Platform & Systems"
 weight = 3
 url = "/product-thinking/"
 

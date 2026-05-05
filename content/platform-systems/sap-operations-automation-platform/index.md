@@ -1,9 +1,9 @@
 ---
-title: "Nordia SAP Operations Automation Platform"
+title: "Nordia Product Discovery Brief"
 toc: true
 type: docs
-draft: true
 weight: 1
+hidden: true
 ---
 
 <hr class="page-divider">
