@@ -4,24 +4,22 @@ description: "Devika Jallegowda | Documentation Systems Leader | Developer Exper
 toc: false
 ---
 
-<div class="home-hero">
-  <p class="home-eyebrow">Senior Documentation Leader | Developer Experience | Scalable Knowledge Systems</p>
+<section class="hero">
 
-  <h2>Hi, I’m Devika Jallegowda</h2>
+  <p class="eyebrow">Documentation Strategy • Knowledge Systems • Developer Experience</p>
 
-  <p class="home-lead">
-    I design and scale documentation systems that help engineering teams ship faster and users adopt products with less friction.
+  <h3>Designing documentation systems that make complex software usable</h3>
+
+  <p class="hero-subtitle">
+    I help engineering teams structure, scale, and govern documentation across products, platforms, and workflows, improving usability, adoption, and operational efficiency.
   </p>
 
-  <p class="home-sub">
-    My work connects documentation, developer workflows, and product delivery turning fragmented knowledge into structured, scalable systems.
-  </p>
-
-  <div class="home-cta">
-    <a class="btn-primary" href="/showcase/">Explore impact stories</a>
-    <a class="btn-secondary" href="/platform-systems/documentation-infrastructure/">Explore the flagship case study</a>
+  <div class="hero-actions">
+    <a class="btn-primary" href="/showcase/">View Impact Stories</a>
+    <a class="btn-secondary" href="/platform-systems/">Explore Platform & Systems</a>
   </div>
-</div>
+
+</section>
 
 <div class="home-section">
 <h2>What I do</h2>
