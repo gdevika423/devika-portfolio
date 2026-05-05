@@ -84,114 +84,6 @@
     </item>
     
     <item>
-      <title>Nordia SAP Operations Automation Platform</title>
-      <link>https://productnorth.in/platform-systems/sap-operations-automation-platform/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>https://productnorth.in/platform-systems/sap-operations-automation-platform/</guid>
-      <description>
-        
-        
-        &lt;hr class=&#34;page-divider&#34;&gt;
-&lt;p&gt;This page describes the platform architecture behind the proposed SAP Operations Automation system.&lt;/p&gt;
-&lt;p&gt;The goal of the platform is to provide a centralized operational layer that continuously monitors SAP environments, evaluates system conditions, and surfaces actionable alerts to operations teams.&lt;/p&gt;
-&lt;p&gt;Rather than relying on manual monitoring across multiple tools, the platform consolidates operational signals into a unified monitoring and alerting system.&lt;/p&gt;
-&lt;h2&gt;Platform Objective&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;platform-objective&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#platform-objective&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The platform focuses on improving operational visibility and reducing manual monitoring effort across SAP landscapes.&lt;/p&gt;
-&lt;p&gt;Key objectives include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;continuous monitoring of system health signals&lt;/li&gt;
-&lt;li&gt;automated detection of abnormal system behavior&lt;/li&gt;
-&lt;li&gt;centralized operational visibility&lt;/li&gt;
-&lt;li&gt;faster incident detection and response&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The platform acts as an operational intelligence layer on top of existing SAP infrastructure.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Platform Architecture Overview&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;platform-architecture-overview&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#platform-architecture-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
-  &lt;img src=&#34;https://productnorth.in/images/platform-architecture.png&#34; alt=&#34;SAP Automation Platform Architecture&#34; width=&#34;500&#34;&gt;
-&lt;/p&gt;
-&lt;p&gt;The platform architecture consists of four primary layers:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Signal Collection Layer&lt;/li&gt;
-&lt;li&gt;Monitoring and Rule Engine&lt;/li&gt;
-&lt;li&gt;Alerting and Incident Detection&lt;/li&gt;
-&lt;li&gt;Operations Dashboard&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Each layer performs a specific function in the monitoring pipeline.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Signal Collection Layer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;signal-collection-layer&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#signal-collection-layer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The signal collection layer gathers operational data from SAP systems.&lt;/p&gt;
-&lt;p&gt;Typical signals include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CPU utilization&lt;/li&gt;
-&lt;li&gt;memory usage&lt;/li&gt;
-&lt;li&gt;work process availability&lt;/li&gt;
-&lt;li&gt;background job status&lt;/li&gt;
-&lt;li&gt;system dump logs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These signals provide the raw inputs required for system monitoring.&lt;/p&gt;
-&lt;p&gt;The platform aggregates these signals into a structured monitoring stream.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Monitoring and Rule Engine&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;monitoring-and-rule-engine&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#monitoring-and-rule-engine&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The monitoring engine evaluates system signals using predefined operational rules.&lt;/p&gt;
-&lt;p&gt;Example rules may include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CPU utilization exceeding defined thresholds&lt;/li&gt;
-&lt;li&gt;failed background jobs&lt;/li&gt;
-&lt;li&gt;increasing system dump frequency&lt;/li&gt;
-&lt;li&gt;unavailable work processes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This layer identifies abnormal operational conditions and triggers alerts when rules are violated.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Alerting and Incident Detection&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;alerting-and-incident-detection&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#alerting-and-incident-detection&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;When monitoring rules detect abnormal conditions, the platform generates alerts.&lt;/p&gt;
-&lt;p&gt;Alerts typically include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;affected SAP system&lt;/li&gt;
-&lt;li&gt;timestamp&lt;/li&gt;
-&lt;li&gt;severity level&lt;/li&gt;
-&lt;li&gt;operational context&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This enables engineers to investigate issues quickly and respond before they escalate into major incidents.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Operations Dashboard&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;operations-dashboard&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#operations-dashboard&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The dashboard provides centralized visibility into system health across multiple SAP environments.&lt;/p&gt;
-&lt;p&gt;Engineers can:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;monitor system metrics&lt;/li&gt;
-&lt;li&gt;review active alerts&lt;/li&gt;
-&lt;li&gt;track operational incidents&lt;/li&gt;
-&lt;li&gt;navigate across systems&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The dashboard acts as the primary operational interface for monitoring system stability.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Platform Design Principles&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;platform-design-principles&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#platform-design-principles&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Several design principles guided the architecture.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Signal-driven monitoring&lt;/strong&gt;&lt;br&gt;
-System monitoring is based on continuous evaluation of operational signals.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Rule-based detection&lt;/strong&gt;&lt;br&gt;
-Operational conditions are evaluated using deterministic monitoring rules.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Centralized visibility&lt;/strong&gt;&lt;br&gt;
-Engineers should be able to monitor multiple SAP systems from a single interface.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Extensible architecture&lt;/strong&gt;&lt;br&gt;
-The system should support future automation capabilities.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Future Platform Capabilities&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;future-platform-capabilities&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#future-platform-capabilities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The architecture allows the platform to evolve over time.&lt;/p&gt;
-&lt;p&gt;Potential extensions include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;automated remediation workflows&lt;/li&gt;
-&lt;li&gt;predictive operational analytics&lt;/li&gt;
-&lt;li&gt;AI-assisted incident investigation&lt;/li&gt;
-&lt;li&gt;cross-system operational insights&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This progression allows the platform to move from monitoring infrastructure toward intelligent operations management.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>API Documentation and Developer Experience</title>
       <link>https://productnorth.in/showcase/api-documentation-developer-experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -242,7 +134,7 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     </item>
     
     <item>
-      <title>Knowledge Architecture Systems</title>
+      <title>Knowledge Architecture Model</title>
       <link>https://productnorth.in/platform-systems/knowledge-architecture/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>gdevika423@gmail.com (Devika Jallegowda)</author>
@@ -251,82 +143,83 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
         
         
         &lt;hr class=&#34;page-divider&#34;&gt;
-&lt;p&gt;Knowledge architecture focuses on structuring information so that it remains accessible, reusable, and scalable across teams.&lt;/p&gt;
-&lt;p&gt;In large organizations, knowledge is often distributed across documentation, support systems, internal tools, and project repositories. Without a structured architecture, this information becomes fragmented and difficult to maintain.&lt;/p&gt;
-&lt;p&gt;A well-designed knowledge architecture provides the framework that organizes documentation into structured, navigable systems.&lt;/p&gt;
-&lt;h2&gt;Objectives&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;objectives&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#objectives&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The goal of knowledge architecture systems is to:&lt;/p&gt;
+&lt;p&gt;The knowledge architecture system is designed as a layered structure that connects how information is organized with how it is consumed and reused across workflows.&lt;/p&gt;
+&lt;br&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img src=&#34;https://productnorth.in/images/kb-scale.png&#34; alt=&#34;Knowledge Architecture System Diagram&#34; width=&#34;900&#34;&gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;&lt;em&gt;Figure: Knowledge Architecture System — Structure, Flow, and Execution&lt;/em&gt;&lt;/p&gt;
+&lt;br&gt;
+&lt;h3&gt;Taxonomy Structure&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;taxonomy-structure&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#taxonomy-structure&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;At the foundation is a structured taxonomy that organizes knowledge into clear categories.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Enterprise Knowledge System
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;│
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├ Product Documentation
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├ Operational Procedures
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;├ Developer Documentation
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;└ Knowledge Base Content&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;Knowledge Flow&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;knowledge-flow&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#knowledge-flow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Creation → Structuring → Storage → Discovery → Reuse → Governance&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 &lt;ul&gt;
-&lt;li&gt;improve discoverability of technical knowledge&lt;/li&gt;
-&lt;li&gt;organize information into consistent structures&lt;/li&gt;
-&lt;li&gt;support scalable documentation practices&lt;/li&gt;
-&lt;li&gt;enable knowledge reuse across teams&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Creation&lt;/strong&gt;: Knowledge is generated through engineering and operational work&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Structuring&lt;/strong&gt;: Information is organized using defined templates and taxonomy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Storage&lt;/strong&gt;: Content is stored in centralized repositories&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discovery&lt;/strong&gt;: Users access knowledge through search and navigation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reuse&lt;/strong&gt;: Existing knowledge is applied across teams and workflows&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Governance&lt;/strong&gt;: Content is maintained, reviewed, and updated over time&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;These systems help organizations manage large volumes of technical information efficiently.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;Core Components&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;core-components&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#core-components&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A knowledge architecture system typically includes several structural components.&lt;/p&gt;
-&lt;h3&gt;Information Taxonomy&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;information-taxonomy&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#information-taxonomy&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Taxonomies organize knowledge into hierarchical structures.&lt;/p&gt;
-&lt;p&gt;Examples include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;product documentation&lt;/li&gt;
-&lt;li&gt;operational procedures&lt;/li&gt;
-&lt;li&gt;developer documentation&lt;/li&gt;
-&lt;li&gt;knowledge base articles&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Taxonomies provide the foundation for navigation and content classification.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;Content Structure&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;content-structure&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#content-structure&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Consistent content structure ensures that documentation remains predictable and easy to navigate.&lt;/p&gt;
-&lt;p&gt;Examples include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;standard page templates&lt;/li&gt;
-&lt;li&gt;structured headings and sections&lt;/li&gt;
-&lt;li&gt;consistent documentation patterns&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Structured content improves readability and maintainability.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;Knowledge Repositories&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;knowledge-repositories&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#knowledge-repositories&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Knowledge repositories store documentation in centralized systems.&lt;/p&gt;
-&lt;p&gt;Examples include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;documentation portals&lt;/li&gt;
-&lt;li&gt;internal knowledge bases&lt;/li&gt;
-&lt;li&gt;version-controlled documentation repositories&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Centralized repositories prevent knowledge fragmentation.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h3&gt;Search and Discovery&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;search-and-discovery&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#search-and-discovery&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Effective search capabilities are essential for large knowledge systems.&lt;/p&gt;
-&lt;p&gt;Search infrastructure should support:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;keyword search&lt;/li&gt;
-&lt;li&gt;content indexing&lt;/li&gt;
-&lt;li&gt;contextual navigation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These capabilities allow users to locate relevant information quickly.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Knowledge Governance&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;knowledge-governance&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#knowledge-governance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Governance ensures that documentation remains accurate and maintained over time.&lt;/p&gt;
-&lt;p&gt;Governance practices include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;documentation ownership&lt;/li&gt;
-&lt;li&gt;content review cycles&lt;/li&gt;
-&lt;li&gt;version control policies&lt;/li&gt;
-&lt;li&gt;documentation standards&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Without governance, knowledge systems quickly become outdated.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Long-Term Benefits&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;long-term-benefits&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#long-term-benefits&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Organizations that invest in knowledge architecture gain several advantages:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;improved onboarding for new engineers&lt;/li&gt;
-&lt;li&gt;faster problem resolution&lt;/li&gt;
-&lt;li&gt;better knowledge reuse across teams&lt;/li&gt;
-&lt;li&gt;reduced duplication of documentation&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Knowledge architecture transforms documentation from isolated content into a scalable organizational system.&lt;/p&gt;
+&lt;h3&gt;System View&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;system-view&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#system-view&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The architecture connects structure with usability.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Taxonomy
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   ↓
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Structured Content
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   ↓
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Central Repository
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   ↓
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Search &amp;amp; Discovery
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   ↓
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;User Workflows&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;This model ensures that knowledge is not only stored, but actively supports how teams operate and scale.&lt;/p&gt;
 
       </description>
     </item>

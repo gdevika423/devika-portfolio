@@ -2,6 +2,7 @@
 title: "Nordia SAP Operations Automation Platform"
 toc: true
 type: docs
+draft: true
 weight: 1
 ---
 

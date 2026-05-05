@@ -86,14 +86,40 @@ When documentation systems are designed intentionally, they become infrastructur
 
 </div>
 
-<div class="home-section">
+ <div class="home-section">
   <h2>Featured case study</h2>
 
   <div class="feature-card">
-    <p class="feature-tag">Platform case study</p>
-    <h3>Designing an automation platform for SAP operations</h3>
-    <p>A case study exploring how repetitive SAP BASIS operations can be transformed into reusable automation services and structured into a scalable platform.</p>
-    <a class="text-link" href="/platform-systems/sap-operations-automation-platform/">Explore the case study →</a>
+    <p class="feature-tag">Documentation systems consulting</p>
+
+  <h3>Structuring documentation for an enterprise automation platform</h3>
+
+  <p>
+      At Nordia Infotech, I worked as a documentation and product-thinking consultant to bring structure to a complex SAP operations automation initiative.
+    </p>
+
+  <p>
+      The challenge was not just building a platform - it was making operational knowledge, workflows, and system behavior understandable, reusable, and scalable across teams.
+    </p>
+
+  <p>
+      I focused on:
+    </p>
+
+  <ul>
+      <li>Structuring fragmented operational knowledge into a coherent documentation model</li>
+      <li>Defining documentation architecture for platform components and workflows</li>
+      <li>Translating engineering and operations workflows into structured, usable content</li>
+      <li>Aligning documentation with product discovery and platform evolution</li>
+    </ul>
+
+  <p>
+      This work positioned documentation not as a support layer, but as a core part of how the platform is understood, adopted, and scaled.
+    </p>
+
+  <a class="text-link" href="/platform-systems/sap-operations-automation-platform/">
+      Explore the case study →
+    </a>
   </div>
 </div>
 

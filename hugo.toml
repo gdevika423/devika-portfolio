@@ -48,24 +48,20 @@ name = "Product Thinking"
 weight = 3
 url = "/product-thinking/"
 
-[[menu.main]]
-name = "Platform & Systems"
-weight = 4
-url = "/platform-systems/"
 
 [[menu.main]]
 name = "Toolkit"
-weight = 5
+weight = 4
 url = "/toolkit/"
 
 [[menu.main]]
 name = "Writing"
-weight = 6
+weight = 5
 url = "/writing/"
 
 [[menu.main]]
 name = "Contact"
-weight = 7
+weight = 76
 url = "/contact/"
 
 [module]
