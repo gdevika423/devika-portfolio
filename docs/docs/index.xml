@@ -84,114 +84,6 @@
     </item>
     
     <item>
-      <title>Nordia Product Discovery Brief</title>
-      <link>https://productnorth.in/platform-systems/sap-operations-automation-platform/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>https://productnorth.in/platform-systems/sap-operations-automation-platform/</guid>
-      <description>
-        
-        
-        &lt;hr class=&#34;page-divider&#34;&gt;
-&lt;p&gt;This page describes the platform architecture behind the proposed SAP Operations Automation system.&lt;/p&gt;
-&lt;p&gt;The goal of the platform is to provide a centralized operational layer that continuously monitors SAP environments, evaluates system conditions, and surfaces actionable alerts to operations teams.&lt;/p&gt;
-&lt;p&gt;Rather than relying on manual monitoring across multiple tools, the platform consolidates operational signals into a unified monitoring and alerting system.&lt;/p&gt;
-&lt;h2&gt;Platform Objective&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;platform-objective&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#platform-objective&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The platform focuses on improving operational visibility and reducing manual monitoring effort across SAP landscapes.&lt;/p&gt;
-&lt;p&gt;Key objectives include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;continuous monitoring of system health signals&lt;/li&gt;
-&lt;li&gt;automated detection of abnormal system behavior&lt;/li&gt;
-&lt;li&gt;centralized operational visibility&lt;/li&gt;
-&lt;li&gt;faster incident detection and response&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The platform acts as an operational intelligence layer on top of existing SAP infrastructure.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Platform Architecture Overview&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;platform-architecture-overview&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#platform-architecture-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
-  &lt;img src=&#34;https://productnorth.in/images/platform-architecture.png&#34; alt=&#34;SAP Automation Platform Architecture&#34; width=&#34;500&#34;&gt;
-&lt;/p&gt;
-&lt;p&gt;The platform architecture consists of four primary layers:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Signal Collection Layer&lt;/li&gt;
-&lt;li&gt;Monitoring and Rule Engine&lt;/li&gt;
-&lt;li&gt;Alerting and Incident Detection&lt;/li&gt;
-&lt;li&gt;Operations Dashboard&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Each layer performs a specific function in the monitoring pipeline.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Signal Collection Layer&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;signal-collection-layer&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#signal-collection-layer&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The signal collection layer gathers operational data from SAP systems.&lt;/p&gt;
-&lt;p&gt;Typical signals include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CPU utilization&lt;/li&gt;
-&lt;li&gt;memory usage&lt;/li&gt;
-&lt;li&gt;work process availability&lt;/li&gt;
-&lt;li&gt;background job status&lt;/li&gt;
-&lt;li&gt;system dump logs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These signals provide the raw inputs required for system monitoring.&lt;/p&gt;
-&lt;p&gt;The platform aggregates these signals into a structured monitoring stream.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Monitoring and Rule Engine&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;monitoring-and-rule-engine&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#monitoring-and-rule-engine&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The monitoring engine evaluates system signals using predefined operational rules.&lt;/p&gt;
-&lt;p&gt;Example rules may include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CPU utilization exceeding defined thresholds&lt;/li&gt;
-&lt;li&gt;failed background jobs&lt;/li&gt;
-&lt;li&gt;increasing system dump frequency&lt;/li&gt;
-&lt;li&gt;unavailable work processes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This layer identifies abnormal operational conditions and triggers alerts when rules are violated.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Alerting and Incident Detection&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;alerting-and-incident-detection&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#alerting-and-incident-detection&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;When monitoring rules detect abnormal conditions, the platform generates alerts.&lt;/p&gt;
-&lt;p&gt;Alerts typically include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;affected SAP system&lt;/li&gt;
-&lt;li&gt;timestamp&lt;/li&gt;
-&lt;li&gt;severity level&lt;/li&gt;
-&lt;li&gt;operational context&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This enables engineers to investigate issues quickly and respond before they escalate into major incidents.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Operations Dashboard&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;operations-dashboard&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#operations-dashboard&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The dashboard provides centralized visibility into system health across multiple SAP environments.&lt;/p&gt;
-&lt;p&gt;Engineers can:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;monitor system metrics&lt;/li&gt;
-&lt;li&gt;review active alerts&lt;/li&gt;
-&lt;li&gt;track operational incidents&lt;/li&gt;
-&lt;li&gt;navigate across systems&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The dashboard acts as the primary operational interface for monitoring system stability.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Platform Design Principles&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;platform-design-principles&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#platform-design-principles&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Several design principles guided the architecture.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Signal-driven monitoring&lt;/strong&gt;&lt;br&gt;
-System monitoring is based on continuous evaluation of operational signals.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Rule-based detection&lt;/strong&gt;&lt;br&gt;
-Operational conditions are evaluated using deterministic monitoring rules.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Centralized visibility&lt;/strong&gt;&lt;br&gt;
-Engineers should be able to monitor multiple SAP systems from a single interface.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Extensible architecture&lt;/strong&gt;&lt;br&gt;
-The system should support future automation capabilities.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Future Platform Capabilities&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;future-platform-capabilities&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#future-platform-capabilities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The architecture allows the platform to evolve over time.&lt;/p&gt;
-&lt;p&gt;Potential extensions include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;automated remediation workflows&lt;/li&gt;
-&lt;li&gt;predictive operational analytics&lt;/li&gt;
-&lt;li&gt;AI-assisted incident investigation&lt;/li&gt;
-&lt;li&gt;cross-system operational insights&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This progression allows the platform to move from monitoring infrastructure toward intelligent operations management.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
       <title>API Documentation and Developer Experience</title>
       <link>https://productnorth.in/showcase/api-documentation-developer-experience/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -342,69 +234,95 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
         
         
         &lt;hr class=&#34;page-divider&#34;&gt;
-&lt;p&gt;Documentation infrastructure refers to the systems, tools, and workflows used to create, manage, and publish technical documentation.&lt;/p&gt;
-&lt;p&gt;A robust documentation infrastructure enables teams to maintain large documentation systems while ensuring consistency and quality.&lt;/p&gt;
-&lt;h2&gt;Infrastructure Components&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;infrastructure-components&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#infrastructure-components&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Documentation infrastructure typically includes several layers.&lt;/p&gt;
+&lt;p&gt;Documentation infrastructure defines how documentation is created, managed, reviewed, and delivered within an engineering organization.&lt;/p&gt;
+&lt;p&gt;It focuses on the operational systems that support documentation at scale, ensuring that content can be reliably produced, updated, and published as products evolve.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Infrastructure Objective&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;infrastructure-objective&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#infrastructure-objective&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The goal of documentation infrastructure is to establish a reliable and repeatable system for documentation operations.&lt;/p&gt;
+&lt;p&gt;It enables teams to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;create documentation efficiently&lt;/li&gt;
+&lt;li&gt;manage updates alongside product changes&lt;/li&gt;
+&lt;li&gt;maintain quality through structured workflows&lt;/li&gt;
+&lt;li&gt;publish documentation consistently&lt;/li&gt;
+&lt;li&gt;support collaboration across teams&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This ensures that documentation remains usable and up to date in fast-moving environments.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Core Infrastructure Components&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;core-infrastructure-components&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#core-infrastructure-components&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Documentation infrastructure is built through a set of operational layers.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3&gt;Content Authoring&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;content-authoring&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#content-authoring&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Documentation begins with structured content creation.&lt;/p&gt;
-&lt;p&gt;Common authoring approaches include:&lt;/p&gt;
+    &lt;a href=&#34;#content-authoring&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Defines how documentation is created and maintained by contributors.&lt;/p&gt;
+&lt;p&gt;This includes:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Markdown-based documentation&lt;/li&gt;
-&lt;li&gt;structured writing templates&lt;/li&gt;
-&lt;li&gt;documentation style guidelines&lt;/li&gt;
+&lt;li&gt;Markdown or structured content formats&lt;/li&gt;
+&lt;li&gt;standardized templates&lt;/li&gt;
+&lt;li&gt;writing guidelines for contributors&lt;/li&gt;
+&lt;li&gt;reusable documentation patterns&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Structured authoring ensures consistency across documentation systems.&lt;/p&gt;
+&lt;p&gt;The focus here is on enabling contributors to produce consistent content with minimal friction.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h3&gt;Version Control&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;version-control&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#version-control&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Version control systems allow documentation to evolve alongside software development.&lt;/p&gt;
-&lt;p&gt;Key benefits include:&lt;/p&gt;
+    &lt;a href=&#34;#version-control&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Integrates documentation with engineering workflows.&lt;/p&gt;
+&lt;p&gt;Key capabilities include:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;tracking documentation changes&lt;/li&gt;
-&lt;li&gt;collaborative editing&lt;/li&gt;
-&lt;li&gt;maintaining historical versions&lt;/li&gt;
+&lt;li&gt;tracking changes to documentation&lt;/li&gt;
+&lt;li&gt;enabling collaborative editing through pull requests&lt;/li&gt;
+&lt;li&gt;maintaining version history&lt;/li&gt;
+&lt;li&gt;aligning documentation updates with code releases&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Documentation stored in version-controlled repositories improves transparency and collaboration.&lt;/p&gt;
+&lt;p&gt;Version control ensures that documentation evolves in sync with the product.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;Documentation Publishing&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;documentation-publishing&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#documentation-publishing&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Publishing systems convert documentation content into accessible documentation portals.&lt;/p&gt;
+&lt;h3&gt;Review Workflow&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;review-workflow&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#review-workflow&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Introduces quality checks into the documentation process.&lt;/p&gt;
+&lt;p&gt;This includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;peer review processes&lt;/li&gt;
+&lt;li&gt;technical validation by engineers&lt;/li&gt;
+&lt;li&gt;editorial review for clarity and consistency&lt;/li&gt;
+&lt;li&gt;approval workflows before publishing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Review workflows help maintain accuracy and reliability without slowing down delivery.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h3&gt;Publishing System&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;publishing-system&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#publishing-system&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Handles how documentation is built and delivered to users.&lt;/p&gt;
 &lt;p&gt;Examples include:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;static documentation sites&lt;/li&gt;
-&lt;li&gt;documentation portals integrated with developer platforms&lt;/li&gt;
+&lt;li&gt;static site generation&lt;/li&gt;
+&lt;li&gt;automated documentation builds&lt;/li&gt;
+&lt;li&gt;internal or external documentation portals&lt;/li&gt;
+&lt;li&gt;deployment pipelines for documentation updates&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Publishing pipelines ensure documentation remains synchronized with source content.&lt;/p&gt;
+&lt;p&gt;A strong publishing system ensures that documentation is always accessible and reflects the latest changes.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h3&gt;Documentation Governance&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;documentation-governance&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#documentation-governance&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Governance frameworks maintain the quality and consistency of documentation.&lt;/p&gt;
-&lt;p&gt;Examples include:&lt;/p&gt;
+&lt;h3&gt;Access and Distribution&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;access-and-distribution&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#access-and-distribution&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Focuses on how documentation reaches its users.&lt;/p&gt;
+&lt;p&gt;This includes:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;editorial standards&lt;/li&gt;
-&lt;li&gt;documentation review processes&lt;/li&gt;
-&lt;li&gt;release documentation workflows&lt;/li&gt;
+&lt;li&gt;documentation portals&lt;/li&gt;
+&lt;li&gt;role-based access (internal vs external users)&lt;/li&gt;
+&lt;li&gt;integration with developer platforms&lt;/li&gt;
+&lt;li&gt;distribution across teams and environments&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Governance ensures documentation remains accurate as systems evolve.&lt;/p&gt;
+&lt;p&gt;The emphasis here is on ensuring that the right users can access the right information at the right time.&lt;/p&gt;
 &lt;hr&gt;
-&lt;h2&gt;Scalable Documentation Systems&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;scalable-documentation-systems&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#scalable-documentation-systems&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;As organizations grow, documentation systems must scale alongside engineering teams.&lt;/p&gt;
-&lt;p&gt;Scalable documentation infrastructure supports:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;large documentation repositories&lt;/li&gt;
-&lt;li&gt;distributed authoring teams&lt;/li&gt;
-&lt;li&gt;continuous documentation updates&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These systems allow documentation to evolve alongside the products they describe.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Strategic Value&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;strategic-value&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#strategic-value&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Documentation infrastructure plays a critical role in developer experience and operational efficiency.&lt;/p&gt;
-&lt;p&gt;Well-designed documentation systems enable:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;faster developer onboarding&lt;/li&gt;
-&lt;li&gt;improved knowledge sharing&lt;/li&gt;
-&lt;li&gt;better operational transparency&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Documentation infrastructure transforms technical writing from isolated content creation into a structured knowledge system.&lt;/p&gt;
+&lt;h2&gt;System View&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;system-view&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#system-view&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Documentation infrastructure operates as a delivery pipeline.&lt;/p&gt;
+&lt;div class=&#34;hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code&#34;&gt;
+
+&lt;div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-text&#34; data-lang=&#34;text&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;Authoring → Version Control → Review Workflow → Publishing → Distribution&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50&#34;
+    title=&#34;Copy code&#34;
+    aria-label=&#34;Copy code&#34;
+    data-copied-label=&#34;Copied!&#34;
+  &gt;
+    &lt;div class=&#34;hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
       </description>
     </item>
