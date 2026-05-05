@@ -43,7 +43,7 @@ As I transition into product-aligned content leadership, I’m currently focused
 
 I'm always open to exciting collaborations, freelance opportunities, and full-time roles at the intersection of content, product, and UX.
 
-- [View My Resume](https://yourdomain.com/resume.pdf)
+- [View My Resume](/resume/dj.pdf)
 - [Connect on LinkedIn](https://www.linkedin.com/in/devikaj/)
 
-Let’s build better documentation and product experiences — together.
+Let’s build better documentation and product experiences together.

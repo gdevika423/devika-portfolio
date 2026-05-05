@@ -14,7 +14,7 @@ toc: false
   </p>
 
   <p class="home-sub">
-    My work connects documentation, developer workflows, and product delivery — turning fragmented knowledge into structured, scalable systems.
+    My work connects documentation, developer workflows, and product delivery turning fragmented knowledge into structured, scalable systems.
   </p>
 
   <div class="home-cta">
