@@ -2,7 +2,7 @@
 title: "Documentation Infrastructure"
 toc: true
 type: docs
-weight: 3
+weight: 5
 ---
 
 <hr class="page-divider">

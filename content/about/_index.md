@@ -33,7 +33,7 @@ This allows me to position documentation as a **strategic layer within product d
 
 ## Career Highlights
 
-- **Independent Work — Documentation Systems Case Study (2026 – Present):** Built a case study in the SAP operations domain based on real enterprise workflows. Structured operational knowledge into scalable documentation systems and designed workflow-driven documentation architecture.
+- **Independent Work — Documentation Systems Case Study (Present):** Built a case study in the SAP operations domain based on real enterprise workflows. Structured operational knowledge into scalable documentation systems and designed workflow-driven documentation architecture.
 
 - **Lead Information Developer, Zeta (2020–2023):** Built internal knowledge base systems, standardized API documentation, and introduced GenAI-assisted editorial workflows  
 
