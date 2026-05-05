@@ -236,7 +236,18 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
         &lt;hr class=&#34;page-divider&#34;&gt;
 &lt;p&gt;Documentation infrastructure defines how documentation is created, managed, reviewed, and delivered within an engineering organization.&lt;/p&gt;
 &lt;p&gt;It focuses on the operational systems that support documentation at scale, ensuring that content can be reliably produced, updated, and published as products evolve.&lt;/p&gt;
-&lt;hr&gt;
+&lt;br&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;img 
+    src=&#34;https://productnorth.in/images/infra.png&#34; 
+    alt=&#34;Documentation Infrastructure System Diagram&#34; 
+    width=&#34;900&#34;
+  &gt;
+&lt;/p&gt;
+&lt;p align=&#34;center&#34;&gt;
+  &lt;em&gt;Figure: Documentation Infrastructure System — Create, Validate, and Deliver&lt;/em&gt;
+&lt;/p&gt;
+&lt;br&gt;
 &lt;h2&gt;Infrastructure Objective&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;infrastructure-objective&#34;&gt;&lt;/span&gt;
     &lt;a href=&#34;#infrastructure-objective&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The goal of documentation infrastructure is to establish a reliable and repeatable system for documentation operations.&lt;/p&gt;
 &lt;p&gt;It enables teams to:&lt;/p&gt;
@@ -323,80 +334,6 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
   &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Workflow and Automation Models</title>
-      <link>https://productnorth.in/platform-systems/automation-workflows/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>https://productnorth.in/platform-systems/automation-workflows/</guid>
-      <description>
-        
-        
-        &lt;hr class=&#34;page-divider&#34;&gt;
-&lt;p&gt;Operational systems often rely on repeatable workflows that follow consistent patterns.&lt;/p&gt;
-&lt;p&gt;Automation models capture these workflows and convert them into structured system processes.&lt;/p&gt;
-&lt;p&gt;Instead of performing the same operational tasks manually, automation workflows allow systems to detect events, evaluate conditions, and trigger actions.&lt;/p&gt;
-&lt;h2&gt;Workflow Structure&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;workflow-structure&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#workflow-structure&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Automation workflows typically follow a simple structure:&lt;/p&gt;
-&lt;p&gt;Event → Evaluation → Action&lt;/p&gt;
-&lt;p&gt;This pattern allows operational systems to react automatically to system conditions.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Event Detection&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;event-detection&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#event-detection&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Events represent system signals that trigger workflows.&lt;/p&gt;
-&lt;p&gt;Examples include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;system metrics exceeding thresholds&lt;/li&gt;
-&lt;li&gt;job execution failures&lt;/li&gt;
-&lt;li&gt;application errors&lt;/li&gt;
-&lt;li&gt;operational alerts&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Event detection serves as the starting point for automation workflows.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Rule Evaluation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;rule-evaluation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#rule-evaluation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Once an event is detected, the system evaluates predefined rules.&lt;/p&gt;
-&lt;p&gt;Rules determine whether a condition requires action.&lt;/p&gt;
-&lt;p&gt;Examples include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;CPU usage above operational limits&lt;/li&gt;
-&lt;li&gt;background job failure conditions&lt;/li&gt;
-&lt;li&gt;abnormal log patterns&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Rule evaluation allows systems to interpret operational signals.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Automated Actions&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;automated-actions&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#automated-actions&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;When rules are triggered, the system executes predefined actions.&lt;/p&gt;
-&lt;p&gt;Examples include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;generating operational alerts&lt;/li&gt;
-&lt;li&gt;creating incident tickets&lt;/li&gt;
-&lt;li&gt;triggering automated remediation workflows&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;These actions enable systems to respond quickly to operational events.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Workflow Orchestration&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;workflow-orchestration&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#workflow-orchestration&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Complex systems often require multiple workflows to operate together.&lt;/p&gt;
-&lt;p&gt;Workflow orchestration coordinates these processes across systems and tools.&lt;/p&gt;
-&lt;p&gt;Capabilities include:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;managing workflow dependencies&lt;/li&gt;
-&lt;li&gt;coordinating automated tasks&lt;/li&gt;
-&lt;li&gt;integrating with external systems&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Orchestration ensures automation workflows operate reliably at scale.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2&gt;Benefits of Automation Models&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;benefits-of-automation-models&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#benefits-of-automation-models&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Structured automation models provide several operational advantages.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;reduced manual operational effort&lt;/li&gt;
-&lt;li&gt;faster incident detection&lt;/li&gt;
-&lt;li&gt;consistent operational procedures&lt;/li&gt;
-&lt;li&gt;scalable operational systems&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;By structuring workflows into automation models, organizations can transform manual operational processes into reliable system-driven operations.&lt;/p&gt;
 
       </description>
     </item>
