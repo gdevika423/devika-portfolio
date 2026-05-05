@@ -3,7 +3,7 @@ title: "Nordia Product Discovery Brief"
 toc: true
 type: docs
 weight: 1
-hidden: true
+draft: true
 ---
 
 <hr class="page-divider">

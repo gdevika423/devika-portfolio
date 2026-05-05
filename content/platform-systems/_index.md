@@ -14,7 +14,7 @@ Rather than viewing documentation, automation, or workflows as isolated tools, I
 
 ---
 
-## SAP Operations Automation Platform
+<!-- ## SAP Operations Automation Platform
 
 This case study explores the architecture of a proposed platform for monitoring and automating SAP operations.
 
@@ -23,9 +23,8 @@ The system is designed to collect operational signals from SAP environments, eva
 The architecture focuses on signal collection, rule evaluation, incident detection, and operational visibility across SAP landscapes.
 
 → **Read the platform architecture**  
-`Nordia SAP Operations Automation Platform`
+`Nordia SAP Operations Automation Platform` -->
 
----
 
 ## Knowledge Architecture Systems
 

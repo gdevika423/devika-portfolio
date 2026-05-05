@@ -7,93 +7,113 @@ weight: 3
 
 <hr class="page-divider">
 
-Documentation infrastructure refers to the systems, tools, and workflows used to create, manage, and publish technical documentation.
+Documentation infrastructure defines how documentation is created, managed, reviewed, and delivered within an engineering organization.
 
-A robust documentation infrastructure enables teams to maintain large documentation systems while ensuring consistency and quality.
+It focuses on the operational systems that support documentation at scale, ensuring that content can be reliably produced, updated, and published as products evolve.
 
-## Infrastructure Components
+---
 
-Documentation infrastructure typically includes several layers.
+## Infrastructure Objective
+
+The goal of documentation infrastructure is to establish a reliable and repeatable system for documentation operations.
+
+It enables teams to:
+
+- create documentation efficiently
+- manage updates alongside product changes
+- maintain quality through structured workflows
+- publish documentation consistently
+- support collaboration across teams
+
+This ensures that documentation remains usable and up to date in fast-moving environments.
+
+---
+
+## Core Infrastructure Components
+
+Documentation infrastructure is built through a set of operational layers.
 
 ---
 
 ### Content Authoring
 
-Documentation begins with structured content creation.
+Defines how documentation is created and maintained by contributors.
 
-Common authoring approaches include:
+This includes:
 
-- Markdown-based documentation  
-- structured writing templates  
-- documentation style guidelines  
+- Markdown or structured content formats
+- standardized templates
+- writing guidelines for contributors
+- reusable documentation patterns
 
-Structured authoring ensures consistency across documentation systems.
+The focus here is on enabling contributors to produce consistent content with minimal friction.
 
 ---
 
 ### Version Control
 
-Version control systems allow documentation to evolve alongside software development.
+Integrates documentation with engineering workflows.
 
-Key benefits include:
+Key capabilities include:
 
-- tracking documentation changes  
-- collaborative editing  
-- maintaining historical versions  
+- tracking changes to documentation
+- enabling collaborative editing through pull requests
+- maintaining version history
+- aligning documentation updates with code releases
 
-Documentation stored in version-controlled repositories improves transparency and collaboration.
+Version control ensures that documentation evolves in sync with the product.
 
 ---
 
-### Documentation Publishing
+### Review Workflow
 
-Publishing systems convert documentation content into accessible documentation portals.
+Introduces quality checks into the documentation process.
+
+This includes:
+
+- peer review processes
+- technical validation by engineers
+- editorial review for clarity and consistency
+- approval workflows before publishing
+
+Review workflows help maintain accuracy and reliability without slowing down delivery.
+
+---
+
+### Publishing System
+
+Handles how documentation is built and delivered to users.
 
 Examples include:
 
-- static documentation sites  
-- documentation portals integrated with developer platforms  
+- static site generation
+- automated documentation builds
+- internal or external documentation portals
+- deployment pipelines for documentation updates
 
-Publishing pipelines ensure documentation remains synchronized with source content.
-
----
-
-### Documentation Governance
-
-Governance frameworks maintain the quality and consistency of documentation.
-
-Examples include:
-
-- editorial standards  
-- documentation review processes  
-- release documentation workflows  
-
-Governance ensures documentation remains accurate as systems evolve.
+A strong publishing system ensures that documentation is always accessible and reflects the latest changes.
 
 ---
 
-## Scalable Documentation Systems
+### Access and Distribution
 
-As organizations grow, documentation systems must scale alongside engineering teams.
+Focuses on how documentation reaches its users.
 
-Scalable documentation infrastructure supports:
+This includes:
 
-- large documentation repositories  
-- distributed authoring teams  
-- continuous documentation updates  
+- documentation portals
+- role-based access (internal vs external users)
+- integration with developer platforms
+- distribution across teams and environments
 
-These systems allow documentation to evolve alongside the products they describe.
+The emphasis here is on ensuring that the right users can access the right information at the right time.
 
 ---
 
-## Strategic Value
+## System View
 
-Documentation infrastructure plays a critical role in developer experience and operational efficiency.
+Documentation infrastructure operates as a delivery pipeline.
 
-Well-designed documentation systems enable:
-
-- faster developer onboarding  
-- improved knowledge sharing  
-- better operational transparency  
-
-Documentation infrastructure transforms technical writing from isolated content creation into a structured knowledge system.
+```text
+Authoring → Version Control → Review Workflow → Publishing → Distribution
+```
