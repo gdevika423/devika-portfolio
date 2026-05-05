@@ -1,60 +1,86 @@
-Hi, I’m **Devika Jallegowda**.
+---
+title: "About"
+toc: false
+---
 
-I am a documentation systems strategist with 17+ years of experience building scalable documentation, knowledge architectures, and developer-facing content for complex enterprise products.
+## Who I am
 
-I focus on structuring information across APIs, platforms, and workflows so engineering teams can deliver, operate, and scale software more effectively, improving usability, adoption, and operational efficiency.
+I am a product documentation systems leader with 17+ years of experience in enterprise software.
 
-I approach documentation as a system, designing frameworks and processes that enable consistency, reuse, and long-term scalability across engineering organizations.
+I specialize in building documentation systems that make complex products easier to understand, adopt, and operate. My work spans help documentation, API documentation, release workflows, in-app guidance, and knowledge systems.
 
 ---
 
-## Core Expertise
+## What I do
 
-- Leading technical writing and documentation teams  
-- Designing scalable knowledge base and documentation systems  
-- Driving content strategy for complex, distributed products  
-- Collaborating across engineering, product, and design teams  
-- Streamlining documentation workflows using automation and GenAI  
+I design and operate documentation ecosystems that connect product, engineering, and user experience.
 
----
+This includes:
 
-## Documentation with a Product Mindset
+- structuring documentation across help systems, APIs, and in-app guidance  
+- aligning documentation with product releases and engineering workflows  
+- improving developer onboarding and integration experience  
+- building scalable documentation workflows using automation and AI  
 
-I bring a product-oriented approach to documentation, focusing on how content supports usability, adoption, and operational efficiency.
-
-- Pursuing an Executive MBA in Product Leadership  
-- Applying product thinking to improve developer and user experience  
-- Driving cross-functional alignment across content, product, and design  
-- Using automation and data to improve documentation systems  
-
-This allows me to position documentation as a **strategic layer within product delivery**, not just a support function.
+My focus is on improving product adoption, reducing support dependency, and enabling self-service at scale.
 
 ---
 
-## Career Highlights
+## How I think
 
-- **Independent Work — Documentation Systems Case Study (Present):** Built a case study in the SAP operations domain based on real enterprise workflows. Structured operational knowledge into scalable documentation systems and designed workflow-driven documentation architecture.
+I approach documentation as a system, not as content.
 
-- **Lead Information Developer, Zeta (2020–2023):** Built internal knowledge base systems, standardized API documentation, and introduced GenAI-assisted editorial workflows  
+In most organizations, documentation, developer workflows, and operational knowledge exist in silos. This creates friction for users and slows down adoption.
 
-- **Senior Technical Writer (2015–2020):** Led documentation initiatives across engineering teams, improving content governance and developer workflows  
+I design systems that connect these layers so that:
 
-- **Earlier Experience (2008–2015):** Contributed to documentation systems across enterprise organizations including NetApp and JPMorgan Chase  
+- users can complete tasks without external support  
+- developers can integrate without confusion  
+- teams can maintain documentation at scale  
 
----
-
-## What I’m Focused On
-
-- Designing scalable documentation systems and knowledge architectures for complex products  
-- Improving developer experience through structured API and platform documentation  
-- Streamlining documentation workflows using automation and GenAI  
-- Strengthening content governance and documentation quality at scale  
+When designed correctly, documentation becomes part of the product experience.
 
 ---
 
-## Connect
+## Experience
 
-- [View My Resume](/resume/dj.pdf)  
-- [Connect on LinkedIn](https://www.linkedin.com/in/devikaj/)  
+Over the course of my career, I have worked across enterprise environments leading documentation initiatives that involved:
 
-Let’s build documentation systems that make complex products easier to use.
+- API documentation and developer experience  
+- knowledge base and content strategy  
+- documentation governance and standardization  
+- release documentation workflows  
+- AI-assisted editorial systems  
+
+I have worked closely with product managers, engineers, and customer-facing teams to ensure documentation supports real-world usage.
+
+---
+
+## Current focus
+
+I am currently working on documentation systems and product thinking through a consulting engagement focused on enterprise automation platforms.
+
+This includes exploring how operational workflows, platform architecture, and product behavior can be structured into scalable documentation systems.
+
+---
+
+## Why this matters
+
+In enterprise software, documentation directly impacts how a product is understood and adopted.
+
+A well-designed documentation system helps:
+
+- reduce support dependency  
+- improve onboarding  
+- enable faster releases  
+- scale product usage across teams  
+
+This is where I focus my work.
+
+---
+
+## Let’s connect
+
+I am open to roles in documentation leadership, developer experience, and product-aligned content strategy.
+
+If you are building complex products and need scalable documentation systems, I’d be happy to connect.
