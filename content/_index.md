@@ -8,15 +8,15 @@ toc: false
 
   <p class="eyebrow">Documentation Strategy • Knowledge Systems • Developer Experience</p>
 
-<h3>Scaling documentation for complex products and engineering systems</h3>
+  <h3>Designing documentation systems that make complex software easier to use</h3>
 
-<p class="hero-subtitle">
-  17+ years of experience building documentation systems, knowledge architectures, and developer-facing content that help teams deliver and operate software effectively.
-</p>
+  <p class="hero-subtitle">
+    I help engineering and product teams structure, scale, and govern documentation across APIs, platforms, and workflows.
+  </p>
 
   <div class="hero-actions">
     <a class="btn-primary" href="/showcase/">View Impact Stories</a>
-    <a class="btn-secondary" href="/platform-systems/">Explore Platform & Systems</a>
+    <a class="btn-secondary" href="/about/">About Me</a>
   </div>
 
 </section>

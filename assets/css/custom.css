@@ -266,3 +266,27 @@
     font-weight:600;
     text-decoration:none;
     }  
+    .hero {
+      padding: 72px 0 56px;
+      max-width: 920px;
+    }
+    
+    .eyebrow {
+      margin-bottom: 16px;
+    }
+    
+    .hero h1 {
+      margin-bottom: 20px;
+      max-width: 850px;
+    }
+    
+    .hero-subtitle {
+      margin-bottom: 32px;
+      max-width: 760px;
+    }
+    
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }    
