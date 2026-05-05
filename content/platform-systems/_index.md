@@ -1,8 +1,56 @@
 ---
 title: "Platform & Systems"
-toc: true
 type: showcase
+toc: true
 ---
+
+<hr class="page-divider">
+
+<p class="page-intro">
+These systems show how I structure <strong>knowledge, documentation infrastructure, workflows, and automation models</strong> for complex technical environments.
+</p>
+
+<p class="page-intro">
+Each system focuses on <strong>structure, flow, execution, and scalability</strong>.
+</p>
+
+<div class="story-grid">
+
+
+<div class="story-card">
+
+<h3>Knowledge Architecture Model</h3>
+
+<p class="story-meta"><strong>Knowledge Systems</strong> • Architecture Model</p>
+
+<p class="story-problem">
+Technical knowledge can become fragmented across teams unless it is structured into clear domains, flows, and reusable system models.
+</p>
+
+<a class="story-link" href="/platform-systems/knowledge-architecture/">
+Explore the model →
+</a>
+
+</div>
+
+
+<div class="story-card">
+
+<h3>Documentation Infrastructure</h3>
+
+<p class="story-meta"><strong>Documentation Operations</strong> • Infrastructure Design</p>
+
+<p class="story-problem">
+Documentation needs reliable infrastructure for authoring, version control, review, publishing, and distribution as products evolve.
+</p>
+
+<a class="story-link" href="/platform-systems/documentation-infrastructure/">
+See the design →
+</a>
+
+</div>
+
+<!-- 
 
 <hr class="page-divider">
 
@@ -12,7 +60,7 @@ My focus is on how complex technical environments can be structured into scalabl
 
 Rather than viewing documentation, automation, or workflows as isolated tools, I approach them as **components of larger platforms that enable teams to operate and scale effectively**.
 
----
+--- -->
 
 <!-- ## SAP Operations Automation Platform
 
@@ -26,7 +74,7 @@ The architecture focuses on signal collection, rule evaluation, incident detecti
 `Nordia SAP Operations Automation Platform` -->
 
 
-## Knowledge Architecture Systems
+<!-- ## Knowledge Architecture Systems
 
 Knowledge architecture focuses on structuring information so it remains discoverable and reusable across teams.
 
@@ -34,9 +82,7 @@ This section explores how documentation systems can be designed using structured
 
 These systems ensure that operational knowledge remains accessible as organizations grow.
 
-→ **Explore the knowledge architecture model**
-
----
+→ [**Explore the knowledge architecture model**](/platform-systems/knowledge-architecture/)
 
 ## Documentation Infrastructure
 
@@ -44,10 +90,10 @@ Documentation infrastructure includes the systems and workflows used to create, 
 
 This page examines how documentation systems are structured using version control, publishing pipelines, and governance processes to support scalable documentation practices.
 
-→ **See the documentation infrastructure design**
+→ [**See the documentation infrastructure design**](/platform-systems/documentation-infrastructure/)
 
----
-
+--- -->
+<!-- 
 ## Workflow and Automation Models
 
 Operational workflows often follow repeatable patterns that can be captured as automation systems.
@@ -71,4 +117,4 @@ This perspective helps identify opportunities to:
 - automate routine processes
 - design scalable platforms
 
-In enterprise environments, systems thinking is essential for building platforms that support long-term operational reliability and growth.
+In enterprise environments, systems thinking is essential for building platforms that support long-term operational reliability and growth. -->

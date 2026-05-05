@@ -11,7 +11,21 @@ Documentation infrastructure defines how documentation is created, managed, revi
 
 It focuses on the operational systems that support documentation at scale, ensuring that content can be reliably produced, updated, and published as products evolve.
 
----
+<br>
+
+<p align="center">
+  <img 
+    src="/images/infra.png" 
+    alt="Documentation Infrastructure System Diagram" 
+    width="900"
+  >
+</p>
+
+<p align="center">
+  <em>Figure: Documentation Infrastructure System — Create, Validate, and Deliver</em>
+</p>
+
+<br>
 
 ## Infrastructure Objective
 

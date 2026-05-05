@@ -19,7 +19,7 @@ toc: false
 
   <div class="home-cta">
     <a class="btn-primary" href="/showcase/">Explore impact stories</a>
-    <a class="btn-secondary" href="/platform-systems/sap-operations-automation-platform/">Explore the flagship case study</a>
+    <a class="btn-secondary" href="/platform-systems/documentation-infrastructure/">Explore the flagship case study</a>
   </div>
 </div>
 
