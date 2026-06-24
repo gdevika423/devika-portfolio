@@ -5,7 +5,7 @@ toc: false
 
 ## Who I am
 
-I am a product documentation systems leader with 17+ years of experience in enterprise software.
+I am a product documentation systems leader with 15+ years of experience in enterprise software.
 
 I specialize in building documentation systems that make complex products easier to understand, adopt, and operate. My work spans help documentation, API documentation, release workflows, in-app guidance, and knowledge systems.
 
