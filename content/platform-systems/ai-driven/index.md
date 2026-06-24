@@ -247,7 +247,7 @@ A strong AI-assisted workflow helps documentation teams scale production without
 
 ---
 
-## Key Insight
+## Key Insights
 
 > AI improves documentation speed only when the workflow already has structure.
 
