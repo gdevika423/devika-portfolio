@@ -8,15 +8,18 @@
 <link rel="icon" href="/favicon-32x32.png" type="image/png" sizes="32x32" />
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" sizes="180x180" />
 <link fetchpriority="low" href="/site.webmanifest" rel="manifest" />
-<title>Release Documentation Workflow – Devika Jallegowda</title>
-  <meta name="description" content="A structured workflow for managing documentation across product releases, ensuring accuracy, consistency, and readiness at launch." /><link rel="canonical" href="https://productnorth.in/platform-systems/release-doc-workflow/" itemprop="url" />
+<title>AI-Enabled Documentation Health Monitoring – Devika Jallegowda</title>
+  <meta name="description" content=" Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.
+This page describes a working pipeline I designed and built that replaces that manual audit with a standing, automated signal — and what running it for real against my own site taught me about where AI helps and where it doesn’t." /><link rel="canonical" href="https://productnorth.in/platform-systems/doc-health-pipeline/" itemprop="url" />
 
-<meta property="og:title" content="Release Documentation Workflow">
+<meta property="og:title" content="AI-Enabled Documentation Health Monitoring">
 <meta
   property="og:description"
   content="
     
-      A structured workflow for managing documentation across product releases, ensuring accuracy, consistency, and readiness at launch.
+      
+Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.
+This page describes a working pipeline I designed and built that replaces that manual audit with a standing, automated signal — and what running it for real against my own site taught me about where AI helps and where it doesn&rsquo;t.
     
   ">
 <meta
@@ -24,17 +27,19 @@
   content="
     article
   ">
-<meta property="og:url" content="https://productnorth.in/platform-systems/release-doc-workflow/"><meta property="article:section" content="platform-systems">
+<meta property="og:url" content="https://productnorth.in/platform-systems/doc-health-pipeline/"><meta property="article:section" content="platform-systems">
 
 
 
 
-  <meta itemprop="name" content="Release Documentation Workflow">
-  <meta itemprop="description" content="A structured workflow for managing documentation across product releases, ensuring accuracy, consistency, and readiness at launch.">
-  <meta itemprop="wordCount" content="426">
+  <meta itemprop="name" content="AI-Enabled Documentation Health Monitoring">
+  <meta itemprop="description" content="Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.
+This page describes a working pipeline I designed and built that replaces that manual audit with a standing, automated signal — and what running it for real against my own site taught me about where AI helps and where it doesn’t.">
+  <meta itemprop="wordCount" content="649">
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="Release Documentation Workflow">
-  <meta name="twitter:description" content="A structured workflow for managing documentation across product releases, ensuring accuracy, consistency, and readiness at launch.">
+  <meta name="twitter:title" content="AI-Enabled Documentation Health Monitoring">
+  <meta name="twitter:description" content="Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.
+This page describes a working pipeline I designed and built that replaces that manual audit with a standing, automated signal — and what running it for real against my own site taught me about where AI helps and where it doesn’t.">
 
     <link rel="preload" href="/css/compiled/main.min.025cc9f393e5fb644d1c29427d2d19a01d05bd4cc4926c176387a50a2ec2c9cc.css" as="style" integrity="sha256-AlzJ85Pl&#43;2RNHClCfS0ZoB0FvUzEkmwXY4elCi7Cycw=" />
     <link href="/css/compiled/main.min.025cc9f393e5fb644d1c29427d2d19a01d05bd4cc4926c176387a50a2ec2c9cc.css" rel="stylesheet" integrity="sha256-AlzJ85Pl&#43;2RNHClCfS0ZoB0FvUzEkmwXY4elCi7Cycw=" />
@@ -224,11 +229,11 @@
       <span class="hx:min-w-0 [word-break:break-word]">Knowledge Architecture Model</span>
     </a>
   </div></li>
-            <li class="open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="true">
+            <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
-        hextra-sidebar-active-item hx:bg-primary-100 hx:font-semibold hx:text-primary-800 hx:contrast-more:border hx:contrast-more:border-primary-500 hx:dark:bg-primary-400/10 hx:dark:text-primary-600 hx:contrast-more:dark:border-primary-500"
+        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
       href="/platform-systems/release-doc-workflow/"
       
     >
@@ -290,11 +295,11 @@
       <span class="hx:min-w-0 [word-break:break-word]">Documentation Metrics &amp; Impact System</span>
     </a>
   </div></li>
-            <li class=""><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="false">
+            <li class="open"><div class="hextra-sidebar-item hx:group hx:relative hx:flex hx:items-center" data-active="true">
     <a
       class="hx:flex hx:items-center hx:justify-between hx:gap-2 hx:grow hx:cursor-pointer hx:rounded-sm hx:px-2 hx:py-1.5 hx:text-sm hx:transition-colors [-webkit-tap-highlight-color:transparent] [-webkit-touch-callout:none]
       hx:hextra-focus-visible-inset
-        hx:text-gray-500 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:contrast-more:border hx:contrast-more:border-transparent hx:contrast-more:text-gray-900 hx:contrast-more:hover:border-gray-900 hx:dark:text-neutral-400 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:contrast-more:dark:text-gray-50 hx:contrast-more:dark:hover:border-gray-50"
+        hextra-sidebar-active-item hx:bg-primary-100 hx:font-semibold hx:text-primary-800 hx:contrast-more:border hx:contrast-more:border-primary-500 hx:dark:bg-primary-400/10 hx:dark:text-primary-600 hx:contrast-more:dark:border-primary-500"
       href="/platform-systems/doc-health-pipeline/"
       
     >
@@ -374,51 +379,35 @@
 <nav class="hextra-toc hx:order-last hx:hidden hx:w-64 hx:shrink-0 hx:xl:block hx:print:hidden hx:px-4" aria-label="Table of contents">
     <div class="hextra-scrollbar hx:sticky hx:top-16 hx:overflow-y-auto hx:pr-4 hx:pt-6 hx:text-sm [hyphens:auto] hx:max-h-[calc(100vh-var(--navbar-height)-env(safe-area-inset-bottom))] hx:ltr:-mr-4 hx:rtl:-ml-4"><p class="hx:mb-4 hx:font-semibold hx:tracking-tight">On this page</p><ul>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#60-second-summary">60-Second Summary
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#platform-objective">Platform Objective
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#1-release-aligned-documentation-flow">1. Release-Aligned Documentation Flow
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#platform-architecture-overview">Platform Architecture Overview
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#2-cross-functional-collaboration">2. Cross-Functional Collaboration
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#ingest-and-context-build">Ingest and Context Build
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#3-documentation-planning-stage">3. Documentation Planning Stage
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#health-checks">Health Checks
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#4-content-creation-layer">4. Content Creation Layer
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#report-and-human-review">Report and Human Review
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#5-review-and-validation">5. Review and Validation
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#what-running-it-for-real-taught-me">What Running It For Real Taught Me
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#6-publishing-pipeline">6. Publishing Pipeline
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#design-principles">Design Principles
         </a>
       </li>
       <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#7-ai-assisted-release-workflow">7. AI-Assisted Release Workflow
-        </a>
-      </li>
-      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#8-release-readiness-checklist">8. Release Readiness Checklist
-        </a>
-      </li>
-      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#9-post-release-feedback-loop">9. Post-Release Feedback Loop
-        </a>
-      </li>
-      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#10-workflow-impact">10. Workflow Impact
-        </a>
-      </li>
-      <li class="hx:my-2 hx:scroll-my-6 hx:scroll-py-6">
-        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#11-applied-experience">11. Applied Experience
+        <a class="hx:font-medium hx:inline-block hx:rounded-sm hx:text-gray-500 hx:hover:text-gray-900 hx:dark:text-gray-400 hx:dark:hover:text-gray-300 hx:contrast-more:text-gray-900 hx:contrast-more:underline hx:contrast-more:dark:text-gray-50 hx:w-full hx:wrap-break-word hx:hextra-focus-visible-inset" href="#future-platform-capabilities">Future Platform Capabilities
         </a>
       </li></ul>
       <div class="hx:mt-8 hx:border-t hx:bg-white hx:pt-8 hx:shadow-[0_-12px_16px_white] hx:dark:bg-dark hx:dark:shadow-[0_-12px_16px_#111] hx:sticky hx:bottom-0 hx:flex hx:flex-col hx:items-start hx:gap-2 hx:pb-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-t hx:contrast-more:border-neutral-400 hx:contrast-more:shadow-none hx:contrast-more:dark:border-neutral-400">
@@ -438,356 +427,97 @@
         <div class="hx:mt-1.5 hx:flex hx:items-center hx:gap-1 hx:overflow-hidden hx:text-sm hx:text-gray-500 hx:dark:text-gray-400 hx:contrast-more:text-current">
         <div class="hx:whitespace-nowrap hx:transition-colors hx:min-w-[24px] hx:overflow-hidden hx:text-ellipsis hx:hover:text-gray-900 hx:dark:hover:text-gray-100">
           <a href="/platform-systems/" class="hx:inline-block hx:rounded-sm hx:hextra-focus-visible-inset">Platform &amp; Systems</a>
-        </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx:whitespace-nowrap hx:transition-colors hx:font-medium hx:text-gray-700 hx:contrast-more:font-bold hx:contrast-more:text-current hx:dark:text-gray-100 hx:contrast-more:dark:text-current">Release Documentation Workflow</div>
+        </div><svg class="hx:w-3.5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg><div class="hx:whitespace-nowrap hx:transition-colors hx:font-medium hx:text-gray-700 hx:contrast-more:font-bold hx:contrast-more:text-current hx:dark:text-gray-100 hx:contrast-more:dark:text-current">AI-Enabled Documentation Health Monitoring</div>
   </div>
 
         <div class="content">
           
           <div class="hx:flex hx:flex-col hx:sm:flex-row hx:items-start hx:sm:items-center hx:sm:justify-between hx:gap-4 hx:mb-4">
-            <h1 class="hx:mb-0">Release Documentation Workflow</h1>
+            <h1 class="hx:mb-0">AI-Enabled Documentation Health Monitoring</h1>
             
           </div>
           
           <hr class="page-divider">
-<h2>60-Second Summary<span class="hx:absolute hx:-mt-20" id="60-second-summary"></span>
-    <a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Documentation should move with the product release, not after it.</p>
-<p>This workflow ensures that help content, API documentation, release notes, and in-app guidance are created, reviewed, and published in sync with product development.</p>
+<p>Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.</p>
+<p>This page describes a working pipeline I designed and built that replaces that manual audit with a standing, automated signal — and what running it for real against my own site taught me about where AI helps and where it doesn&rsquo;t.</p>
 <hr>
-<h2>1. Release-Aligned Documentation Flow<span class="hx:absolute hx:-mt-20" id="1-release-aligned-documentation-flow"></span>
-    <a href="#1-release-aligned-documentation-flow" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div align="center">
-<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-
-<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Feature Development
-</span></span><span class="line"><span class="cl">        ↓
-</span></span><span class="line"><span class="cl">PM + Engineering Inputs
-</span></span><span class="line"><span class="cl">        ↓
-</span></span><span class="line"><span class="cl">Documentation Planning
-</span></span><span class="line"><span class="cl">        ↓
-</span></span><span class="line"><span class="cl">Draft Creation
-</span></span><span class="line"><span class="cl">        ↓
-</span></span><span class="line"><span class="cl">Review &amp; Validation
-</span></span><span class="line"><span class="cl">        ↓
-</span></span><span class="line"><span class="cl">Release Publishing
-</span></span><span class="line"><span class="cl">        ↓
-</span></span><span class="line"><span class="cl">Post-Release Feedback</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-  <button
-    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-    title="Copy code"
-    aria-label="Copy code"
-    data-copied-label="Copied!"
-  >
-    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
-<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
-  </button>
-</div>
-</div>
-</div>
-<p>Documentation is embedded into the release lifecycle, not treated as a final step.</p>
-<hr>
-<h2>2. Cross-Functional Collaboration<span class="hx:absolute hx:-mt-20" id="2-cross-functional-collaboration"></span>
-    <a href="#2-cross-functional-collaboration" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div align="center">
-<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-
-<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Product Manager
-</span></span><span class="line"><span class="cl">        ↓
-</span></span><span class="line"><span class="cl">Engineering Team
-</span></span><span class="line"><span class="cl">        ↓
-</span></span><span class="line"><span class="cl">Documentation
-</span></span><span class="line"><span class="cl">        ↓
-</span></span><span class="line"><span class="cl">UX / Design
-</span></span><span class="line"><span class="cl">        ↓
-</span></span><span class="line"><span class="cl">Support &amp; GTM Teams</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-  <button
-    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-    title="Copy code"
-    aria-label="Copy code"
-    data-copied-label="Copied!"
-  >
-    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
-<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
-  </button>
-</div>
-</div>
-</div>
-<table>
-  <thead>
-      <tr>
-          <th>Function</th>
-          <th>Contribution</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Product</td>
-          <td>Feature intent, user flows</td>
-      </tr>
-      <tr>
-          <td>Engineering</td>
-          <td>Technical details, edge cases</td>
-      </tr>
-      <tr>
-          <td>Documentation</td>
-          <td>Content creation and structure</td>
-      </tr>
-      <tr>
-          <td>UX</td>
-          <td>In-app guidance and flows</td>
-      </tr>
-      <tr>
-          <td>Support</td>
-          <td>Real user issues and gaps</td>
-      </tr>
-  </tbody>
-</table>
-<hr>
-<h2>3. Documentation Planning Stage<span class="hx:absolute hx:-mt-20" id="3-documentation-planning-stage"></span>
-    <a href="#3-documentation-planning-stage" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div align="center">
-<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-
-<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Feature List
-</span></span><span class="line"><span class="cl">     ↓
-</span></span><span class="line"><span class="cl">Impact Analysis
-</span></span><span class="line"><span class="cl">     ↓
-</span></span><span class="line"><span class="cl">Content Mapping
-</span></span><span class="line"><span class="cl">     ↓
-</span></span><span class="line"><span class="cl">Documentation Plan</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-  <button
-    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-    title="Copy code"
-    aria-label="Copy code"
-    data-copied-label="Copied!"
-  >
-    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
-<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
-  </button>
-</div>
-</div>
-</div>
-<p>Key outputs:</p>
+<h2>Platform Objective<span class="hx:absolute hx:-mt-20" id="platform-objective"></span>
+    <a href="#platform-objective" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>The goal was to answer one resourcing question: can documentation health monitoring scale without scaling headcount?</p>
+<p>Key objectives included:</p>
 <ul>
-<li>impacted documentation areas identified</li>
-<li>new vs updated content defined</li>
-<li>API and integration changes captured</li>
-<li>release note scope finalized</li>
+<li>continuous monitoring of content freshness</li>
+<li>automated detection of coverage gaps</li>
+<li>flagging of internal inconsistencies across pages</li>
+<li>a human review step that stays firmly in control of what&rsquo;s actually wrong</li>
 </ul>
+<p>The system acts as a noticing layer on top of an existing documentation set — it never edits content, only flags it.</p>
 <hr>
-<h2>4. Content Creation Layer<span class="hx:absolute hx:-mt-20" id="4-content-creation-layer"></span>
-    <a href="#4-content-creation-layer" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div align="center">
-<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-
-<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Help Docs + API Docs + Release Notes + In-App Guidance</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-  <button
-    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-    title="Copy code"
-    aria-label="Copy code"
-    data-copied-label="Copied!"
-  >
-    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
-<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
-  </button>
-</div>
-</div>
-</div>
-<p>Each release produces multiple content types:</p>
-<table>
-  <thead>
-      <tr>
-          <th>Content Type</th>
-          <th>Purpose</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Help docs</td>
-          <td>User workflows and features</td>
-      </tr>
-      <tr>
-          <td>API docs</td>
-          <td>Integration and developer guidance</td>
-      </tr>
-      <tr>
-          <td>Release notes</td>
-          <td>Feature communication</td>
-      </tr>
-      <tr>
-          <td>In-app help</td>
-          <td>Contextual user assistance</td>
-      </tr>
-  </tbody>
-</table>
+<h2>Platform Architecture Overview<span class="hx:absolute hx:-mt-20" id="platform-architecture-overview"></span>
+    <a href="#platform-architecture-overview" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>The pipeline runs on a weekly schedule and has four stages:</p>
+<ol>
+<li>Ingest — pulls markdown source files directly from the live GitHub repository</li>
+<li>Context build — pairs each page&rsquo;s content with its real last-commit date</li>
+<li>Health checks — an LLM evaluates freshness, coverage, and consistency per page</li>
+<li>Report — flagged pages are compiled into a single Slack message for human triage</li>
+</ol>
+<p>Each stage performs a specific function in the monitoring pipeline.</p>
 <hr>
-<h2>5. Review and Validation<span class="hx:absolute hx:-mt-20" id="5-review-and-validation"></span>
-    <a href="#5-review-and-validation" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div align="center">
-<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-
-<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Draft → Engineering Review → Product Validation → Final Approval</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-  <button
-    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-    title="Copy code"
-    aria-label="Copy code"
-    data-copied-label="Copied!"
-  >
-    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
-<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
-  </button>
-</div>
-</div>
-</div>
-<p>Validation ensures:</p>
+<h2>Ingest and Context Build<span class="hx:absolute hx:-mt-20" id="ingest-and-context-build"></span>
+    <a href="#ingest-and-context-build" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>The pipeline reads every markdown file from the site&rsquo;s content folder and pairs it with metadata pulled from GitHub&rsquo;s commit history.</p>
+<p>This gives the system two real signals per page:</p>
 <ul>
-<li>technical accuracy</li>
-<li>alignment with feature behavior</li>
-<li>consistency across content</li>
-<li>readiness for release</li>
+<li>the actual content, not a cached or stale copy</li>
+<li>how long it&rsquo;s actually been since the page last changed</li>
 </ul>
+<p>These signals provide the raw input the health checks run against.</p>
 <hr>
-<h2>6. Publishing Pipeline<span class="hx:absolute hx:-mt-20" id="6-publishing-pipeline"></span>
-    <a href="#6-publishing-pipeline" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div align="center">
-<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-
-<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Documentation Portal
-</span></span><span class="line"><span class="cl">        +
-</span></span><span class="line"><span class="cl">In-App Help System
-</span></span><span class="line"><span class="cl">        +
-</span></span><span class="line"><span class="cl">Release Notes Distribution</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-  <button
-    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-    title="Copy code"
-    aria-label="Copy code"
-    data-copied-label="Copied!"
-  >
-    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
-<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
-  </button>
-</div>
-</div>
-</div>
-<p>Content is published across multiple surfaces:</p>
+<h2>Health Checks<span class="hx:absolute hx:-mt-20" id="health-checks"></span>
+    <a href="#health-checks" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>The monitoring step evaluates each page against three checks:</p>
 <ul>
-<li>documentation portal</li>
-<li>product UI (tooltips, walkthroughs)</li>
-<li>release communication channels</li>
+<li><strong>Freshness</strong> — flags pages old enough that referenced tools or processes may have moved on</li>
+<li><strong>Coverage</strong> — flags missing prerequisites or undefined terms a reader would need</li>
+<li><strong>Consistency</strong> — flags statements that read as internally contradictory</li>
 </ul>
+<p>This layer identifies candidate issues and triggers a flag when a check fires — it does not decide what&rsquo;s actually wrong.</p>
 <hr>
-<h2>7. AI-Assisted Release Workflow<span class="hx:absolute hx:-mt-20" id="7-ai-assisted-release-workflow"></span>
-    <a href="#7-ai-assisted-release-workflow" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div align="center">
-<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-
-<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Feature Input
-</span></span><span class="line"><span class="cl">     ↓
-</span></span><span class="line"><span class="cl">AI Draft Generation
-</span></span><span class="line"><span class="cl">     ↓
-</span></span><span class="line"><span class="cl">Content Structuring
-</span></span><span class="line"><span class="cl">     ↓
-</span></span><span class="line"><span class="cl">Human Review
-</span></span><span class="line"><span class="cl">     ↓
-</span></span><span class="line"><span class="cl">Final Publishing</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-  <button
-    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-    title="Copy code"
-    aria-label="Copy code"
-    data-copied-label="Copied!"
-  >
-    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
-<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
-  </button>
-</div>
-</div>
-</div>
-<p>AI accelerates:</p>
+<h2>Report and Human Review<span class="hx:absolute hx:-mt-20" id="report-and-human-review"></span>
+    <a href="#report-and-human-review" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>When checks fire, the pipeline compiles every flag into one weekly report and posts it to Slack.</p>
+<p>The report includes:</p>
 <ul>
-<li>first draft creation</li>
-<li>release note summaries</li>
-<li>repetitive documentation updates</li>
-<li>terminology consistency</li>
+<li>which page was flagged</li>
+<li>how old it is</li>
+<li>which check fired and why</li>
 </ul>
+<p>This is the point where judgment re-enters the system: a flag is a candidate, not a verdict.</p>
 <hr>
-<h2>8. Release Readiness Checklist<span class="hx:absolute hx:-mt-20" id="8-release-readiness-checklist"></span>
-    <a href="#8-release-readiness-checklist" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div align="center">
-<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-
-<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">✔ Help Docs Updated
-</span></span><span class="line"><span class="cl">✔ API Docs Updated
-</span></span><span class="line"><span class="cl">✔ Release Notes Ready
-</span></span><span class="line"><span class="cl">✔ In-App Guidance Added
-</span></span><span class="line"><span class="cl">✔ Content Reviewed</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-  <button
-    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-    title="Copy code"
-    aria-label="Copy code"
-    data-copied-label="Copied!"
-  >
-    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
-<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
-  </button>
-</div>
-</div>
-</div>
-<p>Documentation is considered complete only when all release artifacts are ready.</p>
+<h2>What Running It For Real Taught Me<span class="hx:absolute hx:-mt-20" id="what-running-it-for-real-taught-me"></span>
+    <a href="#what-running-it-for-real-taught-me" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>Two things surfaced the first time this ran against this site&rsquo;s actual homepage, worth naming rather than glossing over:</p>
+<p><strong>The AI applied a documentation-page rubric to a marketing page.</strong> The first run flagged the homepage for &ldquo;missing prerequisites&rdquo; — a reasonable check for a how-to guide, not for positioning copy. That&rsquo;s a real v1 limitation: the system doesn&rsquo;t yet distinguish content types before applying checks.</p>
+<p><strong>The same check isn&rsquo;t perfectly consistent run to run.</strong> A second run against the identical, unchanged page returned zero flags. LLM-based judgment varies slightly between calls — which is exactly why this system flags for a human to review, rather than auto-publishing or auto-editing anything.</p>
 <hr>
-<h2>9. Post-Release Feedback Loop<span class="hx:absolute hx:-mt-20" id="9-post-release-feedback-loop"></span>
-    <a href="#9-post-release-feedback-loop" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div align="center">
-<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-
-<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">User Queries → Support Feedback → Content Updates</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-  <button
-    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-    title="Copy code"
-    aria-label="Copy code"
-    data-copied-label="Copied!"
-  >
-    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
-<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
-  </button>
-</div>
-</div>
-</div>
-<p>After release:</p>
+<h2>Design Principles<span class="hx:absolute hx:-mt-20" id="design-principles"></span>
+    <a href="#design-principles" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p><strong>AI scales the noticing, not the deciding.</strong>
+The system surfaces candidates; a person decides what&rsquo;s a real gap.</p>
+<p><strong>Real signals over assumptions.</strong>
+Every check runs against the live repository and live commit history, not a cached snapshot.</p>
+<p><strong>Honest about limitations.</strong>
+Where the system is wrong or inconsistent, that&rsquo;s reported as a finding, not hidden.</p>
+<hr>
+<h2>Future Platform Capabilities<span class="hx:absolute hx:-mt-20" id="future-platform-capabilities"></span>
+    <a href="#future-platform-capabilities" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>The architecture is built to extend rather than be rebuilt:</p>
 <ul>
-<li>support tickets highlight gaps</li>
-<li>user feedback informs improvements</li>
-<li>documentation is updated continuously</li>
+<li>content-type-aware checks, so a marketing page and a how-to guide are held to different rubrics</li>
+<li>embeddings-based consistency checks across semantically similar pages, instead of one page read at a time</li>
+<li>webhook-triggered runs on every merge, instead of a weekly cron</li>
 </ul>
-<hr>
-<h2>10. Workflow Impact<span class="hx:absolute hx:-mt-20" id="10-workflow-impact"></span>
-    <a href="#10-workflow-impact" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><div align="center">
-<div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-
-<div><div class="highlight"><pre tabindex="0" class="chroma"><code class="language-text" data-lang="text"><span class="line"><span class="cl">Structured Workflow → Faster Releases → Better Adoption → Reduced Support Load</span></span></code></pre></div></div><div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-  <button
-    class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-    title="Copy code"
-    aria-label="Copy code"
-    data-copied-label="Copied!"
-  >
-    <div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"></div>
-<div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"></div>
-  </button>
-</div>
-</div>
-</div>
-<p>A strong release documentation workflow enables:</p>
-<ul>
-<li>faster product launches</li>
-<li>improved documentation quality</li>
-<li>reduced support dependency</li>
-<li>better customer experience</li>
-</ul>
-<hr>
-<h2>11. Applied Experience<span class="hx:absolute hx:-mt-20" id="11-applied-experience"></span>
-    <a href="#11-applied-experience" class="subheading-anchor" aria-label="Permalink for this section"></a></h2><p>This workflow reflects experience working with product and engineering teams to align documentation with release cycles, manage high-volume updates, and maintain consistency across multiple content types.</p>
-<p>It demonstrates how documentation can operate as a release-driven system within enterprise product environments.</p>
+<p>This progression moves the system from a periodic audit replacement toward a continuous documentation-health layer.</p>
 
         </div>
         <div class="hx:mt-16"></div><div class="hx:mb-8 hx:flex hx:items-center hx:border-t hx:pt-8 hx:border-gray-200 hx:dark:border-neutral-800 hx:contrast-more:border-neutral-400 hx:dark:contrast-more:border-neutral-400 hx:print:hidden"><a
-        href="/platform-systems/knowledge-architecture/"
-        title="Knowledge Architecture Model"
+        href="/platform-systems/metrix/"
+        title="Documentation Metrics &amp; Impact System"
         class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:pr-4 hx:rtl:pl-4"
-      ><svg class="hx:inline hx:h-5 hx:shrink-0 hx:ltr:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Knowledge Architecture Model</a><a
-        href="/platform-systems/documentation-infrastructure/"
-        title="Documentation Infrastructure"
-        class="hx:flex hx:max-w-[50%] hx:items-center hx:gap-1 hx:py-4 hx:text-base hx:font-medium hx:text-gray-600 hx:transition-colors [word-break:break-word] hx:hover:text-primary-600 hx:dark:text-gray-300 hx:md:text-lg hx:ltr:ml-auto hx:ltr:pl-4 hx:ltr:text-right hx:rtl:mr-auto hx:rtl:pr-4 hx:rtl:text-left"
-      >Documentation Infrastructure<svg class="hx:inline hx:h-5 hx:shrink-0 hx:rtl:-rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg></a></div>
+      ><svg class="hx:inline hx:h-5 hx:shrink-0 hx:ltr:rotate-180" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"><path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/></svg>Documentation Metrics &amp; Impact System</a></div>
       </main>
     </article>
   </div>

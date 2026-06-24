@@ -2380,6 +2380,93 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
     </item>
     
     <item>
+      <title>AI-Enabled Documentation Health Monitoring</title>
+      <link>https://productnorth.in/platform-systems/doc-health-pipeline/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
+      <guid>https://productnorth.in/platform-systems/doc-health-pipeline/</guid>
+      <description>
+        
+        
+        &lt;hr class=&#34;page-divider&#34;&gt;
+&lt;p&gt;Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.&lt;/p&gt;
+&lt;p&gt;This page describes a working pipeline I designed and built that replaces that manual audit with a standing, automated signal — and what running it for real against my own site taught me about where AI helps and where it doesn&amp;rsquo;t.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Platform Objective&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;platform-objective&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#platform-objective&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The goal was to answer one resourcing question: can documentation health monitoring scale without scaling headcount?&lt;/p&gt;
+&lt;p&gt;Key objectives included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;continuous monitoring of content freshness&lt;/li&gt;
+&lt;li&gt;automated detection of coverage gaps&lt;/li&gt;
+&lt;li&gt;flagging of internal inconsistencies across pages&lt;/li&gt;
+&lt;li&gt;a human review step that stays firmly in control of what&amp;rsquo;s actually wrong&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The system acts as a noticing layer on top of an existing documentation set — it never edits content, only flags it.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Platform Architecture Overview&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;platform-architecture-overview&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#platform-architecture-overview&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The pipeline runs on a weekly schedule and has four stages:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Ingest — pulls markdown source files directly from the live GitHub repository&lt;/li&gt;
+&lt;li&gt;Context build — pairs each page&amp;rsquo;s content with its real last-commit date&lt;/li&gt;
+&lt;li&gt;Health checks — an LLM evaluates freshness, coverage, and consistency per page&lt;/li&gt;
+&lt;li&gt;Report — flagged pages are compiled into a single Slack message for human triage&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Each stage performs a specific function in the monitoring pipeline.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Ingest and Context Build&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;ingest-and-context-build&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#ingest-and-context-build&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The pipeline reads every markdown file from the site&amp;rsquo;s content folder and pairs it with metadata pulled from GitHub&amp;rsquo;s commit history.&lt;/p&gt;
+&lt;p&gt;This gives the system two real signals per page:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;the actual content, not a cached or stale copy&lt;/li&gt;
+&lt;li&gt;how long it&amp;rsquo;s actually been since the page last changed&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These signals provide the raw input the health checks run against.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Health Checks&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;health-checks&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#health-checks&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The monitoring step evaluates each page against three checks:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Freshness&lt;/strong&gt; — flags pages old enough that referenced tools or processes may have moved on&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Coverage&lt;/strong&gt; — flags missing prerequisites or undefined terms a reader would need&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Consistency&lt;/strong&gt; — flags statements that read as internally contradictory&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This layer identifies candidate issues and triggers a flag when a check fires — it does not decide what&amp;rsquo;s actually wrong.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Report and Human Review&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;report-and-human-review&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#report-and-human-review&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;When checks fire, the pipeline compiles every flag into one weekly report and posts it to Slack.&lt;/p&gt;
+&lt;p&gt;The report includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;which page was flagged&lt;/li&gt;
+&lt;li&gt;how old it is&lt;/li&gt;
+&lt;li&gt;which check fired and why&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This is the point where judgment re-enters the system: a flag is a candidate, not a verdict.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;What Running It For Real Taught Me&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;what-running-it-for-real-taught-me&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#what-running-it-for-real-taught-me&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Two things surfaced the first time this ran against this site&amp;rsquo;s actual homepage, worth naming rather than glossing over:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The AI applied a documentation-page rubric to a marketing page.&lt;/strong&gt; The first run flagged the homepage for &amp;ldquo;missing prerequisites&amp;rdquo; — a reasonable check for a how-to guide, not for positioning copy. That&amp;rsquo;s a real v1 limitation: the system doesn&amp;rsquo;t yet distinguish content types before applying checks.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The same check isn&amp;rsquo;t perfectly consistent run to run.&lt;/strong&gt; A second run against the identical, unchanged page returned zero flags. LLM-based judgment varies slightly between calls — which is exactly why this system flags for a human to review, rather than auto-publishing or auto-editing anything.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Design Principles&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;design-principles&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#design-principles&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;AI scales the noticing, not the deciding.&lt;/strong&gt;
+The system surfaces candidates; a person decides what&amp;rsquo;s a real gap.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Real signals over assumptions.&lt;/strong&gt;
+Every check runs against the live repository and live commit history, not a cached snapshot.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Honest about limitations.&lt;/strong&gt;
+Where the system is wrong or inconsistent, that&amp;rsquo;s reported as a finding, not hidden.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Future Platform Capabilities&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;future-platform-capabilities&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#future-platform-capabilities&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The architecture is built to extend rather than be rebuilt:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;content-type-aware checks, so a marketing page and a how-to guide are held to different rubrics&lt;/li&gt;
+&lt;li&gt;embeddings-based consistency checks across semantically similar pages, instead of one page read at a time&lt;/li&gt;
+&lt;li&gt;webhook-triggered runs on every merge, instead of a weekly cron&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This progression moves the system from a periodic audit replacement toward a continuous documentation-health layer.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
       <title>Content Strategy and Governance</title>
       <link>https://productnorth.in/showcase/content-strategy-governance/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
