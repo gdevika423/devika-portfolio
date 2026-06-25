@@ -8,7 +8,7 @@ type: docs
 weight: 2
 ---
 
-This initiative improved developer experience by standardizing API documentation practices and integrating documentation directly into engineering workflows.
+I owned the API documentation function end-to-end at Zeta, setting the standards that took developer experience from inconsistent to scalable across engineering teams.
 
 ## 60-Second Summary
 
@@ -29,34 +29,33 @@ Key challenges included:
 - documentation created outside engineering workflows
 - limited standardization for API releases
 
-These issues slowed developer onboarding and reduced API discoverability.
+These issues slowed developer onboarding and reduced API discoverability — and made the documentation team's output inconsistent for any engineer outside my immediate team.
 
 
 ## Approach
 
-I designed a **structured API documentation framework** to improve developer experience and documentation scalability.
+I set the standard for API documentation across engineering: built the framework, defined the templates, and partnered with engineering leadership to embed a documentation checkpoint directly into their workflow, so docs shipped with the release rather than after it.
 
-Key initiatives included:
+Key initiatives I led:
 
 - standardizing API documentation templates across engineering teams
-- creating reusable documentation components
+- creating reusable documentation components the team could apply consistently
 - integrating documentation checkpoints into engineering workflows
-- establishing documentation standards for API releases
+- establishing documentation standards for API releases, with sign-off as part of the process
 
-The focus was on treating documentation as a **core component of developer experience**, rather than a post-release artifact.
-
+The goal was changing how the team and our engineering partners worked together — treating documentation as a **core component of developer experience**, owned and governed, rather than a post-release artifact.
 
 
 ## Impact
 
-The initiative improved documentation efficiency and developer usability.
+The initiative changed the team's process, not just my own output — and the results held at sustained sprint velocity.
 
 Results included:
 
-- improved API documentation publishing speed by **30–40%**
+- improved API documentation publishing speed by **30–40%**, achieved by changing the team's workflow, not by writing faster myself
 - increased API discoverability for developers
 - reduced developer onboarding friction
-- created consistent documentation patterns across engineering teams
+- created consistent documentation patterns across engineering teams that outlasted any single release
 
 <p align="center">
 <img src="/images/scalable-api.png" alt="API Documentation and Developer Experience" width="900">
