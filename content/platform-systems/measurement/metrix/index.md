@@ -8,6 +8,8 @@ url: "/platform-systems/metrix/"
 
 <hr class="page-divider">
 
+I use this measurement framework to report on documentation impact to leadership, not just track it internally.
+
 ## 60-Second Summary
 
 Documentation should not be measured by volume. It should be measured by impact.
