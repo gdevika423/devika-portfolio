@@ -43,5 +43,5 @@ The focus was on treating documentation as a **structured knowledge system rathe
 
 - Reduced support ticket volume by **25%**
 - Improved knowledge discoverability across teams
-- Accelerated contributor onboarding by **20%**
+- Accelerated contributor onboarding through clearer structure and discoverability
 - Created sustainable governance models for knowledge systems
