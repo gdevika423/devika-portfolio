@@ -109,33 +109,33 @@ When documentation is designed as a system, it becomes infrastructure for produc
 
 <div class="feature-card">
 
-<p class="feature-tag">Documentation systems consulting</p>
+<p class="feature-tag">Zeta • Knowledge Systems Lead</p>
 
-<h3>Structuring documentation for an enterprise automation platform</h3>
+<h3>Building the knowledge base management system at Zeta</h3>
 
 <p>
-At Nordia Infotech, I worked as a documentation and product strategy consultant to bring structure to a complex SAP operations automation initiative.
+Product knowledge and process documentation were scattered across teams, making it difficult for employees to find reliable information or know what was current.
 </p>
 
 <p>
-The challenge was not just building the platform, but making operational workflows, system behavior, and knowledge reusable and understandable across teams.
+I owned and built a centralized knowledge base management system end-to-end - not just a set of articles, but the architecture, governance, and contributor model behind them.
 </p>
 
 <p>I focused on:</p>
 
 <ul>
-<li>Structuring fragmented operational knowledge into a scalable documentation model</li>
-<li>Designing documentation architecture for platform components and workflows</li>
-<li>Translating engineering workflows into structured, usable content</li>
-<li>Aligning documentation with product discovery and platform evolution</li>
+<li>Designing the <span class="kw">information architecture</span> and taxonomy that made content discoverable across teams</li>
+<li>Building <span class="kw">governance</span> and contributor workflows so other writers could add knowledge without breaking structure</li>
+<li>Authoring 80+ troubleshooting guides and revamping 40+ for end-user self-service</li>
+<li>Establishing standards for knowledge organization that outlasted any single contributor</li>
 </ul>
 
 <p>
-This positioned documentation as a core part of product adoption and platform scalability, not just a support layer.
+The system reduced support ticket volume by 25% and became the standing model the team operated against, not a one-time project.
 </p>
 
-<a class="text-link" href="/platform-systems/product-documentation-system/">
-Explore related systems work →
+<a class="text-link" href="/showcase/knowledge-base-architecture/">
+Explore the case study →
 </a>
 
 </div>
