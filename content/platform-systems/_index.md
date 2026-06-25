@@ -14,7 +14,7 @@ These systems show how I structure <strong>knowledge, documentation infrastructu
 Each system focuses on <strong>structure, flow, execution, and scalability</strong>.
 </p>
 
-## AI & Governance
+<h2>AI & Governance</h2>
 
 <p class="page-intro">
 How AI is used responsibly in documentation operations - governance, the publication pipeline, and the ongoing health-monitoring cycle that holds it accountable.
@@ -88,7 +88,7 @@ See the operating cycle →
 
 </div>
 
-## Core Architecture
+<h2>Core Architecture</h2>
 
 <p class="page-intro">
 The information models and platform structures that connect documentation across product, knowledge, and engineering systems.
@@ -146,7 +146,7 @@ See the design →
 
 </div>
 
-## Developer & Release Systems
+<h2>Developer & Release Systems</h2>
 
 <p class="page-intro">
 How documentation integrates with API delivery, release cycles, and in-product user experience.
@@ -204,7 +204,7 @@ See the design →
 
 </div>
 
-## Measurement
+<h2>Measurement</h2>
 
 <p class="page-intro">
 How documentation impact is tracked and reported as a measurable system.
