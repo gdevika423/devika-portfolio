@@ -69,16 +69,19 @@ toc: false
 <div class="home-card">
 <h3>Reduced support dependency</h3>
 <p>Led the knowledge system redesign that improved discoverability and cut support tickets by 25%.</p>
+<a class="text-link" href="/showcase/knowledge-base-architecture/">Read the case study →</a>
 </div>
 
 <div class="home-card">
 <h3>Improved publishing speed</h3>
 <p>Set the <span class="kw">API documentation</span> standards and templates the team adopted, improving publishing speed by 30-40%.</p>
+<a class="text-link" href="/showcase/api-documentation-developer-experience/">Read the case study →</a>
 </div>
 
 <div class="home-card">
 <h3>Scaled documentation workflows</h3>
 <p>Led the team's shift to AI-assisted editorial review, cutting documentation cycle time by 30-40% while keeping human sign-off on every release.</p>
+<a class="text-link" href="/showcase/genai-process-innovation/">Read the case study →</a>
 </div>
 
 </div>
@@ -131,8 +134,8 @@ The challenge was not just building the platform, but making operational workflo
 This positioned documentation as a core part of product adoption and platform scalability, not just a support layer.
 </p>
 
-<a class="text-link" href="/platform-systems/sap-operations-automation-platform/">
-Explore the case study →
+<a class="text-link" href="/platform-systems/product-documentation-system/">
+Explore related systems work →
 </a>
 
 </div>
