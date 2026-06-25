@@ -246,3 +246,10 @@ A strong release documentation workflow enables:
 This workflow reflects experience working with product and engineering teams to align documentation with release cycles, manage high-volume updates, and maintain consistency across multiple content types.
 
 It demonstrates how documentation can operate as a release-driven system within enterprise product environments.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/showcase/documentation-agile-development/">Documentation in Agile Development</a> - this workflow applied in practice at Zeta, with measured results
+
