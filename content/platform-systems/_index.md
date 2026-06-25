@@ -19,6 +19,23 @@ Each system focuses on <strong>structure, flow, execution, and scalability</stro
 
 <div class="story-card">
 
+<h3>AI Governance &amp; Review Operating Model</h3>
+
+<p class="story-meta"><strong>AI Operations</strong> • Governance Framework</p>
+
+<p class="story-problem">
+What AI owns, what the team owns, and what I own as manager — the operating model that keeps AI-assisted documentation auditable as a team scales.
+</p>
+
+<a class="story-link" href="/platform-systems/ai-governance-model/">
+See the operating model →
+</a>
+
+</div>
+
+
+<div class="story-card">
+
 <h3>Knowledge Architecture Model</h3>
 
 <p class="story-meta"><strong>Knowledge Systems</strong> • Architecture Model</p>
