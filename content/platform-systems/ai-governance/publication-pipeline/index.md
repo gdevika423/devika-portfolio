@@ -68,3 +68,12 @@ The draft-generation stage is described as built because it runs. The feedback-l
 ## Where I'd Take This as a Manager
 
 The individual pipeline proves the draft-generation mechanism works. Running it as a team's standard workflow means the same Layer 1 / Layer 2 / Layer 3 accountability from the AI Governance model applies here directly: AI owns the draft, the team owns the review and sign-off, and I own the metric that tells me whether the workflow is actually saving time — how often an AI-assisted draft needs heavy rework versus light editing — rather than just moving the same work around.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/ai-governance-model/">AI Governance & Review Operating Model</a> - the accountability model this pipeline operates under
+
+<a class="text-link" href="/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle</a> - the planned feedback loop this pipeline connects into
+
