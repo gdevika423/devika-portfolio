@@ -1,5 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – Core Architecture</title><link>https://productnorth.in/platform-systems/core-architecture/</link><description>Recent content in Core Architecture on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><atom:link href="https://productnorth.in/platform-systems/core-architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>End-to-End Product Documentation System</title><link>https://productnorth.in/platform-systems/product-documentation-system/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/product-documentation-system/</guid><description>
 &lt;hr class="page-divider">
+&lt;p>This is the operating model I run a documentation team against - connecting product changes to published content through one structured system.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
 &lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Product documentation works best when it is treated as an operating system, not a collection of files.&lt;/p>
 &lt;hr>
@@ -343,6 +344,7 @@ data-copied-label="Copied!"
 &lt;/div>
 &lt;p>This model ensures that knowledge is not only stored, but actively supports how teams operate and scale.&lt;/p></description></item><item><title>Documentation Infrastructure</title><link>https://productnorth.in/platform-systems/documentation-infrastructure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/documentation-infrastructure/</guid><description>
 &lt;hr class="page-divider">
+&lt;p>I led the team&amp;rsquo;s docs-as-code migration and built the infrastructure model documentation teams need for authoring, review, and delivery.&lt;/p>
 &lt;p>Documentation infrastructure defines how documentation is created, managed, reviewed, and delivered within an engineering organization.&lt;/p>
 &lt;p>It focuses on the operational systems that support documentation at scale, ensuring that content can be reliably produced, updated, and published as products evolve.&lt;/p>
 &lt;br>
