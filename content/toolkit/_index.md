@@ -20,7 +20,7 @@ Rather than relying on ad hoc documentation practices, these frameworks help est
 
 Many of these tools were developed while leading documentation initiatives and building knowledge platforms across engineering organizations.
 
-## Quality Frameworks
+<h2>Quality Frameworks</h2>
 
 <p class="page-intro">
 Models for evaluating and governing documentation quality at scale.
@@ -78,7 +78,7 @@ See the framework →
 
 </div>
 
-## Process Models
+<h2>Process Models</h2>
 
 <p class="page-intro">
 Lifecycle and prioritization frameworks for running documentation work.
