@@ -2,12 +2,12 @@
 title: "Documentation in Agile Product Development"
 type: showcase
 company: "Zeta"
-role: "Embedded Documentation Partner"
+role: "Documentation Lead, Agile Integration"
 toc: true
 type: docs
 ---
 
-Integrated documentation workflows directly into Agile product development, reducing post-release documentation gaps and improving release readiness.
+I drove the process change that made documentation a sprint deliverable instead of a post-release scramble — a shift I led with engineering leadership, not just within my own team.
 
 ## 60-Second Summary
 
@@ -30,19 +30,19 @@ This resulted in:
 
 ## Approach
 
-I embedded documentation workflows directly into **Agile product development processes**.
+I introduced the mandatory documentation checkpoint that embedded documentation workflows directly into **Agile product development processes** — a change negotiated with engineering leadership, not just applied inside my own team.
 
-Key initiatives included:
+Key initiatives I led:
 
-- Integrating documentation tasks into sprint planning
+- Integrating documentation tasks into sprint planning, with engineering buy-in
 - Creating documentation readiness checklists for releases
 - Mapping dependencies between product features and documentation
-- Establishing ownership models across engineering and documentation teams
+- Establishing ownership models across engineering and documentation teams, so accountability didn't sit with one writer alone
 
-This ensured documentation became part of **product delivery workflows**, not a post-release task.
+This ensured documentation became part of **product delivery workflows**, governed by a shared checkpoint, not a post-release task dependent on individual follow-through.
 
 ## Impact
 
-- Increased visibility of documentation deliverables across sprint planning
+- Increased visibility of documentation deliverables across sprint planning, giving engineering and product leadership a shared view of documentation status
 - Reduced post-release documentation gaps by **40%**
 - Improved documentation readiness for product releases by **50%**
