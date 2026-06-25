@@ -170,3 +170,4 @@ Open to roles in documentation leadership, developer experience, and product-ali
 
 <a class="btn-primary" href="/contact/">Contact me</a>
 </div>
+
