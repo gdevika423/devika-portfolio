@@ -7,7 +7,7 @@ type: docs
 url: "/showcase/knowledge-base-architecture/"
 ---
 
-I led the knowledge architecture initiative end-to-end — taxonomy, governance model, contributor workflows — that took the team from scattered documents to a structured, ownable system.
+I led the knowledge architecture initiative end-to-end — taxonomy, <span class="kw">governance</span> model, contributor workflows — that took the team from scattered documents to a structured, ownable system.
 
 ## 60-Second Summary
 
@@ -28,11 +28,11 @@ This made it difficult for employees to:
 
 ## Approach
 
-I owned and built a **centralized knowledge base architecture** focused on discoverability and governance, then established the contributor model that let the system scale beyond what I could maintain alone.
+I owned and built a **centralized knowledge base architecture** focused on discoverability and <span class="kw">governance</span>, then established the contributor model that let the system scale beyond what I could maintain alone.
 
 Key initiatives I led:
 
-- Designing scalable information architecture for the knowledge base
+- Designing scalable <span class="kw">information architecture</span> for the knowledge base
 - Building taxonomy structures for better content discovery
 - Implementing contributor workflows and documentation governance so other writers and teams could add knowledge without compromising structure
 - Establishing standards for knowledge organization that outlasted any single contributor
