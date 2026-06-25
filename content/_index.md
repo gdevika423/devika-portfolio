@@ -4,6 +4,8 @@ description: "Devika Jallegowda | Product Documentation Systems Leader | Develop
 toc: false
 ---
 
+<div class="hero-wrap">
+
 <section class="hero">
 
   <p class="eyebrow">Product Documentation Systems Leader</p>
@@ -22,6 +24,37 @@ toc: false
   </div>
 
 </section>
+
+<svg class="hero-banner" viewBox="0 0 560 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Documentation pipeline: spec, AI draft, human review gate, publish, monitor">
+  <line x1="60" y1="130" x2="500" y2="130" stroke="var(--dj-rule)" stroke-width="2"/>
+
+  <!-- SPEC -->
+  <circle cx="60" cy="130" r="7" fill="var(--dj-ink)"/>
+  <text x="60" y="100" text-anchor="middle" class="hb-label">SPEC</text>
+
+  <!-- DRAFT -->
+  <circle cx="170" cy="130" r="7" fill="var(--dj-ink)"/>
+  <text x="170" y="100" text-anchor="middle" class="hb-label">AI DRAFT</text>
+
+  <!-- REVIEW - emphasized -->
+  <circle cx="280" cy="130" r="11" fill="var(--dj-paper-card)" stroke="var(--dj-rust)" stroke-width="3"/>
+  <text x="280" y="92" text-anchor="middle" class="hb-label hb-label-rust">REVIEW</text>
+  <text x="280" y="172" text-anchor="middle" class="hb-caption">human judgment gate</text>
+
+  <!-- PUBLISH -->
+  <circle cx="390" cy="130" r="7" fill="var(--dj-ink)"/>
+  <text x="390" y="100" text-anchor="middle" class="hb-label">PUBLISH</text>
+
+  <!-- MONITOR -->
+  <circle cx="500" cy="130" r="7" fill="var(--dj-ink)"/>
+  <text x="500" y="100" text-anchor="middle" class="hb-label">MONITOR</text>
+
+  <!-- feedback loop arrow from MONITOR back to SPEC -->
+  <path d="M 500 145 Q 280 230 60 145" fill="none" stroke="var(--dj-rust)" stroke-width="1.5" stroke-dasharray="4 4"/>
+  <text x="280" y="222" text-anchor="middle" class="hb-caption hb-caption-rust">flags feed back into the next cycle</text>
+</svg>
+
+</div>
 
 <div class="home-section">
 <h2>What I do</h2>
