@@ -43,6 +43,6 @@ This ensured documentation became part of **product delivery workflows**, not a 
 
 ## Impact
 
-- Increased visibility of documentation deliverables by **35%**
+- Increased visibility of documentation deliverables across sprint planning
 - Reduced post-release documentation gaps by **40%**
 - Improved documentation readiness for product releases by **50%**
