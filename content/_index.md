@@ -45,17 +45,17 @@ toc: false
 
 <div class="home-card">
 <h3>Documentation systems</h3>
-<p>Designing scalable documentation programs, governance models, and content architecture for enterprise products.</p>
+<p>I set the standards, governance models, and content architecture that let documentation teams operate at enterprise scale.</p>
 </div>
 
 <div class="home-card">
 <h3>Developer experience</h3>
-<p>Improving onboarding and integration through structured API documentation, workflows, and developer-focused content.</p>
+<p>I own how developers experience documentation - structured API references, workflows, and content built into the engineering process.</p>
 </div>
 
 <div class="home-card">
 <h3>Documentation at scale</h3>
-<p>Aligning documentation with product releases using structured workflows, automation, and AI-assisted production systems.</p>
+<p>I build the operating model that keeps documentation aligned with releases - structured workflows, governance, and AI-assisted systems.</p>
 </div>
 
 </div>
@@ -68,17 +68,17 @@ toc: false
 
 <div class="home-card">
 <h3>Reduced support dependency</h3>
-<p>Designed knowledge systems and content models that improved discoverability and reduced support tickets by 25%.</p>
+<p>Led the knowledge system redesign that improved discoverability and cut support tickets by 25%.</p>
 </div>
 
 <div class="home-card">
 <h3>Improved publishing speed</h3>
-<p>Standardized API documentation workflows and templates, improving publishing speed by 30–40%.</p>
+<p>Set the API documentation standards and templates the team adopted, improving publishing speed by 30-40%.</p>
 </div>
 
 <div class="home-card">
 <h3>Scaled documentation workflows</h3>
-<p>Introduced AI-assisted editorial workflows to streamline reviews and reduce documentation cycle time by 30–40%.</p>
+<p>Led the team's shift to AI-assisted editorial review, cutting documentation cycle time by 30-40% while keeping human sign-off on every release.</p>
 </div>
 
 </div>
