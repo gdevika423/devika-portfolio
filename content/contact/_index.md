@@ -9,8 +9,9 @@ If my work aligns with what you're building, feel free to reach out.
 
 ## Connect
 
-- [LinkedIn](https://www.linkedin.com)
-- [GitHub](https://github.com)
+- [LinkedIn](https://www.linkedin.com/in/devikaj/)
+- Email: [gdevika423@gmail.com](mailto:gdevika423@gmail.com)
+- Mobile: +91 88611 61822
 
 ## What I work on
 
