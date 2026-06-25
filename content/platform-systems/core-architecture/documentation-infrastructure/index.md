@@ -7,6 +7,8 @@ url: "/platform-systems/documentation-infrastructure/"
 
 <hr class="page-divider">
 
+I led the team's docs-as-code migration and built the infrastructure model documentation teams need for authoring, review, and delivery.
+
 Documentation infrastructure defines how documentation is created, managed, reviewed, and delivered within an engineering organization.
 
 It focuses on the operational systems that support documentation at scale, ensuring that content can be reliably produced, updated, and published as products evolve.
