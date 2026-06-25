@@ -60,3 +60,10 @@ Results included:
 <p align="center">
 <img src="/images/scalable-api.png" alt="API Documentation and Developer Experience" width="900">
 </p>
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/api-doc-devx/">API Documentation & Developer Experience</a> - the broader operating model behind this work
+
