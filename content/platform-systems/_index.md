@@ -36,6 +36,23 @@ See the operating model →
 
 <div class="story-card">
 
+<h3>Documentation Health Operating Cycle</h3>
+
+<p class="story-meta"><strong>Documentation Operations</strong> • AI-Enabled Monitoring</p>
+
+<p class="story-problem">
+A weekly cadence — flag, triage, assign, re-check — that runs a team against documentation health data instead of a quarterly manual audit.
+</p>
+
+<a class="story-link" href="/platform-systems/doc-health-pipeline/">
+See the operating cycle →
+</a>
+
+</div>
+
+
+<div class="story-card">
+
 <h3>Knowledge Architecture Model</h3>
 
 <p class="story-meta"><strong>Knowledge Systems</strong> • Architecture Model</p>
