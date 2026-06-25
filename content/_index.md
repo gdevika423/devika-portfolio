@@ -129,7 +129,7 @@ Explore the case study →
 <div class="home-grid">
 
 <div class="home-card">
-<h3>17+ years in enterprise software</h3>
+<h3>15+ years in enterprise software</h3>
 <p>Documentation leadership, knowledge systems, and developer experience.</p>
 </div>
 
