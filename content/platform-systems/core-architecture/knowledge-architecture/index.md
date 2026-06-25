@@ -69,4 +69,11 @@ User Workflows
 
 This model ensures that knowledge is not only stored, but actively supports how teams operate and scale.
 
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/showcase/knowledge-base-architecture/">Knowledge Base Architecture</a> - this model applied in practice at Zeta, with measured results
+
+<a class="text-link" href="/toolkit/documentation-governance-framework/">Documentation Governance Framework</a> - the governance layer that keeps this architecture consistent
 
