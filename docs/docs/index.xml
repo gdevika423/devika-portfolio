@@ -318,7 +318,7 @@ data-copied-label="Copied!"
 &lt;a href="#key-insight" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>AI proved highly effective for scaling &lt;strong>consistency and low-complexity editorial checks&lt;/strong>, while human review remained essential for context-aware evaluation.&lt;/p>
 &lt;p>The model I&amp;rsquo;d take into any team I lead: &lt;strong>AI scales consistency; editors keep judgment.&lt;/strong> AI handles repetitive, mechanical passes — the team&amp;rsquo;s editorial judgment stays the gate before anything publishes.&lt;/p>
 &lt;p>This pilot demonstrated how a documentation team can adopt AI responsibly — improving speed and consistency without trading away the judgment that makes documentation trustworthy.&lt;/p></description></item><item><title>API Documentation and Developer Experience</title><link>https://productnorth.in/showcase/api-documentation-developer-experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/api-documentation-developer-experience/</guid><description>
-&lt;p>This initiative improved developer experience by standardizing API documentation practices and integrating documentation directly into engineering workflows.&lt;/p>
+&lt;p>I owned the API documentation function end-to-end at Zeta, setting the standards that took developer experience from inconsistent to scalable across engineering teams.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
 &lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
 &lt;img src="https://productnorth.in/images/devx.png" alt="60-Second Summary" width="900">
@@ -333,25 +333,25 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
 &lt;li>documentation created outside engineering workflows&lt;/li>
 &lt;li>limited standardization for API releases&lt;/li>
 &lt;/ul>
-&lt;p>These issues slowed developer onboarding and reduced API discoverability.&lt;/p>
+&lt;p>These issues slowed developer onboarding and reduced API discoverability — and made the documentation team&amp;rsquo;s output inconsistent for any engineer outside my immediate team.&lt;/p>
 &lt;h2>Approach&lt;span class="hx:absolute hx:-mt-20" id="approach">&lt;/span>
-&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I designed a &lt;strong>structured API documentation framework&lt;/strong> to improve developer experience and documentation scalability.&lt;/p>
-&lt;p>Key initiatives included:&lt;/p>
+&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I set the standard for API documentation across engineering: built the framework, defined the templates, and partnered with engineering leadership to embed a documentation checkpoint directly into their workflow, so docs shipped with the release rather than after it.&lt;/p>
+&lt;p>Key initiatives I led:&lt;/p>
 &lt;ul>
 &lt;li>standardizing API documentation templates across engineering teams&lt;/li>
-&lt;li>creating reusable documentation components&lt;/li>
+&lt;li>creating reusable documentation components the team could apply consistently&lt;/li>
 &lt;li>integrating documentation checkpoints into engineering workflows&lt;/li>
-&lt;li>establishing documentation standards for API releases&lt;/li>
+&lt;li>establishing documentation standards for API releases, with sign-off as part of the process&lt;/li>
 &lt;/ul>
-&lt;p>The focus was on treating documentation as a &lt;strong>core component of developer experience&lt;/strong>, rather than a post-release artifact.&lt;/p>
+&lt;p>The goal was changing how the team and our engineering partners worked together — treating documentation as a &lt;strong>core component of developer experience&lt;/strong>, owned and governed, rather than a post-release artifact.&lt;/p>
 &lt;h2>Impact&lt;span class="hx:absolute hx:-mt-20" id="impact">&lt;/span>
-&lt;a href="#impact" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The initiative improved documentation efficiency and developer usability.&lt;/p>
+&lt;a href="#impact" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The initiative changed the team&amp;rsquo;s process, not just my own output — and the results held at sustained sprint velocity.&lt;/p>
 &lt;p>Results included:&lt;/p>
 &lt;ul>
-&lt;li>improved API documentation publishing speed by &lt;strong>30–40%&lt;/strong>&lt;/li>
+&lt;li>improved API documentation publishing speed by &lt;strong>30–40%&lt;/strong>, achieved by changing the team&amp;rsquo;s workflow, not by writing faster myself&lt;/li>
 &lt;li>increased API discoverability for developers&lt;/li>
 &lt;li>reduced developer onboarding friction&lt;/li>
-&lt;li>created consistent documentation patterns across engineering teams&lt;/li>
+&lt;li>created consistent documentation patterns across engineering teams that outlasted any single release&lt;/li>
 &lt;/ul>
 &lt;p align="center">
 &lt;img src="https://productnorth.in/images/scalable-api.png" alt="API Documentation and Developer Experience" width="900">
