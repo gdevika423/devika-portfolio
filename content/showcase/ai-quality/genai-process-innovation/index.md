@@ -39,7 +39,7 @@ Three structural issues limited editorial efficiency across the team.
 
 ## Approach
 
-I led the team's shift to an AI-assisted editorial workflow, designing a documentation-specific prompt framework and driving its adoption across the team.
+I led the team's shift to an <span class="kw">AI-assisted</span> editorial workflow, designing a documentation-specific prompt framework and driving its adoption across the team.
 
 The goal was to give writers a fast, consistent self-review pass while keeping editorial accountability with me and the senior reviewers — not to remove human judgment from the process.
 
@@ -53,7 +53,7 @@ This framework separates language quality from structural validation, ensuring d
 
 ## Workflow Transformation
 
-I redesigned the team's editorial workflow around this framework: writers ran an AI-assisted self-review pass before formal review, reducing repetitive manual effort and freeing editors to focus on higher-value content decisions.
+I redesigned the team's editorial workflow around this framework: writers ran an <span class="kw">AI-assisted</span> self-review pass before formal review, reducing repetitive manual effort and freeing editors to focus on higher-value content decisions.
 
 <p>
 
@@ -85,6 +85,6 @@ Beyond the workflow change itself, I introduced a structured approach to using A
 
 AI proved highly effective for scaling **consistency and low-complexity editorial checks**, while human review remained essential for context-aware evaluation.
 
-The model I'd take into any team I lead: **AI scales consistency; editors keep judgment.** AI handles repetitive, mechanical passes — the team's editorial judgment stays the gate before anything publishes.
+The model I'd take into any team I lead: **AI scales consistency; editors keep judgment.** AI handles repetitive, mechanical passes — the team's <span class="kw">editorial judgment</span> stays the gate before anything publishes.
 
 This pilot demonstrated how a documentation team can adopt AI responsibly — improving speed and consistency without trading away the judgment that makes documentation trustworthy.
