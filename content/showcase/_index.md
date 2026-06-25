@@ -14,7 +14,7 @@ These projects show how I apply <strong>systems thinking, content strategy, and 
 Each story focuses on the <strong>problem, approach, and measurable impact</strong>.
 </p>
 
-## AI & Quality
+<h2>AI & Quality</h2>
 
 <p class="page-intro">
 Editorial AI adoption and the governance framework that scaled quality evaluation across teams.
@@ -56,7 +56,7 @@ Read the case study →
 
 </div>
 
-## Developer & Delivery
+<h2>Developer & Delivery</h2>
 
 <p class="page-intro">
 API documentation, agile delivery integration, and knowledge architecture that scaled with the team.
