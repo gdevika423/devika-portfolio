@@ -39,3 +39,12 @@ This framework is useful when:
 ### Outcome
 
 The framework supports long-term content reliability and enables documentation to function as a managed operational system.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/ai-governance-model/">AI Governance & Review Operating Model</a> - how this governance approach extends to AI-assisted work
+
+<a class="text-link" href="/showcase/content-strategy-governance/">Content Strategy and Governance</a> - this framework applied in practice at Zeta
+
