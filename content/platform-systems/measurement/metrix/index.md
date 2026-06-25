@@ -209,3 +209,12 @@ The goal is not more content. The goal is fewer unanswered questions.
 This model reflects experience aligning documentation with product outcomes, using support insights, usage patterns, and release readiness signals to improve content quality and user success.
 
 It demonstrates how documentation can be measured as part of product performance, not just content output.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle</a> - the operating cadence that generates the data this framework reports on
+
+<a class="text-link" href="/toolkit/documentation-maturity-model/">Documentation Maturity Model</a> - a related framework for assessing documentation maturity
+
