@@ -448,3 +448,39 @@ main#content p,
 main#content li {
   line-height: 1.7;
 }
+
+
+/* =========================
+   About page stat infographic
+========================= */
+.as-eyebrow {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  fill: var(--dj-rust);
+}
+
+.as-number {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 34px;
+  font-weight: 700;
+  fill: var(--dj-ink);
+}
+
+.as-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  fill: var(--dj-slate);
+}
+
+@media (max-width: 600px) {
+  .as-number {
+    font-size: 26px;
+  }
+  .as-label {
+    font-size: 8px;
+  }
+}
