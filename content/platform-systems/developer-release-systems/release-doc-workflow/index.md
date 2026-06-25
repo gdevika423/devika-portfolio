@@ -8,6 +8,8 @@ url: "/platform-systems/release-doc-workflow/"
 
 <hr class="page-divider">
 
+I built this workflow to make sure my team's documentation moves with the release, not after it.
+
 ## 60-Second Summary
 
 Documentation should move with the product release, not after it.
