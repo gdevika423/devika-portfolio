@@ -64,13 +64,27 @@ When documentation is led as a system, it becomes infrastructure for product und
 
 ## Experience
 
-Across my career, I've led documentation initiatives spanning:
+Across my career, I've led documentation initiatives spanning API documentation, knowledge architecture, sprint-embedded delivery, and <span class="kw">AI-assisted</span> editorial workflows, alongside documentation <span class="kw">governance</span> and standardization across teams.
 
-- API documentation and developer experience, owning 300+ endpoints at sustained sprint velocity
-- knowledge base architecture and content strategy, cutting support tickets by 25%
-- documentation <span class="kw">governance</span> and standardization across teams
-- sprint-embedded documentation, improving release readiness by 50%
-- <span class="kw">AI-assisted</span> editorial workflows, cutting edit-cycle time 30-40% while keeping human sign-off on every release
+<svg class="about-stats" style="display:block;width:100%;max-width:760px;height:auto;margin:1.5rem 0 2rem;" viewBox="0 0 760 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="API documentation 300+ endpoints, support tickets reduced 25%, release readiness improved 50%, AI-assisted edit cycle cut 30 to 40%">
+  <rect x="0" y="0" width="760" height="150" rx="6" fill="var(--dj-rust)" opacity="0.05"/>
+  <text x="30" y="28" class="as-eyebrow">IMPACT BY THE NUMBERS</text>
+  <line x1="190" y1="50" x2="190" y2="120" stroke="var(--dj-rule)" stroke-width="1.5"/>
+  <line x1="380" y1="50" x2="380" y2="120" stroke="var(--dj-rule)" stroke-width="1.5"/>
+  <line x1="570" y1="50" x2="570" y2="120" stroke="var(--dj-rule)" stroke-width="1.5"/>
+  <text x="100" y="90" text-anchor="middle" class="as-number">300+</text>
+  <text x="100" y="115" text-anchor="middle" class="as-label">API ENDPOINTS</text>
+  <text x="100" y="128" text-anchor="middle" class="as-label">AT SPRINT VELOCITY</text>
+  <text x="285" y="90" text-anchor="middle" class="as-number">25%</text>
+  <text x="285" y="115" text-anchor="middle" class="as-label">SUPPORT TICKETS</text>
+  <text x="285" y="128" text-anchor="middle" class="as-label">REDUCED</text>
+  <text x="475" y="90" text-anchor="middle" class="as-number">50%</text>
+  <text x="475" y="115" text-anchor="middle" class="as-label">RELEASE READINESS</text>
+  <text x="475" y="128" text-anchor="middle" class="as-label">IMPROVED</text>
+  <text x="665" y="90" text-anchor="middle" class="as-number">30-40%</text>
+  <text x="665" y="115" text-anchor="middle" class="as-label">EDIT-CYCLE TIME</text>
+  <text x="665" y="128" text-anchor="middle" class="as-label">CUT, AI-ASSISTED</text>
+</svg>
 
 I've partnered closely with product managers, engineers, and customer-facing teams to make sure documentation holds up under real-world use, not just review.
 
