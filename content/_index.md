@@ -4,19 +4,6 @@ description: "Devika Jallegowda | Product Documentation Systems Leader | Develop
 toc: false
 ---
 
-<section class="hero">
-  <p class="eyebrow">Product Documentation Systems Leader</p>
-  <h3>Building documentation systems that make complex products usable at scale</h3>
-  <p class="hero-subtitle">
-    I lead documentation teams and the AI-enabled systems they run on, turning fragmented content efforts into a governed, measurable function that scales with the product.
-    <br>
-    My focus is building the operating model, the editorial standards, and the AI-assisted workflows that let a documentation team grow without growing headcount 1:1.
-  </p>
-  <div class="hero-actions">
-    <a class="btn-primary" href="/platform-systems/">See the systems I design</a>
-    <a class="btn-secondary" href="/showcase/">See what I've shipped</a>
-  </div>
-</section>
 <svg class="hero-banner" style="display:block;width:100%;max-width:700px;height:auto;margin:2.5rem 0 2rem;" viewBox="0 0 700 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Documentation pipeline: spec, AI draft, human review gate, publish, monitor">
   <line x1="40" y1="75" x2="660" y2="75" stroke="var(--dj-rule)" stroke-width="2"/>
   <circle cx="40" cy="75" r="7" fill="var(--dj-ink)"/>
@@ -33,6 +20,22 @@ toc: false
   <path d="M 660 86 Q 350 145 40 86" fill="none" stroke="var(--dj-rust)" stroke-width="1.5" stroke-dasharray="4 4"/>
   <text x="350" y="140" text-anchor="middle" class="hb-caption hb-caption-rust">flags feed back into the next cycle</text>
 </svg>
+
+<section class="hero">
+
+  <p class="eyebrow">Product Documentation Systems Leader</p>
+  <h3>Building documentation systems that make complex products usable at scale</h3>
+  <p class="hero-subtitle">
+    I lead documentation teams and the AI-enabled systems they run on, turning fragmented content efforts into a governed, measurable function that scales with the product.
+    <br>
+    My focus is building the operating model, the editorial standards, and the AI-assisted workflows that let a documentation team grow without growing headcount 1:1.
+  </p>
+  <div class="hero-actions">
+    <a class="btn-primary" href="/platform-systems/">See the systems I design</a>
+    <a class="btn-secondary" href="/showcase/">See what I've shipped</a>
+  </div>
+</section>
+
 
 <div class="home-section">
 <h2>What I do</h2>
