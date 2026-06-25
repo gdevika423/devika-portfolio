@@ -198,3 +198,10 @@ It shifts documentation from external reference to **embedded product experience
 This approach reflects experience working across documentation, UX, and product teams to design user guidance systems that improve usability and reduce dependency on external documentation.
 
 It demonstrates how documentation can directly influence product adoption.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/api-doc-devx/">API Documentation & Developer Experience</a> - the related model for developer-facing documentation
+
