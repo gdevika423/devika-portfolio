@@ -5,6 +5,7 @@ toc: false
 ---
 
 <svg class="hero-banner" style="display:block;width:100%;max-width:700px;height:auto;margin:2.5rem 0 2rem;" viewBox="0 0 700 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Documentation pipeline: spec, AI draft, human review gate, publish, monitor">
+  <rect x="0" y="0" width="700" height="160" rx="6" fill="var(--dj-rust)" opacity="0.06"/>
   <line x1="40" y1="75" x2="660" y2="75" stroke="var(--dj-rule)" stroke-width="2"/>
   <circle cx="40" cy="75" r="7" fill="var(--dj-ink)"/>
   <text x="40" y="50" text-anchor="middle" class="hb-label">SPEC</text>
