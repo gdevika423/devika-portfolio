@@ -11,9 +11,9 @@ toc: false
   <h3>Building documentation systems that make complex products usable at scale</h3>
 
   <p class="hero-subtitle">
-    I design and operate documentation ecosystems that connect product releases, API documentation, in-app guidance, and user onboarding.
+    I lead documentation teams and the AI-enabled systems they run on, turning fragmented content efforts into a governed, measurable function that scales with the product.
     <br>
-    My work focuses on improving product adoption, reducing support dependency, and enabling self-service through structured workflows and AI-assisted content systems.
+    My focus is building the operating model, the editorial standards, and the AI-assisted workflows that let a documentation team grow without growing headcount 1:1.
   </p>
 
   <div class="hero-actions">
@@ -129,18 +129,18 @@ Explore the case study →
 <div class="home-grid">
 
 <div class="home-card">
-<h3>15+ years in enterprise software</h3>
-<p>Documentation leadership, knowledge systems, and developer experience.</p>
+<h3>15+ years leading documentation functions</h3>
+<p>Across enterprise SaaS, fintech, and networking software, building and running teams, not just producing content.</p>
 </div>
 
 <div class="home-card">
-<h3>Documentation as infrastructure</h3>
-<p>Builds documentation as a scalable operational capability, not just content.</p>
+<h3>Documentation as a governed function</h3>
+<p>Establishes the operating model, AI workflows, and metrics that let a documentation team scale without scaling headcount 1:1.</p>
 </div>
 
 <div class="home-card">
-<h3>Product-aligned execution</h3>
-<p>Works closely with product and engineering to align documentation with releases and user outcomes.</p>
+<h3>Cross-functional influence</h3>
+<p>Partners with Product and Engineering leadership to embed documentation into the delivery lifecycle, not bolt it on after.</p>
 </div>
 
 </div>
