@@ -14,25 +14,13 @@ These systems show how I structure <strong>knowledge, documentation infrastructu
 Each system focuses on <strong>structure, flow, execution, and scalability</strong>.
 </p>
 
-<div class="story-grid">
+## AI & Governance
 
-
-<div class="story-card">
-
-<h3>End-to-End AI-Assisted Publication Pipeline</h3>
-
-<p class="story-meta"><strong>AI Operations</strong> • Spec-to-Draft Workflow</p>
-
-<p class="story-problem">
-Spec in, AI-assisted draft out, mandatory human review gate before anything publishes — and the planned link into ongoing health monitoring.
+<p class="page-intro">
+How AI is used responsibly in documentation operations - governance, the publication pipeline, and the ongoing health-monitoring cycle that holds it accountable.
 </p>
 
-<a class="story-link" href="/platform-systems/publication-pipeline/">
-See the pipeline →
-</a>
-
-</div>
-
+<div class="story-grid">
 
 <div class="story-card">
 
@@ -50,6 +38,37 @@ See the operating model →
 
 </div>
 
+<div class="story-card">
+
+<h3>End-to-End AI-Assisted Publication Pipeline</h3>
+
+<p class="story-meta"><strong>AI Operations</strong> • Spec-to-Draft Workflow</p>
+
+<p class="story-problem">
+Spec in, AI-assisted draft out, mandatory human review gate before anything publishes — and the planned link into ongoing health monitoring.
+</p>
+
+<a class="story-link" href="/platform-systems/publication-pipeline/">
+See the pipeline →
+</a>
+
+</div>
+
+<div class="story-card">
+
+<h3>AI-Driven Documentation Workflow</h3>
+
+<p class="story-meta"><strong>AI Operations</strong> • Production Workflow</p>
+
+<p class="story-problem">
+A scalable workflow for using AI to accelerate documentation production, improve consistency, and support high-volume release cycles.
+</p>
+
+<a class="story-link" href="/platform-systems/ai-driven/">
+See the workflow →
+</a>
+
+</div>
 
 <div class="story-card">
 
@@ -67,6 +86,31 @@ See the operating cycle →
 
 </div>
 
+</div>
+
+## Core Architecture
+
+<p class="page-intro">
+The information models and platform structures that connect documentation across product, knowledge, and engineering systems.
+</p>
+
+<div class="story-grid">
+
+<div class="story-card">
+
+<h3>End-to-End Product Documentation System</h3>
+
+<p class="story-meta"><strong>Documentation Operations</strong> • Operating Model</p>
+
+<p class="story-problem">
+Product documentation works best when it is treated as an operating system, not a collection of files.
+</p>
+
+<a class="story-link" href="/platform-systems/product-documentation-system/">
+See the system →
+</a>
+
+</div>
 
 <div class="story-card">
 
@@ -84,7 +128,6 @@ Explore the model →
 
 </div>
 
-
 <div class="story-card">
 
 <h3>Documentation Infrastructure</h3>
@@ -101,71 +144,88 @@ See the design →
 
 </div>
 
-<!-- 
+</div>
 
-<hr class="page-divider">
+## Developer & Release Systems
 
-This section explores the platforms, system architectures, and operational models I design while working at the intersection of product thinking, documentation systems, and enterprise operations.
+<p class="page-intro">
+How documentation integrates with API delivery, release cycles, and in-product user experience.
+</p>
 
-My focus is on how complex technical environments can be structured into scalable systems that improve operational visibility, knowledge access, and developer experience.
+<div class="story-grid">
 
-Rather than viewing documentation, automation, or workflows as isolated tools, I approach them as **components of larger platforms that enable teams to operate and scale effectively**.
+<div class="story-card">
 
---- -->
+<h3>API Documentation &amp; Developer Experience</h3>
 
-<!-- ## SAP Operations Automation Platform
+<p class="story-meta"><strong>Developer Experience</strong> • Documentation Systems</p>
 
-This case study explores the architecture of a proposed platform for monitoring and automating SAP operations.
+<p class="story-problem">
+Improving developer onboarding and API adoption through structured documentation systems, workflow design, and integration-focused content.
+</p>
 
-The system is designed to collect operational signals from SAP environments, evaluate system conditions using monitoring rules, and surface actionable alerts through a centralized dashboard.
+<a class="story-link" href="/platform-systems/api-doc-devx/">
+See the framework →
+</a>
 
-The architecture focuses on signal collection, rule evaluation, incident detection, and operational visibility across SAP landscapes.
+</div>
 
-→ **Read the platform architecture**  
-`Nordia SAP Operations Automation Platform` -->
+<div class="story-card">
 
+<h3>Release Documentation Workflow</h3>
 
-<!-- ## Knowledge Architecture Systems
+<p class="story-meta"><strong>Documentation Operations</strong> • Release Workflow</p>
 
-Knowledge architecture focuses on structuring information so it remains discoverable and reusable across teams.
+<p class="story-problem">
+A structured workflow for managing documentation across product releases, ensuring accuracy, consistency, and readiness at launch.
+</p>
 
-This section explores how documentation systems can be designed using structured taxonomies, governance frameworks, and searchable knowledge repositories.
+<a class="story-link" href="/platform-systems/release-doc-workflow/">
+See the workflow →
+</a>
 
-These systems ensure that operational knowledge remains accessible as organizations grow.
+</div>
 
-→ [**Explore the knowledge architecture model**](/platform-systems/knowledge-architecture/)
+<div class="story-card">
 
-## Documentation Infrastructure
+<h3>In-App Help &amp; User Onboarding Experience</h3>
 
-Documentation infrastructure includes the systems and workflows used to create, manage, and publish technical documentation.
+<p class="story-meta"><strong>Developer Experience</strong> • In-Product Guidance</p>
 
-This page examines how documentation systems are structured using version control, publishing pipelines, and governance processes to support scalable documentation practices.
+<p class="story-problem">
+Designing contextual help and onboarding flows to improve product usability, reduce friction, and support user adoption.
+</p>
 
-→ [**See the documentation infrastructure design**](/platform-systems/documentation-infrastructure/)
+<a class="story-link" href="/platform-systems/in-app-help/">
+See the design →
+</a>
 
---- -->
-<!-- 
-## Workflow and Automation Models
+</div>
 
-Operational workflows often follow repeatable patterns that can be captured as automation systems.
+</div>
 
-This section explores how event detection, rule evaluation, and automated actions can be structured into scalable workflow models that improve operational reliability.
+## Measurement
 
-→ **Explore workflow automation models**
+<p class="page-intro">
+How documentation impact is tracked and reported as a measurable system.
+</p>
 
----
+<div class="story-grid">
 
-## Systems Thinking
+<div class="story-card">
 
-Across these projects, my focus is on **systems thinking**.
+<h3>Documentation Metrics &amp; Impact System</h3>
 
-Rather than optimizing individual tasks, the goal is to understand how technical environments operate as interconnected systems.
+<p class="story-meta"><strong>Documentation Operations</strong> • Measurement Framework</p>
 
-This perspective helps identify opportunities to:
+<p class="story-problem">
+A measurement framework for evaluating documentation effectiveness, user outcomes, and self-service success in enterprise products.
+</p>
 
-- reduce operational complexity
-- improve knowledge flow
-- automate routine processes
-- design scalable platforms
+<a class="story-link" href="/platform-systems/metrix/">
+See the framework →
+</a>
 
-In enterprise environments, systems thinking is essential for building platforms that support long-term operational reliability and growth. -->
+</div>
+
+</div>
