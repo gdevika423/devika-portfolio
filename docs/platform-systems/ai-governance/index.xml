@@ -186,7 +186,11 @@ The goal is for a page generated this way to be tracked the same way as every ot
 The draft-generation stage is described as built because it runs. The feedback-loop connection is described as planned because it is — that distinction matters more than making the whole thing sound finished.&lt;/p>
 &lt;hr>
 &lt;h2>Where I&amp;rsquo;d Take This as a Manager&lt;span class="hx:absolute hx:-mt-20" id="where-id-take-this-as-a-manager">&lt;/span>
-&lt;a href="#where-id-take-this-as-a-manager" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The individual pipeline proves the draft-generation mechanism works. Running it as a team&amp;rsquo;s standard workflow means the same Layer 1 / Layer 2 / Layer 3 accountability from the AI Governance model applies here directly: AI owns the draft, the team owns the review and sign-off, and I own the metric that tells me whether the workflow is actually saving time — how often an AI-assisted draft needs heavy rework versus light editing — rather than just moving the same work around.&lt;/p></description></item><item><title>AI-Driven Documentation Workflow</title><link>https://productnorth.in/platform-systems/ai-driven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/ai-driven/</guid><description>
+&lt;a href="#where-id-take-this-as-a-manager" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The individual pipeline proves the draft-generation mechanism works. Running it as a team&amp;rsquo;s standard workflow means the same Layer 1 / Layer 2 / Layer 3 accountability from the AI Governance model applies here directly: AI owns the draft, the team owns the review and sign-off, and I own the metric that tells me whether the workflow is actually saving time — how often an AI-assisted draft needs heavy rework versus light editing — rather than just moving the same work around.&lt;/p>
+&lt;hr>
+&lt;h2>Related&lt;/h2>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/ai-governance-model/">AI Governance &amp;amp; Review Operating Model&lt;/a> - the accountability model this pipeline operates under&lt;/p>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle&lt;/a> - the planned feedback loop this pipeline connects into&lt;/p></description></item><item><title>AI-Driven Documentation Workflow</title><link>https://productnorth.in/platform-systems/ai-driven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/ai-driven/</guid><description>
 &lt;hr class="page-divider">
 &lt;p>This is the AI-assisted workflow model I&amp;rsquo;d run a documentation team against - where AI accelerates drafts and the team retains editorial ownership.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
@@ -525,7 +529,11 @@ data-copied-label="Copied!"
 &lt;hr>
 &lt;h2>Applied Experience&lt;span class="hx:absolute hx:-mt-20" id="applied-experience">&lt;/span>
 &lt;a href="#applied-experience" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This model reflects experience using AI to support documentation workflows, including draft acceleration, release note structuring, content consistency checks, and knowledge system improvements.&lt;/p>
-&lt;p>It demonstrates how AI can be used responsibly inside documentation operations to improve speed, consistency, and scalability.&lt;/p></description></item><item><title>Documentation Health Operating Cycle</title><link>https://productnorth.in/platform-systems/doc-health-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/doc-health-pipeline/</guid><description>
+&lt;p>It demonstrates how AI can be used responsibly inside documentation operations to improve speed, consistency, and scalability.&lt;/p>
+&lt;hr>
+&lt;h2>Related&lt;/h2>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/showcase/genai-process-innovation/">GenAI Process Innovation&lt;/a> - the real, proven workflow this model scales&lt;/p>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/ai-governance-model/">AI Governance &amp;amp; Review Operating Model&lt;/a> - the policy that governs how this workflow is run&lt;/p></description></item><item><title>Documentation Health Operating Cycle</title><link>https://productnorth.in/platform-systems/doc-health-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/doc-health-pipeline/</guid><description>
 &lt;hr class="page-divider">
 &lt;p>Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.&lt;/p>
 &lt;p>This page describes the operating cycle I run a team against instead: a pipeline I designed and built that turns documentation health into a recurring management ritual — flag, triage, assign, re-check — rather than a one-time audit project. What follows includes what running it for real against my own site taught me about where AI helps and where it doesn&amp;rsquo;t.&lt;/p>
@@ -631,4 +639,8 @@ Where the system is wrong or inconsistent, that&amp;rsquo;s reported as a findin
 &lt;li>embeddings-based consistency checks across semantically similar pages, instead of one page read at a time&lt;/li>
 &lt;li>webhook-triggered runs on every merge, instead of a weekly cron&lt;/li>
 &lt;/ul>
-&lt;p>This progression moves the system from a periodic audit replacement toward a continuous documentation-health layer.&lt;/p></description></item></channel></rss>
+&lt;p>This progression moves the system from a periodic audit replacement toward a continuous documentation-health layer.&lt;/p>
+&lt;hr>
+&lt;h2>Related&lt;/h2>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/ai-governance-model/">AI Governance &amp;amp; Review Operating Model&lt;/a> - the accountability model this pipeline&amp;rsquo;s signal feeds into&lt;/p>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/metrix/">Documentation Metrics &amp;amp; Impact System&lt;/a> - how this pipeline&amp;rsquo;s data rolls up into reportable metrics&lt;/p></description></item></channel></rss>

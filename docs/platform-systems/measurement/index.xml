@@ -294,4 +294,8 @@ data-copied-label="Copied!"
 &lt;hr>
 &lt;h2>Applied Experience&lt;span class="hx:absolute hx:-mt-20" id="applied-experience">&lt;/span>
 &lt;a href="#applied-experience" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This model reflects experience aligning documentation with product outcomes, using support insights, usage patterns, and release readiness signals to improve content quality and user success.&lt;/p>
-&lt;p>It demonstrates how documentation can be measured as part of product performance, not just content output.&lt;/p></description></item></channel></rss>
+&lt;p>It demonstrates how documentation can be measured as part of product performance, not just content output.&lt;/p>
+&lt;hr>
+&lt;h2>Related&lt;/h2>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle&lt;/a> - the operating cadence that generates the data this framework reports on&lt;/p>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/toolkit/documentation-maturity-model/">Documentation Maturity Model&lt;/a> - a related framework for assessing documentation maturity&lt;/p></description></item></channel></rss>
