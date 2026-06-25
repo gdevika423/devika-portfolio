@@ -1,11 +1,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – Developer &amp; Delivery</title><link>https://productnorth.in/showcase/developer-delivery/</link><description>Recent content in Developer &amp; Delivery on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><atom:link href="https://productnorth.in/showcase/developer-delivery/index.xml" rel="self" type="application/rss+xml"/><item><title>API Documentation and Developer Experience</title><link>https://productnorth.in/showcase/api-documentation-developer-experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/api-documentation-developer-experience/</guid><description>
-&lt;p>I owned the API documentation function end-to-end at Zeta, setting the standards that took developer experience from inconsistent to scalable across engineering teams.&lt;/p>
+&lt;p>I owned the &lt;span class="kw">API documentation&lt;/span> function end-to-end at Zeta, setting the standards that took developer experience from inconsistent to scalable across engineering teams.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
 &lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
 &lt;img src="https://productnorth.in/images/devx.png" alt="60-Second Summary" width="900">
 &lt;/p>
 &lt;h2>Problem&lt;span class="hx:absolute hx:-mt-20" id="problem">&lt;/span>
-&lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>API documentation across engineering teams lacked consistency and structure.&lt;br>
+&lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;span class="kw">API documentation&lt;/span> across engineering teams lacked consistency and structure.&lt;br>
 Developers struggled to understand APIs quickly due to fragmented documentation practices.&lt;/p>
 &lt;p>Key challenges included:&lt;/p>
 &lt;ul>
@@ -66,7 +66,7 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
 &lt;li>Reduced post-release documentation gaps by &lt;strong>40%&lt;/strong>&lt;/li>
 &lt;li>Improved documentation readiness for product releases by &lt;strong>50%&lt;/strong>&lt;/li>
 &lt;/ul></description></item><item><title>Knowledge Base Architecture</title><link>https://productnorth.in/showcase/knowledge-base-architecture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/knowledge-base-architecture/</guid><description>
-&lt;p>I led the knowledge architecture initiative end-to-end — taxonomy, governance model, contributor workflows — that took the team from scattered documents to a structured, ownable system.&lt;/p>
+&lt;p>I led the knowledge architecture initiative end-to-end — taxonomy, &lt;span class="kw">governance&lt;/span> model, contributor workflows — that took the team from scattered documents to a structured, ownable system.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
 &lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
 &lt;img src="https://productnorth.in/images/kb.png" alt="60-Second Summary" width="900">
@@ -80,10 +80,10 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
 &lt;li>Contribute new knowledge effectively&lt;/li>
 &lt;/ul>
 &lt;h2>Approach&lt;span class="hx:absolute hx:-mt-20" id="approach">&lt;/span>
-&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I owned and built a &lt;strong>centralized knowledge base architecture&lt;/strong> focused on discoverability and governance, then established the contributor model that let the system scale beyond what I could maintain alone.&lt;/p>
+&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I owned and built a &lt;strong>centralized knowledge base architecture&lt;/strong> focused on discoverability and &lt;span class="kw">governance&lt;/span>, then established the contributor model that let the system scale beyond what I could maintain alone.&lt;/p>
 &lt;p>Key initiatives I led:&lt;/p>
 &lt;ul>
-&lt;li>Designing scalable information architecture for the knowledge base&lt;/li>
+&lt;li>Designing scalable &lt;span class="kw">information architecture&lt;/span> for the knowledge base&lt;/li>
 &lt;li>Building taxonomy structures for better content discovery&lt;/li>
 &lt;li>Implementing contributor workflows and documentation governance so other writers and teams could add knowledge without compromising structure&lt;/li>
 &lt;li>Establishing standards for knowledge organization that outlasted any single contributor&lt;/li>
