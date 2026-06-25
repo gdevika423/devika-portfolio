@@ -39,3 +39,10 @@ This model is useful when:
 ### Outcome
 
 DDLC helps documentation become a repeatable operational process instead of a last-minute deliverable.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/product-documentation-system/">End-to-End Product Documentation System</a> - the broader system this lifecycle operates within
+
