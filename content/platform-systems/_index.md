@@ -19,6 +19,23 @@ Each system focuses on <strong>structure, flow, execution, and scalability</stro
 
 <div class="story-card">
 
+<h3>End-to-End AI-Assisted Publication Pipeline</h3>
+
+<p class="story-meta"><strong>AI Operations</strong> • Spec-to-Draft Workflow</p>
+
+<p class="story-problem">
+Spec in, AI-assisted draft out, mandatory human review gate before anything publishes — and the planned link into ongoing health monitoring.
+</p>
+
+<a class="story-link" href="/platform-systems/publication-pipeline/">
+See the pipeline →
+</a>
+
+</div>
+
+
+<div class="story-card">
+
 <h3>AI Governance &amp; Review Operating Model</h3>
 
 <p class="story-meta"><strong>AI Operations</strong> • Governance Framework</p>
