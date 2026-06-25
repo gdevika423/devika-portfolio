@@ -8,6 +8,8 @@ url: "/platform-systems/api-doc-devx/"
 
 <hr class="page-divider">
 
+I own this model for how a documentation team builds API documentation and developer experience together.
+
 ## 60-Second Summary
 
 API documentation is not just technical reference. It is the primary interface through which developers understand and adopt a product.
