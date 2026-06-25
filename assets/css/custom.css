@@ -430,3 +430,12 @@ svg.hero-banner {
   word-break: normal;
   hyphens: none;
 }
+
+
+/* =========================
+   JD keyword highlighting
+========================= */
+.kw {
+  color: var(--dj-rust);
+  font-weight: 700;
+}
