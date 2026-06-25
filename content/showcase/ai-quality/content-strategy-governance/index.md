@@ -48,3 +48,12 @@ The goal was to shift documentation quality from subjective feedback to **struct
 <p align="center">
 <img src="/images/scaling.jpg" alt="Content Strategy and Governance" width="900">
 </p>
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/toolkit/5cs-content-audit-model/">5Cs Content Audit Model</a> - the framework this initiative was built around
+
+<a class="text-link" href="/toolkit/documentation-governance-framework/">Documentation Governance Framework</a> - the standing governance model this work established
+
