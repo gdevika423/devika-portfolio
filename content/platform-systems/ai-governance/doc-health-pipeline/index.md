@@ -139,3 +139,12 @@ The architecture is built to extend rather than be rebuilt:
 - webhook-triggered runs on every merge, instead of a weekly cron
 
 This progression moves the system from a periodic audit replacement toward a continuous documentation-health layer.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/ai-governance-model/">AI Governance & Review Operating Model</a> - the accountability model this pipeline's signal feeds into
+
+<a class="text-link" href="/platform-systems/metrix/">Documentation Metrics & Impact System</a> - how this pipeline's data rolls up into reportable metrics
+
