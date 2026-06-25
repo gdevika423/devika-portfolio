@@ -484,7 +484,62 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
 &lt;/ul>
 &lt;p align="center">
 &lt;img src="https://productnorth.in/images/scalable-api.png" alt="API Documentation and Developer Experience" width="900">
-&lt;/p></description></item><item><title>Knowledge Architecture Model</title><link>https://productnorth.in/platform-systems/knowledge-architecture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/knowledge-architecture/</guid><description>
+&lt;/p></description></item><item><title>End-to-End AI-Assisted Publication Pipeline</title><link>https://productnorth.in/platform-systems/publication-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/publication-pipeline/</guid><description>
+&lt;hr class="page-divider">
+&lt;p>A documentation team adopting AI usually starts with one isolated win — a faster first draft, a quicker editorial pass — without ever connecting those wins into a pipeline that runs end-to-end. This page describes a working pipeline I built that generates a first draft directly from a spec, and the operating model for connecting it to ongoing review and health monitoring as a team workflow.&lt;/p>
+&lt;hr>
+&lt;h2>Platform Objective&lt;span class="hx:absolute hx:-mt-20" id="platform-objective">&lt;/span>
+&lt;a href="#platform-objective" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The goal was to answer a different question than the Doc Health pipeline: not &amp;ldquo;is existing content healthy,&amp;rdquo; but &amp;ldquo;can a new piece of documentation move from spec to a usable first draft with AI assistance, without skipping the human judgment that makes it publishable.&amp;rdquo;&lt;/p>
+&lt;p>Key objectives:&lt;/p>
+&lt;ul>
+&lt;li>generate a usable first draft directly from a structured input (a spec or feature description), not from a blank page&lt;/li>
+&lt;li>keep a clear, mandatory human review gate between AI draft and publication&lt;/li>
+&lt;li>design the pipeline so a new page can eventually feed into the same health-monitoring signal used elsewhere, tracked from day one rather than only audited later&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>Pipeline Stages&lt;span class="hx:absolute hx:-mt-20" id="pipeline-stages">&lt;/span>
+&lt;a href="#pipeline-stages" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Spec Input
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">AI-Assisted Draft
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Human Review Gate
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Publish
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Health Monitoring Feedback Loop (planned)&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;ol>
+&lt;li>&lt;strong>Spec input&lt;/strong> — a structured source (a mock spec or feature description) is the trigger for draft generation&lt;/li>
+&lt;li>&lt;strong>AI-assisted draft&lt;/strong> — the spec is used to generate a first-pass draft: structure, descriptions, and example content in the shape a writer would start from rather than a blank page&lt;/li>
+&lt;li>&lt;strong>Human review gate&lt;/strong> — the draft does not publish without a writer verifying technical accuracy and structure against the actual product&lt;/li>
+&lt;li>&lt;strong>Publish&lt;/strong> — reviewed content goes live through the standard docs-as-code path&lt;/li>
+&lt;li>&lt;strong>Feedback loop (planned)&lt;/strong> — the next stage of this work is wiring new pages generated this way into the same health-monitoring cycle as the rest of the site, so they&amp;rsquo;re tracked for freshness and consistency from the moment they ship&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2>Why This Connects to the Health Operating Cycle&lt;span class="hx:absolute hx:-mt-20" id="why-this-connects-to-the-health-operating-cycle">&lt;/span>
+&lt;a href="#why-this-connects-to-the-health-operating-cycle" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>A draft-from-spec workflow that never feeds into ongoing health monitoring just creates more content to audit manually later. The intent is for every AI-assisted page to enter the same accountability loop as everything else on the site — flagged, triaged, owned, re-checked. That connection is the next build, not yet a finished integration.&lt;/p>
+&lt;hr>
+&lt;h2>Design Principles&lt;span class="hx:absolute hx:-mt-20" id="design-principles">&lt;/span>
+&lt;a href="#design-principles" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>AI drafts, a person verifies.&lt;/strong>
+The review gate is not a formality — no AI-assisted draft reaches publication without a named reviewer.&lt;/p>
+&lt;p>&lt;strong>New content shouldn&amp;rsquo;t get a clean slate.&lt;/strong>
+The goal is for a page generated this way to be tracked the same way as every other page from day one, not exempted from ongoing monitoring because it started with an AI draft.&lt;/p>
+&lt;p>&lt;strong>The pipeline is the proof, not the pitch.&lt;/strong>
+The draft-generation stage is described as built because it runs. The feedback-loop connection is described as planned because it is — that distinction matters more than making the whole thing sound finished.&lt;/p>
+&lt;hr>
+&lt;h2>Where I&amp;rsquo;d Take This as a Manager&lt;span class="hx:absolute hx:-mt-20" id="where-id-take-this-as-a-manager">&lt;/span>
+&lt;a href="#where-id-take-this-as-a-manager" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The individual pipeline proves the draft-generation mechanism works. Running it as a team&amp;rsquo;s standard workflow means the same Layer 1 / Layer 2 / Layer 3 accountability from the AI Governance model applies here directly: AI owns the draft, the team owns the review and sign-off, and I own the metric that tells me whether the workflow is actually saving time — how often an AI-assisted draft needs heavy rework versus light editing — rather than just moving the same work around.&lt;/p></description></item><item><title>Knowledge Architecture Model</title><link>https://productnorth.in/platform-systems/knowledge-architecture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/knowledge-architecture/</guid><description>
 &lt;hr class="page-divider">
 &lt;p>The knowledge architecture system is designed as a layered structure that connects how information is organized with how it is consumed and reused across workflows.&lt;/p>
 &lt;br>
