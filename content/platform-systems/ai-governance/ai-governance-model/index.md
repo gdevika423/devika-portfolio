@@ -104,3 +104,12 @@ The piece I'd build out further in a team-management role is Layer 3 at scale: a
 AI scales consistency. The team's judgment is the gate. My job as manager is making sure that gate never quietly disappears just because the work got faster.
 
 A documentation team that can say exactly what AI touched, what a human verified, and why — that's the team that survives the next audit, the next incident, and the next leadership question about AI risk.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/showcase/genai-process-innovation/">GenAI Process Innovation</a> - the real, proven workflow this governance model is built from
+
+<a class="text-link" href="/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle</a> - the operating cadence this model's monitoring layer connects to
+
