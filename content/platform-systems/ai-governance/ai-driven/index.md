@@ -8,6 +8,8 @@ url: "/platform-systems/ai-driven/"
 
 <hr class="page-divider">
 
+This is the AI-assisted workflow model I'd run a documentation team against - where AI accelerates drafts and the team retains editorial ownership.
+
 ## 60-Second Summary
 
 AI can help documentation teams scale, but only when it is built into a controlled workflow.
