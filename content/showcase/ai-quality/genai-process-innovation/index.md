@@ -88,3 +88,12 @@ AI proved highly effective for scaling **consistency and low-complexity editoria
 The model I'd take into any team I lead: **AI scales consistency; editors keep judgment.** AI handles repetitive, mechanical passes — the team's <span class="kw">editorial judgment</span> stays the gate before anything publishes.
 
 This pilot demonstrated how a documentation team can adopt AI responsibly — improving speed and consistency without trading away the judgment that makes documentation trustworthy.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/ai-governance-model/">AI Governance & Review Operating Model</a> - the operating model this pilot's principles scaled into
+
+<a class="text-link" href="/platform-systems/ai-driven/">AI-Driven Documentation Workflow</a> - how this workflow extends beyond editorial review
+
