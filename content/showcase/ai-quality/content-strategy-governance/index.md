@@ -11,7 +11,7 @@ Set the documentation quality standard for the team: built the 5Cs framework, tr
 
 
 <p align="center">
-  <img src="/images/governance.png" alt="GenAI Editorial Review Case Study" width= "900">
+  <img src="/images/<span class="kw">governance</span>.png" alt="GenAI Editorial Review Case Study" width= "900">
 </p>
 
 ## Problem
@@ -22,7 +22,7 @@ This created challenges in:
 
 - Content consistency
 - Documentation quality measurement
-- Scalable governance for documentation improvements
+- Scalable <span class="kw">governance</span> for documentation improvements
 
 ## Approach
 
