@@ -45,3 +45,10 @@ The focus was on treating documentation as a **structured knowledge system rathe
 - Improved knowledge discoverability across teams
 - Accelerated contributor onboarding through clearer structure and discoverability
 - Created sustainable governance models for knowledge systems that didn't depend on me being in the room
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/knowledge-architecture/">Knowledge Architecture Model</a> - the broader information model behind this work
+
