@@ -8,6 +8,8 @@ url: "/platform-systems/product-documentation-system/"
 
 <hr class="page-divider">
 
+This is the operating model I run a documentation team against - connecting product changes to published content through one structured system.
+
 ## 60-Second Summary
 
 Product documentation works best when it is treated as an operating system, not a collection of files.
