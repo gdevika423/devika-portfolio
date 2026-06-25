@@ -1,0 +1,87 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – AI &amp; Quality</title><link>https://productnorth.in/showcase/ai-quality/</link><description>Recent content in AI &amp; Quality on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><atom:link href="https://productnorth.in/showcase/ai-quality/index.xml" rel="self" type="application/rss+xml"/><item><title>GenAI Process Innovation</title><link>https://productnorth.in/showcase/genai-process-innovation/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/genai-process-innovation/</guid><description>
+&lt;p>This initiative explored how generative AI could support editorial workflows by reducing repetitive review tasks and improving documentation consistency at scale, led as a team-wide pilot under my ownership.&lt;/p>
+&lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
+&lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
+&lt;img src="https://productnorth.in/images/clear-metrics-1.png" alt="GenAI Editorial Review Case Study" width= "900">
+&lt;/p>
+&lt;h2>Context&lt;span class="hx:absolute hx:-mt-20" id="context">&lt;/span>
+&lt;a href="#context" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>As Zeta&amp;rsquo;s product footprint expanded, the documentation team needed to support faster product releases without sacrificing editorial quality.&lt;/p>
+&lt;p>However:&lt;/p>
+&lt;ul>
+&lt;li>editorial reviews relied heavily on manual effort&lt;/li>
+&lt;li>documentation quality standards varied across writers&lt;/li>
+&lt;li>senior editors spent significant time on repetitive editorial checks&lt;/li>
+&lt;/ul>
+&lt;p>These challenges slowed documentation publishing and created operational bottlenecks for the team.&lt;/p>
+&lt;h2>Problem&lt;span class="hx:absolute hx:-mt-20" id="problem">&lt;/span>
+&lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Three structural issues limited editorial efficiency across the team.&lt;/p>
+&lt;p align="center">
+&lt;img src="https://productnorth.in/images/issues.png" alt="Issues" width="900">
+&lt;/p>
+&lt;h2>Approach&lt;span class="hx:absolute hx:-mt-20" id="approach">&lt;/span>
+&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I led the team&amp;rsquo;s shift to an AI-assisted editorial workflow, designing a documentation-specific prompt framework and driving its adoption across the team.&lt;/p>
+&lt;p>The goal was to give writers a fast, consistent self-review pass while keeping editorial accountability with me and the senior reviewers — not to remove human judgment from the process.&lt;/p>
+&lt;h3>Two-Stage Editorial Framework&lt;span class="hx:absolute hx:-mt-20" id="two-stage-editorial-framework">&lt;/span>
+&lt;a href="#two-stage-editorial-framework" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>This framework separates language quality from structural validation, ensuring documentation is both clear to read and consistent with internal standards.&lt;/p>
+&lt;p align="center">
+&lt;img src="https://productnorth.in/images/two-stage.png" alt="Two-Stage Editorial Framework" width="900">
+&lt;/p>
+&lt;h2>Workflow Transformation&lt;span class="hx:absolute hx:-mt-20" id="workflow-transformation">&lt;/span>
+&lt;a href="#workflow-transformation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I redesigned the team&amp;rsquo;s editorial workflow around this framework: writers ran an AI-assisted self-review pass before formal review, reducing repetitive manual effort and freeing editors to focus on higher-value content decisions.&lt;/p>
+&lt;p>
+&lt;p>AI-assisted review reduced repetitive editorial tasks for the team and let editors focus on context-aware judgment calls instead of mechanical checks.&lt;/p>
+&lt;p align="center">
+&lt;img src="https://productnorth.in/images/workflow-1.png" alt="Editorial Workflow Transformation" width="900">
+&lt;/p>
+&lt;h2>Impact&lt;span class="hx:absolute hx:-mt-20" id="impact">&lt;/span>
+&lt;a href="#impact" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pilot delivered measurable improvements in documentation operations under my ownership, including reduced editorial review effort and improved publishing efficiency.&lt;/p>
+&lt;p align="center">
+&lt;img src="https://productnorth.in/images/impact.png" alt="Operational Impact" width="900">
+&lt;/p>
+&lt;h2>Strategic Contribution&lt;span class="hx:absolute hx:-mt-20" id="strategic-contribution">&lt;/span>
+&lt;a href="#strategic-contribution" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Beyond the workflow change itself, I introduced a structured approach to using AI responsibly in documentation operations:&lt;/p>
+&lt;ul>
+&lt;li>designed a &lt;strong>documentation-specific GenAI prompt framework&lt;/strong>, tuned to our style and structural standards&lt;/li>
+&lt;li>evaluated workflow bottlenecks and identified where AI assistance added the most value&lt;/li>
+&lt;li>defined success metrics and validated the approach before wider rollout&lt;/li>
+&lt;li>built onboarding material and trained the team for adoption&lt;/li>
+&lt;li>retained editorial sign-off as a non-negotiable step, so AI accelerated drafts without bypassing review&lt;/li>
+&lt;/ul>
+&lt;h2>Key Insight&lt;span class="hx:absolute hx:-mt-20" id="key-insight">&lt;/span>
+&lt;a href="#key-insight" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>AI proved highly effective for scaling &lt;strong>consistency and low-complexity editorial checks&lt;/strong>, while human review remained essential for context-aware evaluation.&lt;/p>
+&lt;p>The model I&amp;rsquo;d take into any team I lead: &lt;strong>AI scales consistency; editors keep judgment.&lt;/strong> AI handles repetitive, mechanical passes — the team&amp;rsquo;s editorial judgment stays the gate before anything publishes.&lt;/p>
+&lt;p>This pilot demonstrated how a documentation team can adopt AI responsibly — improving speed and consistency without trading away the judgment that makes documentation trustworthy.&lt;/p></description></item><item><title>Content Strategy and Governance</title><link>https://productnorth.in/showcase/content-strategy-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/content-strategy-governance/</guid><description>
+&lt;p>Set the documentation quality standard for the team: built the 5Cs framework, trained writers on it, and ran audit cycles that gave every writer the same measurable bar to write against.&lt;/p>
+&lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
+&lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
+&lt;img src="https://productnorth.in/images/governance.png" alt="GenAI Editorial Review Case Study" width= "900">
+&lt;/p>
+&lt;h2>Problem&lt;span class="hx:absolute hx:-mt-20" id="problem">&lt;/span>
+&lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>As documentation expanded across multiple product teams, quality, structure, and usability became inconsistent. Without a shared framework, content quality, structure, and usability differed across product areas, and writers had no common standard to evaluate their own work against.&lt;/p>
+&lt;p>This created challenges in:&lt;/p>
+&lt;ul>
+&lt;li>Content consistency&lt;/li>
+&lt;li>Documentation quality measurement&lt;/li>
+&lt;li>Scalable governance for documentation improvements&lt;/li>
+&lt;/ul>
+&lt;h2>Approach&lt;span class="hx:absolute hx:-mt-20" id="approach">&lt;/span>
+&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I built and rolled out a &lt;strong>structured content strategy and governance framework&lt;/strong> for the team, then ran the audits that proved it worked.&lt;/p>
+&lt;p>Key initiatives I led:&lt;/p>
+&lt;ul>
+&lt;li>Creating a &lt;strong>Content Maturity Model&lt;/strong> to evaluate documentation quality&lt;/li>
+&lt;li>Training the team on the &lt;strong>5Cs framework&lt;/strong> and running large-scale documentation audits using it&lt;/li>
+&lt;li>Establishing governance guidelines for documentation standards across the team&lt;/li>
+&lt;li>Creating structured evaluation models writers could apply to their own work, not just rely on after-the-fact review&lt;/li>
+&lt;/ul>
+&lt;p>The goal was to shift documentation quality from subjective feedback to &lt;strong>structured evaluation and continuous improvement&lt;/strong> — and to make every writer able to self-assess against the same bar, not just me.&lt;/p>
+&lt;h2>Impact&lt;span class="hx:absolute hx:-mt-20" id="impact">&lt;/span>
+&lt;a href="#impact" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Improved documentation readability and usability across audited documentation sets, measured using structured content scoring and readability evaluations during successive audit cycles&lt;/li>
+&lt;li>Gave the team a shared, consistent standard to evaluate documentation quality against — not just my own judgment call&lt;/li>
+&lt;li>Created scalable governance models for documentation systems that outlasted any single audit cycle&lt;/li>
+&lt;li>Increased cross-team adoption of documentation standards&lt;/li>
+&lt;li>Standardized documentation patterns improved information discoverability for developers and product users&lt;/li>
+&lt;/ul>
+&lt;p align="center">
+&lt;img src="https://productnorth.in/images/scaling.jpg" alt="Content Strategy and Governance" width="900">
+&lt;/p></description></item></channel></rss>

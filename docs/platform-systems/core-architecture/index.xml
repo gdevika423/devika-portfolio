@@ -1,0 +1,443 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – Core Architecture</title><link>https://productnorth.in/platform-systems/core-architecture/</link><description>Recent content in Core Architecture on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><atom:link href="https://productnorth.in/platform-systems/core-architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>End-to-End Product Documentation System</title><link>https://productnorth.in/platform-systems/product-documentation-system/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/product-documentation-system/</guid><description>
+&lt;hr class="page-divider">
+&lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
+&lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Product documentation works best when it is treated as an operating system, not a collection of files.&lt;/p>
+&lt;hr>
+&lt;h2>1. System Overview&lt;span class="hx:absolute hx:-mt-20" id="1-system-overview">&lt;/span>
+&lt;a href="#1-system-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Product Change
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">PM + Engineering Input
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Documentation Planning
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Content Creation
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Review &amp;amp; Validation
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Publishing
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">User Feedback
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Continuous Improvement&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>Documentation connects product changes to user understanding through a structured flow.&lt;/p>
+&lt;hr>
+&lt;h2>2. Core Content Ecosystem&lt;span class="hx:absolute hx:-mt-20" id="2-core-content-ecosystem">&lt;/span>
+&lt;a href="#2-core-content-ecosystem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl"> ┌──────────────────────┐
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> │ Help Documentation │
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> └─────────┬────────────┘
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> │
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">┌──────────────┐ ┌──────▼──────┐ ┌──────────────┐
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ API Docs │ │ Release │ │ In-App Help │
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ │ Notes │ │ │
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└──────┬───────┘ └──────┬──────┘ └──────┬───────┘
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> │ │ │
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> └──────────┬───────▼────────┬────────┘
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> │ Internal KB │
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> └────────────────┘&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>Each content type serves a different user but operates as one system.&lt;/p>
+&lt;hr>
+&lt;h2>3. Operating Model&lt;span class="hx:absolute hx:-mt-20" id="3-operating-model">&lt;/span>
+&lt;a href="#3-operating-model" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">[ Single Source of Truth ]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[ Release-Aligned Content ]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[ Cross-Functional Ownership ]
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[ Continuous Improvement ]&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>Documentation scales only when these principles are enforced.&lt;/p>
+&lt;hr>
+&lt;h2>4. Documentation Workflow&lt;span class="hx:absolute hx:-mt-20" id="4-documentation-workflow">&lt;/span>
+&lt;a href="#4-documentation-workflow" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">INTAKE → PLAN → DRAFT → REVIEW → PUBLISH → FEEDBACK&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Stage&lt;/th>
+&lt;th>Focus&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Intake&lt;/td>
+&lt;td>Capture product changes&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Plan&lt;/td>
+&lt;td>Identify impacted content&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Draft&lt;/td>
+&lt;td>Create documentation&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Review&lt;/td>
+&lt;td>Validate accuracy&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Publish&lt;/td>
+&lt;td>Release content&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Feedback&lt;/td>
+&lt;td>Improve continuously&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2>5. Governance Layer&lt;span class="hx:absolute hx:-mt-20" id="5-governance-layer">&lt;/span>
+&lt;a href="#5-governance-layer" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Standards
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Templates
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Review Process
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Version Control
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Ownership&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>Governance ensures consistency across teams and releases.&lt;/p>
+&lt;hr>
+&lt;h2>6. AI-Assisted Documentation&lt;span class="hx:absolute hx:-mt-20" id="6-ai-assisted-documentation">&lt;/span>
+&lt;a href="#6-ai-assisted-documentation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Feature Input
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">AI Draft Generation
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Human Review
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Standardized Output
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Multi-Channel Publishing&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>AI accelerates production but editorial ownership remains human.&lt;/p>
+&lt;hr>
+&lt;h2>7. Measurement System&lt;span class="hx:absolute hx:-mt-20" id="7-measurement-system">&lt;/span>
+&lt;a href="#7-measurement-system" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">User Search → Content Usage → Feedback → Improvements&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Metric&lt;/th>
+&lt;th>Outcome&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Search success&lt;/td>
+&lt;td>Findability&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Ticket deflection&lt;/td>
+&lt;td>Reduced support load&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content freshness&lt;/td>
+&lt;td>Accuracy&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Release readiness&lt;/td>
+&lt;td>Timeliness&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>API usability&lt;/td>
+&lt;td>Developer success&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2>8. System Impact&lt;span class="hx:absolute hx:-mt-20" id="8-system-impact">&lt;/span>
+&lt;a href="#8-system-impact" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Better Docs → Faster Onboarding → Fewer Tickets → Higher Adoption&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;p>A strong documentation system directly impacts product success.&lt;/p>
+&lt;hr>
+&lt;h2>9. Applied Experience&lt;span class="hx:absolute hx:-mt-20" id="9-applied-experience">&lt;/span>
+&lt;a href="#9-applied-experience" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This model reflects experience building documentation systems across:&lt;/p>
+&lt;ul>
+&lt;li>API documentation&lt;/li>
+&lt;li>knowledge base platforms&lt;/li>
+&lt;li>release documentation workflows&lt;/li>
+&lt;li>governance frameworks&lt;/li>
+&lt;li>AI-assisted content systems&lt;/li>
+&lt;/ul>
+&lt;p>It demonstrates how documentation can operate as a scalable product system.&lt;/p></description></item><item><title>Knowledge Architecture Model</title><link>https://productnorth.in/platform-systems/knowledge-architecture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/knowledge-architecture/</guid><description>
+&lt;hr class="page-divider">
+&lt;p>The knowledge architecture system is designed as a layered structure that connects how information is organized with how it is consumed and reused across workflows.&lt;/p>
+&lt;br>
+&lt;p align="center">
+&lt;img src="https://productnorth.in/images/kb-scale.png" alt="Knowledge Architecture System Diagram" width="900">
+&lt;/p>
+&lt;p align="center">&lt;em>Figure: Knowledge Architecture System — Structure, Flow, and Execution&lt;/em>&lt;/p>
+&lt;br>
+&lt;h3>Taxonomy Structure&lt;span class="hx:absolute hx:-mt-20" id="taxonomy-structure">&lt;/span>
+&lt;a href="#taxonomy-structure" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>At the foundation is a structured taxonomy that organizes knowledge into clear categories.&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Enterprise Knowledge System
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├ Product Documentation
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├ Operational Procedures
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">├ Developer Documentation
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└ Knowledge Base Content&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;h3>Knowledge Flow&lt;span class="hx:absolute hx:-mt-20" id="knowledge-flow">&lt;/span>
+&lt;a href="#knowledge-flow" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Creation → Structuring → Storage → Discovery → Reuse → Governance&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;ul>
+&lt;li>&lt;strong>Creation&lt;/strong>: Knowledge is generated through engineering and operational work&lt;/li>
+&lt;li>&lt;strong>Structuring&lt;/strong>: Information is organized using defined templates and taxonomy&lt;/li>
+&lt;li>&lt;strong>Storage&lt;/strong>: Content is stored in centralized repositories&lt;/li>
+&lt;li>&lt;strong>Discovery&lt;/strong>: Users access knowledge through search and navigation&lt;/li>
+&lt;li>&lt;strong>Reuse&lt;/strong>: Existing knowledge is applied across teams and workflows&lt;/li>
+&lt;li>&lt;strong>Governance&lt;/strong>: Content is maintained, reviewed, and updated over time&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>System View&lt;span class="hx:absolute hx:-mt-20" id="system-view">&lt;/span>
+&lt;a href="#system-view" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The architecture connects structure with usability.&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Taxonomy
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Structured Content
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Central Repository
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Search &amp;amp; Discovery
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">User Workflows&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>This model ensures that knowledge is not only stored, but actively supports how teams operate and scale.&lt;/p></description></item><item><title>Documentation Infrastructure</title><link>https://productnorth.in/platform-systems/documentation-infrastructure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/documentation-infrastructure/</guid><description>
+&lt;hr class="page-divider">
+&lt;p>Documentation infrastructure defines how documentation is created, managed, reviewed, and delivered within an engineering organization.&lt;/p>
+&lt;p>It focuses on the operational systems that support documentation at scale, ensuring that content can be reliably produced, updated, and published as products evolve.&lt;/p>
+&lt;br>
+&lt;p align="center">
+&lt;img
+src="https://productnorth.in/images/infra.png"
+alt="Documentation Infrastructure System Diagram"
+width="900"
+>
+&lt;/p>
+&lt;p align="center">
+&lt;em>Figure: Documentation Infrastructure System — Create, Validate, and Deliver&lt;/em>
+&lt;/p>
+&lt;br>
+&lt;h2>Infrastructure Objective&lt;span class="hx:absolute hx:-mt-20" id="infrastructure-objective">&lt;/span>
+&lt;a href="#infrastructure-objective" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The goal of documentation infrastructure is to establish a reliable and repeatable system for documentation operations.&lt;/p>
+&lt;p>It enables teams to:&lt;/p>
+&lt;ul>
+&lt;li>create documentation efficiently&lt;/li>
+&lt;li>manage updates alongside product changes&lt;/li>
+&lt;li>maintain quality through structured workflows&lt;/li>
+&lt;li>publish documentation consistently&lt;/li>
+&lt;li>support collaboration across teams&lt;/li>
+&lt;/ul>
+&lt;p>This ensures that documentation remains usable and up to date in fast-moving environments.&lt;/p>
+&lt;hr>
+&lt;h2>Core Infrastructure Components&lt;span class="hx:absolute hx:-mt-20" id="core-infrastructure-components">&lt;/span>
+&lt;a href="#core-infrastructure-components" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Documentation infrastructure is built through a set of operational layers.&lt;/p>
+&lt;hr>
+&lt;h3>Content Authoring&lt;span class="hx:absolute hx:-mt-20" id="content-authoring">&lt;/span>
+&lt;a href="#content-authoring" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Defines how documentation is created and maintained by contributors.&lt;/p>
+&lt;p>This includes:&lt;/p>
+&lt;ul>
+&lt;li>Markdown or structured content formats&lt;/li>
+&lt;li>standardized templates&lt;/li>
+&lt;li>writing guidelines for contributors&lt;/li>
+&lt;li>reusable documentation patterns&lt;/li>
+&lt;/ul>
+&lt;p>The focus here is on enabling contributors to produce consistent content with minimal friction.&lt;/p>
+&lt;hr>
+&lt;h3>Version Control&lt;span class="hx:absolute hx:-mt-20" id="version-control">&lt;/span>
+&lt;a href="#version-control" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Integrates documentation with engineering workflows.&lt;/p>
+&lt;p>Key capabilities include:&lt;/p>
+&lt;ul>
+&lt;li>tracking changes to documentation&lt;/li>
+&lt;li>enabling collaborative editing through pull requests&lt;/li>
+&lt;li>maintaining version history&lt;/li>
+&lt;li>aligning documentation updates with code releases&lt;/li>
+&lt;/ul>
+&lt;p>Version control ensures that documentation evolves in sync with the product.&lt;/p>
+&lt;hr>
+&lt;h3>Review Workflow&lt;span class="hx:absolute hx:-mt-20" id="review-workflow">&lt;/span>
+&lt;a href="#review-workflow" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Introduces quality checks into the documentation process.&lt;/p>
+&lt;p>This includes:&lt;/p>
+&lt;ul>
+&lt;li>peer review processes&lt;/li>
+&lt;li>technical validation by engineers&lt;/li>
+&lt;li>editorial review for clarity and consistency&lt;/li>
+&lt;li>approval workflows before publishing&lt;/li>
+&lt;/ul>
+&lt;p>Review workflows help maintain accuracy and reliability without slowing down delivery.&lt;/p>
+&lt;hr>
+&lt;h3>Publishing System&lt;span class="hx:absolute hx:-mt-20" id="publishing-system">&lt;/span>
+&lt;a href="#publishing-system" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Handles how documentation is built and delivered to users.&lt;/p>
+&lt;p>Examples include:&lt;/p>
+&lt;ul>
+&lt;li>static site generation&lt;/li>
+&lt;li>automated documentation builds&lt;/li>
+&lt;li>internal or external documentation portals&lt;/li>
+&lt;li>deployment pipelines for documentation updates&lt;/li>
+&lt;/ul>
+&lt;p>A strong publishing system ensures that documentation is always accessible and reflects the latest changes.&lt;/p>
+&lt;hr>
+&lt;h3>Access and Distribution&lt;span class="hx:absolute hx:-mt-20" id="access-and-distribution">&lt;/span>
+&lt;a href="#access-and-distribution" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Focuses on how documentation reaches its users.&lt;/p>
+&lt;p>This includes:&lt;/p>
+&lt;ul>
+&lt;li>documentation portals&lt;/li>
+&lt;li>role-based access (internal vs external users)&lt;/li>
+&lt;li>integration with developer platforms&lt;/li>
+&lt;li>distribution across teams and environments&lt;/li>
+&lt;/ul>
+&lt;p>The emphasis here is on ensuring that the right users can access the right information at the right time.&lt;/p>
+&lt;hr>
+&lt;h2>System View&lt;span class="hx:absolute hx:-mt-20" id="system-view">&lt;/span>
+&lt;a href="#system-view" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Documentation infrastructure operates as a delivery pipeline.&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Authoring → Version Control → Review Workflow → Publishing → Distribution&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div></description></item></channel></rss>
