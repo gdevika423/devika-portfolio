@@ -133,3 +133,12 @@ Documentation infrastructure operates as a delivery pipeline.
 ```text
 Authoring → Version Control → Review Workflow → Publishing → Distribution
 ```
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/api-doc-devx/">API Documentation & Developer Experience</a> - how this infrastructure supports API documentation specifically
+
+<a class="text-link" href="/platform-systems/release-doc-workflow/">Release Documentation Workflow</a> - how this infrastructure supports release delivery
+
