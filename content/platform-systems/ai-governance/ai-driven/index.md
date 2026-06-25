@@ -262,3 +262,12 @@ Without templates, standards, review checkpoints, and source discipline, AI crea
 This model reflects experience using AI to support documentation workflows, including draft acceleration, release note structuring, content consistency checks, and knowledge system improvements.
 
 It demonstrates how AI can be used responsibly inside documentation operations to improve speed, consistency, and scalability.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/showcase/genai-process-innovation/">GenAI Process Innovation</a> - the real, proven workflow this model scales
+
+<a class="text-link" href="/platform-systems/ai-governance-model/">AI Governance & Review Operating Model</a> - the policy that governs how this workflow is run
+
