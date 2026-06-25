@@ -8,6 +8,8 @@ url: "/platform-systems/knowledge-architecture/"
 
 <hr class="page-divider">
 
+I designed this knowledge architecture model to give the documentation team a shared structure for organizing and reusing information at scale.
+
 The knowledge architecture system is designed as a layered structure that connects how information is organized with how it is consumed and reused across workflows.
 
 <br>
