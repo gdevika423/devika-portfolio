@@ -2118,13 +2118,13 @@ Where the system is wrong or inconsistent, that&amp;rsquo;s reported as a findin
 &lt;li>webhook-triggered runs on every merge, instead of a weekly cron&lt;/li>
 &lt;/ul>
 &lt;p>This progression moves the system from a periodic audit replacement toward a continuous documentation-health layer.&lt;/p></description></item><item><title>Content Strategy and Governance</title><link>https://productnorth.in/showcase/content-strategy-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/content-strategy-governance/</guid><description>
-&lt;p>Designed a documentation governance framework that standardized quality evaluation across product teams and measurably improved documentation usability.&lt;/p>
+&lt;p>Set the documentation quality standard for the team: built the 5Cs framework, trained writers on it, and ran audit cycles that gave every writer the same measurable bar to write against.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
 &lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
 &lt;img src="https://productnorth.in/images/governance.png" alt="GenAI Editorial Review Case Study" width= "900">
 &lt;/p>
 &lt;h2>Problem&lt;span class="hx:absolute hx:-mt-20" id="problem">&lt;/span>
-&lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>As documentation expanded across multiple product teams, quality, structure, and usability became inconsistent. Without a shared framework, content quality, structure, and usability differed across product areas.&lt;/p>
+&lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>As documentation expanded across multiple product teams, quality, structure, and usability became inconsistent. Without a shared framework, content quality, structure, and usability differed across product areas, and writers had no common standard to evaluate their own work against.&lt;/p>
 &lt;p>This created challenges in:&lt;/p>
 &lt;ul>
 &lt;li>Content consistency&lt;/li>
@@ -2132,22 +2132,22 @@ Where the system is wrong or inconsistent, that&amp;rsquo;s reported as a findin
 &lt;li>Scalable governance for documentation improvements&lt;/li>
 &lt;/ul>
 &lt;h2>Approach&lt;span class="hx:absolute hx:-mt-20" id="approach">&lt;/span>
-&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I designed a &lt;strong>structured content strategy and governance framework&lt;/strong>. Conducted documentation audits across multiple product areas using the 5Cs framework.&lt;/p>
-&lt;p>Key initiatives included:&lt;/p>
+&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I built and rolled out a &lt;strong>structured content strategy and governance framework&lt;/strong> for the team, then ran the audits that proved it worked.&lt;/p>
+&lt;p>Key initiatives I led:&lt;/p>
 &lt;ul>
 &lt;li>Creating a &lt;strong>Content Maturity Model&lt;/strong> to evaluate documentation quality&lt;/li>
-&lt;li>Conducting large-scale documentation audits using the &lt;strong>5Cs framework&lt;/strong>&lt;/li>
-&lt;li>Establishing governance guidelines for documentation standards&lt;/li>
-&lt;li>Creating structured evaluation models for documentation improvement&lt;/li>
+&lt;li>Training the team on the &lt;strong>5Cs framework&lt;/strong> and running large-scale documentation audits using it&lt;/li>
+&lt;li>Establishing governance guidelines for documentation standards across the team&lt;/li>
+&lt;li>Creating structured evaluation models writers could apply to their own work, not just rely on after-the-fact review&lt;/li>
 &lt;/ul>
-&lt;p>The goal was to shift documentation quality from subjective feedback to &lt;strong>structured evaluation and continuous improvement&lt;/strong>.&lt;/p>
+&lt;p>The goal was to shift documentation quality from subjective feedback to &lt;strong>structured evaluation and continuous improvement&lt;/strong> — and to make every writer able to self-assess against the same bar, not just me.&lt;/p>
 &lt;h2>Impact&lt;span class="hx:absolute hx:-mt-20" id="impact">&lt;/span>
 &lt;a href="#impact" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>Improved documentation readability and usability across audited documentation sets, measured using structured content scoring and readability evaluations during successive audit cycles&lt;/li>
-&lt;li>Enabled teams to evaluate documentation quality consistently&lt;/li>
-&lt;li>Created scalable governance models for documentation systems&lt;/li>
+&lt;li>Gave the team a shared, consistent standard to evaluate documentation quality against — not just my own judgment call&lt;/li>
+&lt;li>Created scalable governance models for documentation systems that outlasted any single audit cycle&lt;/li>
 &lt;li>Increased cross-team adoption of documentation standards&lt;/li>
-&lt;li>Standardized documentation patterns improved information discoverability for developers and product users.&lt;/li>
+&lt;li>Standardized documentation patterns improved information discoverability for developers and product users&lt;/li>
 &lt;/ul>
 &lt;p align="center">
 &lt;img src="https://productnorth.in/images/scaling.jpg" alt="Content Strategy and Governance" width="900">
