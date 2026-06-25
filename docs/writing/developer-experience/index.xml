@@ -1,72 +1,26 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Devika Jallegowda – Developer Experience</title>
-    <link>https://productnorth.in/writing/developer-experience/</link>
-    <description>Recent content in Developer Experience on Devika Jallegowda</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor>
-    <webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster>
-    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
-    
-	  <atom:link href="https://productnorth.in/writing/developer-experience/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Documentation and Developer Productivity</title>
-      <link>https://productnorth.in/writing/developer-experience/docs-and-developer-productivity/</link>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>https://productnorth.in/writing/developer-experience/docs-and-developer-productivity/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Context&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;context&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#context&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Developer productivity is often discussed in terms of tools, frameworks, and infrastructure. Documentation is rarely treated as a productivity system.&lt;/p&gt;
-&lt;h2&gt;Observation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;observation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#observation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In many engineering organizations, developers spend significant time searching for information rather than building software.&lt;/p&gt;
-&lt;p&gt;Documentation gaps frequently appear as:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;repeated questions in chat channels&lt;/li&gt;
-&lt;li&gt;slow onboarding for new engineers&lt;/li&gt;
-&lt;li&gt;uncertainty about system behavior&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;example&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In API ecosystems, developers depend heavily on documentation to understand endpoints, authentication flows, and error handling.&lt;/p&gt;
-&lt;p&gt;When documentation is fragmented or outdated, the cost appears as developer friction.&lt;/p&gt;
-&lt;h2&gt;Takeaway&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;takeaway&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#takeaway&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Documentation should be treated as a core component of developer experience infrastructure rather than an afterthought.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Knowledge Systems in Engineering Organizations</title>
-      <link>https://productnorth.in/writing/developer-experience/knowledge-systems-in-engineering/</link>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>https://productnorth.in/writing/developer-experience/knowledge-systems-in-engineering/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Context&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;context&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#context&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;As engineering organizations grow, knowledge becomes distributed across people, documentation, and systems.&lt;/p&gt;
-&lt;h2&gt;Observation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;observation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#observation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Many teams rely on informal knowledge sharing through meetings or messaging platforms.&lt;/p&gt;
-&lt;p&gt;This approach works for small teams but breaks down as systems grow more complex.&lt;/p&gt;
-&lt;h2&gt;Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;example&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Large engineering environments require documentation systems that capture architectural decisions, operational workflows, and system behavior.&lt;/p&gt;
-&lt;p&gt;Without structured knowledge systems, teams repeatedly rediscover information that already exists.&lt;/p&gt;
-&lt;h2&gt;Takeaway&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;takeaway&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#takeaway&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Knowledge systems should be designed intentionally to support engineering teams as products scale.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – Developer Experience</title><link>https://productnorth.in/writing/developer-experience/</link><description>Recent content in Developer Experience on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://productnorth.in/writing/developer-experience/index.xml" rel="self" type="application/rss+xml"/><item><title>Documentation and Developer Productivity</title><link>https://productnorth.in/writing/developer-experience/docs-and-developer-productivity/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/developer-experience/docs-and-developer-productivity/</guid><description>
+&lt;h2>Context&lt;span class="hx:absolute hx:-mt-20" id="context">&lt;/span>
+&lt;a href="#context" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Developer productivity is often discussed in terms of tools, frameworks, and infrastructure. Documentation is rarely treated as a productivity system.&lt;/p>
+&lt;h2>Observation&lt;span class="hx:absolute hx:-mt-20" id="observation">&lt;/span>
+&lt;a href="#observation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>In many engineering organizations, developers spend significant time searching for information rather than building software.&lt;/p>
+&lt;p>Documentation gaps frequently appear as:&lt;/p>
+&lt;ul>
+&lt;li>repeated questions in chat channels&lt;/li>
+&lt;li>slow onboarding for new engineers&lt;/li>
+&lt;li>uncertainty about system behavior&lt;/li>
+&lt;/ul>
+&lt;h2>Example&lt;span class="hx:absolute hx:-mt-20" id="example">&lt;/span>
+&lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>In API ecosystems, developers depend heavily on documentation to understand endpoints, authentication flows, and error handling.&lt;/p>
+&lt;p>When documentation is fragmented or outdated, the cost appears as developer friction.&lt;/p>
+&lt;h2>Takeaway&lt;span class="hx:absolute hx:-mt-20" id="takeaway">&lt;/span>
+&lt;a href="#takeaway" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Documentation should be treated as a core component of developer experience infrastructure rather than an afterthought.&lt;/p></description></item><item><title>Knowledge Systems in Engineering Organizations</title><link>https://productnorth.in/writing/developer-experience/knowledge-systems-in-engineering/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/developer-experience/knowledge-systems-in-engineering/</guid><description>
+&lt;h2>Context&lt;span class="hx:absolute hx:-mt-20" id="context">&lt;/span>
+&lt;a href="#context" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>As engineering organizations grow, knowledge becomes distributed across people, documentation, and systems.&lt;/p>
+&lt;h2>Observation&lt;span class="hx:absolute hx:-mt-20" id="observation">&lt;/span>
+&lt;a href="#observation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Many teams rely on informal knowledge sharing through meetings or messaging platforms.&lt;/p>
+&lt;p>This approach works for small teams but breaks down as systems grow more complex.&lt;/p>
+&lt;h2>Example&lt;span class="hx:absolute hx:-mt-20" id="example">&lt;/span>
+&lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Large engineering environments require documentation systems that capture architectural decisions, operational workflows, and system behavior.&lt;/p>
+&lt;p>Without structured knowledge systems, teams repeatedly rediscover information that already exists.&lt;/p>
+&lt;h2>Takeaway&lt;span class="hx:absolute hx:-mt-20" id="takeaway">&lt;/span>
+&lt;a href="#takeaway" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Knowledge systems should be designed intentionally to support engineering teams as products scale.&lt;/p></description></item></channel></rss>
