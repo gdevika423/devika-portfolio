@@ -46,3 +46,10 @@ This ensured documentation became part of **product delivery workflows**, govern
 - Increased visibility of documentation deliverables across sprint planning, giving engineering and product leadership a shared view of documentation status
 - Reduced post-release documentation gaps by **40%**
 - Improved documentation readiness for product releases by **50%**
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/release-doc-workflow/">Release Documentation Workflow</a> - the broader operating model behind this work
+
