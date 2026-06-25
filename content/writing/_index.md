@@ -12,19 +12,19 @@ Many of these ideas emerge while working on product discovery, documentation sys
 
 Rather than focusing on specific project outcomes, these writings explore broader themes, grouped below:
 
-## Developer Experience
+<h2>Developer Experience</h2>
 
 How documentation systems, internal tools, and knowledge architecture shape developer productivity.
 
-## Product and Platform Thinking
+<h2>Product and Platform Thinking</h2>
 
 How services evolve into products, and how platforms emerge from operational workflows.
 
-## Systems and Operations
+<h2>Systems and Operations</h2>
 
 How automation changes enterprise operations, and how operational systems are structured to scale.
 
-## Working Notes
+<h2>Working Notes</h2>
 
 Shorter, still-evolving notes that capture ideas before they become structured essays.
 
