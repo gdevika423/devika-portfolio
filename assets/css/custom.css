@@ -418,3 +418,15 @@ svg.hero-banner {
     font-size: 8px;
   }
 }
+
+
+/* =========================
+   Fix mid-word breaking in card headings
+========================= */
+.home-card h3,
+.feature-card h3,
+.story-card h3 {
+  overflow-wrap: normal;
+  word-break: normal;
+  hyphens: none;
+}
