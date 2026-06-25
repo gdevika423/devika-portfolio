@@ -79,6 +79,14 @@ This is the function I build and lead.
 
 ---
 
+## Beyond work
+
+I serve in Rotary leadership as Director, GenZ Portfolio, and Chairperson for Public Image and Social Media at Rotary Club of Rajarajeshwari Centennial, District 3191 - roles that draw on the same communications and stakeholder skills I bring to documentation leadership.
+
+Outside of that, I ride long-distance on a Royal Enfield Meteor 350 and a Triumph Tiger 900 GT, and I've travelled extensively across India on two wheels.
+
+---
+
 ## Let's connect
 
 I'm open to Senior Documentation Manager, Information Developer Manager, and documentation leadership roles where AI-readiness and team leadership both matter.
