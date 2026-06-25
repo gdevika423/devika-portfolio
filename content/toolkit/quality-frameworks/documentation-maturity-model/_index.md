@@ -41,3 +41,12 @@ This model is useful when:
 ### Outcome
 
 The framework helps teams understand their current state, define a target state, and build a roadmap for documentation maturity.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/metrix/">Documentation Metrics & Impact System</a> - how maturity assessment connects to ongoing measurement
+
+<a class="text-link" href="/toolkit/prioritization-execution-models/">Prioritization & Execution Models</a> - how maturity gaps translate into prioritized work
+
