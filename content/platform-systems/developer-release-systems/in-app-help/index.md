@@ -8,6 +8,8 @@ url: "/platform-systems/in-app-help/"
 
 <hr class="page-divider">
 
+This is the model I use to bring in-app help and onboarding into a documentation team's scope, not just external docs.
+
 ## 60-Second Summary
 
 Users do not read documentation before using a product. They need guidance while using it.
