@@ -372,3 +372,61 @@ main#content .content li {
 main#content .content > p:first-of-type {
   color: var(--dj-slate);
 }
+
+
+/* =========================
+   Hero banner (documentation pipeline diagram)
+========================= */
+.hero-wrap {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+}
+
+.hero-wrap .hero {
+  flex: 1 1 420px;
+}
+
+.hero-banner {
+  flex: 1 1 360px;
+  max-width: 480px;
+  width: 100%;
+  height: auto;
+}
+
+.hb-label {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  fill: var(--dj-slate);
+}
+
+.hb-label-rust {
+  fill: var(--dj-rust);
+}
+
+.hb-caption {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 9.5px;
+  font-style: italic;
+  fill: var(--dj-slate);
+  opacity: 0.85;
+}
+
+.hb-caption-rust {
+  fill: var(--dj-rust);
+  opacity: 0.9;
+}
+
+@media (max-width: 900px) {
+  .hero-wrap {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+
+  .hero-banner {
+    max-width: 420px;
+  }
+}
