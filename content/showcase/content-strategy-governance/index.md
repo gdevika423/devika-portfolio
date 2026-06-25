@@ -5,7 +5,7 @@ role: "Content Systems Strategist"
 toc: true
 type: docs
 ---
-Designed a documentation governance framework that standardized quality evaluation across product teams and improved documentation usability by 20–25%.
+Designed a documentation governance framework that standardized quality evaluation across product teams and measurably improved documentation usability.
 
 ## 60-Second Summary
 
@@ -39,7 +39,7 @@ The goal was to shift documentation quality from subjective feedback to **struct
 
 ## Impact
 
-- Improved documentation readability and usability by 20–25% across audited documentation sets. Improvements were measured using structured content scoring and readability evaluations during successive audit cycles
+- Improved documentation readability and usability across audited documentation sets, measured using structured content scoring and readability evaluations during successive audit cycles
 - Enabled teams to evaluate documentation quality consistently
 - Created scalable governance models for documentation systems
 - Increased cross-team adoption of documentation standards
