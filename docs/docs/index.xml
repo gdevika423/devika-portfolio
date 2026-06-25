@@ -2172,10 +2172,44 @@ data-copied-label="Copied!"
 &lt;li>Step-by-step walkthrough&lt;/li>
 &lt;li>Empty state and tooltip copy&lt;/li>
 &lt;li>Onboarding audit and lifecycle email copy&lt;/li>
-&lt;/ul></description></item><item><title>AI-Enabled Documentation Health Monitoring</title><link>https://productnorth.in/platform-systems/doc-health-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/doc-health-pipeline/</guid><description>
+&lt;/ul></description></item><item><title>Content Strategy and Governance</title><link>https://productnorth.in/showcase/content-strategy-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/content-strategy-governance/</guid><description>
+&lt;p>Set the documentation quality standard for the team: built the 5Cs framework, trained writers on it, and ran audit cycles that gave every writer the same measurable bar to write against.&lt;/p>
+&lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
+&lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
+&lt;img src="https://productnorth.in/images/governance.png" alt="GenAI Editorial Review Case Study" width= "900">
+&lt;/p>
+&lt;h2>Problem&lt;span class="hx:absolute hx:-mt-20" id="problem">&lt;/span>
+&lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>As documentation expanded across multiple product teams, quality, structure, and usability became inconsistent. Without a shared framework, content quality, structure, and usability differed across product areas, and writers had no common standard to evaluate their own work against.&lt;/p>
+&lt;p>This created challenges in:&lt;/p>
+&lt;ul>
+&lt;li>Content consistency&lt;/li>
+&lt;li>Documentation quality measurement&lt;/li>
+&lt;li>Scalable governance for documentation improvements&lt;/li>
+&lt;/ul>
+&lt;h2>Approach&lt;span class="hx:absolute hx:-mt-20" id="approach">&lt;/span>
+&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I built and rolled out a &lt;strong>structured content strategy and governance framework&lt;/strong> for the team, then ran the audits that proved it worked.&lt;/p>
+&lt;p>Key initiatives I led:&lt;/p>
+&lt;ul>
+&lt;li>Creating a &lt;strong>Content Maturity Model&lt;/strong> to evaluate documentation quality&lt;/li>
+&lt;li>Training the team on the &lt;strong>5Cs framework&lt;/strong> and running large-scale documentation audits using it&lt;/li>
+&lt;li>Establishing governance guidelines for documentation standards across the team&lt;/li>
+&lt;li>Creating structured evaluation models writers could apply to their own work, not just rely on after-the-fact review&lt;/li>
+&lt;/ul>
+&lt;p>The goal was to shift documentation quality from subjective feedback to &lt;strong>structured evaluation and continuous improvement&lt;/strong> — and to make every writer able to self-assess against the same bar, not just me.&lt;/p>
+&lt;h2>Impact&lt;span class="hx:absolute hx:-mt-20" id="impact">&lt;/span>
+&lt;a href="#impact" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Improved documentation readability and usability across audited documentation sets, measured using structured content scoring and readability evaluations during successive audit cycles&lt;/li>
+&lt;li>Gave the team a shared, consistent standard to evaluate documentation quality against — not just my own judgment call&lt;/li>
+&lt;li>Created scalable governance models for documentation systems that outlasted any single audit cycle&lt;/li>
+&lt;li>Increased cross-team adoption of documentation standards&lt;/li>
+&lt;li>Standardized documentation patterns improved information discoverability for developers and product users&lt;/li>
+&lt;/ul>
+&lt;p align="center">
+&lt;img src="https://productnorth.in/images/scaling.jpg" alt="Content Strategy and Governance" width="900">
+&lt;/p></description></item><item><title>Documentation Health Operating Cycle</title><link>https://productnorth.in/platform-systems/doc-health-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/doc-health-pipeline/</guid><description>
 &lt;hr class="page-divider">
 &lt;p>Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.&lt;/p>
-&lt;p>This page describes a working pipeline I designed and built that replaces that manual audit with a standing, automated signal — and what running it for real against my own site taught me about where AI helps and where it doesn&amp;rsquo;t.&lt;/p>
+&lt;p>This page describes the operating cycle I run a team against instead: a pipeline I designed and built that turns documentation health into a recurring management ritual — flag, triage, assign, re-check — rather than a one-time audit project. What follows includes what running it for real against my own site taught me about where AI helps and where it doesn&amp;rsquo;t.&lt;/p>
 &lt;hr>
 &lt;h2>Platform Objective&lt;span class="hx:absolute hx:-mt-20" id="platform-objective">&lt;/span>
 &lt;a href="#platform-objective" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The goal was to answer one resourcing question: can documentation health monitoring scale without scaling headcount?&lt;/p>
@@ -2226,6 +2260,38 @@ data-copied-label="Copied!"
 &lt;/ul>
 &lt;p>This is the point where judgment re-enters the system: a flag is a candidate, not a verdict.&lt;/p>
 &lt;hr>
+&lt;h2>How I Run This as a Team Cadence&lt;span class="hx:absolute hx:-mt-20" id="how-i-run-this-as-a-team-cadence">&lt;/span>
+&lt;a href="#how-i-run-this-as-a-team-cadence" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline produces a signal. Running it as a documentation manager means closing the loop on that signal every cycle, not just generating it.&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Weekly Report
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Triage (which flags are real)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Assignment (which writer owns the fix)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Resolution
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Re-check Next Cycle&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>In practice, this means:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Triage is a standing weekly review, not an ad hoc glance.&lt;/strong> Every flag gets a real decision — real gap, false positive, or not worth fixing this cycle — and that decision is recorded, not just acted on silently.&lt;/li>
+&lt;li>&lt;strong>Every accepted flag gets a named owner and a cycle to resolve it.&lt;/strong> Health monitoring that doesn&amp;rsquo;t result in an assigned fix is just a dashboard nobody acts on.&lt;/li>
+&lt;li>&lt;strong>The next cycle checks whether the fix actually held.&lt;/strong> A flag that recurs after being marked resolved is itself a signal — either about the content or about the check.&lt;/li>
+&lt;li>&lt;strong>The pattern across cycles is the real management data.&lt;/strong> Which categories of pages flag repeatedly, which writers&amp;rsquo; content stays clean, where the team&amp;rsquo;s actual gaps are — that&amp;rsquo;s the conversation this cadence is built to support, not just this week&amp;rsquo;s report.&lt;/li>
+&lt;/ul>
+&lt;p>This is the layer that turns a working pipeline into a management system: the tool tells you what&amp;rsquo;s stale, the cadence makes sure something happens about it.&lt;/p>
+&lt;hr>
 &lt;h2>What Running It For Real Taught Me&lt;span class="hx:absolute hx:-mt-20" id="what-running-it-for-real-taught-me">&lt;/span>
 &lt;a href="#what-running-it-for-real-taught-me" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Two things surfaced the first time this ran against this site&amp;rsquo;s actual homepage, worth naming rather than glossing over:&lt;/p>
 &lt;p>&lt;strong>The AI applied a documentation-page rubric to a marketing page.&lt;/strong> The first run flagged the homepage for &amp;ldquo;missing prerequisites&amp;rdquo; — a reasonable check for a how-to guide, not for positioning copy. That&amp;rsquo;s a real v1 limitation: the system doesn&amp;rsquo;t yet distinguish content types before applying checks.&lt;/p>
@@ -2246,41 +2312,7 @@ Where the system is wrong or inconsistent, that&amp;rsquo;s reported as a findin
 &lt;li>embeddings-based consistency checks across semantically similar pages, instead of one page read at a time&lt;/li>
 &lt;li>webhook-triggered runs on every merge, instead of a weekly cron&lt;/li>
 &lt;/ul>
-&lt;p>This progression moves the system from a periodic audit replacement toward a continuous documentation-health layer.&lt;/p></description></item><item><title>Content Strategy and Governance</title><link>https://productnorth.in/showcase/content-strategy-governance/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/content-strategy-governance/</guid><description>
-&lt;p>Set the documentation quality standard for the team: built the 5Cs framework, trained writers on it, and ran audit cycles that gave every writer the same measurable bar to write against.&lt;/p>
-&lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
-&lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
-&lt;img src="https://productnorth.in/images/governance.png" alt="GenAI Editorial Review Case Study" width= "900">
-&lt;/p>
-&lt;h2>Problem&lt;span class="hx:absolute hx:-mt-20" id="problem">&lt;/span>
-&lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>As documentation expanded across multiple product teams, quality, structure, and usability became inconsistent. Without a shared framework, content quality, structure, and usability differed across product areas, and writers had no common standard to evaluate their own work against.&lt;/p>
-&lt;p>This created challenges in:&lt;/p>
-&lt;ul>
-&lt;li>Content consistency&lt;/li>
-&lt;li>Documentation quality measurement&lt;/li>
-&lt;li>Scalable governance for documentation improvements&lt;/li>
-&lt;/ul>
-&lt;h2>Approach&lt;span class="hx:absolute hx:-mt-20" id="approach">&lt;/span>
-&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I built and rolled out a &lt;strong>structured content strategy and governance framework&lt;/strong> for the team, then ran the audits that proved it worked.&lt;/p>
-&lt;p>Key initiatives I led:&lt;/p>
-&lt;ul>
-&lt;li>Creating a &lt;strong>Content Maturity Model&lt;/strong> to evaluate documentation quality&lt;/li>
-&lt;li>Training the team on the &lt;strong>5Cs framework&lt;/strong> and running large-scale documentation audits using it&lt;/li>
-&lt;li>Establishing governance guidelines for documentation standards across the team&lt;/li>
-&lt;li>Creating structured evaluation models writers could apply to their own work, not just rely on after-the-fact review&lt;/li>
-&lt;/ul>
-&lt;p>The goal was to shift documentation quality from subjective feedback to &lt;strong>structured evaluation and continuous improvement&lt;/strong> — and to make every writer able to self-assess against the same bar, not just me.&lt;/p>
-&lt;h2>Impact&lt;span class="hx:absolute hx:-mt-20" id="impact">&lt;/span>
-&lt;a href="#impact" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Improved documentation readability and usability across audited documentation sets, measured using structured content scoring and readability evaluations during successive audit cycles&lt;/li>
-&lt;li>Gave the team a shared, consistent standard to evaluate documentation quality against — not just my own judgment call&lt;/li>
-&lt;li>Created scalable governance models for documentation systems that outlasted any single audit cycle&lt;/li>
-&lt;li>Increased cross-team adoption of documentation standards&lt;/li>
-&lt;li>Standardized documentation patterns improved information discoverability for developers and product users&lt;/li>
-&lt;/ul>
-&lt;p align="center">
-&lt;img src="https://productnorth.in/images/scaling.jpg" alt="Content Strategy and Governance" width="900">
-&lt;/p></description></item><item><title>Documentation in Agile Product Development</title><link>https://productnorth.in/showcase/documentation-agile-development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/documentation-agile-development/</guid><description>
+&lt;p>This progression moves the system from a periodic audit replacement toward a continuous documentation-health layer.&lt;/p></description></item><item><title>Documentation in Agile Product Development</title><link>https://productnorth.in/showcase/documentation-agile-development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/documentation-agile-development/</guid><description>
 &lt;p>I drove the process change that made documentation a sprint deliverable instead of a post-release scramble — a shift I led with engineering leadership, not just within my own team.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
 &lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
