@@ -1,0 +1,60 @@
+# Tier 1 (Director/IA) build config for productnorth.space
+# Used together with hugo.toml: hugo --config hugo.toml,hugo-space.toml
+# Later config values override hugo.toml's values.
+
+baseURL = "https://productnorth.space/"
+
+[[module.mounts]]
+source = "content"
+target = "content"
+excludeFiles = ["showcase/**", "content-samples/**", "docs/**", "casts/**", "backup/**"]
+
+[[module.mounts]]
+source = "static"
+target = "static"
+
+[[module.mounts]]
+source = "layouts"
+target = "layouts"
+
+[[module.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.mounts]]
+source = "archetypes"
+target = "archetypes"
+
+[[module.mounts]]
+source = "i18n"
+target = "i18n"
+
+[[module.mounts]]
+source = "data"
+target = "data"
+
+# Tier 1 nav: Platform & Systems leads, no Impact Stories
+[[menu.main]]
+name = "About"
+weight = 1
+url = "/about/"
+
+[[menu.main]]
+name = "Platform & Systems"
+weight = 2
+url = "/platform-systems/"
+
+[[menu.main]]
+name = "Toolkit"
+weight = 3
+url = "/toolkit/"
+
+[[menu.main]]
+name = "Writing"
+weight = 4
+url = "/writing/"
+
+[[menu.main]]
+name = "Contact"
+weight = 76
+url = "/contact/"
