@@ -17,8 +17,8 @@ toc: false
   </p>
 
   <div class="hero-actions">
-    <a class="btn-primary" href="/impact-stories/">View Impact Stories</a>
-    <a class="btn-secondary" href="/about/">About Me</a>
+    <a class="btn-primary" href="/platform-systems/">See the systems I design</a>
+    <a class="btn-secondary" href="/showcase/">See what I've shipped</a>
   </div>
 
 </section>
