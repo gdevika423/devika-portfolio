@@ -8,7 +8,7 @@ weight: 2
 url: "/showcase/api-documentation-developer-experience/"
 ---
 
-I owned the API documentation function end-to-end at Zeta, setting the standards that took developer experience from inconsistent to scalable across engineering teams.
+I owned the <span class="kw">API documentation</span> function end-to-end at Zeta, setting the standards that took developer experience from inconsistent to scalable across engineering teams.
 
 ## 60-Second Summary
 
@@ -19,7 +19,7 @@ I owned the API documentation function end-to-end at Zeta, setting the standards
 
 ## Problem
 
-API documentation across engineering teams lacked consistency and structure.  
+<span class="kw">API documentation</span> across engineering teams lacked consistency and structure.  
 Developers struggled to understand APIs quickly due to fragmented documentation practices.
 
 Key challenges included:
