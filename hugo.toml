@@ -39,17 +39,6 @@ weight = 1
 url = "/about/"
 
 [[menu.main]]
-name = "Impact Stories"
-weight = 2
-url = "/showcase/"
-
-[[menu.main]]
-name = "Platform & Systems"
-weight = 3
-url = "/Platform & Systems/"
-
-
-[[menu.main]]
 name = "Toolkit"
 weight = 4
 url = "/toolkit/"
