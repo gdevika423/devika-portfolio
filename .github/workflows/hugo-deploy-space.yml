@@ -1,0 +1,38 @@
+name: Build and Deploy Tier 1 Site (productnorth.space)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build-deploy-space:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.146.5'
+          extended: true
+
+      - name: Build Tier 1 site
+        env:
+          GOPROXY: "https://proxy.golang.org,direct"
+        run: hugo --minify --destination docs-space --config hugo.toml,hugo-space.toml
+
+      - name: Deploy to productnorth.space repo
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          deploy_key: ${{ secrets.SPACE_DEPLOY_KEY }}
+          external_repository: gdevika423/devika-portfolio-space
+          publish_branch: main
+          publish_dir: ./docs-space
+          cname: productnorth.space
