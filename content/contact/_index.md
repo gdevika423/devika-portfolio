@@ -12,6 +12,7 @@ If my work aligns with what you're building, feel free to reach out.
 - [LinkedIn](https://www.linkedin.com/in/devikaj/)
 - Email: [gdevika423@gmail.com](mailto:gdevika423@gmail.com)
 - Mobile: +91 88611 61822
+- WhatsApp: https://wa.me/918861161822
 
 ## What I work on
 

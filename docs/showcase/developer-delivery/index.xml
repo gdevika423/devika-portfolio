@@ -1,107 +1,165 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – Developer &amp; Delivery</title><link>https://productnorth.in/showcase/developer-delivery/</link><description>Recent content in Developer &amp; Delivery on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><atom:link href="https://productnorth.in/showcase/developer-delivery/index.xml" rel="self" type="application/rss+xml"/><item><title>API Documentation and Developer Experience</title><link>https://productnorth.in/showcase/api-documentation-developer-experience/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/api-documentation-developer-experience/</guid><description>
-&lt;p>I owned the &lt;span class="kw">API documentation&lt;/span> function end-to-end at Zeta, setting the standards that took developer experience from inconsistent to scalable across engineering teams.&lt;/p>
-&lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
-&lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
-&lt;img src="https://productnorth.in/images/devx.png" alt="60-Second Summary" width="900">
-&lt;/p>
-&lt;h2>Problem&lt;span class="hx:absolute hx:-mt-20" id="problem">&lt;/span>
-&lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;span class="kw">API documentation&lt;/span> across engineering teams lacked consistency and structure.&lt;br>
-Developers struggled to understand APIs quickly due to fragmented documentation practices.&lt;/p>
-&lt;p>Key challenges included:&lt;/p>
-&lt;ul>
-&lt;li>inconsistent API documentation formats across teams&lt;/li>
-&lt;li>lack of reusable documentation templates&lt;/li>
-&lt;li>documentation created outside engineering workflows&lt;/li>
-&lt;li>limited standardization for API releases&lt;/li>
-&lt;/ul>
-&lt;p>These issues slowed developer onboarding and reduced API discoverability — and made the documentation team&amp;rsquo;s output inconsistent for any engineer outside my immediate team.&lt;/p>
-&lt;h2>Approach&lt;span class="hx:absolute hx:-mt-20" id="approach">&lt;/span>
-&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I set the standard for API documentation across engineering: built the framework, defined the templates, and partnered with engineering leadership to embed a documentation checkpoint directly into their workflow, so docs shipped with the release rather than after it.&lt;/p>
-&lt;p>Key initiatives I led:&lt;/p>
-&lt;ul>
-&lt;li>standardizing API documentation templates across engineering teams&lt;/li>
-&lt;li>creating reusable documentation components the team could apply consistently&lt;/li>
-&lt;li>integrating documentation checkpoints into engineering workflows&lt;/li>
-&lt;li>establishing documentation standards for API releases, with sign-off as part of the process&lt;/li>
-&lt;/ul>
-&lt;p>The goal was changing how the team and our engineering partners worked together — treating documentation as a &lt;strong>core component of developer experience&lt;/strong>, owned and governed, rather than a post-release artifact.&lt;/p>
-&lt;h2>Impact&lt;span class="hx:absolute hx:-mt-20" id="impact">&lt;/span>
-&lt;a href="#impact" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The initiative changed the team&amp;rsquo;s process, not just my own output — and the results held at sustained sprint velocity.&lt;/p>
-&lt;p>Results included:&lt;/p>
-&lt;ul>
-&lt;li>improved API documentation publishing speed by &lt;strong>30–40%&lt;/strong>, achieved by changing the team&amp;rsquo;s workflow, not by writing faster myself&lt;/li>
-&lt;li>increased API discoverability for developers&lt;/li>
-&lt;li>reduced developer onboarding friction&lt;/li>
-&lt;li>created consistent documentation patterns across engineering teams that outlasted any single release&lt;/li>
-&lt;/ul>
-&lt;p align="center">
-&lt;img src="https://productnorth.in/images/scalable-api.png" alt="API Documentation and Developer Experience" width="900">
-&lt;/p>
-&lt;hr>
-&lt;h2>Related&lt;/h2>
-&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/api-doc-devx/">API Documentation &amp;amp; Developer Experience&lt;/a> - the broader operating model behind this work&lt;/p></description></item><item><title>Documentation in Agile Product Development</title><link>https://productnorth.in/showcase/documentation-agile-development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/documentation-agile-development/</guid><description>
-&lt;p>I drove the process change that made documentation a sprint deliverable instead of a post-release scramble — a shift I led with engineering leadership, not just within my own team.&lt;/p>
-&lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
-&lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
-&lt;img src="https://productnorth.in/images/agile1.png" alt="60-Second Summary" width="900">
-&lt;/p>
-&lt;h2>Problem&lt;span class="hx:absolute hx:-mt-20" id="problem">&lt;/span>
-&lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Documentation was frequently written &lt;strong>after product releases&lt;/strong>, leading to gaps between product functionality and available documentation.&lt;/p>
-&lt;p>This resulted in:&lt;/p>
-&lt;ul>
-&lt;li>Outdated documentation&lt;/li>
-&lt;li>Limited visibility of documentation work during development&lt;/li>
-&lt;li>Delayed documentation updates after product releases&lt;/li>
-&lt;/ul>
-&lt;h2>Approach&lt;span class="hx:absolute hx:-mt-20" id="approach">&lt;/span>
-&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I introduced the mandatory documentation checkpoint that embedded documentation workflows directly into &lt;strong>Agile product development processes&lt;/strong> — a change negotiated with engineering leadership, not just applied inside my own team.&lt;/p>
-&lt;p>Key initiatives I led:&lt;/p>
-&lt;ul>
-&lt;li>Integrating documentation tasks into sprint planning, with engineering buy-in&lt;/li>
-&lt;li>Creating documentation readiness checklists for releases&lt;/li>
-&lt;li>Mapping dependencies between product features and documentation&lt;/li>
-&lt;li>Establishing ownership models across engineering and documentation teams, so accountability didn&amp;rsquo;t sit with one writer alone&lt;/li>
-&lt;/ul>
-&lt;p>This ensured documentation became part of &lt;strong>product delivery workflows&lt;/strong>, governed by a shared checkpoint, not a post-release task dependent on individual follow-through.&lt;/p>
-&lt;h2>Impact&lt;span class="hx:absolute hx:-mt-20" id="impact">&lt;/span>
-&lt;a href="#impact" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Increased visibility of documentation deliverables across sprint planning, giving engineering and product leadership a shared view of documentation status&lt;/li>
-&lt;li>Reduced post-release documentation gaps by &lt;strong>40%&lt;/strong>&lt;/li>
-&lt;li>Improved documentation readiness for product releases by &lt;strong>50%&lt;/strong>&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>Related&lt;/h2>
-&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/release-doc-workflow/">Release Documentation Workflow&lt;/a> - the broader operating model behind this work&lt;/p></description></item><item><title>Knowledge Base Architecture</title><link>https://productnorth.in/showcase/knowledge-base-architecture/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/knowledge-base-architecture/</guid><description>
-&lt;p>I led the knowledge architecture initiative end-to-end — taxonomy, &lt;span class="kw">governance&lt;/span> model, contributor workflows — that took the team from scattered documents to a structured, ownable system.&lt;/p>
-&lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
-&lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
-&lt;img src="https://productnorth.in/images/kb.png" alt="60-Second Summary" width="900">
-&lt;/p>
-&lt;h2>Problem&lt;span class="hx:absolute hx:-mt-20" id="problem">&lt;/span>
-&lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Product documentation and operational knowledge were scattered across teams and tools.&lt;/p>
-&lt;p>This made it difficult for employees to:&lt;/p>
-&lt;ul>
-&lt;li>Locate reliable information&lt;/li>
-&lt;li>Identify the correct source of documentation&lt;/li>
-&lt;li>Contribute new knowledge effectively&lt;/li>
-&lt;/ul>
-&lt;h2>Approach&lt;span class="hx:absolute hx:-mt-20" id="approach">&lt;/span>
-&lt;a href="#approach" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I owned and built a &lt;strong>centralized knowledge base architecture&lt;/strong> focused on discoverability and &lt;span class="kw">governance&lt;/span>, then established the contributor model that let the system scale beyond what I could maintain alone.&lt;/p>
-&lt;p>Key initiatives I led:&lt;/p>
-&lt;ul>
-&lt;li>Designing scalable &lt;span class="kw">information architecture&lt;/span> for the knowledge base&lt;/li>
-&lt;li>Building taxonomy structures for better content discovery&lt;/li>
-&lt;li>Implementing contributor workflows and documentation governance so other writers and teams could add knowledge without compromising structure&lt;/li>
-&lt;li>Establishing standards for knowledge organization that outlasted any single contributor&lt;/li>
-&lt;/ul>
-&lt;p>The focus was on treating documentation as a &lt;strong>structured knowledge system rather than isolated documents&lt;/strong> — and building the governance that kept it that way as more people contributed.&lt;/p>
-&lt;h2>Impact&lt;span class="hx:absolute hx:-mt-20" id="impact">&lt;/span>
-&lt;a href="#impact" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
-&lt;li>Reduced support ticket volume by &lt;strong>25%&lt;/strong>&lt;/li>
-&lt;li>Improved knowledge discoverability across teams&lt;/li>
-&lt;li>Accelerated contributor onboarding through clearer structure and discoverability&lt;/li>
-&lt;li>Created sustainable governance models for knowledge systems that didn&amp;rsquo;t depend on me being in the room&lt;/li>
-&lt;/ul>
-&lt;hr>
-&lt;h2>Related&lt;/h2>
-&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/knowledge-architecture/">Knowledge Architecture Model&lt;/a> - the broader information model behind this work&lt;/p></description></item></channel></rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devika Jallegowda – Developer &amp; Delivery</title>
+    <link>https://productnorth.in/showcase/developer-delivery/</link>
+    <description>Recent content in Developer &amp; Delivery on Devika Jallegowda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor>
+    <webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster>
+    
+	  <atom:link href="https://productnorth.in/showcase/developer-delivery/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>API Documentation and Developer Experience</title>
+      <link>https://productnorth.in/showcase/api-documentation-developer-experience/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
+      <guid>https://productnorth.in/showcase/api-documentation-developer-experience/</guid>
+      <description>
+        
+        
+        &lt;p&gt;I owned the &lt;span class=&#34;kw&#34;&gt;API documentation&lt;/span&gt; function end-to-end at Zeta, setting the standards that took developer experience from inconsistent to scalable across engineering teams.&lt;/p&gt;
+&lt;h2&gt;60-Second Summary&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;60-second-summary&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#60-second-summary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;https://productnorth.in/images/devx.png&#34; alt=&#34;60-Second Summary&#34; width=&#34;900&#34;&gt;
+&lt;/p&gt;
+&lt;h2&gt;Problem&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;problem&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#problem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;span class=&#34;kw&#34;&gt;API documentation&lt;/span&gt; across engineering teams lacked consistency and structure.&lt;br&gt;
+Developers struggled to understand APIs quickly due to fragmented documentation practices.&lt;/p&gt;
+&lt;p&gt;Key challenges included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;inconsistent API documentation formats across teams&lt;/li&gt;
+&lt;li&gt;lack of reusable documentation templates&lt;/li&gt;
+&lt;li&gt;documentation created outside engineering workflows&lt;/li&gt;
+&lt;li&gt;limited standardization for API releases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;These issues slowed developer onboarding and reduced API discoverability — and made the documentation team&amp;rsquo;s output inconsistent for any engineer outside my immediate team.&lt;/p&gt;
+&lt;h2&gt;Approach&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;approach&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#approach&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I set the standard for API documentation across engineering: built the framework, defined the templates, and partnered with engineering leadership to embed a documentation checkpoint directly into their workflow, so docs shipped with the release rather than after it.&lt;/p&gt;
+&lt;p&gt;Key initiatives I led:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;standardizing API documentation templates across engineering teams&lt;/li&gt;
+&lt;li&gt;creating reusable documentation components the team could apply consistently&lt;/li&gt;
+&lt;li&gt;integrating documentation checkpoints into engineering workflows&lt;/li&gt;
+&lt;li&gt;establishing documentation standards for API releases, with sign-off as part of the process&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The goal was changing how the team and our engineering partners worked together — treating documentation as a &lt;strong&gt;core component of developer experience&lt;/strong&gt;, owned and governed, rather than a post-release artifact.&lt;/p&gt;
+&lt;h2&gt;Impact&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;impact&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#impact&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The initiative changed the team&amp;rsquo;s process, not just my own output — and the results held at sustained sprint velocity.&lt;/p&gt;
+&lt;p&gt;Results included:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;improved API documentation publishing speed by &lt;strong&gt;30–40%&lt;/strong&gt;, achieved by changing the team&amp;rsquo;s workflow, not by writing faster myself&lt;/li&gt;
+&lt;li&gt;increased API discoverability for developers&lt;/li&gt;
+&lt;li&gt;reduced developer onboarding friction&lt;/li&gt;
+&lt;li&gt;created consistent documentation patterns across engineering teams that outlasted any single release&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;https://productnorth.in/images/scalable-api.png&#34; alt=&#34;API Documentation and Developer Experience&#34; width=&#34;900&#34;&gt;
+&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2&gt;Related&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;text-link&#34; href=&#34;https://productnorth.in/platform-systems/api-doc-devx/&#34;&gt;API Documentation &amp;amp; Developer Experience&lt;/a&gt; - the broader operating model behind this work&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Documentation in Agile Product Development</title>
+      <link>https://productnorth.in/showcase/documentation-agile-development/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
+      <guid>https://productnorth.in/showcase/documentation-agile-development/</guid>
+      <description>
+        
+        
+        &lt;p&gt;I drove the process change that made documentation a sprint deliverable instead of a post-release scramble — a shift I led with engineering leadership, not just within my own team.&lt;/p&gt;
+&lt;h2&gt;60-Second Summary&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;60-second-summary&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#60-second-summary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;https://productnorth.in/images/agile1.png&#34; alt=&#34;60-Second Summary&#34; width=&#34;900&#34;&gt;
+&lt;/p&gt;
+&lt;h2&gt;Problem&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;problem&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#problem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Documentation was frequently written &lt;strong&gt;after product releases&lt;/strong&gt;, leading to gaps between product functionality and available documentation.&lt;/p&gt;
+&lt;p&gt;This resulted in:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Outdated documentation&lt;/li&gt;
+&lt;li&gt;Limited visibility of documentation work during development&lt;/li&gt;
+&lt;li&gt;Delayed documentation updates after product releases&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Approach&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;approach&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#approach&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I introduced the mandatory documentation checkpoint that embedded documentation workflows directly into &lt;strong&gt;Agile product development processes&lt;/strong&gt; — a change negotiated with engineering leadership, not just applied inside my own team.&lt;/p&gt;
+&lt;p&gt;Key initiatives I led:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Integrating documentation tasks into sprint planning, with engineering buy-in&lt;/li&gt;
+&lt;li&gt;Creating documentation readiness checklists for releases&lt;/li&gt;
+&lt;li&gt;Mapping dependencies between product features and documentation&lt;/li&gt;
+&lt;li&gt;Establishing ownership models across engineering and documentation teams, so accountability didn&amp;rsquo;t sit with one writer alone&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This ensured documentation became part of &lt;strong&gt;product delivery workflows&lt;/strong&gt;, governed by a shared checkpoint, not a post-release task dependent on individual follow-through.&lt;/p&gt;
+&lt;h2&gt;Impact&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;impact&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#impact&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Increased visibility of documentation deliverables across sprint planning, giving engineering and product leadership a shared view of documentation status&lt;/li&gt;
+&lt;li&gt;Reduced post-release documentation gaps by &lt;strong&gt;40%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Improved documentation readiness for product releases by &lt;strong&gt;50%&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Related&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;text-link&#34; href=&#34;https://productnorth.in/platform-systems/release-doc-workflow/&#34;&gt;Release Documentation Workflow&lt;/a&gt; - the broader operating model behind this work&lt;/p&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>Knowledge Base Architecture</title>
+      <link>https://productnorth.in/showcase/knowledge-base-architecture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
+      <guid>https://productnorth.in/showcase/knowledge-base-architecture/</guid>
+      <description>
+        
+        
+        &lt;p&gt;I led the knowledge architecture initiative end-to-end — taxonomy, &lt;span class=&#34;kw&#34;&gt;governance&lt;/span&gt; model, contributor workflows — that took the team from scattered documents to a structured, ownable system.&lt;/p&gt;
+&lt;h2&gt;60-Second Summary&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;60-second-summary&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#60-second-summary&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p align=&#34;center&#34;&gt;
+&lt;img src=&#34;https://productnorth.in/images/kb.png&#34; alt=&#34;60-Second Summary&#34; width=&#34;900&#34;&gt;
+&lt;/p&gt;
+&lt;h2&gt;Problem&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;problem&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#problem&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Product documentation and operational knowledge were scattered across teams and tools.&lt;/p&gt;
+&lt;p&gt;This made it difficult for employees to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Locate reliable information&lt;/li&gt;
+&lt;li&gt;Identify the correct source of documentation&lt;/li&gt;
+&lt;li&gt;Contribute new knowledge effectively&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Approach&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;approach&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#approach&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;I owned and built a &lt;strong&gt;centralized knowledge base architecture&lt;/strong&gt; focused on discoverability and &lt;span class=&#34;kw&#34;&gt;governance&lt;/span&gt;, then established the contributor model that let the system scale beyond what I could maintain alone.&lt;/p&gt;
+&lt;p&gt;Key initiatives I led:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Designing scalable &lt;span class=&#34;kw&#34;&gt;information architecture&lt;/span&gt; for the knowledge base&lt;/li&gt;
+&lt;li&gt;Building taxonomy structures for better content discovery&lt;/li&gt;
+&lt;li&gt;Implementing contributor workflows and documentation governance so other writers and teams could add knowledge without compromising structure&lt;/li&gt;
+&lt;li&gt;Establishing standards for knowledge organization that outlasted any single contributor&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The focus was on treating documentation as a &lt;strong&gt;structured knowledge system rather than isolated documents&lt;/strong&gt; — and building the governance that kept it that way as more people contributed.&lt;/p&gt;
+&lt;h2&gt;Impact&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;impact&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#impact&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Reduced support ticket volume by &lt;strong&gt;25%&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;Improved knowledge discoverability across teams&lt;/li&gt;
+&lt;li&gt;Accelerated contributor onboarding through clearer structure and discoverability&lt;/li&gt;
+&lt;li&gt;Created sustainable governance models for knowledge systems that didn&amp;rsquo;t depend on me being in the room&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;Related&lt;/h2&gt;
+&lt;p&gt;&lt;a class=&#34;text-link&#34; href=&#34;https://productnorth.in/platform-systems/knowledge-architecture/&#34;&gt;Knowledge Architecture Model&lt;/a&gt; - the broader information model behind this work&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
