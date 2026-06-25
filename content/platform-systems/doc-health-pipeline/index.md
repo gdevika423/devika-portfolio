@@ -1,5 +1,5 @@
 ---
-title: "AI-Enabled Documentation Health Monitoring"
+title: "Documentation Health Operating Cycle"
 toc: true
 type: docs
 draft: false
@@ -9,7 +9,7 @@ draft: false
 
 Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.
 
-This page describes a working pipeline I designed and built that replaces that manual audit with a standing, automated signal — and what running it for real against my own site taught me about where AI helps and where it doesn't.
+This page describes the operating cycle I run a team against instead: a pipeline I designed and built that turns documentation health into a recurring management ritual — flag, triage, assign, re-check — rather than a one-time audit project. What follows includes what running it for real against my own site taught me about where AI helps and where it doesn't.
 
 ---
 
@@ -77,6 +77,33 @@ The report includes:
 - which check fired and why
 
 This is the point where judgment re-enters the system: a flag is a candidate, not a verdict.
+
+---
+
+## How I Run This as a Team Cadence
+
+The pipeline produces a signal. Running it as a documentation manager means closing the loop on that signal every cycle, not just generating it.
+
+```text
+Weekly Report
+     ↓
+Triage (which flags are real)
+     ↓
+Assignment (which writer owns the fix)
+     ↓
+Resolution
+     ↓
+Re-check Next Cycle
+```
+
+In practice, this means:
+
+- **Triage is a standing weekly review, not an ad hoc glance.** Every flag gets a real decision — real gap, false positive, or not worth fixing this cycle — and that decision is recorded, not just acted on silently.
+- **Every accepted flag gets a named owner and a cycle to resolve it.** Health monitoring that doesn't result in an assigned fix is just a dashboard nobody acts on.
+- **The next cycle checks whether the fix actually held.** A flag that recurs after being marked resolved is itself a signal — either about the content or about the check.
+- **The pattern across cycles is the real management data.** Which categories of pages flag repeatedly, which writers' content stays clean, where the team's actual gaps are — that's the conversation this cadence is built to support, not just this week's report.
+
+This is the layer that turns a working pipeline into a management system: the tool tells you what's stale, the cadence makes sure something happens about it.
 
 ---
 
