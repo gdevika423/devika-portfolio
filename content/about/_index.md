@@ -9,6 +9,26 @@ I'm a documentation systems leader with 15+ years of experience in enterprise so
 
 I lead the writers, standards, and systems that produce documentation at scale - close enough to the craft to set the quality bar, and senior enough to set the strategy. My work spans help documentation, <span class="kw">API documentation</span>, release workflows, in-app guidance, and knowledge systems.
 
+<svg class="about-stats" style="display:block;width:100%;max-width:760px;height:auto;margin:1.5rem 0 2.5rem;" viewBox="0 0 760 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="At a glance: 15+ years documentation leadership, 300+ API endpoints owned, 25% support ticket reduction, 30 to 40% AI-assisted edit-cycle cut">
+  <rect x="0" y="0" width="760" height="150" rx="6" fill="var(--dj-rust)" opacity="0.05"/>
+  <text x="30" y="28" class="as-eyebrow">AT A GLANCE</text>
+  <line x1="190" y1="50" x2="190" y2="120" stroke="var(--dj-rule)" stroke-width="1.5"/>
+  <line x1="380" y1="50" x2="380" y2="120" stroke="var(--dj-rule)" stroke-width="1.5"/>
+  <line x1="570" y1="50" x2="570" y2="120" stroke="var(--dj-rule)" stroke-width="1.5"/>
+  <text x="100" y="90" text-anchor="middle" class="as-number">15+</text>
+  <text x="100" y="115" text-anchor="middle" class="as-label">YEARS LEADING</text>
+  <text x="100" y="128" text-anchor="middle" class="as-label">DOCUMENTATION</text>
+  <text x="285" y="90" text-anchor="middle" class="as-number">300+</text>
+  <text x="285" y="115" text-anchor="middle" class="as-label">API ENDPOINTS</text>
+  <text x="285" y="128" text-anchor="middle" class="as-label">OWNED</text>
+  <text x="475" y="90" text-anchor="middle" class="as-number">25%</text>
+  <text x="475" y="115" text-anchor="middle" class="as-label">SUPPORT TICKET</text>
+  <text x="475" y="128" text-anchor="middle" class="as-label">REDUCTION</text>
+  <text x="665" y="90" text-anchor="middle" class="as-number">30-40%</text>
+  <text x="665" y="115" text-anchor="middle" class="as-label">AI-ASSISTED EDIT</text>
+  <text x="665" y="128" text-anchor="middle" class="as-label">CYCLE CUT</text>
+</svg>
+
 ---
 
 ## What I do
