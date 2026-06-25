@@ -7,7 +7,7 @@ toc: false
 
 I'm a documentation systems leader with 15+ years of experience in enterprise software, leading teams and the AI-enabled systems they run on across SaaS, fintech, and networking products.
 
-I lead the writers, standards, and systems that produce documentation at scale - close enough to the craft to set the quality bar, and senior enough to set the strategy. My work spans help documentation, API documentation, release workflows, in-app guidance, and knowledge systems.
+I lead the writers, standards, and systems that produce documentation at scale - close enough to the craft to set the quality bar, and senior enough to set the strategy. My work spans help documentation, <span class="kw">API documentation</span>, release workflows, in-app guidance, and knowledge systems.
 
 ---
 
@@ -17,10 +17,10 @@ I lead documentation functions that connect product, engineering, and user exper
 
 This includes:
 
-- setting the governance, standards, and AI-assisted workflows that let a team scale without scaling headcount 1:1
+- setting the <span class="kw">governance</span>, standards, and <span class="kw">AI-assisted</span> workflows that let a team scale without scaling headcount 1:1
 - embedding documentation into product release and engineering workflows
-- leading and coaching writers to apply editorial judgment independently
-- owning the API documentation and developer experience function end-to-end
+- leading and coaching writers to apply <span class="kw">editorial judgment</span> independently
+- owning the <span class="kw">API documentation</span> and developer experience function end-to-end
 
 My focus is building a documentation function that's measurable, governed, and trusted - not just content that ships.
 
@@ -48,9 +48,9 @@ Across my career, I've led documentation initiatives spanning:
 
 - API documentation and developer experience, owning 300+ endpoints at sustained sprint velocity
 - knowledge base architecture and content strategy, cutting support tickets by 25%
-- documentation governance and standardization across teams
+- documentation <span class="kw">governance</span> and standardization across teams
 - sprint-embedded documentation, improving release readiness by 50%
-- AI-assisted editorial workflows, cutting edit-cycle time 30-40% while keeping human sign-off on every release
+- <span class="kw">AI-assisted</span> editorial workflows, cutting edit-cycle time 30-40% while keeping human sign-off on every release
 
 I've partnered closely with product managers, engineers, and customer-facing teams to make sure documentation holds up under real-world use, not just review.
 
