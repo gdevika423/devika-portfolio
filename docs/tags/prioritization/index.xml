@@ -1,41 +1,8 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Devika Jallegowda – Prioritization</title>
-    <link>https://productnorth.in/tags/prioritization/</link>
-    <description>Recent content in Prioritization on Devika Jallegowda</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor>
-    <webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster>
-    <lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate>
-    
-	  <atom:link href="https://productnorth.in/tags/prioritization/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Feature Prioritization Framework</title>
-      <link>https://productnorth.in/product/feature-prioritization/</link>
-      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>https://productnorth.in/product/feature-prioritization/</guid>
-      <description>
-        
-        
-        &lt;p&gt;As part of a 3-month MVP sprint, I supported the founding team by:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Defining user stories and epics&lt;/li&gt;
-&lt;li&gt;Prioritizing backlog using a value-impact matrix&lt;/li&gt;
-&lt;li&gt;Leading async sprint planning with dev + design teams&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Tools: Notion, Figma, Slack, Google Docs&lt;/p&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – Prioritization</title><link>https://productnorth.in/tags/prioritization/</link><description>Recent content in Prioritization on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://productnorth.in/tags/prioritization/index.xml" rel="self" type="application/rss+xml"/><item><title>Feature Prioritization Framework</title><link>https://productnorth.in/product/feature-prioritization/</link><pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/product/feature-prioritization/</guid><description>
+&lt;p>As part of a 3-month MVP sprint, I supported the founding team by:&lt;/p>
+&lt;ul>
+&lt;li>Defining user stories and epics&lt;/li>
+&lt;li>Prioritizing backlog using a value-impact matrix&lt;/li>
+&lt;li>Leading async sprint planning with dev + design teams&lt;/li>
+&lt;/ul>
+&lt;p>Tools: Notion, Figma, Slack, Google Docs&lt;/p></description></item></channel></rss>

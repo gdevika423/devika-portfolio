@@ -1,64 +1,18 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Devika Jallegowda – Systems and Operations</title>
-    <link>https://productnorth.in/writing/systems-operations/</link>
-    <description>Recent content in Systems and Operations on Devika Jallegowda</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor>
-    <webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster>
-    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
-    
-	  <atom:link href="https://productnorth.in/writing/systems-operations/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>Automation in Enterprise Systems</title>
-      <link>https://productnorth.in/writing/systems-operations/automation-in-enterprise-systems/</link>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>https://productnorth.in/writing/systems-operations/automation-in-enterprise-systems/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Context&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;context&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#context&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Enterprise systems often involve large operational workloads performed by engineers.&lt;/p&gt;
-&lt;h2&gt;Observation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;observation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#observation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Many operational tasks such as monitoring, log analysis, and incident detection follow predictable workflows.&lt;/p&gt;
-&lt;h2&gt;Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;example&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Automation systems can monitor signals across infrastructure environments and alert engineers when intervention is required.&lt;/p&gt;
-&lt;p&gt;This reduces manual monitoring effort and improves operational visibility.&lt;/p&gt;
-&lt;h2&gt;Takeaway&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;takeaway&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#takeaway&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Automation becomes valuable when it reduces repetitive operational tasks while improving system reliability.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>Operations as Products</title>
-      <link>https://productnorth.in/writing/systems-operations/operations-as-products/</link>
-      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
-      <author>gdevika423@gmail.com (Devika Jallegowda)</author>
-      <guid>https://productnorth.in/writing/systems-operations/operations-as-products/</guid>
-      <description>
-        
-        
-        &lt;h2&gt;Context&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;context&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#context&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Operations teams often manage complex systems through manual workflows.&lt;/p&gt;
-&lt;h2&gt;Observation&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;observation&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#observation&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Many operational tasks follow predictable patterns that make them strong candidates for automation.&lt;/p&gt;
-&lt;h2&gt;Example&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;example&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#example&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Monitoring systems, incident management workflows, and infrastructure maintenance processes can often be converted into structured software platforms.&lt;/p&gt;
-&lt;h2&gt;Takeaway&lt;span class=&#34;hx:absolute hx:-mt-20&#34; id=&#34;takeaway&#34;&gt;&lt;/span&gt;
-    &lt;a href=&#34;#takeaway&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Viewing operations through a product lens can reveal opportunities to design scalable systems rather than relying on manual workflows.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – Systems and Operations</title><link>https://productnorth.in/writing/systems-operations/</link><description>Recent content in Systems and Operations on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://productnorth.in/writing/systems-operations/index.xml" rel="self" type="application/rss+xml"/><item><title>Automation in Enterprise Systems</title><link>https://productnorth.in/writing/systems-operations/automation-in-enterprise-systems/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/systems-operations/automation-in-enterprise-systems/</guid><description>
+&lt;h2>Context&lt;span class="hx:absolute hx:-mt-20" id="context">&lt;/span>
+&lt;a href="#context" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Enterprise systems often involve large operational workloads performed by engineers.&lt;/p>
+&lt;h2>Observation&lt;span class="hx:absolute hx:-mt-20" id="observation">&lt;/span>
+&lt;a href="#observation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Many operational tasks such as monitoring, log analysis, and incident detection follow predictable workflows.&lt;/p>
+&lt;h2>Example&lt;span class="hx:absolute hx:-mt-20" id="example">&lt;/span>
+&lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Automation systems can monitor signals across infrastructure environments and alert engineers when intervention is required.&lt;/p>
+&lt;p>This reduces manual monitoring effort and improves operational visibility.&lt;/p>
+&lt;h2>Takeaway&lt;span class="hx:absolute hx:-mt-20" id="takeaway">&lt;/span>
+&lt;a href="#takeaway" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Automation becomes valuable when it reduces repetitive operational tasks while improving system reliability.&lt;/p></description></item><item><title>Operations as Products</title><link>https://productnorth.in/writing/systems-operations/operations-as-products/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/systems-operations/operations-as-products/</guid><description>
+&lt;h2>Context&lt;span class="hx:absolute hx:-mt-20" id="context">&lt;/span>
+&lt;a href="#context" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Operations teams often manage complex systems through manual workflows.&lt;/p>
+&lt;h2>Observation&lt;span class="hx:absolute hx:-mt-20" id="observation">&lt;/span>
+&lt;a href="#observation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Many operational tasks follow predictable patterns that make them strong candidates for automation.&lt;/p>
+&lt;h2>Example&lt;span class="hx:absolute hx:-mt-20" id="example">&lt;/span>
+&lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Monitoring systems, incident management workflows, and infrastructure maintenance processes can often be converted into structured software platforms.&lt;/p>
+&lt;h2>Takeaway&lt;span class="hx:absolute hx:-mt-20" id="takeaway">&lt;/span>
+&lt;a href="#takeaway" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Viewing operations through a product lens can reveal opportunities to design scalable systems rather than relying on manual workflows.&lt;/p></description></item></channel></rss>
