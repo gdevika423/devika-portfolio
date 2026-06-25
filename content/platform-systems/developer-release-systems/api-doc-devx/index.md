@@ -194,3 +194,12 @@ API documentation becomes a **growth lever**, not just a support function.
 This approach is based on experience working with engineering teams to structure API documentation, improve developer onboarding, and design documentation systems that align with real integration workflows.
 
 It reflects a shift from static documentation to **developer-focused product experience**.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/showcase/api-documentation-developer-experience/">API Documentation and Developer Experience</a> - this model applied in practice at Zeta, with measured results
+
+<a class="text-link" href="/platform-systems/documentation-infrastructure/">Documentation Infrastructure</a> - the infrastructure layer this model runs on
+
