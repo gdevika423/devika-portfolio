@@ -1,0 +1,78 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – Quality Frameworks</title><link>https://productnorth.in/toolkit/quality-frameworks/</link><description>Recent content in Quality Frameworks on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://productnorth.in/toolkit/quality-frameworks/index.xml" rel="self" type="application/rss+xml"/><item><title>Documentation Maturity Model</title><link>https://productnorth.in/toolkit/documentation-maturity-model/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/toolkit/documentation-maturity-model/</guid><description>
+&lt;hr class="page-divider">
+&lt;p>This framework is used to assess how mature a documentation system is across structure, quality, governance, workflows, and scalability.&lt;/p>
+&lt;p>&lt;strong>Context:&lt;/strong> Documentation programs that need a structured way to evaluate growth and capability.&lt;br>
+&lt;strong>Focus:&lt;/strong> Measuring current-state maturity and identifying where improvement is needed.&lt;/p>
+&lt;h3>Purpose&lt;span class="hx:absolute hx:-mt-20" id="purpose">&lt;/span>
+&lt;a href="#purpose" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The Documentation Maturity Model helps teams move from reactive documentation practices to scalable operational systems.&lt;/p>
+&lt;h3>Model Structure&lt;span class="hx:absolute hx:-mt-20" id="model-structure">&lt;/span>
+&lt;a href="#model-structure" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The model evaluates documentation across dimensions such as:&lt;/p>
+&lt;ul>
+&lt;li>content quality&lt;/li>
+&lt;li>information architecture&lt;/li>
+&lt;li>governance&lt;/li>
+&lt;li>contribution workflows&lt;/li>
+&lt;li>publishing consistency&lt;/li>
+&lt;li>discoverability&lt;/li>
+&lt;/ul>
+&lt;h3>When it is used&lt;span class="hx:absolute hx:-mt-20" id="when-it-is-used">&lt;/span>
+&lt;a href="#when-it-is-used" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>This model is useful when:&lt;/p>
+&lt;ul>
+&lt;li>assessing documentation health across teams&lt;/li>
+&lt;li>planning documentation transformation work&lt;/li>
+&lt;li>identifying maturity gaps&lt;/li>
+&lt;li>aligning stakeholders on improvement priorities&lt;/li>
+&lt;/ul>
+&lt;h3>Outcome&lt;span class="hx:absolute hx:-mt-20" id="outcome">&lt;/span>
+&lt;a href="#outcome" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The framework helps teams understand their current state, define a target state, and build a roadmap for documentation maturity.&lt;/p></description></item><item><title>5Cs Content Audit Model</title><link>https://productnorth.in/toolkit/5cs-content-audit-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/toolkit/5cs-content-audit-model/</guid><description>
+&lt;hr class="page-divider">
+&lt;p>The 5Cs model is used to evaluate the quality and completeness of documentation systems during content audits.&lt;/p>
+&lt;p>&lt;strong>Context:&lt;/strong> Large documentation repositories that need structured quality evaluation.&lt;br>
+&lt;strong>Focus:&lt;/strong> A repeatable model for auditing content quality at scale.&lt;/p>
+&lt;h3>Purpose&lt;span class="hx:absolute hx:-mt-20" id="purpose">&lt;/span>
+&lt;a href="#purpose" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The model helps teams systematically assess documentation using a consistent quality lens.&lt;/p>
+&lt;h3>Framework&lt;span class="hx:absolute hx:-mt-20" id="framework">&lt;/span>
+&lt;a href="#framework" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The 5Cs are:&lt;/p>
+&lt;ul>
+&lt;li>Clarity&lt;/li>
+&lt;li>Consistency&lt;/li>
+&lt;li>Completeness&lt;/li>
+&lt;li>Correctness&lt;/li>
+&lt;li>Coverage&lt;/li>
+&lt;/ul>
+&lt;h3>When it is used&lt;span class="hx:absolute hx:-mt-20" id="when-it-is-used">&lt;/span>
+&lt;a href="#when-it-is-used" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>This model is useful when:&lt;/p>
+&lt;ul>
+&lt;li>auditing existing knowledge bases&lt;/li>
+&lt;li>improving documentation quality across teams&lt;/li>
+&lt;li>creating structured remediation plans&lt;/li>
+&lt;li>standardizing audit criteria&lt;/li>
+&lt;/ul>
+&lt;h3>Outcome&lt;span class="hx:absolute hx:-mt-20" id="outcome">&lt;/span>
+&lt;a href="#outcome" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The framework enables teams to identify quality gaps, prioritize fixes, and improve usability across large content systems.&lt;/p></description></item><item><title>Documentation Governance Framework</title><link>https://productnorth.in/toolkit/documentation-governance-framework/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/toolkit/documentation-governance-framework/</guid><description>
+&lt;hr class="page-divider">
+&lt;p>This framework defines how documentation quality, ownership, standards, and maintenance are managed over time.&lt;/p>
+&lt;p>&lt;strong>Context:&lt;/strong> Documentation systems with multiple contributors, teams, and stakeholders.&lt;br>
+&lt;strong>Focus:&lt;/strong> Ensuring documentation remains accurate, usable, and sustainable at scale.&lt;/p>
+&lt;h3>Purpose&lt;span class="hx:absolute hx:-mt-20" id="purpose">&lt;/span>
+&lt;a href="#purpose" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The framework helps create clarity around who owns documentation, how standards are enforced, and how content stays healthy over time.&lt;/p>
+&lt;h3>Governance Areas&lt;span class="hx:absolute hx:-mt-20" id="governance-areas">&lt;/span>
+&lt;a href="#governance-areas" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Typical governance areas include:&lt;/p>
+&lt;ul>
+&lt;li>ownership&lt;/li>
+&lt;li>review responsibility&lt;/li>
+&lt;li>content standards&lt;/li>
+&lt;li>version control&lt;/li>
+&lt;li>update cadence&lt;/li>
+&lt;li>quality checkpoints&lt;/li>
+&lt;/ul>
+&lt;h3>When it is used&lt;span class="hx:absolute hx:-mt-20" id="when-it-is-used">&lt;/span>
+&lt;a href="#when-it-is-used" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>This framework is useful when:&lt;/p>
+&lt;ul>
+&lt;li>documentation is spread across multiple teams&lt;/li>
+&lt;li>content quality is inconsistent&lt;/li>
+&lt;li>ownership is unclear&lt;/li>
+&lt;li>scaling requires stronger controls&lt;/li>
+&lt;/ul>
+&lt;h3>Outcome&lt;span class="hx:absolute hx:-mt-20" id="outcome">&lt;/span>
+&lt;a href="#outcome" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The framework supports long-term content reliability and enables documentation to function as a managed operational system.&lt;/p></description></item></channel></rss>
