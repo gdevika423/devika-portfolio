@@ -376,23 +376,13 @@ main#content .content > p:first-of-type {
 
 /* =========================
    Hero banner (documentation pipeline diagram)
+   Single-column: Hextra constrains content to a narrow reading
+   width regardless of viewport, so this sits below the hero text.
 ========================= */
-.hero-wrap {
-  display: flex;
-  align-items: center;
-  gap: 2.5rem;
-  flex-wrap: wrap;
-}
-
-.hero-wrap .hero {
-  flex: 1 1 420px;
-}
-
-.hero-banner {
-  flex: 1 1 360px;
-  max-width: 480px;
-  width: 100%;
-  height: auto;
+svg.hero-banner {
+  max-width: 700px !important;
+  width: 100% !important;
+  height: auto !important;
 }
 
 .hb-label {
@@ -420,13 +410,11 @@ main#content .content > p:first-of-type {
   opacity: 0.9;
 }
 
-@media (max-width: 900px) {
-  .hero-wrap {
-    flex-direction: column-reverse;
-    gap: 1.5rem;
+@media (max-width: 600px) {
+  .hb-label {
+    font-size: 9px;
   }
-
-  .hero-banner {
-    max-width: 420px;
+  .hb-caption {
+    font-size: 8px;
   }
 }
