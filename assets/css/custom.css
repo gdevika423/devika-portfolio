@@ -327,3 +327,48 @@ body {
   gap: 28px;
   margin-top: 40px;
 }
+
+
+/* =========================
+   Section index pages (Toolkit, Writing, Platform & Systems, Impact Stories)
+   These render through main#content > .content, not .page-wrapper
+========================= */
+main#content .content > h1 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 2.6rem;
+  font-weight: 600;
+  line-height: 1.15;
+  letter-spacing: -0.01em;
+  color: var(--dj-ink);
+  text-align: left;
+}
+
+main#content .content h2 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 1.85rem;
+  font-weight: 600;
+  margin-top: 2.5rem;
+  margin-bottom: 1.4rem;
+  padding-left: 1.1rem;
+  border-left: 3px solid var(--dj-rust);
+  color: var(--dj-ink);
+}
+
+main#content .content h3 {
+  font-family: 'Fraunces', Georgia, serif;
+  font-size: 1.35rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: var(--dj-ink);
+}
+
+main#content .content p,
+main#content .content li {
+  color: var(--dj-ink);
+  line-height: 1.8;
+}
+
+main#content .content > p:first-of-type {
+  color: var(--dj-slate);
+}
