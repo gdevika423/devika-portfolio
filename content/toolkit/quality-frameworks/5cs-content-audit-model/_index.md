@@ -38,3 +38,10 @@ This model is useful when:
 ### Outcome
 
 The framework enables teams to identify quality gaps, prioritize fixes, and improve usability across large content systems.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/showcase/content-strategy-governance/">Content Strategy and Governance</a> - this framework applied in practice at Zeta, with measured results
+
