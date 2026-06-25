@@ -200,4 +200,11 @@ This model reflects experience building documentation systems across:
 
 It demonstrates how documentation can operate as a scalable product system.
 
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/platform-systems/knowledge-architecture/">Knowledge Architecture Model</a> - the information model this system is built on
+
+<a class="text-link" href="/platform-systems/documentation-infrastructure/">Documentation Infrastructure</a> - the authoring and delivery layer underneath this system
 
