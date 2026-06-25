@@ -39,3 +39,10 @@ These models are useful when:
 ### Outcome
 
 These models help teams focus on the highest-value work and execute with more consistency and less ambiguity.
+
+---
+
+<h2>Related</h2>
+
+<a class="text-link" href="/toolkit/documentation-maturity-model/">Documentation Maturity Model</a> - the assessment this prioritization model is often applied against
+
