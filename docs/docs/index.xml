@@ -1,4 +1,133 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – Docs</title><link>https://productnorth.in/docs/</link><description>Recent content in Docs on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://productnorth.in/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>End-to-End Product Documentation System</title><link>https://productnorth.in/platform-systems/product-documentation-system/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/product-documentation-system/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – Docs</title><link>https://productnorth.in/docs/</link><description>Recent content in Docs on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://productnorth.in/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Governance &amp; Review Operating Model</title><link>https://productnorth.in/platform-systems/ai-governance-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/ai-governance-model/</guid><description>
+&lt;hr class="page-divider">
+&lt;p>Most teams adopt AI in documentation the same way: someone starts using it, it spreads informally, and nobody can say with confidence what AI touched, what a human verified, or where the line sits. That works until something AI-assisted ships wrong and there&amp;rsquo;s no clear answer for how it got through.&lt;/p>
+&lt;p>This page describes the operating model I run when I lead a documentation team using AI — what AI is allowed to do, what always requires a human, and how I&amp;rsquo;d account for both if asked.&lt;/p>
+&lt;hr>
+&lt;h2>Why This Exists&lt;span class="hx:absolute hx:-mt-20" id="why-this-exists">&lt;/span>
+&lt;a href="#why-this-exists" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>AI fluency isn&amp;rsquo;t the hard part of managing a documentation team through this shift. The hard part is &lt;strong>drawing a line that holds&lt;/strong> — one the team can actually follow under sprint pressure, and one I can defend to engineering, legal, or a VP asking &amp;ldquo;how do you know what&amp;rsquo;s been checked?&amp;rdquo;&lt;/p>
+&lt;p>A documentation manager&amp;rsquo;s job here isn&amp;rsquo;t to use AI well personally. It&amp;rsquo;s to make sure an entire team uses it consistently, safely, and in a way that&amp;rsquo;s auditable after the fact.&lt;/p>
+&lt;hr>
+&lt;h2>The Three-Layer Model&lt;span class="hx:absolute hx:-mt-20" id="the-three-layer-model">&lt;/span>
+&lt;a href="#the-three-layer-model" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">What AI Owns
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">What the Team Owns
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">What I Own as Manager
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> =
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">A System That Holds Under Pressure&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Each layer has a distinct job. Collapsing them — letting AI quietly absorb a team-owned or manager-owned responsibility — is where these models fail in practice.&lt;/p>
+&lt;hr>
+&lt;h2>Layer 1: What AI Owns&lt;span class="hx:absolute hx:-mt-20" id="layer-1-what-ai-owns">&lt;/span>
+&lt;a href="#layer-1-what-ai-owns" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">First Drafts + Consistency Checks + Health Flagging&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>AI is the right tool for high-volume, low-judgment work where the cost of a missed error is low and review is fast:&lt;/p>
+&lt;ul>
+&lt;li>generating first-draft content from specs, tickets, or PRDs&lt;/li>
+&lt;li>running structural and language-quality checks against the style guide&lt;/li>
+&lt;li>flagging stale, low-coverage, or inconsistent content for human attention&lt;/li>
+&lt;li>summarizing release tickets into draft release-note language&lt;/li>
+&lt;/ul>
+&lt;p>What AI does &lt;strong>not&lt;/strong> get: final sign-off, customer-facing publication without review, or any judgment call about what&amp;rsquo;s safe, accurate, or appropriate for the audience.&lt;/p>
+&lt;hr>
+&lt;h2>Layer 2: What the Team Owns&lt;span class="hx:absolute hx:-mt-20" id="layer-2-what-the-team-owns">&lt;/span>
+&lt;a href="#layer-2-what-the-team-owns" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">AI Draft → Technical Accuracy → Voice &amp;amp; Judgment → Sign-Off&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Every writer on the team is accountable for:&lt;/p>
+&lt;ul>
+&lt;li>verifying technical accuracy against the actual product, not the AI&amp;rsquo;s draft&lt;/li>
+&lt;li>making the judgment calls AI can&amp;rsquo;t — what to cut, what needs more context, what a confused user actually needs to know&lt;/li>
+&lt;li>final sign-off before anything publishes, with their name on that decision&lt;/li>
+&lt;/ul>
+&lt;p>This is a non-negotiable gate, not a courtesy step. If a writer can&amp;rsquo;t explain why a piece of AI-assisted content is correct, it doesn&amp;rsquo;t ship.&lt;/p>
+&lt;hr>
+&lt;h2>Layer 3: What I Own as Manager&lt;span class="hx:absolute hx:-mt-20" id="layer-3-what-i-own-as-manager">&lt;/span>
+&lt;a href="#layer-3-what-i-own-as-manager" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Review Ratio + Escalation Path + Training + Metrics&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>This is the layer that&amp;rsquo;s easy to skip and the one that actually makes the model real:&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Responsibility&lt;/th>
+&lt;th>What it looks like in practice&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Setting the review ratio&lt;/td>
+&lt;td>Deciding how much AI-assisted output gets spot-checked vs. fully reviewed, and adjusting it as trust in the workflow is earned&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Escalation path&lt;/td>
+&lt;td>A clear answer for &amp;ldquo;what happens when AI gets it wrong&amp;rdquo; — who&amp;rsquo;s told, what gets corrected, whether the workflow itself needs adjusting&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Training the team&lt;/td>
+&lt;td>Making sure every writer, not just the early adopters, knows how to use the AI-assisted workflow and where its failure modes are&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Logging and traceability&lt;/td>
+&lt;td>Keeping a record of what AI touched, so any piece of content can be traced back if it&amp;rsquo;s ever questioned&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Owning the metrics&lt;/td>
+&lt;td>Tracking whether the model is actually working — edit-cycle time, error rate post-AI-adoption, review bottlenecks — and being able to report on it, not just claim it&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>If I can&amp;rsquo;t answer &amp;ldquo;how do you know your team&amp;rsquo;s AI workflow is working&amp;rdquo; with something more specific than &amp;ldquo;it feels faster,&amp;rdquo; this layer isn&amp;rsquo;t actually built yet.&lt;/p>
+&lt;hr>
+&lt;h2>What This Looks Like in Practice&lt;span class="hx:absolute hx:-mt-20" id="what-this-looks-like-in-practice">&lt;/span>
+&lt;a href="#what-this-looks-like-in-practice" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I&amp;rsquo;ve run a version of this model at the individual-workflow level already — a two-stage AI-assisted editorial pass (language quality, then structural validation) that writers used for self-review before formal sign-off, cutting edit-cycle time 30–40% while every piece still went through human review before publishing. That&amp;rsquo;s Layer 1 and Layer 2 in action.&lt;/p>
+&lt;p>The piece I&amp;rsquo;d build out further in a team-management role is Layer 3 at scale: a documented review ratio, a real escalation path, and a standing metric I report on rather than just describe — turning a workflow that worked for one team into an operating model that holds as the team and the AI tooling both grow.&lt;/p>
+&lt;hr>
+&lt;h2>Key Insight&lt;span class="hx:absolute hx:-mt-20" id="key-insight">&lt;/span>
+&lt;a href="#key-insight" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>AI scales consistency. The team&amp;rsquo;s judgment is the gate. My job as manager is making sure that gate never quietly disappears just because the work got faster.&lt;/p>
+&lt;p>A documentation team that can say exactly what AI touched, what a human verified, and why — that&amp;rsquo;s the team that survives the next audit, the next incident, and the next leadership question about AI risk.&lt;/p></description></item><item><title>End-to-End Product Documentation System</title><link>https://productnorth.in/platform-systems/product-documentation-system/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/product-documentation-system/</guid><description>
 &lt;hr class="page-divider">
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
 &lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Product documentation works best when it is treated as an operating system, not a collection of files.&lt;/p>
