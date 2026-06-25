@@ -29,7 +29,7 @@ toc: false
   <p class="hero-subtitle">
     I lead documentation teams and the AI-enabled systems they run on, turning fragmented content efforts into a governed, measurable function that scales with the product.
     <br>
-    My focus is building the operating model, the editorial standards, and the AI-assisted workflows that let a documentation team grow without growing headcount 1:1.
+    My focus is building the operating model, the editorial standards, and the <span class="kw">AI-assisted</span> workflows that let a documentation team grow without growing headcount 1:1.
   </p>
   <div class="hero-actions">
     <a class="btn-primary" href="/platform-systems/">See the systems I design</a>
@@ -45,7 +45,7 @@ toc: false
 
 <div class="home-card">
 <h3>Documentation systems</h3>
-<p>I set the standards, governance models, and content architecture that let documentation teams operate at enterprise scale.</p>
+<p>I set the standards, <span class="kw">governance</span> models, and content architecture that let documentation teams operate at enterprise scale.</p>
 </div>
 
 <div class="home-card">
@@ -55,7 +55,7 @@ toc: false
 
 <div class="home-card">
 <h3>Documentation at scale</h3>
-<p>I build the operating model that keeps documentation aligned with releases - structured workflows, governance, and AI-assisted systems.</p>
+<p>I build the operating model that keeps documentation aligned with releases - structured workflows, <span class="kw">governance</span>, and <span class="kw">AI-assisted</span> systems.</p>
 </div>
 
 </div>
@@ -73,7 +73,7 @@ toc: false
 
 <div class="home-card">
 <h3>Improved publishing speed</h3>
-<p>Set the API documentation standards and templates the team adopted, improving publishing speed by 30-40%.</p>
+<p>Set the <span class="kw">API documentation</span> standards and templates the team adopted, improving publishing speed by 30-40%.</p>
 </div>
 
 <div class="home-card">
@@ -154,7 +154,7 @@ Explore the case study →
 </div>
 
 <div class="home-card">
-<h3>Cross-functional influence</h3>
+<h3><span class="kw">Cross-functional</span> influence</h3>
 <p>Partners with Product and Engineering leadership to embed documentation into the delivery lifecycle, not bolt it on after.</p>
 </div>
 
