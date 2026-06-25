@@ -2,12 +2,12 @@
 title: "Knowledge Base Architecture"
 type: showcase
 company: "Zeta"
-role: "Knowledge Base Owner"
+role: "Knowledge Systems Lead"
 toc: true
 type: docs
 ---
 
-Designed a centralized knowledge base architecture that improved information discoverability across teams and reduced support ticket volume by 25%.
+I led the knowledge architecture initiative end-to-end — taxonomy, governance model, contributor workflows — that took the team from scattered documents to a structured, ownable system.
 
 ## 60-Second Summary
 
@@ -28,20 +28,20 @@ This made it difficult for employees to:
 
 ## Approach
 
-I designed a **centralized knowledge base architecture** focused on discoverability and governance.
+I owned and built a **centralized knowledge base architecture** focused on discoverability and governance, then established the contributor model that let the system scale beyond what I could maintain alone.
 
-Key initiatives included:
+Key initiatives I led:
 
 - Designing scalable information architecture for the knowledge base
 - Building taxonomy structures for better content discovery
-- Implementing contributor workflows and documentation governance
-- Establishing standards for knowledge organization
+- Implementing contributor workflows and documentation governance so other writers and teams could add knowledge without compromising structure
+- Establishing standards for knowledge organization that outlasted any single contributor
 
-The focus was on treating documentation as a **structured knowledge system rather than isolated documents**.
+The focus was on treating documentation as a **structured knowledge system rather than isolated documents** — and building the governance that kept it that way as more people contributed.
 
 ## Impact
 
 - Reduced support ticket volume by **25%**
 - Improved knowledge discoverability across teams
 - Accelerated contributor onboarding through clearer structure and discoverability
-- Created sustainable governance models for knowledge systems
+- Created sustainable governance models for knowledge systems that didn't depend on me being in the room
