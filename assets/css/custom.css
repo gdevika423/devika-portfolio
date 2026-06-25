@@ -439,3 +439,12 @@ svg.hero-banner {
   color: var(--dj-rust);
   font-weight: 700;
 }
+
+
+/* =========================
+   Slightly tighter line spacing (per feedback)
+========================= */
+main#content p,
+main#content li {
+  line-height: 1.7;
+}
