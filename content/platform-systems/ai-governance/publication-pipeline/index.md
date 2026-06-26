@@ -8,7 +8,7 @@ url: "/platform-systems/publication-pipeline/"
 
 <hr class="page-divider">
 
-A documentation team adopting AI usually starts with one isolated win — a faster first draft, a quicker editorial pass — without ever connecting those wins into a pipeline that runs end-to-end. This page describes a working pipeline I built that generates a first draft directly from a spec, and the operating model for connecting it to ongoing review and health monitoring as a team workflow.
+A documentation team adopting AI usually starts with one isolated win — a faster first draft, a quicker editorial pass — without ever connecting those wins into a pipeline that runs end-to-end. This page describes a pipeline I've designed that would generate a first draft directly from a spec, and the operating model for connecting it to ongoing review and health monitoring as a team workflow. This is the architecture I'd build next, extending the AI-assisted editorial review I've already proven in production at Zeta - I haven't yet built this specific pipeline.
 
 ---
 
@@ -38,11 +38,11 @@ Publish
 Health Monitoring Feedback Loop (planned)
 ```
 
-1. **Spec input** — a structured source (a mock spec or feature description) is the trigger for draft generation
-2. **AI-assisted draft** — the spec is used to generate a first-pass draft: structure, descriptions, and example content in the shape a writer would start from rather than a blank page
-3. **Human review gate** — the draft does not publish without a writer verifying technical accuracy and structure against the actual product
-4. **Publish** — reviewed content goes live through the standard docs-as-code path
-5. **Feedback loop (planned)** — the next stage of this work is wiring new pages generated this way into the same health-monitoring cycle as the rest of the site, so they're tracked for freshness and consistency from the moment they ship
+1. **Spec input** — a structured source (a spec or feature description) would trigger draft generation
+2. **AI-assisted draft** — the spec would generate a first-pass draft: structure, descriptions, and example content in the shape a writer would start from rather than a blank page
+3. **Human review gate** — the draft would not publish without a writer verifying technical accuracy and structure against the actual product
+4. **Publish** — reviewed content would go live through the standard docs-as-code path
+5. **Feedback loop** — new pages generated this way would wire into the same health-monitoring cycle as the rest of the site, tracked for freshness and consistency from the moment they ship
 
 ---
 
@@ -60,14 +60,14 @@ The review gate is not a formality — no AI-assisted draft reaches publication 
 **New content shouldn't get a clean slate.**
 The goal is for a page generated this way to be tracked the same way as every other page from day one, not exempted from ongoing monitoring because it started with an AI draft.
 
-**The pipeline is the proof, not the pitch.**
-The draft-generation stage is described as built because it runs. The feedback-loop connection is described as planned because it is — that distinction matters more than making the whole thing sound finished.
+**Designed, not yet built.**
+This is the architecture and reasoning, not a finished pipeline. I'd rather describe it precisely as a design - extending what I've already proven works in production - than imply it's running before it is.
 
 ---
 
 ## Where I'd Take This as a Manager
 
-The individual pipeline proves the draft-generation mechanism works. Running it as a team's standard workflow means the same Layer 1 / Layer 2 / Layer 3 accountability from the AI Governance model applies here directly: AI owns the draft, the team owns the review and sign-off, and I own the metric that tells me whether the workflow is actually saving time — how often an AI-assisted draft needs heavy rework versus light editing — rather than just moving the same work around.
+Running this as a team's standard workflow means the same Layer 1 / Layer 2 / Layer 3 accountability from the AI Governance model would apply here directly: AI owns the draft, the team owns the review and sign-off, and I'd own the metric that tells me whether the workflow is actually saving time - how often an AI-assisted draft needs heavy rework versus light editing - rather than just moving the same work around.
 
 ---
 
