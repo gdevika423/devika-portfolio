@@ -259,9 +259,9 @@ Without templates, standards, review checkpoints, and source discipline, AI crea
 
 ## Applied Experience
 
-This model reflects experience using AI to support documentation workflows, including draft acceleration, release note structuring, content consistency checks, and knowledge system improvements.
+This model extends the one part of it I've actually proven in production: AI-assisted editorial review at Zeta, where curated prompts helped writers self-review drafts before formal review, cutting edit-cycle time 30-40% with human sign-off retained on every release.
 
-It demonstrates how AI can be used responsibly inside documentation operations to improve speed, consistency, and scalability.
+The rest of this model - draft acceleration from PRDs, release note automation, content gap detection - is the architecture I'd build out next, reasoning from that same proven principle: AI accelerates the work that benefits from it, and a person stays accountable for what ships.
 
 ---
 
