@@ -2321,59 +2321,47 @@ data-copied-label="Copied!"
 &lt;p>&lt;a class="text-link" href="https://productnorth.in/toolkit/documentation-governance-framework/">Documentation Governance Framework&lt;/a> - the standing governance model this work established&lt;/p></description></item><item><title>Documentation Health Operating Cycle</title><link>https://productnorth.in/platform-systems/doc-health-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/doc-health-pipeline/</guid><description>
 &lt;hr class="page-divider">
 &lt;p>Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.&lt;/p>
-&lt;p>This page describes the operating cycle I run a team against instead: a pipeline I designed and built that turns documentation health into a recurring management ritual — flag, triage, assign, re-check — rather than a one-time audit project. What follows includes what running it for real against my own site taught me about where AI helps and where it doesn&amp;rsquo;t.&lt;/p>
+&lt;p>This page describes a model I&amp;rsquo;ve designed for replacing that manual audit with a standing, automated signal - extending the same principle I&amp;rsquo;ve already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. This is the architecture and the operating cadence I&amp;rsquo;d build and run a team against; I haven&amp;rsquo;t yet built the pipeline itself.&lt;/p>
 &lt;hr>
 &lt;h2>Platform Objective&lt;span class="hx:absolute hx:-mt-20" id="platform-objective">&lt;/span>
-&lt;a href="#platform-objective" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The goal was to answer one resourcing question: can documentation health monitoring scale without scaling headcount?&lt;/p>
-&lt;p>Key objectives included:&lt;/p>
+&lt;a href="#platform-objective" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The goal is to answer one resourcing question: can documentation health monitoring scale without scaling headcount?&lt;/p>
+&lt;p>Key objectives:&lt;/p>
 &lt;ul>
 &lt;li>continuous monitoring of content freshness&lt;/li>
 &lt;li>automated detection of coverage gaps&lt;/li>
 &lt;li>flagging of internal inconsistencies across pages&lt;/li>
 &lt;li>a human review step that stays firmly in control of what&amp;rsquo;s actually wrong&lt;/li>
 &lt;/ul>
-&lt;p>The system acts as a noticing layer on top of an existing documentation set — it never edits content, only flags it.&lt;/p>
+&lt;p>The system is designed as a noticing layer on top of an existing documentation set - it would never edit content, only flag it.&lt;/p>
 &lt;hr>
 &lt;h2>Platform Architecture Overview&lt;span class="hx:absolute hx:-mt-20" id="platform-architecture-overview">&lt;/span>
-&lt;a href="#platform-architecture-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline runs on a weekly schedule and has four stages:&lt;/p>
+&lt;a href="#platform-architecture-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline is designed to run on a weekly schedule with four stages:&lt;/p>
 &lt;ol>
-&lt;li>Ingest — pulls markdown source files directly from the live GitHub repository&lt;/li>
-&lt;li>Context build — pairs each page&amp;rsquo;s content with its real last-commit date&lt;/li>
-&lt;li>Health checks — an LLM evaluates freshness, coverage, and consistency per page&lt;/li>
-&lt;li>Report — flagged pages are compiled into a single Slack message for human triage&lt;/li>
+&lt;li>Ingest - pull markdown source files directly from the live repository&lt;/li>
+&lt;li>Context build - pair each page&amp;rsquo;s content with its real last-commit date&lt;/li>
+&lt;li>Health checks - an LLM evaluates freshness, coverage, and consistency per page&lt;/li>
+&lt;li>Report - flagged pages are compiled into a single message for human triage&lt;/li>
 &lt;/ol>
 &lt;p>Each stage performs a specific function in the monitoring pipeline.&lt;/p>
 &lt;hr>
 &lt;h2>Ingest and Context Build&lt;span class="hx:absolute hx:-mt-20" id="ingest-and-context-build">&lt;/span>
-&lt;a href="#ingest-and-context-build" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline reads every markdown file from the site&amp;rsquo;s content folder and pairs it with metadata pulled from GitHub&amp;rsquo;s commit history.&lt;/p>
-&lt;p>This gives the system two real signals per page:&lt;/p>
-&lt;ul>
-&lt;li>the actual content, not a cached or stale copy&lt;/li>
-&lt;li>how long it&amp;rsquo;s actually been since the page last changed&lt;/li>
-&lt;/ul>
-&lt;p>These signals provide the raw input the health checks run against.&lt;/p>
+&lt;a href="#ingest-and-context-build" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline would read every markdown file from the site&amp;rsquo;s content folder and pair it with metadata pulled from commit history - giving the system two real signals per page: the actual content, and how long it&amp;rsquo;s actually been since the page last changed.&lt;/p>
 &lt;hr>
 &lt;h2>Health Checks&lt;span class="hx:absolute hx:-mt-20" id="health-checks">&lt;/span>
-&lt;a href="#health-checks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The monitoring step evaluates each page against three checks:&lt;/p>
+&lt;a href="#health-checks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The monitoring step would evaluate each page against three checks:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Freshness&lt;/strong> — flags pages old enough that referenced tools or processes may have moved on&lt;/li>
-&lt;li>&lt;strong>Coverage&lt;/strong> — flags missing prerequisites or undefined terms a reader would need&lt;/li>
-&lt;li>&lt;strong>Consistency&lt;/strong> — flags statements that read as internally contradictory&lt;/li>
+&lt;li>&lt;strong>Freshness&lt;/strong> - flags pages old enough that referenced tools or processes may have moved on&lt;/li>
+&lt;li>&lt;strong>Coverage&lt;/strong> - flags missing prerequisites or undefined terms a reader would need&lt;/li>
+&lt;li>&lt;strong>Consistency&lt;/strong> - flags statements that read as internally contradictory&lt;/li>
 &lt;/ul>
-&lt;p>This layer identifies candidate issues and triggers a flag when a check fires — it does not decide what&amp;rsquo;s actually wrong.&lt;/p>
+&lt;p>This layer is designed to identify candidate issues and trigger a flag when a check fires - it would not decide what&amp;rsquo;s actually wrong. That stays human.&lt;/p>
 &lt;hr>
 &lt;h2>Report and Human Review&lt;span class="hx:absolute hx:-mt-20" id="report-and-human-review">&lt;/span>
-&lt;a href="#report-and-human-review" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>When checks fire, the pipeline compiles every flag into one weekly report and posts it to Slack.&lt;/p>
-&lt;p>The report includes:&lt;/p>
-&lt;ul>
-&lt;li>which page was flagged&lt;/li>
-&lt;li>how old it is&lt;/li>
-&lt;li>which check fired and why&lt;/li>
-&lt;/ul>
-&lt;p>This is the point where judgment re-enters the system: a flag is a candidate, not a verdict.&lt;/p>
+&lt;a href="#report-and-human-review" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>When checks fire, the pipeline would compile every flag into one weekly report.&lt;/p>
+&lt;p>The report would include which page was flagged, how old it is, and which check fired and why. This is the point where judgment re-enters the system: a flag is a candidate, not a verdict.&lt;/p>
 &lt;hr>
-&lt;h2>How I Run This as a Team Cadence&lt;span class="hx:absolute hx:-mt-20" id="how-i-run-this-as-a-team-cadence">&lt;/span>
-&lt;a href="#how-i-run-this-as-a-team-cadence" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline produces a signal. Running it as a documentation manager means closing the loop on that signal every cycle, not just generating it.&lt;/p>
+&lt;h2>How I&amp;rsquo;d Run This as a Team Cadence&lt;span class="hx:absolute hx:-mt-20" id="how-id-run-this-as-a-team-cadence">&lt;/span>
+&lt;a href="#how-id-run-this-as-a-team-cadence" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline produces a signal. Running it as a documentation manager means closing the loop on that signal every cycle, not just generating it.&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Weekly Report
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
@@ -2395,40 +2383,40 @@ data-copied-label="Copied!"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>In practice, this means:&lt;/p>
+&lt;p>In practice, this would mean:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Triage is a standing weekly review, not an ad hoc glance.&lt;/strong> Every flag gets a real decision — real gap, false positive, or not worth fixing this cycle — and that decision is recorded, not just acted on silently.&lt;/li>
+&lt;li>&lt;strong>Triage as a standing weekly review, not an ad hoc glance.&lt;/strong> Every flag gets a real decision - real gap, false positive, or not worth fixing this cycle - and that decision is recorded, not just acted on silently.&lt;/li>
 &lt;li>&lt;strong>Every accepted flag gets a named owner and a cycle to resolve it.&lt;/strong> Health monitoring that doesn&amp;rsquo;t result in an assigned fix is just a dashboard nobody acts on.&lt;/li>
-&lt;li>&lt;strong>The next cycle checks whether the fix actually held.&lt;/strong> A flag that recurs after being marked resolved is itself a signal — either about the content or about the check.&lt;/li>
-&lt;li>&lt;strong>The pattern across cycles is the real management data.&lt;/strong> Which categories of pages flag repeatedly, which writers&amp;rsquo; content stays clean, where the team&amp;rsquo;s actual gaps are — that&amp;rsquo;s the conversation this cadence is built to support, not just this week&amp;rsquo;s report.&lt;/li>
+&lt;li>&lt;strong>The next cycle checks whether the fix actually held.&lt;/strong> A flag that recurs after being marked resolved is itself a signal - either about the content or about the check.&lt;/li>
+&lt;li>&lt;strong>The pattern across cycles becomes the real management data.&lt;/strong> Which categories of pages flag repeatedly, which writers&amp;rsquo; content stays clean, where the team&amp;rsquo;s actual gaps are - that&amp;rsquo;s the conversation this cadence is built to support, not just one week&amp;rsquo;s report.&lt;/li>
 &lt;/ul>
-&lt;p>This is the layer that turns a working pipeline into a management system: the tool tells you what&amp;rsquo;s stale, the cadence makes sure something happens about it.&lt;/p>
+&lt;p>This is the layer that would turn a working pipeline into a management system: the tool tells you what&amp;rsquo;s stale, the cadence makes sure something happens about it.&lt;/p>
 &lt;hr>
-&lt;h2>What Running It For Real Taught Me&lt;span class="hx:absolute hx:-mt-20" id="what-running-it-for-real-taught-me">&lt;/span>
-&lt;a href="#what-running-it-for-real-taught-me" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Two things surfaced the first time this ran against this site&amp;rsquo;s actual homepage, worth naming rather than glossing over:&lt;/p>
-&lt;p>&lt;strong>The AI applied a documentation-page rubric to a marketing page.&lt;/strong> The first run flagged the homepage for &amp;ldquo;missing prerequisites&amp;rdquo; — a reasonable check for a how-to guide, not for positioning copy. That&amp;rsquo;s a real v1 limitation: the system doesn&amp;rsquo;t yet distinguish content types before applying checks.&lt;/p>
-&lt;p>&lt;strong>The same check isn&amp;rsquo;t perfectly consistent run to run.&lt;/strong> A second run against the identical, unchanged page returned zero flags. LLM-based judgment varies slightly between calls — which is exactly why this system flags for a human to review, rather than auto-publishing or auto-editing anything.&lt;/p>
+&lt;h2>Anticipated Limitations - Designed With, Not Discovered&lt;span class="hx:absolute hx:-mt-20" id="anticipated-limitations---designed-with-not-discovered">&lt;/span>
+&lt;a href="#anticipated-limitations---designed-with-not-discovered" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Two limitations I&amp;rsquo;d expect and design around from the start, based on what I already know about LLM-based review from running AI-assisted editorial workflows in production:&lt;/p>
+&lt;p>&lt;strong>Content-type blindness.&lt;/strong> An LLM check tuned for how-to content could easily misapply a &amp;ldquo;missing prerequisites&amp;rdquo; rubric to a marketing or positioning page, where that rubric doesn&amp;rsquo;t belong. I&amp;rsquo;d plan for content-type-aware checks from day one rather than treating this as a surprise to fix later.&lt;/p>
+&lt;p>&lt;strong>Run-to-run inconsistency.&lt;/strong> LLM-based judgment doesn&amp;rsquo;t always return the identical result on the same unchanged input. That&amp;rsquo;s exactly why the human review step exists - the system is designed to flag candidates, not publish verdicts, precisely because I don&amp;rsquo;t expect AI judgment to be perfectly deterministic.&lt;/p>
 &lt;hr>
 &lt;h2>Design Principles&lt;span class="hx:absolute hx:-mt-20" id="design-principles">&lt;/span>
 &lt;a href="#design-principles" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>AI scales the noticing, not the deciding.&lt;/strong>
-The system surfaces candidates; a person decides what&amp;rsquo;s a real gap.&lt;/p>
+The system is designed to surface candidates; a person decides what&amp;rsquo;s a real gap.&lt;/p>
 &lt;p>&lt;strong>Real signals over assumptions.&lt;/strong>
-Every check runs against the live repository and live commit history, not a cached snapshot.&lt;/p>
+Every check would run against the live repository and live commit history, not a cached snapshot.&lt;/p>
 &lt;p>&lt;strong>Honest about limitations.&lt;/strong>
-Where the system is wrong or inconsistent, that&amp;rsquo;s reported as a finding, not hidden.&lt;/p>
+Where the system would be wrong or inconsistent, that&amp;rsquo;s a known design constraint, not a hidden risk.&lt;/p>
 &lt;hr>
 &lt;h2>Future Platform Capabilities&lt;span class="hx:absolute hx:-mt-20" id="future-platform-capabilities">&lt;/span>
-&lt;a href="#future-platform-capabilities" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The architecture is built to extend rather than be rebuilt:&lt;/p>
+&lt;a href="#future-platform-capabilities" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The architecture is designed to extend rather than be rebuilt:&lt;/p>
 &lt;ul>
 &lt;li>content-type-aware checks, so a marketing page and a how-to guide are held to different rubrics&lt;/li>
 &lt;li>embeddings-based consistency checks across semantically similar pages, instead of one page read at a time&lt;/li>
 &lt;li>webhook-triggered runs on every merge, instead of a weekly cron&lt;/li>
 &lt;/ul>
-&lt;p>This progression moves the system from a periodic audit replacement toward a continuous documentation-health layer.&lt;/p>
+&lt;p>This progression would move the system from a periodic audit replacement toward a continuous documentation-health layer.&lt;/p>
 &lt;hr>
 &lt;h2>Related&lt;/h2>
-&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/ai-governance-model/">AI Governance &amp;amp; Review Operating Model&lt;/a> - the accountability model this pipeline&amp;rsquo;s signal feeds into&lt;/p>
-&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/metrix/">Documentation Metrics &amp;amp; Impact System&lt;/a> - how this pipeline&amp;rsquo;s data rolls up into reportable metrics&lt;/p></description></item><item><title>Documentation in Agile Product Development</title><link>https://productnorth.in/showcase/documentation-agile-development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/documentation-agile-development/</guid><description>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/ai-governance-model/">AI Governance &amp;amp; Review Operating Model&lt;/a> - the accountability model this pipeline&amp;rsquo;s signal would feed into&lt;/p>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/metrix/">Documentation Metrics &amp;amp; Impact System&lt;/a> - how this pipeline&amp;rsquo;s data would roll up into reportable metrics&lt;/p></description></item><item><title>Documentation in Agile Product Development</title><link>https://productnorth.in/showcase/documentation-agile-development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/documentation-agile-development/</guid><description>
 &lt;p>I drove the process change that made documentation a sprint deliverable instead of a post-release scramble — a shift I led with engineering leadership, not just within my own team.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
 &lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
