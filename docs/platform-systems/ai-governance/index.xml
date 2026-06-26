@@ -528,8 +528,8 @@ data-copied-label="Copied!"
 &lt;p>Without templates, standards, review checkpoints, and source discipline, AI creates more noise than value.&lt;/p>
 &lt;hr>
 &lt;h2>Applied Experience&lt;span class="hx:absolute hx:-mt-20" id="applied-experience">&lt;/span>
-&lt;a href="#applied-experience" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This model reflects experience using AI to support documentation workflows, including draft acceleration, release note structuring, content consistency checks, and knowledge system improvements.&lt;/p>
-&lt;p>It demonstrates how AI can be used responsibly inside documentation operations to improve speed, consistency, and scalability.&lt;/p>
+&lt;a href="#applied-experience" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This model extends the one part of it I&amp;rsquo;ve actually proven in production: AI-assisted editorial review at Zeta, where curated prompts helped writers self-review drafts before formal review, cutting edit-cycle time 30-40% with human sign-off retained on every release.&lt;/p>
+&lt;p>The rest of this model - draft acceleration from PRDs, release note automation, content gap detection - is the architecture I&amp;rsquo;d build out next, reasoning from that same proven principle: AI accelerates the work that benefits from it, and a person stays accountable for what ships.&lt;/p>
 &lt;hr>
 &lt;h2>Related&lt;/h2>
 &lt;p>&lt;a class="text-link" href="https://productnorth.in/showcase/genai-process-innovation/">GenAI Process Innovation&lt;/a> - the real, proven workflow this model scales&lt;/p>
