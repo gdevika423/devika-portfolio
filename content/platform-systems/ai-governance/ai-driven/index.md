@@ -271,4 +271,3 @@ The rest of this model - draft acceleration from PRDs, release note automation, 
 <a class="text-link" href="/showcase/genai-process-innovation/">GenAI Process Innovation</a> - the real, proven workflow this model scales
 
 <a class="text-link" href="/platform-systems/ai-governance-model/">AI Governance & Review Operating Model</a> - the policy that governs how this workflow is run
-
