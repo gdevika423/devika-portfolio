@@ -82,6 +82,12 @@ During my career break, I designed the operating models I'd bring into a Senior 
 <a class="text-link" href="/platform-systems/doc-health-pipeline/">Read the model →</a>
 </div>
 
+<div class="home-card">
+<h3>End-to-End AI-Assisted Publication Pipeline</h3>
+<p>Spec in, AI-assisted draft out, mandatory human review gate before anything publishes - and the planned link into ongoing health monitoring.</p>
+<a class="text-link" href="/platform-systems/publication-pipeline/">Read the model →</a>
+</div>
+
 </div>
 </div>
 
