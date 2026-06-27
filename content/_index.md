@@ -62,6 +62,30 @@ toc: false
 </div>
 
 <div class="home-section">
+<h2>Sabbatical project</h2>
+
+<p class="page-intro">
+During my career break, I designed the operating models I'd bring into a Senior Documentation Manager role on day one - reasoning forward from what I've already proven in production.
+</p>
+
+<div class="home-grid">
+
+<div class="home-card">
+<h3>AI Governance &amp; Review Operating Model</h3>
+<p>What AI owns, what the team owns, and what I own as manager - the accountability model that keeps AI-assisted documentation auditable as a team scales.</p>
+<a class="text-link" href="/platform-systems/ai-governance-model/">Read the model →</a>
+</div>
+
+<div class="home-card">
+<h3>Documentation Health Operating Cycle</h3>
+<p>A weekly cadence - flag, triage, assign, re-check - that would run a team against documentation health data instead of a quarterly manual audit.</p>
+<a class="text-link" href="/platform-systems/doc-health-pipeline/">Read the model →</a>
+</div>
+
+</div>
+</div>
+
+<div class="home-section">
 <h2>Impact highlights</h2>
 
 <div class="home-grid">
