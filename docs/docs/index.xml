@@ -502,6 +502,7 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
 &lt;hr>
 &lt;h2>Related&lt;/h2>
 &lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/api-doc-devx/">API Documentation &amp;amp; Developer Experience&lt;/a> - the broader operating model behind this work&lt;/p></description></item><item><title>End-to-End AI-Assisted Publication Pipeline</title><link>https://productnorth.in/platform-systems/publication-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/publication-pipeline/</guid><description>
+&lt;p class="page-tag">SABBATICAL PROJECT&lt;/p>
 &lt;hr class="page-divider">
 &lt;p>A documentation team adopting AI usually starts with one isolated win — a faster first draft, a quicker editorial pass — without ever connecting those wins into a pipeline that runs end-to-end. This page describes a pipeline I&amp;rsquo;ve designed that would generate a first draft directly from a spec, and the operating model for connecting it to ongoing review and health monitoring as a team workflow. This is the architecture I&amp;rsquo;d build next, extending the AI-assisted editorial review I&amp;rsquo;ve already proven in production at Zeta - I haven&amp;rsquo;t yet built this specific pipeline.&lt;/p>
 &lt;hr>
@@ -1533,6 +1534,7 @@ data-copied-label="Copied!"
 &lt;hr>
 &lt;h2>Related&lt;/h2>
 &lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/api-doc-devx/">API Documentation &amp;amp; Developer Experience&lt;/a> - the related model for developer-facing documentation&lt;/p></description></item><item><title>AI-Driven Documentation Workflow</title><link>https://productnorth.in/platform-systems/ai-driven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/ai-driven/</guid><description>
+&lt;p class="page-tag">SABBATICAL PROJECT&lt;/p>
 &lt;hr class="page-divider">
 &lt;p>This is the AI-assisted workflow model I&amp;rsquo;d run a documentation team against - where AI accelerates drafts and the team retains editorial ownership.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
@@ -2320,6 +2322,7 @@ data-copied-label="Copied!"
 &lt;h2>Related&lt;/h2>
 &lt;p>&lt;a class="text-link" href="https://productnorth.in/toolkit/5cs-content-audit-model/">5Cs Content Audit Model&lt;/a> - the framework this initiative was built around&lt;/p>
 &lt;p>&lt;a class="text-link" href="https://productnorth.in/toolkit/documentation-governance-framework/">Documentation Governance Framework&lt;/a> - the standing governance model this work established&lt;/p></description></item><item><title>Documentation Health Operating Cycle</title><link>https://productnorth.in/platform-systems/doc-health-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/doc-health-pipeline/</guid><description>
+&lt;p class="page-tag">SABBATICAL PROJECT&lt;/p>
 &lt;hr class="page-divider">
 &lt;p>Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.&lt;/p>
 &lt;p>This page describes a model I&amp;rsquo;ve designed for replacing that manual audit with a standing, automated signal - extending the same principle I&amp;rsquo;ve already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. This is the architecture and the operating cadence I&amp;rsquo;d build and run a team against; I haven&amp;rsquo;t yet built the pipeline itself.&lt;/p>
