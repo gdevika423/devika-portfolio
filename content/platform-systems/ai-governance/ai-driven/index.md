@@ -6,6 +6,7 @@ weight: 8
 url: "/platform-systems/ai-driven/"
 ---
 
+<p class="page-tag">SABBATICAL PROJECT</p>
 <hr class="page-divider">
 
 This is the AI-assisted workflow model I'd run a documentation team against - where AI accelerates drafts and the team retains editorial ownership.
