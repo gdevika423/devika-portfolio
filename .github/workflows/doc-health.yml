@@ -1,0 +1,39 @@
+name: Documentation Health Check
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'   # Every Monday 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # needed to commit the JSON snapshot back
+  issues: write
+
+jobs:
+  doc-health:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run doc health check
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: node scripts/doc-health-check.mjs
+
+      - name: Commit dashboard snapshot
+        run: |
+          git config user.name "doc-health-bot"
+          git config user.email "actions@github.com"
+          git add dashboard/doc-health-latest.json
+          git diff --staged --quiet || git commit -m "Update doc health snapshot [skip ci]"
+          git push

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Documentation Health — productnorth.in</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --rust: #C2410C;
+    --rust-light: #FDF1EB;
+    --ink: #1F2328;
+    --ink-soft: #5B6168;
+    --green: #15803D;
+    --green-bg: #EAF7EE;
+    --yellow: #A16207;
+    --yellow-bg: #FEF7E6;
+    --red: #B91C1C;
+    --red-bg: #FDECEC;
+    --border: #E7E2DC;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #FBF9F6;
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', sans-serif;
+    line-height: 1.5;
+  }
+  .wrap { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 2.1rem;
+    margin: 0 0 6px;
+    color: var(--ink);
+  }
+  .meta {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.8rem;
+    color: var(--ink-soft);
+    margin-bottom: 36px;
+  }
+  .summary-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .summary-card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 14px 16px;
+    background: #fff;
+  }
+  .summary-card .label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--ink-soft);
+    margin-bottom: 4px;
+  }
+  .summary-card .value { font-size: 1.4rem; font-weight: 600; }
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.72rem;
+    font-weight: 500;
+    padding: 3px 9px;
+    border-radius: 999px;
+  }
+  .badge.fresh { background: var(--green-bg); color: var(--green); }
+  .badge.aging { background: var(--yellow-bg); color: var(--yellow); }
+  .badge.stale { background: var(--red-bg); color: var(--red); }
+  .badge.unknown { background: #EFEDE9; color: var(--ink-soft); }
+
+  .consistency-banner {
+    border: 1px solid var(--rust);
+    background: var(--rust-light);
+    border-radius: 12px;
+    padding: 20px 22px;
+    margin-bottom: 40px;
+  }
+  .consistency-banner h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.1rem;
+    margin: 0 0 8px;
+    color: var(--rust);
+  }
+  .consistency-banner .body { white-space: pre-line; font-size: 0.92rem; }
+
+  .page-card {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 14px;
+    background: #fff;
+  }
+  .page-card-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  .page-card h3 {
+    font-family: 'Fraunces', serif;
+    font-size: 1.05rem;
+    margin: 0;
+  }
+  .page-card a {
+    color: var(--ink-soft);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.72rem;
+    text-decoration: none;
+  }
+  .page-card a:hover { color: var(--rust); }
+  .field { margin-top: 8px; font-size: 0.88rem; }
+  .field .field-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.68rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--ink-soft);
+    display: block;
+    margin-bottom: 2px;
+  }
+  .loading, .error {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    padding: 40px 0;
+    text-align: center;
+  }
+  .error { color: var(--red); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Documentation Health</h1>
+  <div class="meta" id="meta">Loading…</div>
+
+  <div class="summary-grid" id="summary"></div>
+
+  <div class="consistency-banner" id="consistency" style="display:none;">
+    <h2>Cross-page consistency</h2>
+    <div class="body" id="consistency-body"></div>
+  </div>
+
+  <div id="pages"></div>
+  <div class="loading" id="status">Loading snapshot…</div>
+</div>
+
+<script>
+async function loadSnapshot() {
+  const statusEl = document.getElementById('status');
+  try {
+    // Cache-bust so the dashboard always shows the latest committed snapshot
+    const res = await fetch('./doc-health-latest.json?t=' + Date.now());
+    if (!res.ok) throw new Error('Snapshot not found (HTTP ' + res.status + ')');
+    const data = await res.json();
+    render(data);
+    statusEl.style.display = 'none';
+  } catch (err) {
+    statusEl.textContent = 'Could not load snapshot: ' + err.message;
+    statusEl.classList.add('error');
+  }
+}
+
+function freshnessCounts(pages) {
+  const counts = { fresh: 0, aging: 0, stale: 0, unknown: 0 };
+  pages.forEach(p => counts[p.freshness.level] = (counts[p.freshness.level] || 0) + 1);
+  return counts;
+}
+
+function render(data) {
+  const genDate = new Date(data.generatedAt);
+  document.getElementById('meta').textContent =
+    'Last run: ' + genDate.toLocaleString('en-IN', { dateStyle: 'medium', timeStyle: 'short' });
+
+  const counts = freshnessCounts(data.pages);
+  const summary = document.getElementById('summary');
+  summary.innerHTML = `
+    <div class="summary-card"><div class="label">Pages checked</div><div class="value">${data.pages.length}</div></div>
+    <div class="summary-card"><div class="label">Fresh</div><div class="value">🟢 ${counts.fresh || 0}</div></div>
+    <div class="summary-card"><div class="label">Aging</div><div class="value">🟡 ${counts.aging || 0}</div></div>
+    <div class="summary-card"><div class="label">Stale</div><div class="value">🔴 ${counts.stale || 0}</div></div>
+  `;
+
+  const consistencyEl = document.getElementById('consistency');
+  const consistencyBody = document.getElementById('consistency-body');
+  if (data.crossPageConsistency) {
+    consistencyBody.textContent = data.crossPageConsistency;
+    consistencyEl.style.display = 'block';
+  }
+
+  const pagesEl = document.getElementById('pages');
+  pagesEl.innerHTML = data.pages.map(p => `
+    <div class="page-card">
+      <div class="page-card-head">
+        <h3>${escapeHtml(p.name)}</h3>
+        <a href="${p.url}" target="_blank" rel="noopener">${p.url}</a>
+      </div>
+      <span class="badge ${p.freshness.level}">${p.freshness.emoji} ${p.freshness.label}</span>
+      <div class="field">
+        <span class="field-label">Coverage gaps</span>
+        ${escapeHtml(p.coverageGaps)}
+      </div>
+      <div class="field">
+        <span class="field-label">Freshness risk</span>
+        ${escapeHtml(p.freshnessRisk)}
+      </div>
+    </div>
+  `).join('');
+}
+
+function escapeHtml(str) {
+  if (!str) return '';
+  return str.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+loadSnapshot();
+</script>
+</body>
+</html>
