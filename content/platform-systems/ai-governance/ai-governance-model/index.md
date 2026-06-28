@@ -6,7 +6,7 @@ weight: 1
 url: "/platform-systems/ai-governance-model/"
 ---
 
-<p class="page-tag">sabbatical project</p>
+<p class="page-tag">abbatical project - built and running</p>
 <hr class="page-divider">
 
 Most teams adopt AI in documentation the same way: someone starts using it, it spreads informally, and nobody can say with confidence what AI touched, what a human verified, or where the line sits. That works until something AI-assisted ships wrong and there's no clear answer for how it got through.

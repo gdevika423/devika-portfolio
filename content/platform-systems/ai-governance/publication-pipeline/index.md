@@ -6,7 +6,7 @@ weight: 2
 url: "/platform-systems/publication-pipeline/"
 ---
 
-<p class="page-tag">sabbatical project</p>
+<p class="page-tag">abbatical project - built and running</p>
 <hr class="page-divider">
 
 A documentation team adopting AI usually starts with one isolated win — a faster first draft, a quicker editorial pass — without ever connecting those wins into a pipeline that runs end-to-end. This page describes a pipeline I've designed that would generate a first draft directly from a spec, and the operating model for connecting it to ongoing review and health monitoring as a team workflow. This is the architecture I'd build next, extending the AI-assisted editorial review I've already proven in production at Zeta - I haven't yet built this specific pipeline.
