@@ -9,6 +9,12 @@ url: "/platform-systems/doc-health-pipeline/"
 <p class="page-tag">sabbatical project - built and running</p>
 <hr class="page-divider">
 
+# Documentation Health Operating Cycle
+
+sabbatical project - built and running
+
+---
+
 Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.
 
 This page describes the model I designed for replacing that manual audit with a standing, automated signal - extending the same principle I've already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. I've since built and run this pipeline on this site itself: it auto-discovers every page in the live repository, checks freshness against real commit history, and runs an AI-assisted coverage and consistency review on a weekly schedule via GitHub Actions.
@@ -23,6 +29,8 @@ This pipeline is live and running against this site:
 - **Weekly schedule**, plus on-demand runs via GitHub Actions
 - **Zero infrastructure cost** beyond a small per-run OpenAI API charge - no separate subscription tooling
 - Reports land privately, both as a structured JSON snapshot and a running GitHub Issue
+
+A second, related system - matching documentation coverage against sprint and release tickets, rather than checking page content in isolation - is also built and running in a separate private repository. It isn't yet written up as its own page here.
 
 ---
 
@@ -121,14 +129,11 @@ Two limitations I'd expect and design around from the start, based on what I alr
 
 ## Design Principles
 
-**AI scales the noticing, not the deciding.**
-The system is designed to surface candidates; a person decides what's a real gap.
+**AI scales the noticing, not the deciding.** The system is designed to surface candidates; a person decides what's a real gap.
 
-**Real signals over assumptions.**
-Every check would run against the live repository and live commit history, not a cached snapshot.
+**Real signals over assumptions.** Every check would run against the live repository and live commit history, not a cached snapshot.
 
-**Honest about limitations.**
-Where the system would be wrong or inconsistent, that's a known design constraint, not a hidden risk.
+**Honest about limitations.** Where the system would be wrong or inconsistent, that's a known design constraint, not a hidden risk.
 
 ---
 
@@ -144,8 +149,10 @@ This progression would move the system from a periodic audit replacement toward 
 
 ---
 
-<h2>Related</h2>
+## Related
 
-<a class="text-link" href="/platform-systems/ai-governance-model/">AI Governance & Review Operating Model</a> - the accountability model this pipeline's signal would feed into
+[AI Governance & Review Operating Model](https://productnorth.in/platform-systems/ai-governance-model) - the accountability model this pipeline's signal would feed into
 
-<a class="text-link" href="/platform-systems/metrix/">Documentation Metrics & Impact System</a> - how this pipeline's data would roll up into reportable metrics
+[Documentation Metrics & Impact System](https://productnorth.in/platform-systems/metrix) - how this pipeline's data would roll up into reportable metrics
+
+[AI-Driven Documentation Workflow](https://productnorth.in/platform-systems/ai-driven/ "AI-Driven Documentation Workflow")
