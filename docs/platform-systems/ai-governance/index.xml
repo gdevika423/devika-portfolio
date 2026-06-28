@@ -519,8 +519,7 @@ data-copied-label="Copied!"
 &lt;p>I&amp;rsquo;d build this out the same way I built the proven version: starting narrow, with one real workflow, before generalizing.&lt;/p></description></item><item><title>Documentation Health Operating Cycle</title><link>https://productnorth.in/platform-systems/doc-health-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/doc-health-pipeline/</guid><description>
 &lt;p class="page-tag">sabbatical project - built and running&lt;/p>
 &lt;hr class="page-divider">
-&lt;h1>Documentation Health Operating Cycle&lt;/h1>&lt;p>sabbatical project - built and running&lt;/p>
-&lt;hr>
+---
 &lt;p>Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.&lt;/p>
 &lt;p>This page describes the model I designed for replacing that manual audit with a standing, automated signal - extending the same principle I&amp;rsquo;ve already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. I&amp;rsquo;ve since built and run this pipeline on this site itself: it auto-discovers every page in the live repository, checks freshness against real commit history, and runs an AI-assisted coverage and consistency review on a weekly schedule via GitHub Actions.&lt;/p>
 &lt;hr>
