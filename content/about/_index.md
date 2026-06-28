@@ -7,7 +7,7 @@ toc: false
 
 I'm a documentation systems leader with 15+ years of experience in enterprise software, leading teams and the AI-enabled systems they run on across SaaS, fintech, and networking products.
 
-I lead the writers, standards, and systems that produce documentation at scale - close enough to the craft to set the quality bar, and senior enough to set the strategy. My work spans help documentation, <span class="kw">API documentation</span>, release workflows, in-app guidance, and knowledge systems.
+I lead the writers, standards, and systems that produce documentation at scale - close enough to the craft to set the quality bar, and senior enough to set the strategy. Most recently, I led and coached a team of writers at Zeta, growing their ability to apply editorial judgment to API-heavy content independently. My work spans help documentation, API documentation, release workflows, in-app guidance, and knowledge systems.
 
 <svg class="about-stats" style="display:block;width:100%;max-width:760px;height:auto;margin:1.5rem 0 2.5rem;" viewBox="0 0 760 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="At a glance: 15+ years documentation leadership, 300+ API endpoints owned, 25% support ticket reduction, 30 to 40% AI-assisted edit-cycle cut">
   <rect x="0" y="0" width="760" height="150" rx="6" fill="var(--dj-rust)" opacity="0.05"/>
@@ -39,7 +39,7 @@ This includes:
 
 - setting the <span class="kw">governance</span>, standards, and <span class="kw">AI-assisted</span> workflows that let a team scale without scaling headcount 1:1
 - embedding documentation into product release and engineering workflows
-- leading and coaching writers to apply <span class="kw">editorial judgment</span> independently
+- leading and coaching writers - most recently a team of writes at Zeta - to apply editorial judgment independently
 - owning the <span class="kw">API documentation</span> and developer experience function end-to-end
 
 My focus is building a documentation function that's measurable, governed, and trusted - not just content that ships.
