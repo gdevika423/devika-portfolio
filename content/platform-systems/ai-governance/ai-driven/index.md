@@ -6,10 +6,16 @@ weight: 8
 url: "/platform-systems/ai-driven/"
 ---
 
-<p class="page-tag">sabbatical project</p>
+<p class="page-tag">sabbatical project - idea only, not yet built</p>
 <hr class="page-divider">
 
-This is the AI-assisted workflow model I'd run a documentation team against - where AI accelerates drafts and the team retains editorial ownership.
+# AI-Driven Documentation Workflow
+
+sabbatical project - idea only, not yet built
+
+<!-- REMOVE THIS NOTE ONCE THE WORKFLOW DESCRIBED BELOW IS ACTUALLY BUILT -->
+
+---
 
 ## 60-Second Summary
 
@@ -36,9 +42,6 @@ As product velocity increases, documentation teams need a scalable way to mainta
 
 ## Problem
 
-<div align="center">
-
-```markdown
 ```text
 High Release Volume
      ↓
@@ -49,17 +52,13 @@ Inconsistent Drafts
 Delayed Publishing
      ↓
 Documentation Debt
-````
-
-</div>
+```
 
 The problem is not only writing speed. The bigger challenge is maintaining accuracy, consistency, and completeness across a fast-moving product ecosystem.
 
 ---
 
 ## AI-Assisted Workflow
-
-<div align="center">
 
 ```text
 Product Input
@@ -75,8 +74,6 @@ Publishing
 Feedback and Improvement
 ```
 
-</div>
-
 AI supports the documentation workflow, but final ownership stays with the documentation team.
 
 ---
@@ -86,41 +83,35 @@ AI supports the documentation workflow, but final ownership stays with the docum
 AI works best when the input is structured.
 
 | Input source       | Documentation use                  |
-| ------------------ | ---------------------------------- |
-| PRDs               | Feature documentation drafts       |
-| Engineering notes  | Technical accuracy and edge cases  |
-| API specifications | API reference and examples         |
-| Release tickets    | Release note summaries             |
-| Support tickets    | Gap analysis and improvement ideas |
-| Meeting notes      | Feature context and decisions      |
+| ------------------- | ----------------------------------- |
+| PRDs                | Feature documentation drafts        |
+| Engineering notes   | Technical accuracy and edge cases   |
+| API specifications  | API reference and examples          |
+| Release tickets     | Release note summaries              |
+| Support tickets     | Gap analysis and improvement ideas  |
+| Meeting notes       | Feature context and decisions       |
 
 ---
 
 ## AI Use Cases
 
-<div align="center">
-
 ```text
 Drafting + Summarization + Gap Detection + Consistency Checks
 ```
 
-</div>
-
 Typical AI-assisted documentation activities include:
 
-* generating first drafts from feature inputs
-* summarizing release changes
-* converting engineering notes into user-facing language
-* identifying missing documentation areas
-* checking terminology consistency
-* suggesting reusable content blocks
-* creating first-pass FAQs from support patterns
+- generating first drafts from feature inputs
+- summarizing release changes
+- converting engineering notes into user-facing language
+- identifying missing documentation areas
+- checking terminology consistency
+- suggesting reusable content blocks
+- creating first-pass FAQs from support patterns
 
 ---
 
 ## Human Review Layer
-
-<div align="center">
 
 ```text
 AI Draft
@@ -134,21 +125,17 @@ Product Validation
 Final Approval
 ```
 
-</div>
-
 Human review is required to ensure:
 
-* technical accuracy
-* product behavior alignment
-* customer-safe language
-* consistency with documentation standards
-* correct release positioning
+- technical accuracy
+- product behavior alignment
+- customer-safe language
+- consistency with documentation standards
+- correct release positioning
 
 ---
 
 ## Release Notes Automation
-
-<div align="center">
 
 ```text
 Release Tickets
@@ -162,23 +149,19 @@ PM Review
 Customer-Ready Release Notes
 ```
 
-</div>
-
 AI can accelerate release note production by converting tickets and feature notes into structured summaries.
 
 The documentation team then validates:
 
-* what changed
-* who is impacted
-* how users should respond
-* known limitations
-* rollout details
+- what changed
+- who is impacted
+- how users should respond
+- known limitations
+- rollout details
 
 ---
 
 ## Content Gap Detection
-
-<div align="center">
 
 ```text
 Support Queries
@@ -192,8 +175,6 @@ Documentation Gap
 Content Update
 ```
 
-</div>
-
 Support and customer success inputs can reveal gaps in documentation coverage.
 
 AI can help identify repeated themes, but prioritization should be owned by documentation and product teams.
@@ -204,33 +185,31 @@ AI can help identify repeated themes, but prioritization should be owned by docu
 
 AI-generated documentation must operate within clear guardrails.
 
-| Control             | Purpose                         |
-| ------------------- | ------------------------------- |
-| Style guide         | Maintain voice and terminology  |
-| Templates           | Ensure consistent structure     |
-| Review checklist    | Prevent inaccurate publishing   |
-| Source traceability | Track where AI output came from |
-| Human approval      | Maintain accountability         |
-| Version control     | Manage changes safely           |
+| Control              | Purpose                          |
+| --------------------- | ---------------------------------- |
+| Style guide           | Maintain voice and terminology     |
+| Templates             | Ensure consistent structure        |
+| Review checklist      | Prevent inaccurate publishing      |
+| Source traceability   | Track where AI output came from    |
+| Human approval        | Maintain accountability            |
+| Version control       | Manage changes safely              |
 
 ---
 
 ## Measurement System
 
-| Metric                | What it shows                            |
-| --------------------- | ---------------------------------------- |
-| Draft cycle time      | Speed of first draft creation            |
-| Review cycle time     | Efficiency of validation                 |
-| Release readiness     | Documentation availability before launch |
-| Content consistency   | Alignment with standards                 |
-| Support ticket trends | Documentation gap reduction              |
-| Documentation debt    | Backlog of outdated or missing content   |
+| Metric                 | What it shows                              |
+| ------------------------ | --------------------------------------------- |
+| Draft cycle time         | Speed of first draft creation                 |
+| Review cycle time        | Efficiency of validation                      |
+| Release readiness        | Documentation availability before launch      |
+| Content consistency      | Alignment with standards                      |
+| Support ticket trends    | Documentation gap reduction                   |
+| Documentation debt       | Backlog of outdated or missing content        |
 
 ---
 
 ## Workflow Impact
-
-<div align="center">
 
 ```text
 AI-Assisted Drafting
@@ -243,8 +222,6 @@ Release-Ready Content
      ↓
 Scalable Documentation Operations
 ```
-
-</div>
 
 A strong AI-assisted workflow helps documentation teams scale production without losing quality.
 
@@ -260,14 +237,6 @@ Without templates, standards, review checkpoints, and source discipline, AI crea
 
 ## Applied Experience
 
-This model extends the one part of it I've actually proven in production: AI-assisted editorial review at Zeta, where curated prompts helped writers self-review drafts before formal review, cutting edit-cycle time 30-40% with human sign-off retained on every release.
+This page is a forward-looking model, not a built system - a wider, more ambitious version of the same principle I've already proven at Zeta with a two-stage AI-assisted editorial pass that cut edit-cycle time 30-40%, with human sign-off retained on every release. The specific capabilities described above - release notes automation, content gap detection from support patterns, full input-source coverage across PRDs and engineering notes - are designed, not yet implemented.
 
-The rest of this model - draft acceleration from PRDs, release note automation, content gap detection - is the architecture I'd build out next, reasoning from that same proven principle: AI accelerates the work that benefits from it, and a person stays accountable for what ships.
-
----
-
-<h2>Related</h2>
-
-<a class="text-link" href="/showcase/genai-process-innovation/">GenAI Process Innovation</a> - the real, proven workflow this model scales
-
-<a class="text-link" href="/platform-systems/ai-governance-model/">AI Governance & Review Operating Model</a> - the policy that governs how this workflow is run
+I'd build this out the same way I built the proven version: starting narrow, with one real workflow, before generalizing.
