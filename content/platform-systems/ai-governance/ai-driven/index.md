@@ -1,5 +1,5 @@
 ---title: "AI-Driven Documentation Workflow"
-summary: "description: "A forward-looking model for using AI to accelerate documentation production - designed, not yet built. See the page for what's proven versus aspirational."
+summary: "A forward-looking model for using AI to accelerate documentation production - designed, not yet built. See the page for what's proven versus aspirational."
 toc: true
 type: docs
 weight: 8
