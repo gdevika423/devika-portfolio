@@ -502,7 +502,7 @@ Developers struggled to understand APIs quickly due to fragmented documentation 
 &lt;hr>
 &lt;h2>Related&lt;/h2>
 &lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/api-doc-devx/">API Documentation &amp;amp; Developer Experience&lt;/a> - the broader operating model behind this work&lt;/p></description></item><item><title>End-to-End AI-Assisted Publication Pipeline</title><link>https://productnorth.in/platform-systems/publication-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/publication-pipeline/</guid><description>
-&lt;p class="page-tag">abbatical project - built and running&lt;/p>
+&lt;p class="page-tag">sabbatical project - built and running&lt;/p>
 &lt;hr class="page-divider">
 &lt;p>A documentation team adopting AI usually starts with one isolated win — a faster first draft, a quicker editorial pass — without ever connecting those wins into a pipeline that runs end-to-end. This page describes a pipeline I&amp;rsquo;ve designed that would generate a first draft directly from a spec, and the operating model for connecting it to ongoing review and health monitoring as a team workflow. This is the architecture I&amp;rsquo;d build next. It extends the AI-assisted editorial review I&amp;rsquo;ve already proven in production at Zeta — but this specific draft-from-spec pipeline is a design, not something I&amp;rsquo;ve built yet.&amp;quot;&lt;/p>
 &lt;hr>
