@@ -6,18 +6,18 @@ draft: false
 url: "/platform-systems/doc-health-pipeline/"
 ---
 
-<p class="page-tag">sabbatical project - built and running</p>
+<p class="page-tag">sabbatical project — v1 built and running</p>
 <hr class="page-divider">
 
 # Documentation Health Operating Cycle
 
-sabbatical project - built and running
+sabbatical project — v1 built and running
 
 ---
 
 Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.
 
-This page describes the model I designed for replacing that manual audit with a standing, automated signal - extending the same principle I've already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. I've since built and run this pipeline on this site itself: it auto-discovers every page in the live repository, checks freshness against real commit history, and runs an AI-assisted coverage and consistency review on a weekly schedule via GitHub Actions.
+This page describes the model I designed for replacing that manual audit with a standing, automated signal - extending the same principle I've already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. A first version of this is built and running against this site: [view the repo](https://github.com/gdevika423/doc-health-pipeline).
 
 ---
 
@@ -25,12 +25,13 @@ This page describes the model I designed for replacing that manual audit with a 
 
 This pipeline is live and running against this site:
 
-- **79 pages** auto-discovered and checked on every run
-- **Weekly schedule**, plus on-demand runs via GitHub Actions
-- **Zero infrastructure cost** beyond a small per-run OpenAI API charge - no separate subscription tooling
-- Reports land privately, both as a structured JSON snapshot and a running GitHub Issue
+- **7 pages** checked on every run - this site's homepage, About, Toolkit, and the four AI/platform-systems pages
+- **Weekly schedule** via GitHub Actions, plus on-demand manual runs
+- **Coverage, consistency, and overclaim-risk checks** per page via GPT, plus a small accuracy-evals layer: each page is checked against a short list of known-true facts, and the match rate is tracked over time in the repo
+- **Most recent run: 100% accuracy** (13/13 ground-truth facts confirmed), up from 92.3% in the previous run - the gap was a real internal contradiction on this site's own Publication Pipeline page, which I fixed and then re-ran to confirm
+- Reports are markdown files and a running CSV, committed straight back into the repo - no separate dashboard or subscription tooling
 
-A second, related system - matching documentation coverage against sprint and release tickets, rather than checking page content in isolation - is also built and running in a separate private repository. It isn't yet written up as its own page here.
+This is a v1: it checks a fixed list of pages, not the whole site automatically, and it doesn't yet check freshness against commit history - both are described as the fuller design below, not yet built.
 
 ---
 
@@ -55,10 +56,12 @@ The pipeline is designed to run on a weekly schedule with four stages:
 
 1. Ingest - pull markdown source files directly from the live repository
 2. Context build - pair each page's content with its real last-commit date
-3. Health checks - an LLM evaluates freshness, coverage, and consistency per page
-4. Report - flagged pages are compiled into a single message for human triage
+3. Health checks - an LLM evaluates freshness, coverage, consistency, and overclaim risk per page
+4. Report - flagged pages are compiled into a single report for human triage
 
 Each stage performs a specific function in the monitoring pipeline.
+
+In v1, stage 1 fetches each page's live rendered page directly rather than raw markdown from the repository, and stage 2's commit-history pairing isn't built yet - the checks below run on page content alone for now.
 
 ---
 
@@ -70,11 +73,12 @@ The pipeline would read every markdown file from the site's content folder and p
 
 ## Health Checks
 
-The monitoring step would evaluate each page against three checks:
+The monitoring step evaluates each page against four checks:
 
-- **Freshness** - flags pages old enough that referenced tools or processes may have moved on
+- **Freshness** - flags language signals (specific dates, "current," "in progress") that may need a human to reconfirm are still accurate. This is text-pattern based in v1, not tied to actual elapsed time - true age-based freshness via commit history is still future work.
 - **Coverage** - flags missing prerequisites or undefined terms a reader would need
 - **Consistency** - flags statements that read as internally contradictory
+- **Overclaim risk** - flags language implying more system maturity than a page's actual description supports. This check is built and running in v1 - it's what caught and helped fix a real contradiction on this site's own Publication Pipeline page.
 
 This layer is designed to identify candidate issues and trigger a flag when a check fires - it would not decide what's actually wrong. That stays human.
 
@@ -115,44 +119,8 @@ This is the layer that would turn a working pipeline into a management system: t
 
 ---
 
-## Anticipated Limitations - Designed With, Not Discovered
+## Anticipated Limitations
 
 Two limitations I'd expect and design around from the start, based on what I already know about LLM-based review from running AI-assisted editorial workflows in production:
 
-**Content-type blindness.** An LLM check tuned for how-to content could easily misapply a "missing prerequisites" rubric to a marketing or positioning page, where that rubric doesn't belong. I'd plan for content-type-aware checks from day one rather than treating this as a surprise to fix later.
-
-**Run-to-run inconsistency.** LLM-based judgment doesn't always return the identical result on the same unchanged input. That's exactly why the human review step exists - the system is designed to flag candidates, not publish verdicts, precisely because I don't expect AI judgment to be perfectly deterministic.
-
-**Isolated review misses cross-page contradictions - discovered, not anticipated.** The first working version reviewed each page independently, one API call per page. I tested it against a deliberately seeded contradiction - two pages stating different years of experience - and the isolated version missed it, because a single-page review has no visibility into what any other page says. I redesigned the check to send all pages to the model together in one comparison pass. That version catches it. This is the one limitation on this page I found by testing, not by reasoning in advance - worth naming honestly rather than folding it into the "anticipated" list above.
-
----
-
-## Design Principles
-
-**AI scales the noticing, not the deciding.** The system is designed to surface candidates; a person decides what's a real gap.
-
-**Real signals over assumptions.** Every check would run against the live repository and live commit history, not a cached snapshot.
-
-**Honest about limitations.** Where the system would be wrong or inconsistent, that's a known design constraint, not a hidden risk.
-
----
-
-## Future Platform Capabilities
-
-The architecture is designed to extend rather than be rebuilt:
-
-- content-type-aware checks, so a marketing page and a how-to guide are held to different rubrics
-- embeddings-based consistency checks across semantically similar pages, instead of one page read at a time
-- webhook-triggered runs on every merge, instead of a weekly cron
-
-This progression would move the system from a periodic audit replacement toward a continuous documentation-health layer.
-
----
-
-## Related
-
-[AI Governance & Review Operating Model](https://productnorth.in/platform-systems/ai-governance-model) - the accountability model this pipeline's signal would feed into
-
-[Documentation Metrics & Impact System](https://productnorth.in/platform-systems/metrix) - how this pipeline's data would roll up into reportable metrics
-
-[AI-Driven Documentation Workflow](https://productnorth.in/platform-systems/ai-driven/ "AI-Driven Documentation Workflow")
+**Content-type blindness.** An LLM check tuned for how-to content could easily misapply a "missing prerequisites" rubric to a marketing or positioning page, where that rubric doesn't belong. I'd plan for content-type-aware checks from day one
