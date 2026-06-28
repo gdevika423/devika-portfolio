@@ -6,12 +6,23 @@ draft: false
 url: "/platform-systems/doc-health-pipeline/"
 ---
 
-<p class="page-tag">sabbatical project</p>
+<p class="page-tag">sabbatical project - built and running</p>
 <hr class="page-divider">
 
 Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.
 
-This page describes a model I've designed for replacing that manual audit with a standing, automated signal - extending the same principle I've already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. This is the architecture and the operating cadence I'd build and run a team against; I haven't yet built the pipeline itself.
+This page describes the model I designed for replacing that manual audit with a standing, automated signal - extending the same principle I've already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. I've since built and run this pipeline on this site itself: it auto-discovers every page in the live repository, checks freshness against real commit history, and runs an AI-assisted coverage and consistency review on a weekly schedule via GitHub Actions.
+
+---
+
+## Current Status
+
+This pipeline is live and running against this site:
+
+- **79 pages** auto-discovered and checked on every run
+- **Weekly schedule**, plus on-demand runs via GitHub Actions
+- **Zero infrastructure cost** beyond a small per-run OpenAI API charge - no separate subscription tooling
+- Reports land privately, both as a structured JSON snapshot and a running GitHub Issue
 
 ---
 
@@ -103,6 +114,8 @@ Two limitations I'd expect and design around from the start, based on what I alr
 **Content-type blindness.** An LLM check tuned for how-to content could easily misapply a "missing prerequisites" rubric to a marketing or positioning page, where that rubric doesn't belong. I'd plan for content-type-aware checks from day one rather than treating this as a surprise to fix later.
 
 **Run-to-run inconsistency.** LLM-based judgment doesn't always return the identical result on the same unchanged input. That's exactly why the human review step exists - the system is designed to flag candidates, not publish verdicts, precisely because I don't expect AI judgment to be perfectly deterministic.
+
+**Isolated review misses cross-page contradictions - discovered, not anticipated.** The first working version reviewed each page independently, one API call per page. I tested it against a deliberately seeded contradiction - two pages stating different years of experience - and the isolated version missed it, because a single-page review has no visibility into what any other page says. I redesigned the check to send all pages to the model together in one comparison pass. That version catches it. This is the one limitation on this page I found by testing, not by reasoning in advance - worth naming honestly rather than folding it into the "anticipated" list above.
 
 ---
 
