@@ -517,22 +517,23 @@ data-copied-label="Copied!"
 &lt;h2>Applied Experience&lt;span class="hx:absolute hx:-mt-20" id="applied-experience">&lt;/span>
 &lt;a href="#applied-experience" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This page is a forward-looking model, not a built system - a wider, more ambitious version of the same principle I&amp;rsquo;ve already proven at Zeta with a two-stage AI-assisted editorial pass that cut edit-cycle time 30-40%, with human sign-off retained on every release. The specific capabilities described above - release notes automation, content gap detection from support patterns, full input-source coverage across PRDs and engineering notes - are designed, not yet implemented.&lt;/p>
 &lt;p>I&amp;rsquo;d build this out the same way I built the proven version: starting narrow, with one real workflow, before generalizing.&lt;/p></description></item><item><title>Documentation Health Operating Cycle</title><link>https://productnorth.in/platform-systems/doc-health-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/doc-health-pipeline/</guid><description>
-&lt;p class="page-tag">sabbatical project - built and running&lt;/p>
+&lt;p class="page-tag">sabbatical project — v1 built and running&lt;/p>
 &lt;hr class="page-divider">
-&lt;h1>Documentation Health Operating Cycle&lt;/h1>&lt;p>sabbatical project - built and running&lt;/p>
+&lt;h1>Documentation Health Operating Cycle&lt;/h1>&lt;p>sabbatical project — v1 built and running&lt;/p>
 &lt;hr>
 &lt;p>Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.&lt;/p>
-&lt;p>This page describes the model I designed for replacing that manual audit with a standing, automated signal - extending the same principle I&amp;rsquo;ve already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. I&amp;rsquo;ve since built and run this pipeline on this site itself: it auto-discovers every page in the live repository, checks freshness against real commit history, and runs an AI-assisted coverage and consistency review on a weekly schedule via GitHub Actions.&lt;/p>
+&lt;p>This page describes the model I designed for replacing that manual audit with a standing, automated signal - extending the same principle I&amp;rsquo;ve already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. A first version of this is built and running against this site: &lt;a href="https://github.com/gdevika423/doc-health-pipeline"target="_blank" rel="noopener">view the repo&lt;/a>.&lt;/p>
 &lt;hr>
 &lt;h2>Current Status&lt;span class="hx:absolute hx:-mt-20" id="current-status">&lt;/span>
 &lt;a href="#current-status" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This pipeline is live and running against this site:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>79 pages&lt;/strong> auto-discovered and checked on every run&lt;/li>
-&lt;li>&lt;strong>Weekly schedule&lt;/strong>, plus on-demand runs via GitHub Actions&lt;/li>
-&lt;li>&lt;strong>Zero infrastructure cost&lt;/strong> beyond a small per-run OpenAI API charge - no separate subscription tooling&lt;/li>
-&lt;li>Reports land privately, both as a structured JSON snapshot and a running GitHub Issue&lt;/li>
+&lt;li>&lt;strong>7 pages&lt;/strong> checked on every run - this site&amp;rsquo;s homepage, About, Toolkit, and the four AI/platform-systems pages&lt;/li>
+&lt;li>&lt;strong>Weekly schedule&lt;/strong> via GitHub Actions, plus on-demand manual runs&lt;/li>
+&lt;li>&lt;strong>Coverage, consistency, and overclaim-risk checks&lt;/strong> per page via GPT, plus a small accuracy-evals layer: each page is checked against a short list of known-true facts, and the match rate is tracked over time in the repo&lt;/li>
+&lt;li>&lt;strong>Most recent run: 100% accuracy&lt;/strong> (13/13 ground-truth facts confirmed), up from 92.3% in the previous run - the gap was a real internal contradiction on this site&amp;rsquo;s own Publication Pipeline page, which I fixed and then re-ran to confirm&lt;/li>
+&lt;li>Reports are markdown files and a running CSV, committed straight back into the repo - no separate dashboard or subscription tooling&lt;/li>
 &lt;/ul>
-&lt;p>A second, related system - matching documentation coverage against sprint and release tickets, rather than checking page content in isolation - is also built and running in a separate private repository. It isn&amp;rsquo;t yet written up as its own page here.&lt;/p>
+&lt;p>This is a v1: it checks a fixed list of pages, not the whole site automatically, and it doesn&amp;rsquo;t yet check freshness against commit history - both are described as the fuller design below, not yet built.&lt;/p>
 &lt;hr>
 &lt;h2>Platform Objective&lt;span class="hx:absolute hx:-mt-20" id="platform-objective">&lt;/span>
 &lt;a href="#platform-objective" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The goal is to answer one resourcing question: can documentation health monitoring scale without scaling headcount?&lt;/p>
@@ -550,20 +551,22 @@ data-copied-label="Copied!"
 &lt;ol>
 &lt;li>Ingest - pull markdown source files directly from the live repository&lt;/li>
 &lt;li>Context build - pair each page&amp;rsquo;s content with its real last-commit date&lt;/li>
-&lt;li>Health checks - an LLM evaluates freshness, coverage, and consistency per page&lt;/li>
-&lt;li>Report - flagged pages are compiled into a single message for human triage&lt;/li>
+&lt;li>Health checks - an LLM evaluates freshness, coverage, consistency, and overclaim risk per page&lt;/li>
+&lt;li>Report - flagged pages are compiled into a single report for human triage&lt;/li>
 &lt;/ol>
 &lt;p>Each stage performs a specific function in the monitoring pipeline.&lt;/p>
+&lt;p>In v1, stage 1 fetches each page&amp;rsquo;s live rendered page directly rather than raw markdown from the repository, and stage 2&amp;rsquo;s commit-history pairing isn&amp;rsquo;t built yet - the checks below run on page content alone for now.&lt;/p>
 &lt;hr>
 &lt;h2>Ingest and Context Build&lt;span class="hx:absolute hx:-mt-20" id="ingest-and-context-build">&lt;/span>
 &lt;a href="#ingest-and-context-build" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline would read every markdown file from the site&amp;rsquo;s content folder and pair it with metadata pulled from commit history - giving the system two real signals per page: the actual content, and how long it&amp;rsquo;s actually been since the page last changed.&lt;/p>
 &lt;hr>
 &lt;h2>Health Checks&lt;span class="hx:absolute hx:-mt-20" id="health-checks">&lt;/span>
-&lt;a href="#health-checks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The monitoring step would evaluate each page against three checks:&lt;/p>
+&lt;a href="#health-checks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The monitoring step evaluates each page against four checks:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Freshness&lt;/strong> - flags pages old enough that referenced tools or processes may have moved on&lt;/li>
+&lt;li>&lt;strong>Freshness&lt;/strong> - flags language signals (specific dates, &amp;ldquo;current,&amp;rdquo; &amp;ldquo;in progress&amp;rdquo;) that may need a human to reconfirm are still accurate. This is text-pattern based in v1, not tied to actual elapsed time - true age-based freshness via commit history is still future work.&lt;/li>
 &lt;li>&lt;strong>Coverage&lt;/strong> - flags missing prerequisites or undefined terms a reader would need&lt;/li>
 &lt;li>&lt;strong>Consistency&lt;/strong> - flags statements that read as internally contradictory&lt;/li>
+&lt;li>&lt;strong>Overclaim risk&lt;/strong> - flags language implying more system maturity than a page&amp;rsquo;s actual description supports. This check is built and running in v1 - it&amp;rsquo;s what caught and helped fix a real contradiction on this site&amp;rsquo;s own Publication Pipeline page.&lt;/li>
 &lt;/ul>
 &lt;p>This layer is designed to identify candidate issues and trigger a flag when a check fires - it would not decide what&amp;rsquo;s actually wrong. That stays human.&lt;/p>
 &lt;hr>
@@ -603,27 +606,6 @@ data-copied-label="Copied!"
 &lt;/ul>
 &lt;p>This is the layer that would turn a working pipeline into a management system: the tool tells you what&amp;rsquo;s stale, the cadence makes sure something happens about it.&lt;/p>
 &lt;hr>
-&lt;h2>Anticipated Limitations - Designed With, Not Discovered&lt;span class="hx:absolute hx:-mt-20" id="anticipated-limitations---designed-with-not-discovered">&lt;/span>
-&lt;a href="#anticipated-limitations---designed-with-not-discovered" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Two limitations I&amp;rsquo;d expect and design around from the start, based on what I already know about LLM-based review from running AI-assisted editorial workflows in production:&lt;/p>
-&lt;p>&lt;strong>Content-type blindness.&lt;/strong> An LLM check tuned for how-to content could easily misapply a &amp;ldquo;missing prerequisites&amp;rdquo; rubric to a marketing or positioning page, where that rubric doesn&amp;rsquo;t belong. I&amp;rsquo;d plan for content-type-aware checks from day one rather than treating this as a surprise to fix later.&lt;/p>
-&lt;p>&lt;strong>Run-to-run inconsistency.&lt;/strong> LLM-based judgment doesn&amp;rsquo;t always return the identical result on the same unchanged input. That&amp;rsquo;s exactly why the human review step exists - the system is designed to flag candidates, not publish verdicts, precisely because I don&amp;rsquo;t expect AI judgment to be perfectly deterministic.&lt;/p>
-&lt;p>&lt;strong>Isolated review misses cross-page contradictions - discovered, not anticipated.&lt;/strong> The first working version reviewed each page independently, one API call per page. I tested it against a deliberately seeded contradiction - two pages stating different years of experience - and the isolated version missed it, because a single-page review has no visibility into what any other page says. I redesigned the check to send all pages to the model together in one comparison pass. That version catches it. This is the one limitation on this page I found by testing, not by reasoning in advance - worth naming honestly rather than folding it into the &amp;ldquo;anticipated&amp;rdquo; list above.&lt;/p>
-&lt;hr>
-&lt;h2>Design Principles&lt;span class="hx:absolute hx:-mt-20" id="design-principles">&lt;/span>
-&lt;a href="#design-principles" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>AI scales the noticing, not the deciding.&lt;/strong> The system is designed to surface candidates; a person decides what&amp;rsquo;s a real gap.&lt;/p>
-&lt;p>&lt;strong>Real signals over assumptions.&lt;/strong> Every check would run against the live repository and live commit history, not a cached snapshot.&lt;/p>
-&lt;p>&lt;strong>Honest about limitations.&lt;/strong> Where the system would be wrong or inconsistent, that&amp;rsquo;s a known design constraint, not a hidden risk.&lt;/p>
-&lt;hr>
-&lt;h2>Future Platform Capabilities&lt;span class="hx:absolute hx:-mt-20" id="future-platform-capabilities">&lt;/span>
-&lt;a href="#future-platform-capabilities" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The architecture is designed to extend rather than be rebuilt:&lt;/p>
-&lt;ul>
-&lt;li>content-type-aware checks, so a marketing page and a how-to guide are held to different rubrics&lt;/li>
-&lt;li>embeddings-based consistency checks across semantically similar pages, instead of one page read at a time&lt;/li>
-&lt;li>webhook-triggered runs on every merge, instead of a weekly cron&lt;/li>
-&lt;/ul>
-&lt;p>This progression would move the system from a periodic audit replacement toward a continuous documentation-health layer.&lt;/p>
-&lt;hr>
-&lt;h2>Related&lt;span class="hx:absolute hx:-mt-20" id="related">&lt;/span>
-&lt;a href="#related" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://productnorth.in/platform-systems/ai-governance-model"target="_blank" rel="noopener">AI Governance &amp;amp; Review Operating Model&lt;/a> - the accountability model this pipeline&amp;rsquo;s signal would feed into&lt;/p>
-&lt;p>&lt;a href="https://productnorth.in/platform-systems/metrix"target="_blank" rel="noopener">Documentation Metrics &amp;amp; Impact System&lt;/a> - how this pipeline&amp;rsquo;s data would roll up into reportable metrics&lt;/p>
-&lt;p>&lt;a href="https://productnorth.in/platform-systems/ai-driven/"title="AI-Driven Documentation Workflow"target="_blank" rel="noopener">AI-Driven Documentation Workflow&lt;/a>&lt;/p></description></item></channel></rss>
+&lt;h2>Anticipated Limitations&lt;span class="hx:absolute hx:-mt-20" id="anticipated-limitations">&lt;/span>
+&lt;a href="#anticipated-limitations" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Two limitations I&amp;rsquo;d expect and design around from the start, based on what I already know about LLM-based review from running AI-assisted editorial workflows in production:&lt;/p>
+&lt;p>&lt;strong>Content-type blindness.&lt;/strong> An LLM check tuned for how-to content could easily misapply a &amp;ldquo;missing prerequisites&amp;rdquo; rubric to a marketing or positioning page, where that rubric doesn&amp;rsquo;t belong. I&amp;rsquo;d plan for content-type-aware checks from day one&lt;/p></description></item></channel></rss>
