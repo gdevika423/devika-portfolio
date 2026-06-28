@@ -9,9 +9,6 @@ url: "/platform-systems/ai-driven/"
 <p class="page-tag">sabbatical project - idea only, not yet built</p>
 <hr class="page-divider">
 
-<!-- REMOVE THIS NOTE ONCE THE WORKFLOW DESCRIBED BELOW IS ACTUALLY BUILT -->
-
----
 
 ## 60-Second Summary
 
