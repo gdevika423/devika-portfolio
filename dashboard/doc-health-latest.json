@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T10:41:06.222Z",
+  "generatedAt": "2026-06-28T13:09:03.042Z",
   "pages": [
     {
       "name": "_index",
@@ -12,15 +12,15 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page is a simple index.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "About",
       "url": "https://productnorth.in/about/",
       "contentPath": "content/about/_index.md",
-      "lastCommit": "2026-06-25T17:46:55+05:30",
-      "ageDays": 3,
+      "lastCommit": "2026-06-28T16:27:24+05:30",
+      "ageDays": 0,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
@@ -40,7 +40,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; page is a simple index.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -54,7 +54,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; page is a simple index.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -68,7 +68,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the impact of the GenAI-assisted workflow.",
+      "coverageGaps": "No specific examples or metrics provided to support claims about the impact of the GenAI-assisted workflow.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -82,7 +82,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the impact of the case studies.",
+      "coverageGaps": "No specific metrics provided to support claims about the impact of the case studies.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -96,7 +96,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; page is a simple index.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -110,7 +110,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; page is a simple index.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -124,7 +124,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page provides contact information.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -138,7 +138,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the onboarding process.",
+      "coverageGaps": "No specific metrics provided to support claims about the effectiveness of the onboarding plan.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -152,7 +152,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the impact of the projects.",
+      "coverageGaps": "No specific metrics provided to support claims about the impact of the projects.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -166,7 +166,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the impact of documentation strategy.",
+      "coverageGaps": "No specific metrics provided to support claims about the impact of documentation on product growth.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -180,7 +180,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines leadership vision.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -194,7 +194,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the playbook's effectiveness.",
+      "coverageGaps": "No specific metrics provided to support claims about the effectiveness of the playbook.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -208,7 +208,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the effectiveness of visuals.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -222,7 +222,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page discusses scaling.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -236,7 +236,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about building high-impact teams.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -250,7 +250,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; page is a simple index.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -264,7 +264,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the onboarding documentation.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -278,7 +278,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the systems designed.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -292,21 +292,21 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines AI governance.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "AI-Driven Documentation Workflow",
       "url": "https://productnorth.in/platform-systems/ai-governance/ai-driven/index/",
       "contentPath": "content/platform-systems/ai-governance/ai-driven/index.md",
-      "lastCommit": "2026-06-27T13:20:42+05:30",
-      "ageDays": 1,
+      "lastCommit": "2026-06-28T18:32:32+05:30",
+      "ageDays": 0,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the AI-driven workflow.",
+      "coverageGaps": "No specific metrics provided to support claims about the effectiveness of the AI-driven workflow.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -320,21 +320,21 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the governance model.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "Documentation Health Operating Cycle",
       "url": "https://productnorth.in/platform-systems/ai-governance/doc-health-pipeline/index/",
       "contentPath": "content/platform-systems/ai-governance/doc-health-pipeline/index.md",
-      "lastCommit": "2026-06-27T13:20:34+05:30",
-      "ageDays": 1,
+      "lastCommit": "2026-06-28T18:33:59+05:30",
+      "ageDays": 0,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the health monitoring cycle.",
+      "coverageGaps": "No specific metrics provided to support claims about the effectiveness of the health operating cycle.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -348,7 +348,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the publication pipeline.",
+      "coverageGaps": "No specific metrics provided to support claims about the effectiveness of the publication pipeline.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -362,7 +362,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines core architecture.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -376,7 +376,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the infrastructure model.",
+      "coverageGaps": "No specific metrics provided to support claims about the effectiveness of the infrastructure.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -390,7 +390,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the knowledge architecture.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -404,7 +404,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the product documentation system.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -418,7 +418,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the developer and release systems.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -432,7 +432,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the API documentation.",
+      "coverageGaps": "No specific metrics provided to support claims about the impact of the API documentation.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -446,7 +446,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the in-app help experience.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -460,7 +460,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the release documentation workflow.",
+      "coverageGaps": "No specific metrics provided to support claims about the effectiveness of the workflow.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -474,7 +474,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines measurement.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -488,7 +488,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the metrics system.",
+      "coverageGaps": "No specific metrics provided to support claims about the effectiveness of the metrics system.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -502,7 +502,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; page lists published work.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -516,7 +516,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines product work.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -530,7 +530,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the prioritization framework.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -544,7 +544,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the AI automation platform.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -558,7 +558,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines product thinking.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -572,7 +572,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the automation opportunity map.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -586,7 +586,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the MVP.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -600,7 +600,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the product discovery brief.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -614,7 +614,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines projects.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -628,7 +628,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about embedding documentation.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -642,7 +642,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the API documentation migration.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -656,7 +656,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the ChatGPT pilot.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -670,7 +670,7 @@
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the knowledge base.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -684,7 +684,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines impact stories.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -698,7 +698,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines AI and quality.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -712,7 +712,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about content strategy.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -726,7 +726,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about GenAI process innovation.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -740,7 +740,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines developer and delivery.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -754,7 +754,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about API documentation.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -768,7 +768,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about documentation in Agile.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -782,7 +782,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about knowledge base architecture.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -796,7 +796,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines toolkit.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -810,7 +810,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines process models.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -824,7 +824,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the DDLC.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -838,7 +838,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about prioritization models.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -852,7 +852,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the 5Cs model.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -866,7 +866,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines quality frameworks.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -880,7 +880,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the governance framework.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -894,7 +894,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the maturity model.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -908,7 +908,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines writing.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -922,7 +922,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines developer experience.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -936,7 +936,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about documentation and productivity.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -950,7 +950,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about knowledge systems.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -964,7 +964,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines product and platform thinking.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -978,7 +978,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about discovery.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -992,7 +992,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines products vs services.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -1006,7 +1006,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines thinking in platforms.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -1020,7 +1020,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines systems and operations.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -1034,7 +1034,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about automation.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -1048,7 +1048,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines operations as products.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -1062,7 +1062,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines working notes.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -1076,7 +1076,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines automation observations.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -1090,7 +1090,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines knowledge systems notes.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -1104,7 +1104,7 @@
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; page outlines product discovery notes.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     }
   ],
