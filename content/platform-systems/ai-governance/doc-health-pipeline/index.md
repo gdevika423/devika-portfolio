@@ -8,7 +8,6 @@ url: "/platform-systems/doc-health-pipeline/"
 
 <p class="page-tag">sabbatical project - built and running</p>
 <hr class="page-divider">
----
 
 Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.
 
