@@ -61,42 +61,18 @@ If a writer can't explain why AI-assisted content is correct, it doesn't ship.
 Review ratio + escalation path + training + metrics
 ```
 
-
-|
- Responsibility 
-|
- In practice 
-|
-|
----
-|
----
-|
-|
- Review ratio 
-|
- How much AI output gets spot-checked vs. fully reviewed, adjusted as trust is earned 
-|
-|
- Escalation path 
-|
- Who's told when AI gets it wrong, what gets corrected 
-|
-|
- Training 
-|
- Every writer knows the workflow and its failure modes — not just early adopters 
-|
-|
- Traceability 
-|
- A record of what AI touched, so any piece can be traced back 
-|
-|
- Metrics 
-|
- Edit-cycle time, post-AI error rate, review bottlenecks — reported, not claimed 
-|
+<table>
+<thead>
+<tr><th>Responsibility</th><th>In practice</th></tr>
+</thead>
+<tbody>
+<tr><td>Review ratio</td><td>How much AI output gets spot-checked vs. fully reviewed, adjusted as trust is earned</td></tr>
+<tr><td>Escalation path</td><td>Who's told when AI gets it wrong, what gets corrected</td></tr>
+<tr><td>Training</td><td>Every writer knows the workflow and its failure modes — not just early adopters</td></tr>
+<tr><td>Traceability</td><td>A record of what AI touched, so any piece can be traced back</td></tr>
+<tr><td>Metrics</td><td>Edit-cycle time, post-AI error rate, review bottlenecks — reported, not claimed</td></tr>
+</tbody>
+</table>
 
 ---
 
