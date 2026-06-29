@@ -10,9 +10,13 @@ url: "/platform-systems/ai-governance-model/"
 <hr class="page-divider">
 
 Most teams adopt AI in documentation informally — someone starts using it, it spreads, and nobody can say what AI touched, what a human checked, or where the line sits. That breaks the day something ships wrong.
+
 This page is the operating model I run when a team uses AI: what AI does, what always needs a human, and how I'd account for both.
 
+[**View the compliance dashboard →**](https://gdevika423.github.io/sabbatical-dashboards/ai-governance/)
+
 ---
+
 ## The Three-Layer Model
 Each layer has a distinct job. Collapsing them — letting AI quietly absorb a team-owned or manager-owned responsibility — is where these models fail in practice.
 <img src="/images/AI Governance.png" alt="AI Governance" width="600">
