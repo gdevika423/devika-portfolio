@@ -61,12 +61,13 @@ This is the architecture and reasoning, not a finished pipeline. I&amp;rsquo;d r
 &lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle&lt;/a> - the planned feedback loop this pipeline connects into&lt;/p></description></item><item><title>Release Documentation Traceability Checker</title><link>https://productnorth.in/platform-systems/release-traceability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/release-traceability/</guid><description>
 &lt;p class="page-tag">Sabbatical project — built and running&lt;/p>
 &lt;hr class="page-divider">
-&lt;p>A documentation page existing and a documentation page being &lt;em>true&lt;/em> are two
-different things. A page can tag a ticket, sit untouched for months, and
-still get counted as coverage — right up until someone reads it and
-realizes it describes a feature that&amp;rsquo;s since changed underneath it.&lt;/p>
-&lt;p>This is a rule-based checker, not an AI model. It cross-references sprint
-timing against doc commit history to catch that gap before a reader does.&lt;/p>
+&lt;p>A documentation page can exist and still not be true. A page tags a
+ticket, sits untouched for months, and gets counted as coverage — until
+someone reads it and realizes it describes a feature that&amp;rsquo;s since changed
+underneath it.&lt;/p>
+&lt;p>This checker catches that gap before a reader does. It&amp;rsquo;s rule-based, not
+an AI model: it cross-references sprint timing against doc commit history,
+nothing more.&lt;/p>
 &lt;hr>
 &lt;h2>The rule&lt;span class="hx:absolute hx:-mt-20" id="the-rule">&lt;/span>
 &lt;a href="#the-rule" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
@@ -86,41 +87,44 @@ data-copied-label="Copied!"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>That second condition is the one most coverage checks miss. A page that
-tags a ticket looks like proof of documentation — until you check whether
-it was actually written &lt;em>for&lt;/em> that work, or just happened to exist first
-and never got revisited.&lt;/p>
+&lt;p>The second condition is the one most coverage checks skip. A tagged page
+looks like proof of documentation — until you ask whether it was actually
+written for that work, or just happened to exist first and never got
+revisited.&lt;/p>
 &lt;hr>
 &lt;h2>Two ways a ticket fails&lt;span class="hx:absolute hx:-mt-20" id="two-ways-a-ticket-fails">&lt;/span>
 &lt;a href="#two-ways-a-ticket-fails" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
 &lt;thead>
-&lt;tr>&lt;th>Gap type&lt;/th>&lt;th>What it means&lt;/th>&lt;th>Why it's missed by hand&lt;/th>&lt;/tr>
+&lt;tr>&lt;th>Gap type&lt;/th>&lt;th>What it means&lt;/th>&lt;th>Why it slips past manual review&lt;/th>&lt;/tr>
 &lt;/thead>
 &lt;tbody>
-&lt;tr>&lt;td>No tag&lt;/td>&lt;td>No doc page references the ticket at all&lt;/td>&lt;td>Usually caught eventually — it's the obvious gap&lt;/td>&lt;/tr>
-&lt;tr>&lt;td>Stale tag&lt;/td>&lt;td>A page tags the ticket, but predates the sprint that built it&lt;/td>&lt;td>Looks like coverage on every dashboard that only checks "is it tagged," not "is it current"&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>No tag&lt;/td>&lt;td>No doc page references the ticket&lt;/td>&lt;td>Eventually noticed — it's the obvious gap&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>Stale tag&lt;/td>&lt;td>A page tags the ticket but predates the sprint that built it&lt;/td>&lt;td>Reads as coverage on any check that only asks "is it tagged," not "is it current"&lt;/td>&lt;/tr>
 &lt;/tbody>
 &lt;/table>
-&lt;p>Most coverage tracking stops at the first column. This model checks both.&lt;/p>
+&lt;p>Both gap types show up live on the dashboard, with a legend explaining the
+distinction. One stale-tag case wasn&amp;rsquo;t even deliberate — the checker
+caught it in test data I&amp;rsquo;d assumed was clean.&lt;/p>
 &lt;hr>
 &lt;h2>How it runs&lt;span class="hx:absolute hx:-mt-20" id="how-it-runs">&lt;/span>
 &lt;a href="#how-it-runs" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
 &lt;li>Sprint, epic, and ticket data modeled on a simulated Jira structure&lt;/li>
-&lt;li>A Node script scans real documentation files, reads each one&amp;rsquo;s frontmatter
-tags and actual git commit date, and checks both against sprint timing&lt;/li>
-&lt;li>Output: a per-sprint and per-feature rollup, with every gap named and
-reasoned — not just a coverage percentage&lt;/li>
+&lt;li>A Node script scans real documentation files, reads each page&amp;rsquo;s
+frontmatter tags and actual git commit date, and checks both against
+sprint timing&lt;/li>
+&lt;li>Output: a per-sprint and per-feature rollup, with every gap named,
+typed, and explained — not just a coverage percentage&lt;/li>
 &lt;/ul>
-&lt;p>No model, no inference — just structured data and a date comparison. The
-value isn&amp;rsquo;t the AI, it&amp;rsquo;s the question the rule asks: &lt;em>not just &amp;ldquo;is this
-tagged,&amp;rdquo; but &amp;ldquo;is this still true.&amp;rdquo;&lt;/em>&lt;/p>
+&lt;p>No model, no inference. Just structured data and a date comparison. The
+value isn&amp;rsquo;t the technology — it&amp;rsquo;s the question the rule asks: not &amp;ldquo;is
+this tagged,&amp;rdquo; but &amp;ldquo;is this still true.&amp;rdquo;&lt;/p>
 &lt;p>&lt;a href="https://gdevika423.github.io/release-doc-traceability/dashboard/index.html"target="_blank" rel="noopener">&lt;strong>View the live dashboard →&lt;/strong>&lt;/a>&lt;/p>
 &lt;hr>
 &lt;h2>Honest scope&lt;span class="hx:absolute hx:-mt-20" id="honest-scope">&lt;/span>
-&lt;a href="#honest-scope" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The sprint, ticket, and ownership data here is simulated — built to give the
-checker something realistic to run against. The checking logic, the
-git-history comparison, and the gap detection are real and runnable against
-any markdown-based docs repo with frontmatter tagging.&lt;/p>
+&lt;a href="#honest-scope" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The sprint, ticket, and ownership data here is simulated, built to give the
+checker something realistic to run against. The checking logic — the
+git-history comparison, the gap detection — is real, and runs against any
+markdown-based docs repo with frontmatter tagging.&lt;/p>
 &lt;hr>
 &lt;h2>Related&lt;span class="hx:absolute hx:-mt-20" id="related">&lt;/span>
 &lt;a href="#related" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle&lt;/a> — where freshness and coverage checks extend across all pages, not just sprint-tagged ones
