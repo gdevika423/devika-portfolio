@@ -219,7 +219,7 @@ is recorded along with it.&lt;/p>
 the distinction. One stale-tag case in the current dataset wasn&amp;rsquo;t
 deliberately built in - the checker caught it in test data I&amp;rsquo;d assumed was
 clean.&lt;/p>
-&lt;p>&lt;a href="https://gdevika423.github.io/release-doc-traceability/dashboard/index.html"target="_blank" rel="noopener">&lt;strong>View the live dashboard →&lt;/strong>&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://gdevika423.github.io/sabbatical-dashboards/release-traceability/"target="_blank" rel="noopener">&lt;strong>View the live dashboard →&lt;/strong>&lt;/a>&lt;/p>
 &lt;hr>
 &lt;h2>How It Runs&lt;span class="hx:absolute hx:-mt-20" id="how-it-runs">&lt;/span>
 &lt;a href="#how-it-runs" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The checker runs in four stages:&lt;/p>
