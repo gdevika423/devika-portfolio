@@ -14,10 +14,10 @@ These systems show how I structure <strong>knowledge, documentation infrastructu
 Each system focuses on <strong>structure, flow, execution, and scalability</strong>.
 </p>
 
-<h2>AI & Governance</h2>
+<h2>Systems & Operating Models</h2>
 
 <p class="page-intro">
-How AI is used responsibly in documentation operations - governance, the publication pipeline, and the ongoing health-monitoring cycle that holds it accountable.
+The systems behind how documentation gets built, reviewed, and kept accountable — including where AI fits, and where it doesn't.
 </p>
 
 <div class="story-grid">
