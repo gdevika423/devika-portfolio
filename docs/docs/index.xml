@@ -517,7 +517,8 @@ underneath it.&lt;/p>
 &lt;p>This checker catches that gap before a reader does. It&amp;rsquo;s rule-based, not
 an AI model: it cross-references sprint timing against doc commit history,
 nothing more.&lt;/p>
-&lt;hr>
+&lt;img src="https://productnorth.in/images/traceability-flow.png" alt="AI Governance" width="600">
+---
 &lt;h2>The rule&lt;span class="hx:absolute hx:-mt-20" id="the-rule">&lt;/span>
 &lt;a href="#the-rule" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">COVERED = ticket is tagged by a doc page AND that page was last touched
