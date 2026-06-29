@@ -20,7 +20,7 @@ This page is the operating model I run when a team uses AI: what AI does, what a
 
 Each layer has a distinct job. Collapsing them — letting AI quietly absorb a team-owned or manager-owned responsibility — is where these models fail in practice.
 
-<img src="/images/ai-governance.png" alt="AI Governance" width="600">
+<img src="/images/AI Governance.png" alt="AI Governance" width="600">
 
 ---
 
