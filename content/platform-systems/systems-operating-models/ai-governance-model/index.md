@@ -62,6 +62,7 @@ Review ratio + escalation path + training + metrics
 I ran Layer 1 and 2 in practice at Zeta — a two-stage AI editorial pass, language checks first, then structural validation, that writers used before sign-off. Edit cycles got 30–40% faster, and every piece still went through human review before publishing.
 Layer 3 at scale — a documented review ratio, a real escalation path, a standing metric — is what I'd build next in a team-management role.
 
+[**View the compliance dashboard →**](https://gdevika423.github.io/sabbatical-dashboards/ai-governance/)
 ---
 ## Related
 <a class="text-link" href="/showcase/genai-process-innovation/">GenAI Process Innovation</a> - the proven workflow this model is built from
