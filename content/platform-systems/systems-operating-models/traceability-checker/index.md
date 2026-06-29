@@ -83,8 +83,10 @@ The checker runs in four stages:
 3. **Compare** - each tagged ticket's doc commit date is checked against its sprint's start date
 4. **Report** - a per-sprint and per-feature rollup, with every gap named, typed, and explained
 
-No model and no inference at any stage - only structured data and a date
-comparison.
+No model and no inference at any stage — only structured data and a date
+comparison. The sprint and ticket data is simulated; the checking logic
+itself is real, and runs against any markdown-based documentation
+repository that uses frontmatter tagging.
 
 ---
 
@@ -99,16 +101,6 @@ git commit dates, not a status field someone could forget to update.
 **Two failure modes, reported separately.** Collapsing "no tag" and "stale
 tag" into one generic gap loses the distinction that makes the second one
 worth catching at all.
-
----
-
-## Honest Scope
-
-The sprint, ticket, and ownership data here is simulated, built to give
-the checker something realistic to run against. The checking logic itself
-- the git-history comparison, the gap detection - is real, and runs
-against any markdown-based documentation repository that uses frontmatter
-tagging.
 
 ---
 
