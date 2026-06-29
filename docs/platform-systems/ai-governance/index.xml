@@ -66,39 +66,18 @@ data-copied-label="Copied!"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;h2>|
-Responsibility
-|
-In practice
-|
-|&lt;span class="hx:absolute hx:-mt-20" id="heading">&lt;/span>
-&lt;a href="#heading" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;h2>|&lt;span class="hx:absolute hx:-mt-20" id="heading-1">&lt;/span>
-&lt;a href="#heading-1" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>|
-|
-Review ratio
-|
-How much AI output gets spot-checked vs. fully reviewed, adjusted as trust is earned
-|
-|
-Escalation path
-|
-Who&amp;rsquo;s told when AI gets it wrong, what gets corrected
-|
-|
-Training
-|
-Every writer knows the workflow and its failure modes — not just early adopters
-|
-|
-Traceability
-|
-A record of what AI touched, so any piece can be traced back
-|
-|
-Metrics
-|
-Edit-cycle time, post-AI error rate, review bottlenecks — reported, not claimed
-|&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>&lt;th>Responsibility&lt;/th>&lt;th>In practice&lt;/th>&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>&lt;td>Review ratio&lt;/td>&lt;td>How much AI output gets spot-checked vs. fully reviewed, adjusted as trust is earned&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>Escalation path&lt;/td>&lt;td>Who's told when AI gets it wrong, what gets corrected&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>Training&lt;/td>&lt;td>Every writer knows the workflow and its failure modes — not just early adopters&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>Traceability&lt;/td>&lt;td>A record of what AI touched, so any piece can be traced back&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>Metrics&lt;/td>&lt;td>Edit-cycle time, post-AI error rate, review bottlenecks — reported, not claimed&lt;/td>&lt;/tr>
+&lt;/tbody>
+&lt;/table>
 &lt;hr>
 &lt;h2>Proof point&lt;span class="hx:absolute hx:-mt-20" id="proof-point">&lt;/span>
 &lt;a href="#proof-point" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I ran Layer 1 and 2 in practice at Zeta — a two-stage AI editorial pass, language checks first, then structural validation, that writers used before sign-off. Edit cycles got 30–40% faster, and every piece still went through human review before publishing.&lt;/p>
