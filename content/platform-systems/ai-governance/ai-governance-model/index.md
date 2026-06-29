@@ -19,6 +19,7 @@ This checker catches that gap before a reader does. It's rule-based, not
 an AI model: it cross-references sprint timing against doc commit history,
 nothing more.
 
+<img src="/images/traceability-flow.png" alt="AI Governance" width="600">
 ---
 
 ## The rule
