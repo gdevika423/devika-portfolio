@@ -1,0 +1,546 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – AI &amp; Governance</title><link>https://productnorth.in/platform-systems/systems--operating-models/</link><description>Recent content in AI &amp; Governance on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><atom:link href="https://productnorth.in/platform-systems/systems--operating-models/index.xml" rel="self" type="application/rss+xml"/><item><title>End-to-End AI-Assisted Publication Pipeline</title><link>https://productnorth.in/platform-systems/publication-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/publication-pipeline/</guid><description>
+&lt;p class="page-tag">sabbatical project - built and running&lt;/p>
+&lt;hr class="page-divider">
+&lt;p>A documentation team adopting AI usually starts with one isolated win — a faster first draft, a quicker editorial pass — without ever connecting those wins into a pipeline that runs end-to-end. This page describes a pipeline I&amp;rsquo;ve designed that would generate a first draft directly from a spec, and the operating model for connecting it to ongoing review and health monitoring as a team workflow. This is the architecture I&amp;rsquo;d build next. It extends the AI-assisted editorial review I&amp;rsquo;ve already proven in production at Zeta — but this specific draft-from-spec pipeline is a design, not something I&amp;rsquo;ve built yet.&amp;quot;&lt;/p>
+&lt;hr>
+&lt;h2>Platform Objective&lt;span class="hx:absolute hx:-mt-20" id="platform-objective">&lt;/span>
+&lt;a href="#platform-objective" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The goal was to answer a different question than the Doc Health pipeline: not &amp;ldquo;is existing content healthy,&amp;rdquo; but &amp;ldquo;can a new piece of documentation move from spec to a usable first draft with AI assistance, without skipping the human judgment that makes it publishable.&amp;rdquo;&lt;/p>
+&lt;p>Key objectives:&lt;/p>
+&lt;ul>
+&lt;li>generate a usable first draft directly from a structured input (a spec or feature description), not from a blank page&lt;/li>
+&lt;li>keep a clear, mandatory human review gate between AI draft and publication&lt;/li>
+&lt;li>design the pipeline so a new page can eventually feed into the same health-monitoring signal used elsewhere, tracked from day one rather than only audited later&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>Pipeline Stages&lt;span class="hx:absolute hx:-mt-20" id="pipeline-stages">&lt;/span>
+&lt;a href="#pipeline-stages" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Spec Input
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">AI-Assisted Draft
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Human Review Gate
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Publish
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Health Monitoring Feedback Loop (planned)&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;ol>
+&lt;li>&lt;strong>Spec input&lt;/strong> — a structured source (a spec or feature description) would trigger draft generation&lt;/li>
+&lt;li>&lt;strong>AI-assisted draft&lt;/strong> — the spec would generate a first-pass draft: structure, descriptions, and example content in the shape a writer would start from rather than a blank page&lt;/li>
+&lt;li>&lt;strong>Human review gate&lt;/strong> — the draft would not publish without a writer verifying technical accuracy and structure against the actual product&lt;/li>
+&lt;li>&lt;strong>Publish&lt;/strong> — reviewed content would go live through the standard docs-as-code path&lt;/li>
+&lt;li>&lt;strong>Feedback loop&lt;/strong> — new pages generated this way would wire into the same health-monitoring cycle as the rest of the site, tracked for freshness and consistency from the moment they ship&lt;/li>
+&lt;/ol>
+&lt;hr>
+&lt;h2>Why This Connects to the Health Operating Cycle&lt;span class="hx:absolute hx:-mt-20" id="why-this-connects-to-the-health-operating-cycle">&lt;/span>
+&lt;a href="#why-this-connects-to-the-health-operating-cycle" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>A draft-from-spec workflow that never feeds into ongoing health monitoring just creates more content to audit manually later. The intent is for every AI-assisted page to enter the same accountability loop as everything else on the site — flagged, triaged, owned, re-checked. That connection is the next build, not yet a finished integration.&lt;/p>
+&lt;hr>
+&lt;h2>Design Principles&lt;span class="hx:absolute hx:-mt-20" id="design-principles">&lt;/span>
+&lt;a href="#design-principles" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>AI drafts, a person verifies.&lt;/strong>
+The review gate is not a formality — no AI-assisted draft reaches publication without a named reviewer.&lt;/p>
+&lt;p>&lt;strong>New content shouldn&amp;rsquo;t get a clean slate.&lt;/strong>
+The goal is for a page generated this way to be tracked the same way as every other page from day one, not exempted from ongoing monitoring because it started with an AI draft.&lt;/p>
+&lt;p>&lt;strong>Designed, not yet built.&lt;/strong>
+This is the architecture and reasoning, not a finished pipeline. I&amp;rsquo;d rather describe it precisely as a design - extending what I&amp;rsquo;ve already proven works in production - than imply it&amp;rsquo;s running before it is.&lt;/p>
+&lt;hr>
+&lt;h2>Where I&amp;rsquo;d Take This as a Manager&lt;span class="hx:absolute hx:-mt-20" id="where-id-take-this-as-a-manager">&lt;/span>
+&lt;a href="#where-id-take-this-as-a-manager" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Running this as a team&amp;rsquo;s standard workflow means the same Layer 1 / Layer 2 / Layer 3 accountability from the AI Governance model would apply here directly: AI owns the draft, the team owns the review and sign-off, and I&amp;rsquo;d own the metric that tells me whether the workflow is actually saving time - how often an AI-assisted draft needs heavy rework versus light editing - rather than just moving the same work around.&lt;/p>
+&lt;hr>
+&lt;h2>Related&lt;/h2>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/ai-governance-model/">AI Governance &amp;amp; Review Operating Model&lt;/a> - the accountability model this pipeline operates under&lt;/p>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle&lt;/a> - the planned feedback loop this pipeline connects into&lt;/p></description></item><item><title>Release Documentation Traceability Checker</title><link>https://productnorth.in/platform-systems/release-traceability/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/release-traceability/</guid><description>
+&lt;p class="page-tag">Sabbatical project — built and running&lt;/p>
+&lt;hr class="page-divider">
+&lt;p>A documentation page can exist and still not be true. A page tags a
+ticket, sits untouched for months, and gets counted as coverage — until
+someone reads it and realizes it describes a feature that&amp;rsquo;s since changed
+underneath it.&lt;/p>
+&lt;p>This checker catches that gap before a reader does. It&amp;rsquo;s rule-based, not
+an AI model: it cross-references sprint timing against doc commit history,
+nothing more.&lt;/p>
+&lt;img src="https://productnorth.in/images/traceability-flow.png" alt="AI Governance" width="600">
+---
+&lt;h2>The rule&lt;span class="hx:absolute hx:-mt-20" id="the-rule">&lt;/span>
+&lt;a href="#the-rule" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">COVERED = ticket is tagged by a doc page AND that page was last touched
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> on or after the sprint started
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">GAP = no page tags the ticket, OR the page that does predates the
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> sprint it claims to cover&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The second condition is the one most coverage checks skip. A tagged page
+looks like proof of documentation — until you ask whether it was actually
+written for that work, or just happened to exist first and never got
+revisited.&lt;/p>
+&lt;hr>
+&lt;h2>Two ways a ticket fails&lt;span class="hx:absolute hx:-mt-20" id="two-ways-a-ticket-fails">&lt;/span>
+&lt;a href="#two-ways-a-ticket-fails" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>&lt;th>Gap type&lt;/th>&lt;th>What it means&lt;/th>&lt;th>Why it slips past manual review&lt;/th>&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>&lt;td>No tag&lt;/td>&lt;td>No doc page references the ticket&lt;/td>&lt;td>Eventually noticed — it's the obvious gap&lt;/td>&lt;/tr>
+&lt;tr>&lt;td>Stale tag&lt;/td>&lt;td>A page tags the ticket but predates the sprint that built it&lt;/td>&lt;td>Reads as coverage on any check that only asks "is it tagged," not "is it current"&lt;/td>&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;p>Both gap types show up live on the dashboard, with a legend explaining the
+distinction. One stale-tag case wasn&amp;rsquo;t even deliberate — the checker
+caught it in test data I&amp;rsquo;d assumed was clean.&lt;/p>
+&lt;hr>
+&lt;h2>How it runs&lt;span class="hx:absolute hx:-mt-20" id="how-it-runs">&lt;/span>
+&lt;a href="#how-it-runs" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;ul>
+&lt;li>Sprint, epic, and ticket data modeled on a simulated Jira structure&lt;/li>
+&lt;li>A Node script scans real documentation files, reads each page&amp;rsquo;s
+frontmatter tags and actual git commit date, and checks both against
+sprint timing&lt;/li>
+&lt;li>Output: a per-sprint and per-feature rollup, with every gap named,
+typed, and explained — not just a coverage percentage&lt;/li>
+&lt;/ul>
+&lt;p>No model, no inference. Just structured data and a date comparison. The
+value isn&amp;rsquo;t the technology — it&amp;rsquo;s the question the rule asks: not &amp;ldquo;is
+this tagged,&amp;rdquo; but &amp;ldquo;is this still true.&amp;rdquo;&lt;/p>
+&lt;p>&lt;a href="https://gdevika423.github.io/release-doc-traceability/dashboard/index.html"target="_blank" rel="noopener">&lt;strong>View the live dashboard →&lt;/strong>&lt;/a>&lt;/p>
+&lt;hr>
+&lt;h2>Honest scope&lt;span class="hx:absolute hx:-mt-20" id="honest-scope">&lt;/span>
+&lt;a href="#honest-scope" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The sprint, ticket, and ownership data here is simulated, built to give the
+checker something realistic to run against. The checking logic — the
+git-history comparison, the gap detection — is real, and runs against any
+markdown-based docs repo with frontmatter tagging.&lt;/p>
+&lt;hr>
+&lt;h2>Related&lt;span class="hx:absolute hx:-mt-20" id="related">&lt;/span>
+&lt;a href="#related" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle&lt;/a> — where freshness and coverage checks extend across all pages, not just sprint-tagged ones
+&lt;a class="text-link" href="https://productnorth.in/platform-systems/ai-governance-model/">AI Governance &amp;amp; Review Operating Model&lt;/a> — the layer that decides what AI is and isn&amp;rsquo;t trusted to flag&lt;/p></description></item><item><title>AI-Driven Documentation Workflow</title><link>https://productnorth.in/platform-systems/ai-driven/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/ai-driven/</guid><description>
+&lt;p class="page-tag">sabbatical project - idea only, not yet built&lt;/p>
+&lt;hr class="page-divider">
+&lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
+&lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>AI can help documentation teams scale, but only when it is built into a controlled workflow.&lt;/p>
+&lt;p>This model shows how AI can support first drafts, release notes, content gap analysis, terminology consistency, and documentation maintenance while keeping human review and editorial ownership intact.&lt;/p>
+&lt;hr>
+&lt;h2>Context&lt;span class="hx:absolute hx:-mt-20" id="context">&lt;/span>
+&lt;a href="#context" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Enterprise documentation teams often manage:&lt;/p>
+&lt;ul>
+&lt;li>frequent product releases&lt;/li>
+&lt;li>multiple content types&lt;/li>
+&lt;li>API updates&lt;/li>
+&lt;li>release notes&lt;/li>
+&lt;li>help content&lt;/li>
+&lt;li>internal knowledge articles&lt;/li>
+&lt;/ul>
+&lt;p>As product velocity increases, documentation teams need a scalable way to maintain accuracy without increasing headcount at the same rate.&lt;/p>
+&lt;hr>
+&lt;h2>Problem&lt;span class="hx:absolute hx:-mt-20" id="problem">&lt;/span>
+&lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">High Release Volume
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Manual Documentation Effort
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Inconsistent Drafts
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Delayed Publishing
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Documentation Debt&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>The problem is not only writing speed. The bigger challenge is maintaining accuracy, consistency, and completeness across a fast-moving product ecosystem.&lt;/p>
+&lt;hr>
+&lt;h2>AI-Assisted Workflow&lt;span class="hx:absolute hx:-mt-20" id="ai-assisted-workflow">&lt;/span>
+&lt;a href="#ai-assisted-workflow" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Product Input
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">AI Draft Support
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Human Review
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Content Standardization
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Publishing
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Feedback and Improvement&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>AI supports the documentation workflow, but final ownership stays with the documentation team.&lt;/p>
+&lt;hr>
+&lt;h2>Input Sources&lt;span class="hx:absolute hx:-mt-20" id="input-sources">&lt;/span>
+&lt;a href="#input-sources" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>AI works best when the input is structured.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Input source&lt;/th>
+&lt;th>Documentation use&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>PRDs&lt;/td>
+&lt;td>Feature documentation drafts&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Engineering notes&lt;/td>
+&lt;td>Technical accuracy and edge cases&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>API specifications&lt;/td>
+&lt;td>API reference and examples&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Release tickets&lt;/td>
+&lt;td>Release note summaries&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Support tickets&lt;/td>
+&lt;td>Gap analysis and improvement ideas&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Meeting notes&lt;/td>
+&lt;td>Feature context and decisions&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2>AI Use Cases&lt;span class="hx:absolute hx:-mt-20" id="ai-use-cases">&lt;/span>
+&lt;a href="#ai-use-cases" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Drafting + Summarization + Gap Detection + Consistency Checks&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Typical AI-assisted documentation activities include:&lt;/p>
+&lt;ul>
+&lt;li>generating first drafts from feature inputs&lt;/li>
+&lt;li>summarizing release changes&lt;/li>
+&lt;li>converting engineering notes into user-facing language&lt;/li>
+&lt;li>identifying missing documentation areas&lt;/li>
+&lt;li>checking terminology consistency&lt;/li>
+&lt;li>suggesting reusable content blocks&lt;/li>
+&lt;li>creating first-pass FAQs from support patterns&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>Human Review Layer&lt;span class="hx:absolute hx:-mt-20" id="human-review-layer">&lt;/span>
+&lt;a href="#human-review-layer" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">AI Draft
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Technical Review
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Editorial Review
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Product Validation
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Final Approval&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Human review is required to ensure:&lt;/p>
+&lt;ul>
+&lt;li>technical accuracy&lt;/li>
+&lt;li>product behavior alignment&lt;/li>
+&lt;li>customer-safe language&lt;/li>
+&lt;li>consistency with documentation standards&lt;/li>
+&lt;li>correct release positioning&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>Release Notes Automation&lt;span class="hx:absolute hx:-mt-20" id="release-notes-automation">&lt;/span>
+&lt;a href="#release-notes-automation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Release Tickets
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">AI Summary
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Structured Release Note Draft
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">PM Review
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Customer-Ready Release Notes&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>AI can accelerate release note production by converting tickets and feature notes into structured summaries.&lt;/p>
+&lt;p>The documentation team then validates:&lt;/p>
+&lt;ul>
+&lt;li>what changed&lt;/li>
+&lt;li>who is impacted&lt;/li>
+&lt;li>how users should respond&lt;/li>
+&lt;li>known limitations&lt;/li>
+&lt;li>rollout details&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>Content Gap Detection&lt;span class="hx:absolute hx:-mt-20" id="content-gap-detection">&lt;/span>
+&lt;a href="#content-gap-detection" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Support Queries
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Repeated Questions
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">AI Pattern Detection
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Documentation Gap
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Content Update&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>Support and customer success inputs can reveal gaps in documentation coverage.&lt;/p>
+&lt;p>AI can help identify repeated themes, but prioritization should be owned by documentation and product teams.&lt;/p>
+&lt;hr>
+&lt;h2>Governance Controls&lt;span class="hx:absolute hx:-mt-20" id="governance-controls">&lt;/span>
+&lt;a href="#governance-controls" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>AI-generated documentation must operate within clear guardrails.&lt;/p>
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Control&lt;/th>
+&lt;th>Purpose&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Style guide&lt;/td>
+&lt;td>Maintain voice and terminology&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Templates&lt;/td>
+&lt;td>Ensure consistent structure&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Review checklist&lt;/td>
+&lt;td>Prevent inaccurate publishing&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Source traceability&lt;/td>
+&lt;td>Track where AI output came from&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Human approval&lt;/td>
+&lt;td>Maintain accountability&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Version control&lt;/td>
+&lt;td>Manage changes safely&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2>Measurement System&lt;span class="hx:absolute hx:-mt-20" id="measurement-system">&lt;/span>
+&lt;a href="#measurement-system" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>Metric&lt;/th>
+&lt;th>What it shows&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>Draft cycle time&lt;/td>
+&lt;td>Speed of first draft creation&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Review cycle time&lt;/td>
+&lt;td>Efficiency of validation&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Release readiness&lt;/td>
+&lt;td>Documentation availability before launch&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Content consistency&lt;/td>
+&lt;td>Alignment with standards&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Support ticket trends&lt;/td>
+&lt;td>Documentation gap reduction&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Documentation debt&lt;/td>
+&lt;td>Backlog of outdated or missing content&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;hr>
+&lt;h2>Workflow Impact&lt;span class="hx:absolute hx:-mt-20" id="workflow-impact">&lt;/span>
+&lt;a href="#workflow-impact" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">AI-Assisted Drafting
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Faster Documentation Cycles
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Better Consistency
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Release-Ready Content
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Scalable Documentation Operations&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>A strong AI-assisted workflow helps documentation teams scale production without losing quality.&lt;/p>
+&lt;hr>
+&lt;h2>Key Insights&lt;span class="hx:absolute hx:-mt-20" id="key-insights">&lt;/span>
+&lt;a href="#key-insights" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;blockquote>
+&lt;p>AI improves documentation speed only when the workflow already has structure.&lt;/p>
+&lt;/blockquote>
+&lt;p>Without templates, standards, review checkpoints, and source discipline, AI creates more noise than value.&lt;/p>
+&lt;hr>
+&lt;h2>Applied Experience&lt;span class="hx:absolute hx:-mt-20" id="applied-experience">&lt;/span>
+&lt;a href="#applied-experience" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This page is a forward-looking model, not a built system - a wider, more ambitious version of the same principle I&amp;rsquo;ve already proven at Zeta with a two-stage AI-assisted editorial pass that cut edit-cycle time 30-40%, with human sign-off retained on every release. The specific capabilities described above - release notes automation, content gap detection from support patterns, full input-source coverage across PRDs and engineering notes - are designed, not yet implemented.&lt;/p>
+&lt;p>I&amp;rsquo;d build this out the same way I built the proven version: starting narrow, with one real workflow, before generalizing.&lt;/p></description></item><item><title>Documentation Health Operating Cycle</title><link>https://productnorth.in/platform-systems/doc-health-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/doc-health-pipeline/</guid><description>
+&lt;p class="page-tag">sabbatical project — v1 built and running&lt;/p>
+&lt;hr class="page-divider">
+&lt;p>Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.&lt;/p>
+&lt;p>This page describes the model I designed for replacing that manual audit with a standing, automated signal - extending the same principle I&amp;rsquo;ve already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. A first version of this is built and running against this site: &lt;a href="https://github.com/gdevika423/doc-health-pipeline"target="_blank" rel="noopener">view the repo&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;h2>Current Status&lt;span class="hx:absolute hx:-mt-20" id="current-status">&lt;/span>
+&lt;a href="#current-status" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This pipeline is live and running against this site:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>7 pages&lt;/strong> checked on every run - this site&amp;rsquo;s homepage, About, Toolkit, and the four AI/platform-systems pages&lt;/li>
+&lt;li>&lt;strong>Weekly schedule&lt;/strong> via GitHub Actions, plus on-demand manual runs&lt;/li>
+&lt;li>&lt;strong>Coverage, consistency, and overclaim-risk checks&lt;/strong> per page via GPT, plus a small accuracy-evals layer: each page is checked against a short list of known-true facts, and the match rate is tracked over time in the repo&lt;/li>
+&lt;li>&lt;strong>Most recent run: 100% accuracy&lt;/strong> (13/13 ground-truth facts confirmed), up from 92.3% in the previous run - the gap was a real internal contradiction on this site&amp;rsquo;s own Publication Pipeline page, which I fixed and then re-ran to confirm&lt;/li>
+&lt;li>Reports are markdown files and a running CSV, committed straight back into the repo - no separate dashboard or subscription tooling&lt;/li>
+&lt;/ul>
+&lt;p>This is a v1: it checks a fixed list of pages, not the whole site automatically, and it doesn&amp;rsquo;t yet check freshness against commit history - both are described as the fuller design below, not yet built.&lt;/p>
+&lt;hr>
+&lt;h2>Platform Objective&lt;span class="hx:absolute hx:-mt-20" id="platform-objective">&lt;/span>
+&lt;a href="#platform-objective" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The goal is to answer one resourcing question: can documentation health monitoring scale without scaling headcount?&lt;/p>
+&lt;p>Key objectives:&lt;/p>
+&lt;ul>
+&lt;li>continuous monitoring of content freshness&lt;/li>
+&lt;li>automated detection of coverage gaps&lt;/li>
+&lt;li>flagging of internal inconsistencies across pages&lt;/li>
+&lt;li>a human review step that stays firmly in control of what&amp;rsquo;s actually wrong&lt;/li>
+&lt;/ul>
+&lt;p>The system is designed as a noticing layer on top of an existing documentation set - it would never edit content, only flag it.&lt;/p>
+&lt;hr>
+&lt;h2>Platform Architecture Overview&lt;span class="hx:absolute hx:-mt-20" id="platform-architecture-overview">&lt;/span>
+&lt;a href="#platform-architecture-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline is designed to run on a weekly schedule with four stages:&lt;/p>
+&lt;ol>
+&lt;li>Ingest - pull markdown source files directly from the live repository&lt;/li>
+&lt;li>Context build - pair each page&amp;rsquo;s content with its real last-commit date&lt;/li>
+&lt;li>Health checks - an LLM evaluates freshness, coverage, consistency, and overclaim risk per page&lt;/li>
+&lt;li>Report - flagged pages are compiled into a single report for human triage&lt;/li>
+&lt;/ol>
+&lt;p>Each stage performs a specific function in the monitoring pipeline.&lt;/p>
+&lt;p>In v1, stage 1 fetches each page&amp;rsquo;s live rendered page directly rather than raw markdown from the repository, and stage 2&amp;rsquo;s commit-history pairing isn&amp;rsquo;t built yet - the checks below run on page content alone for now.&lt;/p>
+&lt;hr>
+&lt;h2>Ingest and Context Build&lt;span class="hx:absolute hx:-mt-20" id="ingest-and-context-build">&lt;/span>
+&lt;a href="#ingest-and-context-build" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline would read every markdown file from the site&amp;rsquo;s content folder and pair it with metadata pulled from commit history - giving the system two real signals per page: the actual content, and how long it&amp;rsquo;s actually been since the page last changed.&lt;/p>
+&lt;hr>
+&lt;h2>Health Checks&lt;span class="hx:absolute hx:-mt-20" id="health-checks">&lt;/span>
+&lt;a href="#health-checks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The monitoring step evaluates each page against four checks:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Freshness&lt;/strong> - flags language signals (specific dates, &amp;ldquo;current,&amp;rdquo; &amp;ldquo;in progress&amp;rdquo;) that may need a human to reconfirm are still accurate. This is text-pattern based in v1, not tied to actual elapsed time - true age-based freshness via commit history is still future work.&lt;/li>
+&lt;li>&lt;strong>Coverage&lt;/strong> - flags missing prerequisites or undefined terms a reader would need&lt;/li>
+&lt;li>&lt;strong>Consistency&lt;/strong> - flags statements that read as internally contradictory&lt;/li>
+&lt;li>&lt;strong>Overclaim risk&lt;/strong> - flags language implying more system maturity than a page&amp;rsquo;s actual description supports. This check is built and running in v1 - it&amp;rsquo;s what caught and helped fix a real contradiction on this site&amp;rsquo;s own Publication Pipeline page.&lt;/li>
+&lt;/ul>
+&lt;p>This layer is designed to identify candidate issues and trigger a flag when a check fires - it would not decide what&amp;rsquo;s actually wrong. That stays human.&lt;/p>
+&lt;hr>
+&lt;h2>Report and Human Review&lt;span class="hx:absolute hx:-mt-20" id="report-and-human-review">&lt;/span>
+&lt;a href="#report-and-human-review" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>When checks fire, the pipeline would compile every flag into one weekly report.&lt;/p>
+&lt;p>The report would include which page was flagged, how old it is, and which check fired and why. This is the point where judgment re-enters the system: a flag is a candidate, not a verdict.&lt;/p>
+&lt;hr>
+&lt;h2>How I&amp;rsquo;d Run This as a Team Cadence&lt;span class="hx:absolute hx:-mt-20" id="how-id-run-this-as-a-team-cadence">&lt;/span>
+&lt;a href="#how-id-run-this-as-a-team-cadence" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline produces a signal. Running it as a documentation manager means closing the loop on that signal every cycle, not just generating it.&lt;/p>
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Weekly Report
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Triage (which flags are real)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Assignment (which writer owns the fix)
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Resolution
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Re-check Next Cycle&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="Copy code"
+aria-label="Copy code"
+data-copied-label="Copied!"
+>
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
+&lt;/button>
+&lt;/div>
+&lt;/div>
+&lt;p>In practice, this would mean:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Triage as a standing weekly review, not an ad hoc glance.&lt;/strong> Every flag gets a real decision - real gap, false positive, or not worth fixing this cycle - and that decision is recorded, not just acted on silently.&lt;/li>
+&lt;li>&lt;strong>Every accepted flag gets a named owner and a cycle to resolve it.&lt;/strong> Health monitoring that doesn&amp;rsquo;t result in an assigned fix is just a dashboard nobody acts on.&lt;/li>
+&lt;li>&lt;strong>The next cycle checks whether the fix actually held.&lt;/strong> A flag that recurs after being marked resolved is itself a signal - either about the content or about the check.&lt;/li>
+&lt;li>&lt;strong>The pattern across cycles becomes the real management data.&lt;/strong> Which categories of pages flag repeatedly, which writers&amp;rsquo; content stays clean, where the team&amp;rsquo;s actual gaps are - that&amp;rsquo;s the conversation this cadence is built to support, not just one week&amp;rsquo;s report.&lt;/li>
+&lt;/ul>
+&lt;p>This is the layer that would turn a working pipeline into a management system: the tool tells you what&amp;rsquo;s stale, the cadence makes sure something happens about it.&lt;/p>
+&lt;hr>
+&lt;h2>Anticipated Limitations&lt;span class="hx:absolute hx:-mt-20" id="anticipated-limitations">&lt;/span>
+&lt;a href="#anticipated-limitations" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Two limitations I&amp;rsquo;d expect and design around from the start, based on what I already know about LLM-based review from running AI-assisted editorial workflows in production:&lt;/p>
+&lt;p>&lt;strong>Content-type blindness.&lt;/strong> An LLM check tuned for how-to content could easily misapply a &amp;ldquo;missing prerequisites&amp;rdquo; rubric to a marketing or positioning page, where that rubric doesn&amp;rsquo;t belong. I&amp;rsquo;d plan for content-type-aware checks from day one&lt;/p></description></item></channel></rss>
