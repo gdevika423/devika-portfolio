@@ -229,8 +229,10 @@ clean.&lt;/p>
 &lt;li>&lt;strong>Compare&lt;/strong> - each tagged ticket&amp;rsquo;s doc commit date is checked against its sprint&amp;rsquo;s start date&lt;/li>
 &lt;li>&lt;strong>Report&lt;/strong> - a per-sprint and per-feature rollup, with every gap named, typed, and explained&lt;/li>
 &lt;/ol>
-&lt;p>No model and no inference at any stage - only structured data and a date
-comparison.&lt;/p>
+&lt;p>No model and no inference at any stage — only structured data and a date
+comparison. The sprint and ticket data is simulated; the checking logic
+itself is real, and runs against any markdown-based documentation
+repository that uses frontmatter tagging.&lt;/p>
 &lt;hr>
 &lt;h2>Design Principles&lt;span class="hx:absolute hx:-mt-20" id="design-principles">&lt;/span>
 &lt;a href="#design-principles" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;strong>A tag is a claim, not proof.&lt;/strong> The checker treats &amp;ldquo;this page tags the
@@ -240,15 +242,6 @@ git commit dates, not a status field someone could forget to update.&lt;/p>
 &lt;p>&lt;strong>Two failure modes, reported separately.&lt;/strong> Collapsing &amp;ldquo;no tag&amp;rdquo; and &amp;ldquo;stale
 tag&amp;rdquo; into one generic gap loses the distinction that makes the second one
 worth catching at all.&lt;/p>
-&lt;hr>
-&lt;h2>Honest Scope&lt;span class="hx:absolute hx:-mt-20" id="honest-scope">&lt;/span>
-&lt;a href="#honest-scope" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The sprint, ticket, and ownership data here is simulated, built to give
-the checker something realistic to run against. The checking logic itself&lt;/p>
-&lt;ul>
-&lt;li>the git-history comparison, the gap detection - is real, and runs
-against any markdown-based documentation repository that uses frontmatter
-tagging.&lt;/li>
-&lt;/ul>
 &lt;hr>
 &lt;h2>Related&lt;span class="hx:absolute hx:-mt-20" id="related">&lt;/span>
 &lt;a href="#related" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a href="https://productnorth.in/platform-systems/doc-health-pipeline"target="_blank" rel="noopener">Documentation Health Operating Cycle&lt;/a> - extends freshness and coverage checks across all pages, not just sprint-tagged ones&lt;/p>
