@@ -10,13 +10,14 @@ url: "/platform-systems/release-traceability/"
 <p class="page-tag">Sabbatical project — built and running</p>
 <hr class="page-divider">
 
-A documentation page existing and a documentation page being *true* are two
-different things. A page can tag a ticket, sit untouched for months, and
-still get counted as coverage — right up until someone reads it and
-realizes it describes a feature that's since changed underneath it.
+A documentation page can exist and still not be true. A page tags a
+ticket, sits untouched for months, and gets counted as coverage — until
+someone reads it and realizes it describes a feature that's since changed
+underneath it.
 
-This is a rule-based checker, not an AI model. It cross-references sprint
-timing against doc commit history to catch that gap before a reader does.
+This checker catches that gap before a reader does. It's rule-based, not
+an AI model: it cross-references sprint timing against doc commit history,
+nothing more.
 
 ---
 
@@ -30,10 +31,10 @@ GAP      = no page tags the ticket, OR the page that does predates the
            sprint it claims to cover
 ```
 
-That second condition is the one most coverage checks miss. A page that
-tags a ticket looks like proof of documentation — until you check whether
-it was actually written *for* that work, or just happened to exist first
-and never got revisited.
+The second condition is the one most coverage checks skip. A tagged page
+looks like proof of documentation — until you ask whether it was actually
+written for that work, or just happened to exist first and never got
+revisited.
 
 ---
 
@@ -41,29 +42,32 @@ and never got revisited.
 
 <table>
 <thead>
-<tr><th>Gap type</th><th>What it means</th><th>Why it's missed by hand</th></tr>
+<tr><th>Gap type</th><th>What it means</th><th>Why it slips past manual review</th></tr>
 </thead>
 <tbody>
-<tr><td>No tag</td><td>No doc page references the ticket at all</td><td>Usually caught eventually — it's the obvious gap</td></tr>
-<tr><td>Stale tag</td><td>A page tags the ticket, but predates the sprint that built it</td><td>Looks like coverage on every dashboard that only checks "is it tagged," not "is it current"</td></tr>
+<tr><td>No tag</td><td>No doc page references the ticket</td><td>Eventually noticed — it's the obvious gap</td></tr>
+<tr><td>Stale tag</td><td>A page tags the ticket but predates the sprint that built it</td><td>Reads as coverage on any check that only asks "is it tagged," not "is it current"</td></tr>
 </tbody>
 </table>
 
-Most coverage tracking stops at the first column. This model checks both.
+Both gap types show up live on the dashboard, with a legend explaining the
+distinction. One stale-tag case wasn't even deliberate — the checker
+caught it in test data I'd assumed was clean.
 
 ---
 
 ## How it runs
 
 - Sprint, epic, and ticket data modeled on a simulated Jira structure
-- A Node script scans real documentation files, reads each one's frontmatter
-  tags and actual git commit date, and checks both against sprint timing
-- Output: a per-sprint and per-feature rollup, with every gap named and
-  reasoned — not just a coverage percentage
+- A Node script scans real documentation files, reads each page's
+  frontmatter tags and actual git commit date, and checks both against
+  sprint timing
+- Output: a per-sprint and per-feature rollup, with every gap named,
+  typed, and explained — not just a coverage percentage
 
-No model, no inference — just structured data and a date comparison. The
-value isn't the AI, it's the question the rule asks: *not just "is this
-tagged," but "is this still true."*
+No model, no inference. Just structured data and a date comparison. The
+value isn't the technology — it's the question the rule asks: not "is
+this tagged," but "is this still true."
 
 [**View the live dashboard →**](https://gdevika423.github.io/release-doc-traceability/dashboard/index.html)
 
@@ -71,10 +75,10 @@ tagged," but "is this still true."*
 
 ## Honest scope
 
-The sprint, ticket, and ownership data here is simulated — built to give the
-checker something realistic to run against. The checking logic, the
-git-history comparison, and the gap detection are real and runnable against
-any markdown-based docs repo with frontmatter tagging.
+The sprint, ticket, and ownership data here is simulated, built to give the
+checker something realistic to run against. The checking logic — the
+git-history comparison, the gap detection — is real, and runs against any
+markdown-based docs repo with frontmatter tagging.
 
 ---
 
