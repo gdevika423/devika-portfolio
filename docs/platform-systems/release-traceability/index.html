@@ -90,7 +90,7 @@ ticket, sits untouched for months, and gets counted as coverage — until
 someone reads it and realizes it describes a feature that&rsquo;s since changed
 underneath it.</p><p>This checker catches that gap before a reader does. It&rsquo;s rule-based, not
 an AI model: it cross-references sprint timing against doc commit history,
-nothing more.</p><img src=/images/traceability-flow.png alt="AI Governance" width=600>
+nothing more.</p><img src=/images/traceability-flow.png width=600>
 ---<h2>The rule<span class="hx:absolute hx:-mt-20" id=the-rule></span>
 <a href=#the-rule class=subheading-anchor aria-label="Permalink for this section"></a></h2><div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"><div><div class=highlight><pre tabindex=0 class=chroma><code class=language-text data-lang=text><span class=line><span class=cl>COVERED  = ticket is tagged by a doc page AND that page was last touched
 </span></span><span class=line><span class=cl>           on or after the sprint started
