@@ -1,8 +1,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – Docs</title><link>https://productnorth.in/docs/</link><description>Recent content in Docs on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://productnorth.in/docs/index.xml" rel="self" type="application/rss+xml"/><item><title>AI Governance &amp; Review Operating Model</title><link>https://productnorth.in/platform-systems/ai-governance-model/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/ai-governance-model/</guid><description>
 &lt;p class="page-tag">Sabbatical project - built and running&lt;/p>
 &lt;hr class="page-divider">
-&lt;p>Most teams adopt AI in documentation informally — someone starts using it, it spreads, and nobody can say what AI touched, what a human checked, or where the line sits. That breaks the day something ships wrong.
-This page is the operating model I run when a team uses AI: what AI does, what always needs a human, and how I&amp;rsquo;d account for both.&lt;/p>
+&lt;p>Most teams adopt AI in documentation informally — someone starts using it, it spreads, and nobody can say what AI touched, what a human checked, or where the line sits. That breaks the day something ships wrong.&lt;/p>
+&lt;p>This page is the operating model I run when a team uses AI: what AI does, what always needs a human, and how I&amp;rsquo;d account for both.&lt;/p>
+&lt;p>&lt;a href="https://gdevika423.github.io/sabbatical-dashboards/ai-governance/"target="_blank" rel="noopener">&lt;strong>View the compliance dashboard →&lt;/strong>&lt;/a>&lt;/p>
 &lt;hr>
 &lt;h2>The Three-Layer Model&lt;span class="hx:absolute hx:-mt-20" id="the-three-layer-model">&lt;/span>
 &lt;a href="#the-three-layer-model" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Each layer has a distinct job. Collapsing them — letting AI quietly absorb a team-owned or manager-owned responsibility — is where these models fail in practice.
