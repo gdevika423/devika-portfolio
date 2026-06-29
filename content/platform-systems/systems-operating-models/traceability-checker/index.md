@@ -70,7 +70,7 @@ the distinction. One stale-tag case in the current dataset wasn't
 deliberately built in - the checker caught it in test data I'd assumed was
 clean.
 
-[**View the live dashboard →**](https://gdevika423.github.io/release-doc-traceability/dashboard/index.html)
+[**View the live dashboard →**](https://gdevika423.github.io/sabbatical-dashboards/release-traceability/)
 
 ---
 
