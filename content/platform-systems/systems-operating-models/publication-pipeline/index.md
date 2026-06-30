@@ -46,6 +46,11 @@ Health Monitoring Feedback Loop (planned)
 5. **Feedback loop** — new pages generated this way would wire into the same health-monitoring cycle as the rest of the site, tracked for freshness and consistency from the moment they ship
 
 ---
+## Proof Point
+
+I ran this pipeline end-to-end against this site: a spec for an Editorial QA Checklist page generated a real AI draft, opened as [a pull request](https://github.com/gdevika423/devika-portfolio/pull/2), reviewed, and merged into production. The page that resulted is live on this site now — the pipeline that built it is the one described above, not a simulation of it.
+
+---
 
 ## Why This Connects to the Health Operating Cycle
 
