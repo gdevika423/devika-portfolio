@@ -1719,7 +1719,8 @@ data-copied-label="Copied!"
 &lt;/div>
 &lt;/div>
 &lt;p>AI supports the documentation workflow, but final ownership stays with the documentation team.&lt;/p>
-&lt;hr>
+&lt;img src="https://productnorth.in/images/release-notes-architecture.svg" alt="Release Notes Automation Architecture" width="600">
+---
 &lt;h2>Input Sources&lt;span class="hx:absolute hx:-mt-20" id="input-sources">&lt;/span>
 &lt;a href="#input-sources" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>AI works best when the input is structured.&lt;/p>
 &lt;table>
