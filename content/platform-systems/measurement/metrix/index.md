@@ -1,4 +1,5 @@
----title: "Documentation Metrics & Impact System"
+---
+title: "Documentation Metrics & Impact System"
 summary: "A measurement framework for evaluating documentation effectiveness, user outcomes, and self-service success in enterprise products."
 toc: true
 type: docs
@@ -7,8 +8,9 @@ url: "/platform-systems/metrix/"
 ---
 
 <hr class="page-divider">
+<p class="story-status">Status: Designed during the sabbatical - generalized from the documentation health reporting I ran at Zeta</p>
 
-I use this measurement framework to report on documentation impact to leadership, not just track it internally.
+I designed this measurement framework to report on documentation impact to leadership, not just track it internally.
 
 ## 60-Second Summary
 
@@ -34,7 +36,6 @@ These metrics do not reflect whether documentation actually helps users.
 
 <div align="center">
 
-```markdown
 ```text
 More Content
      ↓
@@ -45,7 +46,7 @@ Unclear Value
 Low Adoption
      ↓
 Support Dependency
-````
+```
 
 </div>
 
@@ -206,7 +207,7 @@ The goal is not more content. The goal is fewer unanswered questions.
 
 ## Applied Experience
 
-This model reflects experience aligning documentation with product outcomes, using support insights, usage patterns, and release readiness signals to improve content quality and user success.
+This model generalizes real experience at Zeta - tracking documentation health by triaging 200+ support tickets, maintaining weekly documentation health reports for stakeholders, and contributing to a 50% improvement in release readiness - aligning documentation with product outcomes.
 
 It demonstrates how documentation can be measured as part of product performance, not just content output.
 

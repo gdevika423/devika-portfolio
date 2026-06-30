@@ -1,4 +1,5 @@
----title: "Release Documentation Workflow"
+---
+title: "Release Documentation Workflow"
 summary: "A structured workflow for managing documentation across product releases, ensuring accuracy, consistency, and readiness at launch."
 toc: true
 type: docs
@@ -7,8 +8,9 @@ url: "/platform-systems/release-doc-workflow/"
 ---
 
 <hr class="page-divider">
+<p class="story-status">Status: Designed during the sabbatical - generalized from the release-embedding work I built and ran at Zeta</p>
 
-I built this workflow to make sure my team's documentation moves with the release, not after it.
+I designed this workflow, generalizing the release-embedding model I built and ran at Zeta, to make sure documentation moves with the release, not after it.
 
 ## 60-Second Summary
 
@@ -110,7 +112,7 @@ Help Docs + API Docs + Release Notes + In-App Guidance
 Each release produces multiple content types:
 
 | Content Type  | Purpose                            |
-| ------------- | ---------------------------------- |
+| ------------- | ----------------------------------- |
 | Help docs     | User workflows and features        |
 | API docs      | Integration and developer guidance |
 | Release notes | Feature communication              |
@@ -184,6 +186,8 @@ AI accelerates:
 * repetitive documentation updates
 * terminology consistency
 
+This stage is the one piece I've actually built and run - see the [Release Notes Automation sub-workflow](/platform-systems/ai-driven/).
+
 ---
 
 ## 8. Release Readiness Checklist
@@ -232,7 +236,7 @@ Structured Workflow → Faster Releases → Better Adoption → Reduced Support 
 
 </div>
 
-A strong release documentation workflow enables:
+A strong release documentation workflow would enable:
 
 * faster product launches
 * improved documentation quality
@@ -243,7 +247,7 @@ A strong release documentation workflow enables:
 
 ## 11. Applied Experience
 
-This workflow reflects experience working with product and engineering teams to align documentation with release cycles, manage high-volume updates, and maintain consistency across multiple content types.
+This workflow generalizes real experience working with product and engineering teams at Zeta to align documentation with release cycles, manage high-volume updates, and maintain consistency across multiple content types.
 
 It demonstrates how documentation can operate as a release-driven system within enterprise product environments.
 
@@ -252,4 +256,3 @@ It demonstrates how documentation can operate as a release-driven system within 
 <h2>Related</h2>
 
 <a class="text-link" href="/showcase/documentation-agile-development/">Documentation in Agile Development</a> - this workflow applied in practice at Zeta, with measured results
-

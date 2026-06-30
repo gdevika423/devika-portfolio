@@ -1,4 +1,5 @@
----title: "API Documentation & Developer Experience"
+---
+title: "API Documentation & Developer Experience"
 summary: "Improving developer onboarding and API adoption through structured documentation systems, workflow design, and integration-focused content."
 toc: true
 type: docs
@@ -7,8 +8,9 @@ url: "/platform-systems/api-doc-devx/"
 ---
 
 <hr class="page-divider">
+<p class="story-status">Status: Designed during the sabbatical - generalized from the API documentation work I led at Zeta</p>
 
-I own this model for how a documentation team builds API documentation and developer experience together.
+I designed this model, generalizing the API documentation and developer experience work I led at Zeta, for how a documentation team builds API documentation and developer experience together.
 
 ## 60-Second Summary
 
@@ -35,7 +37,6 @@ This leads to:
 
 <div align="center">
 
-```markdown
 ```text
 Complex APIs
      ↓
@@ -73,7 +74,7 @@ Instead of listing endpoints, documentation was structured around **real integra
 ### 2. Structured API Documentation
 
 | Component                 | Purpose                  |
-| ------------------------- | ------------------------ |
+| -------------------------- | ------------------------ |
 | Endpoint definition       | Clear API contract       |
 | Request/response examples | Real usage clarity       |
 | Authentication flow       | Secure integration       |
@@ -160,7 +161,7 @@ Documentation was treated as part of the **developer experience**, not a separat
 ## Impact
 
 | Area                    | Outcome                          |
-| ----------------------- | -------------------------------- |
+| ------------------------ | --------------------------------- |
 | Developer onboarding    | Faster time to first integration |
 | Support dependency      | Reduced repetitive API queries   |
 | Integration success     | Improved implementation accuracy |
@@ -191,7 +192,7 @@ API documentation becomes a **growth lever**, not just a support function.
 
 ## Applied Experience
 
-This approach is based on experience working with engineering teams to structure API documentation, improve developer onboarding, and design documentation systems that align with real integration workflows.
+This model generalizes real experience working with engineering teams at Zeta to structure API documentation, improve developer onboarding, and design documentation systems that align with real integration workflows.
 
 It reflects a shift from static documentation to **developer-focused product experience**.
 
@@ -202,4 +203,3 @@ It reflects a shift from static documentation to **developer-focused product exp
 <a class="text-link" href="/showcase/api-documentation-developer-experience/">API Documentation and Developer Experience</a> - this model applied in practice at Zeta, with measured results
 
 <a class="text-link" href="/platform-systems/documentation-infrastructure/">Documentation Infrastructure</a> - the infrastructure layer this model runs on
-

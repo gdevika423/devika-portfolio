@@ -115,6 +115,6 @@ This is the layer that would turn a working pipeline into a management system: t
 
 ## Anticipated Limitations
 
-Two limitations I'd expect and design around from the start, based on what I already know about LLM-based review from running AI-assisted editorial workflows in production:
+One limitation I'd expect and design around from the start, based on what I already know about LLM-based review from running AI-assisted editorial workflows in production:
 
-**Content-type blindness.** An LLM check tuned for how-to content could easily misapply a "missing prerequisites" rubric to a marketing or positioning page, where that rubric doesn't belong. I'd plan for content-type-aware checks from day one
+**Content-type blindness.** An LLM check tuned for how-to content could easily misapply a "missing prerequisites" rubric to a marketing or positioning page, where that rubric doesn't belong. I'd plan for content-type-aware checks from day one.

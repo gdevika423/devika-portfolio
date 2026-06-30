@@ -1,4 +1,5 @@
----title: "End-to-End AI-Assisted Publication Pipeline"
+---
+title: "End-to-End AI-Assisted Publication Pipeline"
 toc: true
 type: docs
 draft: false
@@ -6,10 +7,10 @@ weight: 2
 url: "/platform-systems/publication-pipeline/"
 ---
 
-<p class="page-tag">sabbatical project - built and running</p>
+<p class="page-tag">sabbatical project — built and running</p>
 <hr class="page-divider">
 
-A documentation team adopting AI usually starts with one isolated win — a faster first draft, a quicker editorial pass — without ever connecting those wins into a pipeline that runs end-to-end. This page describes a pipeline I've designed that would generate a first draft directly from a spec, and the operating model for connecting it to ongoing review and health monitoring as a team workflow. This is the architecture I'd build next. It extends the AI-assisted editorial review I've already proven in production at Zeta — but this specific draft-from-spec pipeline is a design, not something I've built yet."
+A documentation team adopting AI usually starts with one isolated win — a faster first draft, a quicker editorial pass — without ever connecting those wins into a pipeline that runs end-to-end. This page describes a pipeline I built that generates a first draft directly from a spec, gates it behind a real review step, and connects to the same health-monitoring signal used elsewhere on this site. It extends the AI-assisted editorial review I already proved in production at Zeta — this is that same principle, run as a working pipeline rather than a manual workflow.
 
 ---
 
@@ -20,8 +21,8 @@ The goal was to answer a different question than the Doc Health pipeline: not "i
 Key objectives:
 
 - generate a usable first draft directly from a structured input (a spec or feature description), not from a blank page
-- keep a clear, mandatory human review gate between AI draft and publication
-- design the pipeline so a new page can eventually feed into the same health-monitoring signal used elsewhere, tracked from day one rather than only audited later
+- keep a real, mechanically enforced review gate between AI draft and publication — not a recorded sign-off, an actual merge requirement
+- connect new pages into the same health-monitoring signal used elsewhere, from day one rather than only audited later
 
 ---
 
@@ -32,55 +33,48 @@ Spec Input
      ↓
 AI-Assisted Draft
      ↓
-Human Review Gate
+Human Review Gate (pull request)
      ↓
-Publish
+Publish (on merge)
      ↓
-Health Monitoring Feedback Loop (planned)
+Health Monitoring Feedback Loop
 ```
 
-1. **Spec input** — a structured source (a spec or feature description) would trigger draft generation
-2. **AI-assisted draft** — the spec would generate a first-pass draft: structure, descriptions, and example content in the shape a writer would start from rather than a blank page
-3. **Human review gate** — the draft would not publish without a writer verifying technical accuracy and structure against the actual product
-4. **Publish** — reviewed content would go live through the standard docs-as-code path
-5. **Feedback loop** — new pages generated this way would wire into the same health-monitoring cycle as the rest of the site, tracked for freshness and consistency from the moment they ship
-
-<img src="/images/architecture.svg" alt="Publication Pipeline Architecture" width="600">
----
-## Proof Point
-
-I ran this pipeline end-to-end against this site: a spec for an Editorial QA Checklist page generated a real AI draft, opened as [a pull request](https://github.com/gdevika423/devika-portfolio/pull/2), reviewed, and merged into production. The page that resulted is live on this site now — the pipeline that built it is the one described above, not a simulation of it.
+1. **Spec input** — a structured spec file triggers draft generation
+2. **AI-assisted draft** — the spec generates a first-pass draft via GPT-4o-mini: structure, descriptions, and example content in the shape a writer would start from rather than a blank page
+3. **Human review gate** — the draft never reaches `main` directly. The pipeline opens a pull request with a review checklist; nothing publishes until I read it and merge it myself
+4. **Publish** — merging the PR triggers the standard Hugo build, and the page goes live through the same docs-as-code path as everything else on this site
+5. **Feedback loop** — once merged, the new page is automatically included in the next Documentation Health run, since that checker scans all site content
 
 ---
 
 ## Why This Connects to the Health Operating Cycle
 
-A draft-from-spec workflow that never feeds into ongoing health monitoring just creates more content to audit manually later. The intent is for every AI-assisted page to enter the same accountability loop as everything else on the site — flagged, triaged, owned, re-checked. That connection is the next build, not yet a finished integration.
+A draft-from-spec workflow that never feeds into ongoing health monitoring just creates more content to audit manually later. Every AI-assisted page enters the same accountability loop as everything else on the site — flagged, triaged, owned, re-checked. This connection isn't a planned integration; it's true by construction, since Doc Health already scans the full content tree.
 
 ---
 
 ## Design Principles
 
-**AI drafts, a person verifies.**
-The review gate is not a formality — no AI-assisted draft reaches publication without a named reviewer.
+**AI drafts, a person merges.**
+The review gate is not a recorded checkbox — it's a pull request. No AI-assisted draft reaches publication without a human reading it and clicking merge.
 
 **New content shouldn't get a clean slate.**
-The goal is for a page generated this way to be tracked the same way as every other page from day one, not exempted from ongoing monitoring because it started with an AI draft.
+A page generated this way is tracked the same way as every other page from day one, not exempted from ongoing monitoring because it started with an AI draft.
 
-**Designed, not yet built.**
-This is the architecture and reasoning, not a finished pipeline. I'd rather describe it precisely as a design - extending what I've already proven works in production - than imply it's running before it is.
+**A gate that can't be bypassed is the only kind worth building.**
+Earlier designs for this considered a logged-sign-off-then-auto-publish model. I deliberately built a PR-based gate instead — the same pattern real engineering teams use to review code — because a sign-off that doesn't block publication isn't actually a gate.
 
 ---
 
 ## Where I'd Take This as a Manager
 
-Running this as a team's standard workflow means the same Layer 1 / Layer 2 / Layer 3 accountability from the AI Governance model would apply here directly: AI owns the draft, the team owns the review and sign-off, and I'd own the metric that tells me whether the workflow is actually saving time - how often an AI-assisted draft needs heavy rework versus light editing - rather than just moving the same work around.
+Running this as a team's standard workflow means the same Layer 1 / Layer 2 / Layer 3 accountability from the AI Governance model applies here directly: AI owns the draft, the team owns the review and the merge, and I'd own the metric that tells me whether the workflow is actually saving time — how often an AI-assisted draft needs heavy rework versus light editing — rather than just moving the same work around.
 
 ---
 
 <h2>Related</h2>
 
-<a class="text-link" href="/platform-systems/ai-governance-model/">AI Governance & Review Operating Model</a> - the accountability model this pipeline operates under
+<a class="text-link" href="/platform-systems/ai-governance-model/">AI Governance & Review Operating Model</a> - the accountability model this pipeline's review gate operationalizes
 
-<a class="text-link" href="/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle</a> - the planned feedback loop this pipeline connects into
-
+<a class="text-link" href="/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle</a> - the feedback loop every page generated here automatically enters

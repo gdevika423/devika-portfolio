@@ -11,7 +11,7 @@ url: "/platform-systems/ai-governance-model/"
 
 Most teams adopt AI in documentation informally — someone starts using it, it spreads, and nobody can say what AI touched, what a human checked, or where the line sits. That breaks the day something ships wrong.
 
-This page is the operating model I run when a team uses AI: what AI does, what always needs a human, and how I'd account for both.
+This page is the operating model I'd run when a team uses AI: what AI does, what always needs a human, and how I'd account for both.
 
 [**View the compliance dashboard →**](https://gdevika423.github.io/sabbatical-dashboards/ai-governance/)
 
@@ -44,7 +44,7 @@ Every writer is accountable for:
 If a writer can't explain why AI-assisted content is correct, it doesn't ship.
 
 ---
-### Layer 3 — What I Own as Manager
+### Layer 3 — What I'd Own as Manager
 ```text
 Review ratio + escalation path + training + metrics
 ```
