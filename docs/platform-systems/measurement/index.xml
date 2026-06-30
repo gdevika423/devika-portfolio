@@ -1,6 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devika Jallegowda – Measurement</title><link>https://productnorth.in/platform-systems/measurement/</link><description>Recent content in Measurement on Devika Jallegowda</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>gdevika423@gmail.com (Devika Jallegowda)</managingEditor><webMaster>gdevika423@gmail.com (Devika Jallegowda)</webMaster><atom:link href="https://productnorth.in/platform-systems/measurement/index.xml" rel="self" type="application/rss+xml"/><item><title>Documentation Metrics &amp; Impact System</title><link>https://productnorth.in/platform-systems/metrix/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/metrix/</guid><description>
 &lt;hr class="page-divider">
-&lt;p>I use this measurement framework to report on documentation impact to leadership, not just track it internally.&lt;/p>
+&lt;p class="story-status">Status: Designed during the sabbatical - generalized from the documentation health reporting I ran at Zeta&lt;/p>
+&lt;p>I designed this measurement framework to report on documentation impact to leadership, not just track it internally.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
 &lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Documentation should not be measured by volume. It should be measured by impact.&lt;/p>
 &lt;p>This model defines how documentation effectiveness can be evaluated using user behavior, support trends, and product adoption signals.&lt;/p>
@@ -17,8 +18,7 @@
 &lt;h2>Problem&lt;span class="hx:absolute hx:-mt-20" id="problem">&lt;/span>
 &lt;a href="#problem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-markdown" data-lang="markdown">&lt;span class="line">&lt;span class="cl">```text
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">More Content
+&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">More Content
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">No Usage Insight
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
@@ -293,7 +293,7 @@ data-copied-label="Copied!"
 &lt;p>The goal is not more content. The goal is fewer unanswered questions.&lt;/p>
 &lt;hr>
 &lt;h2>Applied Experience&lt;span class="hx:absolute hx:-mt-20" id="applied-experience">&lt;/span>
-&lt;a href="#applied-experience" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This model reflects experience aligning documentation with product outcomes, using support insights, usage patterns, and release readiness signals to improve content quality and user success.&lt;/p>
+&lt;a href="#applied-experience" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This model generalizes real experience at Zeta - tracking documentation health by triaging 200+ support tickets, maintaining weekly documentation health reports for stakeholders, and contributing to a 50% improvement in release readiness - aligning documentation with product outcomes.&lt;/p>
 &lt;p>It demonstrates how documentation can be measured as part of product performance, not just content output.&lt;/p>
 &lt;hr>
 &lt;h2>Related&lt;/h2>
