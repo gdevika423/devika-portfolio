@@ -1,6 +1,6 @@
 ---
 title: ""
-description: "Devika Jallegowda | Product Documentation Systems Leader | Developer Experience | Enterprise SaaS"
+description: "Devika Jallegowda | Documentation Systems Leader | Developer Experience | Enterprise SaaS"
 toc: false
 ---
 
@@ -28,10 +28,11 @@ toc: false
 
 <section class="hero">
 
-  <p class="eyebrow">Product Documentation Systems Leader</p>
+  <p class="eyebrow">Documentation Systems Leader</p>
+  <p class="hero-status">Currently consulting independently · 15+ years leading documentation functions in enterprise SaaS, fintech, and networking software</p>
   <h3>Building documentation systems that make complex products usable at scale</h3>
   <p class="hero-subtitle">
-    I lead documentation teams and the AI-enabled systems they run on, turning fragmented content efforts into a governed, measurable function that scales with the product.
+    I've led documentation teams and built the AI-enabled systems they run on, turning fragmented content efforts into a governed, measurable function that scales with the product.
     <br>
     My focus is building the operating model, the editorial standards, and the <span class="kw">AI-assisted</span> workflows that let a documentation team grow without growing headcount 1:1.
   </p>
@@ -107,8 +108,8 @@ During my career break, I designed the operating models I'd bring into a Senior 
 </div>
 
 <div class="home-card">
-<h3>Improved publishing speed</h3>
-<p>Set the <span class="kw">API documentation</span> standards and templates the team adopted, improving publishing speed by 30-40%.</p>
+<h3>Standardized API documentation at scale</h3>
+<p>Set the <span class="kw">API documentation</span> standards and templates the team adopted, owning 300+ endpoints at a sustained 15-20 endpoint review cadence per sprint.</p>
 <a class="text-link" href="/showcase/api-documentation-developer-experience/">Read the case study →</a>
 </div>
 
@@ -207,4 +208,3 @@ Open to roles in documentation leadership, developer experience, and product-ali
 
 <a class="btn-primary" href="/contact/">Contact me</a>
 </div>
-
