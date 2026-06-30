@@ -368,45 +368,53 @@ width="900"
 &lt;em>Figure: Documentation Infrastructure System — Authoring, Version Control, Review, Publishing, Distribution&lt;/em>
 &lt;/p>
 &lt;br>
-## Infrastructure Objective
-The goal of this model is to establish a reliable and repeatable system for documentation operations.
-It would enable a team to:
-- create documentation efficiently
-- manage updates alongside product changes
-- maintain quality through structured workflows
-- publish documentation consistently
-- support collaboration across teams
-This is the kind of system that keeps documentation usable and up to date in fast-moving environments.
----
-## Core Infrastructure Components
-This model is built through a set of operational layers.
----
-### Content Authoring
-Defines how documentation is created and maintained by contributors.
-This includes:
-- Markdown or structured content formats
-- standardized templates
-- writing guidelines for contributors
-- reusable documentation patterns
-The focus here is on enabling contributors to produce consistent content with minimal friction.
----
-### Version Control
-Integrates documentation with engineering workflows - the layer I've already run in production at Zeta.
-Key capabilities include:
-- tracking changes to documentation
-- enabling collaborative editing through pull requests
-- maintaining version history
-- aligning documentation updates with code releases
-Version control ensures that documentation evolves in sync with the product.
----
-### Review Workflow
-Introduces quality checks into the documentation process.
-This includes:
-- peer review processes
-- technical validation by engineers
-- editorial review for clarity and consistency
-- approval workflows before publishing
-Review workflows help maintain accuracy and reliability without slowing down delivery.
+&lt;h2>Infrastructure Objective&lt;span class="hx:absolute hx:-mt-20" id="infrastructure-objective">&lt;/span>
+&lt;a href="#infrastructure-objective" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The goal of this model is to establish a reliable and repeatable system for documentation operations.
+It would enable a team to:&lt;/p>
+&lt;ul>
+&lt;li>create documentation efficiently&lt;/li>
+&lt;li>manage updates alongside product changes&lt;/li>
+&lt;li>maintain quality through structured workflows&lt;/li>
+&lt;li>publish documentation consistently&lt;/li>
+&lt;li>support collaboration across teams
+This is the kind of system that keeps documentation usable and up to date in fast-moving environments.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h2>Core Infrastructure Components&lt;span class="hx:absolute hx:-mt-20" id="core-infrastructure-components">&lt;/span>
+&lt;a href="#core-infrastructure-components" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This model is built through a set of operational layers.&lt;/p>
+&lt;hr>
+&lt;h3>Content Authoring&lt;span class="hx:absolute hx:-mt-20" id="content-authoring">&lt;/span>
+&lt;a href="#content-authoring" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Defines how documentation is created and maintained by contributors.
+This includes:&lt;/p>
+&lt;ul>
+&lt;li>Markdown or structured content formats&lt;/li>
+&lt;li>standardized templates&lt;/li>
+&lt;li>writing guidelines for contributors&lt;/li>
+&lt;li>reusable documentation patterns
+The focus here is on enabling contributors to produce consistent content with minimal friction.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>Version Control&lt;span class="hx:absolute hx:-mt-20" id="version-control">&lt;/span>
+&lt;a href="#version-control" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Integrates documentation with engineering workflows - the layer I&amp;rsquo;ve already run in production at Zeta.
+Key capabilities include:&lt;/p>
+&lt;ul>
+&lt;li>tracking changes to documentation&lt;/li>
+&lt;li>enabling collaborative editing through pull requests&lt;/li>
+&lt;li>maintaining version history&lt;/li>
+&lt;li>aligning documentation updates with code releases
+Version control ensures that documentation evolves in sync with the product.&lt;/li>
+&lt;/ul>
+&lt;hr>
+&lt;h3>Review Workflow&lt;span class="hx:absolute hx:-mt-20" id="review-workflow">&lt;/span>
+&lt;a href="#review-workflow" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Introduces quality checks into the documentation process.
+This includes:&lt;/p>
+&lt;ul>
+&lt;li>peer review processes&lt;/li>
+&lt;li>technical validation by engineers&lt;/li>
+&lt;li>editorial review for clarity and consistency&lt;/li>
+&lt;li>approval workflows before publishing
+Review workflows help maintain accuracy and reliability without slowing down delivery.&lt;/li>
+&lt;/ul>
 &lt;hr>
 &lt;h3>Publishing System&lt;span class="hx:absolute hx:-mt-20" id="publishing-system">&lt;/span>
 &lt;a href="#publishing-system" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Handles how documentation is built and delivered to users.
