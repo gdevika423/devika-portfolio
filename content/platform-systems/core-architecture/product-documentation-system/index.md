@@ -1,4 +1,5 @@
----title: "End-to-End Product Documentation System"
+---
+title: "End-to-End Product Documentation System"
 summary: "A documentation operating model for managing help content, API documentation, release notes, and in-app guidance across enterprise products."
 toc: true
 type: docs
@@ -7,8 +8,9 @@ url: "/platform-systems/product-documentation-system/"
 ---
 
 <hr class="page-divider">
+<p class="story-status">Status: Designed during the sabbatical - not yet built as a single running system</p>
 
-This is the operating model I run a documentation team against - connecting product changes to published content through one structured system.
+This is the operating model I'd run a documentation team against - connecting product changes to published content through one structured system.
 
 ## 60-Second Summary
 
@@ -150,7 +152,7 @@ Multi-Channel Publishing
 
 </div>
 
-AI accelerates production but editorial ownership remains human.
+AI accelerates production but editorial ownership remains human. This stage of the model is the one piece I've actually built and run - see the [End-to-End AI-Assisted Publication Pipeline](/platform-systems/publication-pipeline/).
 
 ---
 
@@ -207,4 +209,3 @@ It demonstrates how documentation can operate as a scalable product system.
 <a class="text-link" href="/platform-systems/knowledge-architecture/">Knowledge Architecture Model</a> - the information model this system is built on
 
 <a class="text-link" href="/platform-systems/documentation-infrastructure/">Documentation Infrastructure</a> - the authoring and delivery layer underneath this system
-
