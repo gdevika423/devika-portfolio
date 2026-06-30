@@ -190,6 +190,9 @@ data-copied-label="Copied!"
 &lt;li>&lt;strong>Feedback loop&lt;/strong> — new pages generated this way would wire into the same health-monitoring cycle as the rest of the site, tracked for freshness and consistency from the moment they ship&lt;/li>
 &lt;/ol>
 &lt;hr>
+&lt;h2>Proof Point&lt;span class="hx:absolute hx:-mt-20" id="proof-point">&lt;/span>
+&lt;a href="#proof-point" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>I ran this pipeline end-to-end against this site: a spec for an Editorial QA Checklist page generated a real AI draft, opened as &lt;a href="https://github.com/gdevika423/devika-portfolio/pull/2"target="_blank" rel="noopener">a pull request&lt;/a>, reviewed, and merged into production. The page that resulted is live on this site now — the pipeline that built it is the one described above, not a simulation of it.&lt;/p>
+&lt;hr>
 &lt;h2>Why This Connects to the Health Operating Cycle&lt;span class="hx:absolute hx:-mt-20" id="why-this-connects-to-the-health-operating-cycle">&lt;/span>
 &lt;a href="#why-this-connects-to-the-health-operating-cycle" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>A draft-from-spec workflow that never feeds into ongoing health monitoring just creates more content to audit manually later. The intent is for every AI-assisted page to enter the same accountability loop as everything else on the site — flagged, triaged, owned, re-checked. That connection is the next build, not yet a finished integration.&lt;/p>
 &lt;hr>
