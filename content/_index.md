@@ -22,6 +22,10 @@ toc: false
   <text x="350" y="140" text-anchor="middle" class="hb-caption hb-caption-rust">flags feed back into the next cycle</text>
 </svg>
 
+<p class="hero-diagram-caption">
+  Five systems on this site run this exact pattern — two rule-based, three AI-powered, all gated by human review. <a class="text-link" href="https://gdevika423.github.io/sabbatical-dashboards/">See them running →</a>
+</p>
+
 <section class="hero">
 
   <p class="eyebrow">Product Documentation Systems Leader</p>
