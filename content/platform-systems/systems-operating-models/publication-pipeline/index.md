@@ -45,6 +45,7 @@ Health Monitoring Feedback Loop (planned)
 4. **Publish** — reviewed content would go live through the standard docs-as-code path
 5. **Feedback loop** — new pages generated this way would wire into the same health-monitoring cycle as the rest of the site, tracked for freshness and consistency from the moment they ship
 
+<img src="/images/architecture.svg" alt="Publication Pipeline Architecture" width="600">
 ---
 ## Proof Point
 
