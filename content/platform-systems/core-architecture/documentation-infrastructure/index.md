@@ -24,6 +24,7 @@ It focuses on the operational systems that support documentation at scale, ensur
   <em>Figure: Documentation Infrastructure System — Authoring, Version Control, Review, Publishing, Distribution</em>
 </p>
 <br>
+
 ## Infrastructure Objective
 The goal of this model is to establish a reliable and repeatable system for documentation operations.
 It would enable a team to:
@@ -33,9 +34,11 @@ It would enable a team to:
 - publish documentation consistently
 - support collaboration across teams
 This is the kind of system that keeps documentation usable and up to date in fast-moving environments.
+
 ---
 ## Core Infrastructure Components
 This model is built through a set of operational layers.
+
 ---
 ### Content Authoring
 Defines how documentation is created and maintained by contributors.
@@ -45,6 +48,7 @@ This includes:
 - writing guidelines for contributors
 - reusable documentation patterns
 The focus here is on enabling contributors to produce consistent content with minimal friction.
+
 ---
 ### Version Control
 Integrates documentation with engineering workflows - the layer I've already run in production at Zeta.
@@ -54,6 +58,7 @@ Key capabilities include:
 - maintaining version history
 - aligning documentation updates with code releases
 Version control ensures that documentation evolves in sync with the product.
+
 ---
 ### Review Workflow
 Introduces quality checks into the documentation process.
