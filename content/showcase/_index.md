@@ -81,7 +81,7 @@ Read the case study →
 
 <div class="story-card">
 
-<h3>Documentation in Agile Development</h3>
+<h3>Documentation in Agile Product Development</h3>
 
 <p class="story-meta"><strong>Zeta</strong> • Documentation Lead, Agile Integration</p>
 

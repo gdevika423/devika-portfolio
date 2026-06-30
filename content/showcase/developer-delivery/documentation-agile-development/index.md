@@ -1,9 +1,9 @@
----title: "Documentation in Agile Product Development"
-type: showcase
+---
+title: "Documentation in Agile Product Development"
+type: docs
 company: "Zeta"
 role: "Documentation Lead, Agile Integration"
 toc: true
-type: docs
 url: "/showcase/documentation-agile-development/"
 ---
 

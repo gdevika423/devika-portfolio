@@ -1,9 +1,9 @@
----title: "Knowledge Base Architecture"
-type: showcase
+---
+title: "Knowledge Base Architecture"
+type: docs
 company: "Zeta"
 role: "Knowledge Systems Lead"
 toc: true
-type: docs
 url: "/showcase/knowledge-base-architecture/"
 ---
 

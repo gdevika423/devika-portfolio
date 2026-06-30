@@ -1,8 +1,9 @@
----title: "Content Strategy and Governance"
+---
+title: "Content Strategy and Governance"
+type: docs
 company: "Zeta"
 role: "Editorial Standards Lead"
 toc: true
-type: docs
 url: "/showcase/content-strategy-governance/"
 ---
 Set the documentation quality standard for the team: built the 5Cs framework, trained writers on it, and ran audit cycles that gave every writer the same measurable bar to write against.
@@ -11,7 +12,7 @@ Set the documentation quality standard for the team: built the 5Cs framework, tr
 
 
 <p align="center">
-  <img src="/images/<span class="kw">governance</span>.png" alt="GenAI Editorial Review Case Study" width= "900">
+  <img src="/images/governance.png" alt="GenAI Editorial Review Case Study" width= "900">
 </p>
 
 ## Problem

@@ -1,9 +1,9 @@
----title: "GenAI Process Innovation"
-type: showcase
+---
+title: "GenAI Process Innovation"
+type: docs
 company: "Zeta"
 role: "Editorial Workflow Lead"
 toc: true
-type: docs
 weight: 1
 url: "/showcase/genai-process-innovation/"
 ---

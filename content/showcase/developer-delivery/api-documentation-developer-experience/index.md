@@ -1,9 +1,9 @@
----title: "API Documentation and Developer Experience"
-type: showcase
+---
+title: "API Documentation and Developer Experience"
+type: docs
 company: "Zeta"
 role: "Documentation Lead"
 toc: true
-type: docs
 weight: 2
 url: "/showcase/api-documentation-developer-experience/"
 ---
