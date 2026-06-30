@@ -2221,37 +2221,13 @@ data-copied-label="Copied!"
 &lt;hr>
 &lt;h2>Related&lt;/h2>
 &lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle&lt;/a> - the operating cadence that generates the data this framework reports on&lt;/p>
-&lt;p>&lt;a class="text-link" href="https://productnorth.in/toolkit/documentation-maturity-model/">Documentation Maturity Model&lt;/a> - a related framework for assessing documentation maturity&lt;/p></description></item><item><title>Automation in Enterprise Systems</title><link>https://productnorth.in/writing/systems-operations/automation-in-enterprise-systems/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/systems-operations/automation-in-enterprise-systems/</guid><description>
-&lt;h2>Context&lt;span class="hx:absolute hx:-mt-20" id="context">&lt;/span>
-&lt;a href="#context" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Enterprise systems often involve large operational workloads performed by engineers.&lt;/p>
-&lt;h2>Observation&lt;span class="hx:absolute hx:-mt-20" id="observation">&lt;/span>
-&lt;a href="#observation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Many operational tasks such as monitoring, log analysis, and incident detection follow predictable workflows.&lt;/p>
-&lt;h2>Example&lt;span class="hx:absolute hx:-mt-20" id="example">&lt;/span>
-&lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Automation systems can monitor signals across infrastructure environments and alert engineers when intervention is required.&lt;/p>
-&lt;p>This reduces manual monitoring effort and improves operational visibility.&lt;/p>
-&lt;h2>Takeaway&lt;span class="hx:absolute hx:-mt-20" id="takeaway">&lt;/span>
-&lt;a href="#takeaway" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Automation becomes valuable when it reduces repetitive operational tasks while improving system reliability.&lt;/p></description></item><item><title>Automation Observations</title><link>https://productnorth.in/writing/working-notes/automation-observations/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/working-notes/automation-observations/</guid><description>
+&lt;p>&lt;a class="text-link" href="https://productnorth.in/toolkit/documentation-maturity-model/">Documentation Maturity Model&lt;/a> - a related framework for assessing documentation maturity&lt;/p></description></item><item><title>Automation Observations</title><link>https://productnorth.in/writing/working-notes/automation-observations/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/working-notes/automation-observations/</guid><description>
 &lt;h3>Observation&lt;span class="hx:absolute hx:-mt-20" id="observation">&lt;/span>
 &lt;a href="#observation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Operational tasks that follow predictable patterns are strong candidates for automation.&lt;/p>
 &lt;h3>Example&lt;span class="hx:absolute hx:-mt-20" id="example">&lt;/span>
 &lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Monitoring workflows in enterprise environments often involve repeated checks across multiple systems.&lt;/p>
 &lt;h3>Question&lt;span class="hx:absolute hx:-mt-20" id="question">&lt;/span>
-&lt;a href="#question" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>How can operational signals be aggregated so engineers can understand system health without performing manual checks?&lt;/p></description></item><item><title>Discovery Before Solutions</title><link>https://productnorth.in/writing/product-platform-thinking/discovery-before-solutions/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/product-platform-thinking/discovery-before-solutions/</guid><description>
-&lt;p>Many product efforts fail because teams jump to solutions before fully understanding the underlying problem.&lt;/p>
-&lt;h2>The tendency to solution quickly&lt;span class="hx:absolute hx:-mt-20" id="the-tendency-to-solution-quickly">&lt;/span>
-&lt;a href="#the-tendency-to-solution-quickly" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Engineering teams are naturally inclined to build solutions. However, without careful discovery, teams risk solving the wrong problem.&lt;/p>
-&lt;h2>Why discovery matters&lt;span class="hx:absolute hx:-mt-20" id="why-discovery-matters">&lt;/span>
-&lt;a href="#why-discovery-matters" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Product discovery helps teams understand:&lt;/p>
-&lt;ul>
-&lt;li>user workflows&lt;/li>
-&lt;li>operational constraints&lt;/li>
-&lt;li>existing system limitations&lt;/li>
-&lt;/ul>
-&lt;h2>Example from enterprise operations&lt;span class="hx:absolute hx:-mt-20" id="example-from-enterprise-operations">&lt;/span>
-&lt;a href="#example-from-enterprise-operations" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>In many SAP environments, engineers perform repetitive monitoring checks. At first glance, the solution appears to be automation scripts.&lt;/p>
-&lt;p>However, the deeper issue is often a lack of centralized operational visibility.&lt;/p>
-&lt;h2>Takeaway&lt;span class="hx:absolute hx:-mt-20" id="takeaway">&lt;/span>
-&lt;a href="#takeaway" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Effective product development begins with understanding the problem space before committing to a solution.&lt;/p></description></item><item><title>Documentation and Developer Productivity</title><link>https://productnorth.in/writing/developer-experience/docs-and-developer-productivity/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/developer-experience/docs-and-developer-productivity/</guid><description>
+&lt;a href="#question" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>How can operational signals be aggregated so engineers can understand system health without performing manual checks?&lt;/p></description></item><item><title>Documentation and Developer Productivity</title><link>https://productnorth.in/writing/developer-experience/docs-and-developer-productivity/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/developer-experience/docs-and-developer-productivity/</guid><description>
 &lt;h2>Context&lt;span class="hx:absolute hx:-mt-20" id="context">&lt;/span>
 &lt;a href="#context" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Developer productivity is often discussed in terms of tools, frameworks, and infrastructure. Documentation is rarely treated as a productivity system.&lt;/p>
 &lt;h2>Observation&lt;span class="hx:absolute hx:-mt-20" id="observation">&lt;/span>
@@ -2282,40 +2258,13 @@ data-copied-label="Copied!"
 &lt;h3>Example&lt;span class="hx:absolute hx:-mt-20" id="example">&lt;/span>
 &lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>When ownership, lifecycle management, and governance are unclear, documentation becomes outdated quickly.&lt;/p>
 &lt;h3>Question&lt;span class="hx:absolute hx:-mt-20" id="question">&lt;/span>
-&lt;a href="#question" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>What governance structures help ensure knowledge systems remain reliable as products evolve?&lt;/p></description></item><item><title>Operations as Products</title><link>https://productnorth.in/writing/systems-operations/operations-as-products/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/systems-operations/operations-as-products/</guid><description>
-&lt;h2>Context&lt;span class="hx:absolute hx:-mt-20" id="context">&lt;/span>
-&lt;a href="#context" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Operations teams often manage complex systems through manual workflows.&lt;/p>
-&lt;h2>Observation&lt;span class="hx:absolute hx:-mt-20" id="observation">&lt;/span>
-&lt;a href="#observation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Many operational tasks follow predictable patterns that make them strong candidates for automation.&lt;/p>
-&lt;h2>Example&lt;span class="hx:absolute hx:-mt-20" id="example">&lt;/span>
-&lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Monitoring systems, incident management workflows, and infrastructure maintenance processes can often be converted into structured software platforms.&lt;/p>
-&lt;h2>Takeaway&lt;span class="hx:absolute hx:-mt-20" id="takeaway">&lt;/span>
-&lt;a href="#takeaway" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Viewing operations through a product lens can reveal opportunities to design scalable systems rather than relying on manual workflows.&lt;/p></description></item><item><title>Product Discovery Notes</title><link>https://productnorth.in/writing/working-notes/product-discovery-notes/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/working-notes/product-discovery-notes/</guid><description>
+&lt;a href="#question" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>What governance structures help ensure knowledge systems remain reliable as products evolve?&lt;/p></description></item><item><title>Product Discovery Notes</title><link>https://productnorth.in/writing/working-notes/product-discovery-notes/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/working-notes/product-discovery-notes/</guid><description>
 &lt;h3>Observation&lt;span class="hx:absolute hx:-mt-20" id="observation">&lt;/span>
 &lt;a href="#observation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Teams often attempt to solve problems before understanding the underlying workflow.&lt;/p>
 &lt;h3>Example&lt;span class="hx:absolute hx:-mt-20" id="example">&lt;/span>
 &lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>In enterprise operations environments, automation initiatives frequently begin without a full understanding of operational processes.&lt;/p>
 &lt;h3>Question&lt;span class="hx:absolute hx:-mt-20" id="question">&lt;/span>
-&lt;a href="#question" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>What discovery methods best reveal hidden constraints within operational workflows?&lt;/p></description></item><item><title>Products vs Services</title><link>https://productnorth.in/writing/product-platform-thinking/products-vs-services/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/product-platform-thinking/products-vs-services/</guid><description>
-&lt;h2>Context&lt;span class="hx:absolute hx:-mt-20" id="context">&lt;/span>
-&lt;a href="#context" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Many technology organizations provide operational services before building products.&lt;/p>
-&lt;h2>Observation&lt;span class="hx:absolute hx:-mt-20" id="observation">&lt;/span>
-&lt;a href="#observation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Services are typically customized for individual clients, while products aim to deliver repeatable solutions across many customers.&lt;/p>
-&lt;h2>Example&lt;span class="hx:absolute hx:-mt-20" id="example">&lt;/span>
-&lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Enterprise operations teams often perform manual tasks such as monitoring, incident response, or infrastructure maintenance.&lt;/p>
-&lt;p>Over time, recurring operational tasks may be automated and packaged into software systems.&lt;/p>
-&lt;p>This transformation represents a shift from service delivery to product design.&lt;/p>
-&lt;h2>Takeaway&lt;span class="hx:absolute hx:-mt-20" id="takeaway">&lt;/span>
-&lt;a href="#takeaway" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Product thinking often begins by identifying repeatable patterns within service workflows.&lt;/p></description></item><item><title>Thinking in Platforms</title><link>https://productnorth.in/writing/product-platform-thinking/thinking-in-platforms/</link><pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/writing/product-platform-thinking/thinking-in-platforms/</guid><description>
-&lt;h2>Context&lt;span class="hx:absolute hx:-mt-20" id="context">&lt;/span>
-&lt;a href="#context" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Platforms emerge when systems are designed to support multiple users, workflows, and services.&lt;/p>
-&lt;h2>Observation&lt;span class="hx:absolute hx:-mt-20" id="observation">&lt;/span>
-&lt;a href="#observation" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Many internal tools begin as small utilities that solve specific problems for individual teams.&lt;/p>
-&lt;p>As these tools grow in capability, they often become shared platforms.&lt;/p>
-&lt;h2>Example&lt;span class="hx:absolute hx:-mt-20" id="example">&lt;/span>
-&lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Developer portals, CI systems, and internal automation frameworks frequently begin as small team tools before evolving into organization wide platforms.&lt;/p>
-&lt;h2>Takeaway&lt;span class="hx:absolute hx:-mt-20" id="takeaway">&lt;/span>
-&lt;a href="#takeaway" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Platform thinking requires designing systems that support extensibility, reuse, and multiple stakeholders.&lt;/p></description></item><item><title>Taskly: Content-led Onboarding</title><link>https://productnorth.in/docs/taskly-onboarding/</link><pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/docs/taskly-onboarding/</guid><description>
+&lt;a href="#question" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>What discovery methods best reveal hidden constraints within operational workflows?&lt;/p></description></item><item><title>Taskly: Content-led Onboarding</title><link>https://productnorth.in/docs/taskly-onboarding/</link><pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/docs/taskly-onboarding/</guid><description>
 &lt;p>I designed and wrote onboarding documentation for Taskly — a productivity SaaS tool — to help users:&lt;/p>
 &lt;ul>
 &lt;li>Understand the product’s value in &amp;lt; 5 minutes&lt;/li>
