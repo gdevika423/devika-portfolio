@@ -1084,10 +1084,11 @@ data-copied-label="Copied!"
 &lt;h2>Related&lt;/h2>
 &lt;p>&lt;a class="text-link" href="https://productnorth.in/showcase/documentation-agile-development/">Documentation in Agile Development&lt;/a> - this workflow applied in practice at Zeta, with measured results&lt;/p></description></item><item><title>Documentation Infrastructure</title><link>https://productnorth.in/platform-systems/documentation-infrastructure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/documentation-infrastructure/</guid><description>
 &lt;hr class="page-divider">
-&lt;p>I led the team&amp;rsquo;s docs-as-code migration and built the infrastructure model documentation teams need for authoring, review, and delivery.&lt;/p>
-&lt;p>Documentation infrastructure defines how documentation is created, managed, reviewed, and delivered within an engineering organization.&lt;/p>
-&lt;p>It focuses on the operational systems that support documentation at scale, ensuring that content can be reliably produced, updated, and published as products evolve.&lt;/p>
-&lt;br>
+&lt;p class="story-status">Status: Designed during the sabbatical, not yet built — grounded in real docs-as-code migration work at Zeta&lt;/p>
+&lt;p>I led the team&amp;rsquo;s docs-as-code migration at Zeta - standardizing repository structure, branching conventions, and site deployment workflows within a live CI/CD pipeline where merges triggered automated builds. The infrastructure model below is what I&amp;rsquo;d formalize from that experience into a complete operating system for documentation infrastructure - the next step beyond what I&amp;rsquo;ve already run in production.&lt;/p>
+&lt;p>Documentation infrastructure defines how documentation is created, managed, reviewed, and delivered within an engineering organization.
+It focuses on the operational systems that support documentation at scale, ensuring that content can be reliably produced, updated, and published as products evolve.
+&lt;br>&lt;/p>
 &lt;p align="center">
 &lt;img
 src="https://productnorth.in/images/infra.png"
@@ -1096,81 +1097,73 @@ width="900"
 >
 &lt;/p>
 &lt;p align="center">
-&lt;em>Figure: Documentation Infrastructure System — Create, Validate, and Deliver&lt;/em>
+&lt;em>Figure: Documentation Infrastructure System — Authoring, Version Control, Review, Publishing, Distribution&lt;/em>
 &lt;/p>
 &lt;br>
-&lt;h2>Infrastructure Objective&lt;span class="hx:absolute hx:-mt-20" id="infrastructure-objective">&lt;/span>
-&lt;a href="#infrastructure-objective" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The goal of documentation infrastructure is to establish a reliable and repeatable system for documentation operations.&lt;/p>
-&lt;p>It enables teams to:&lt;/p>
-&lt;ul>
-&lt;li>create documentation efficiently&lt;/li>
-&lt;li>manage updates alongside product changes&lt;/li>
-&lt;li>maintain quality through structured workflows&lt;/li>
-&lt;li>publish documentation consistently&lt;/li>
-&lt;li>support collaboration across teams&lt;/li>
-&lt;/ul>
-&lt;p>This ensures that documentation remains usable and up to date in fast-moving environments.&lt;/p>
-&lt;hr>
-&lt;h2>Core Infrastructure Components&lt;span class="hx:absolute hx:-mt-20" id="core-infrastructure-components">&lt;/span>
-&lt;a href="#core-infrastructure-components" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Documentation infrastructure is built through a set of operational layers.&lt;/p>
-&lt;hr>
-&lt;h3>Content Authoring&lt;span class="hx:absolute hx:-mt-20" id="content-authoring">&lt;/span>
-&lt;a href="#content-authoring" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Defines how documentation is created and maintained by contributors.&lt;/p>
-&lt;p>This includes:&lt;/p>
-&lt;ul>
-&lt;li>Markdown or structured content formats&lt;/li>
-&lt;li>standardized templates&lt;/li>
-&lt;li>writing guidelines for contributors&lt;/li>
-&lt;li>reusable documentation patterns&lt;/li>
-&lt;/ul>
-&lt;p>The focus here is on enabling contributors to produce consistent content with minimal friction.&lt;/p>
-&lt;hr>
-&lt;h3>Version Control&lt;span class="hx:absolute hx:-mt-20" id="version-control">&lt;/span>
-&lt;a href="#version-control" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Integrates documentation with engineering workflows.&lt;/p>
-&lt;p>Key capabilities include:&lt;/p>
-&lt;ul>
-&lt;li>tracking changes to documentation&lt;/li>
-&lt;li>enabling collaborative editing through pull requests&lt;/li>
-&lt;li>maintaining version history&lt;/li>
-&lt;li>aligning documentation updates with code releases&lt;/li>
-&lt;/ul>
-&lt;p>Version control ensures that documentation evolves in sync with the product.&lt;/p>
-&lt;hr>
-&lt;h3>Review Workflow&lt;span class="hx:absolute hx:-mt-20" id="review-workflow">&lt;/span>
-&lt;a href="#review-workflow" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Introduces quality checks into the documentation process.&lt;/p>
-&lt;p>This includes:&lt;/p>
-&lt;ul>
-&lt;li>peer review processes&lt;/li>
-&lt;li>technical validation by engineers&lt;/li>
-&lt;li>editorial review for clarity and consistency&lt;/li>
-&lt;li>approval workflows before publishing&lt;/li>
-&lt;/ul>
-&lt;p>Review workflows help maintain accuracy and reliability without slowing down delivery.&lt;/p>
+## Infrastructure Objective
+The goal of this model is to establish a reliable and repeatable system for documentation operations.
+It would enable a team to:
+- create documentation efficiently
+- manage updates alongside product changes
+- maintain quality through structured workflows
+- publish documentation consistently
+- support collaboration across teams
+This is the kind of system that keeps documentation usable and up to date in fast-moving environments.
+---
+## Core Infrastructure Components
+This model is built through a set of operational layers.
+---
+### Content Authoring
+Defines how documentation is created and maintained by contributors.
+This includes:
+- Markdown or structured content formats
+- standardized templates
+- writing guidelines for contributors
+- reusable documentation patterns
+The focus here is on enabling contributors to produce consistent content with minimal friction.
+---
+### Version Control
+Integrates documentation with engineering workflows - the layer I've already run in production at Zeta.
+Key capabilities include:
+- tracking changes to documentation
+- enabling collaborative editing through pull requests
+- maintaining version history
+- aligning documentation updates with code releases
+Version control ensures that documentation evolves in sync with the product.
+---
+### Review Workflow
+Introduces quality checks into the documentation process.
+This includes:
+- peer review processes
+- technical validation by engineers
+- editorial review for clarity and consistency
+- approval workflows before publishing
+Review workflows help maintain accuracy and reliability without slowing down delivery.
 &lt;hr>
 &lt;h3>Publishing System&lt;span class="hx:absolute hx:-mt-20" id="publishing-system">&lt;/span>
-&lt;a href="#publishing-system" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Handles how documentation is built and delivered to users.&lt;/p>
-&lt;p>Examples include:&lt;/p>
+&lt;a href="#publishing-system" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Handles how documentation is built and delivered to users.
+Examples include:&lt;/p>
 &lt;ul>
 &lt;li>static site generation&lt;/li>
 &lt;li>automated documentation builds&lt;/li>
 &lt;li>internal or external documentation portals&lt;/li>
-&lt;li>deployment pipelines for documentation updates&lt;/li>
+&lt;li>deployment pipelines for documentation updates
+A strong publishing system ensures that documentation is always accessible and reflects the latest changes.&lt;/li>
 &lt;/ul>
-&lt;p>A strong publishing system ensures that documentation is always accessible and reflects the latest changes.&lt;/p>
 &lt;hr>
 &lt;h3>Access and Distribution&lt;span class="hx:absolute hx:-mt-20" id="access-and-distribution">&lt;/span>
-&lt;a href="#access-and-distribution" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Focuses on how documentation reaches its users.&lt;/p>
-&lt;p>This includes:&lt;/p>
+&lt;a href="#access-and-distribution" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>Focuses on how documentation reaches its users.
+This includes:&lt;/p>
 &lt;ul>
 &lt;li>documentation portals&lt;/li>
 &lt;li>role-based access (internal vs external users)&lt;/li>
 &lt;li>integration with developer platforms&lt;/li>
-&lt;li>distribution across teams and environments&lt;/li>
+&lt;li>distribution across teams and environments
+The emphasis here is on ensuring that the right users can access the right information at the right time.&lt;/li>
 &lt;/ul>
-&lt;p>The emphasis here is on ensuring that the right users can access the right information at the right time.&lt;/p>
 &lt;hr>
 &lt;h2>System View&lt;span class="hx:absolute hx:-mt-20" id="system-view">&lt;/span>
-&lt;a href="#system-view" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Documentation infrastructure operates as a delivery pipeline.&lt;/p>
+&lt;a href="#system-view" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This model operates as a delivery pipeline.&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Authoring → Version Control → Review Workflow → Publishing → Distribution&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
 &lt;button
@@ -1186,8 +1179,8 @@ data-copied-label="Copied!"
 &lt;/div>
 &lt;hr>
 &lt;h2>Related&lt;/h2>
-&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/api-doc-devx/">API Documentation &amp;amp; Developer Experience&lt;/a> - how this infrastructure supports API documentation specifically&lt;/p>
-&lt;p>&lt;a class="text-link" href="https://productnorth.in/platform-systems/release-doc-workflow/">Release Documentation Workflow&lt;/a> - how this infrastructure supports release delivery&lt;/p></description></item><item><title>API Documentation &amp; Developer Experience</title><link>https://productnorth.in/platform-systems/api-doc-devx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/api-doc-devx/</guid><description>
+&lt;a class="text-link" href="https://productnorth.in/platform-systems/api-doc-devx/">API Documentation &amp; Developer Experience&lt;/a> - how this infrastructure supports API documentation specifically
+&lt;a class="text-link" href="https://productnorth.in/platform-systems/release-doc-workflow/">Release Documentation Workflow&lt;/a> - how this infrastructure supports release delivery</description></item><item><title>API Documentation &amp; Developer Experience</title><link>https://productnorth.in/platform-systems/api-doc-devx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/api-doc-devx/</guid><description>
 &lt;hr class="page-divider">
 &lt;p>I own this model for how a documentation team builds API documentation and developer experience together.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
