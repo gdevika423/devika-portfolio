@@ -70,6 +70,7 @@ Feedback and Improvement
 
 AI supports the documentation workflow, but final ownership stays with the documentation team.
 
+<img src="/images/release-notes-architecture.svg" alt="Release Notes Automation Architecture" width="600">
 ---
 
 ## Input Sources
