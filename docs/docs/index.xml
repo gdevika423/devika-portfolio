@@ -88,7 +88,8 @@ Layer 3 at scale — a documented review ratio, a real escalation path, a standi
 &lt;a href="#related" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>&lt;a class="text-link" href="https://productnorth.in/showcase/genai-process-innovation/">GenAI Process Innovation&lt;/a> - the proven workflow this model is built from
 &lt;a class="text-link" href="https://productnorth.in/platform-systems/doc-health-pipeline/">Documentation Health Operating Cycle&lt;/a> - where this model&amp;rsquo;s monitoring layer connects&lt;/p></description></item><item><title>End-to-End Product Documentation System</title><link>https://productnorth.in/platform-systems/product-documentation-system/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/product-documentation-system/</guid><description>
 &lt;hr class="page-divider">
-&lt;p>This is the operating model I run a documentation team against - connecting product changes to published content through one structured system.&lt;/p>
+&lt;p class="story-status">Status: Designed during the sabbatical - not yet built as a single running system&lt;/p>
+&lt;p>This is the operating model I&amp;rsquo;d run a documentation team against - connecting product changes to published content through one structured system.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
 &lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Product documentation works best when it is treated as an operating system, not a collection of files.&lt;/p>
 &lt;hr>
@@ -278,7 +279,7 @@ data-copied-label="Copied!"
 &lt;/div>
 &lt;/div>
 &lt;/div>
-&lt;p>AI accelerates production but editorial ownership remains human.&lt;/p>
+&lt;p>AI accelerates production but editorial ownership remains human. This stage of the model is the one piece I&amp;rsquo;ve actually built and run - see the &lt;a href="https://productnorth.in/platform-systems/publication-pipeline/">End-to-End AI-Assisted Publication Pipeline&lt;/a>.&lt;/p>
 &lt;hr>
 &lt;h2>7. Measurement System&lt;span class="hx:absolute hx:-mt-20" id="7-measurement-system">&lt;/span>
 &lt;a href="#7-measurement-system" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
