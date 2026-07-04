@@ -39,6 +39,7 @@ Creation → Structuring → Storage → Discovery → Reuse → Governance
 * **Discovery**: Users access knowledge through search and navigation
 * **Reuse**: Existing knowledge is applied across teams and workflows
 * **Governance**: Content is maintained, reviewed, and updated over time
+
 ---
 
 ### System View
