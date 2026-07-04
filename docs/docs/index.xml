@@ -527,8 +527,8 @@ The knowledge architecture system is designed as a layered structure that connec
 &lt;/p>
 &lt;p align="center">&lt;em>Figure: Knowledge Architecture System — Structure, Flow, and Execution&lt;/em>&lt;/p>
 &lt;br>
-### Taxonomy Structure
-At the foundation is a structured taxonomy that organizes knowledge into clear categories.
+&lt;h3>Taxonomy Structure&lt;span class="hx:absolute hx:-mt-20" id="taxonomy-structure">&lt;/span>
+&lt;a href="#taxonomy-structure" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>At the foundation is a structured taxonomy that organizes knowledge into clear categories.&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Enterprise Knowledge System
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│
