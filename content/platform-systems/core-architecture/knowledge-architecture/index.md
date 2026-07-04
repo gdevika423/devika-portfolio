@@ -5,7 +5,6 @@ type: docs
 weight: 2
 url: "/platform-systems/knowledge-architecture/"
 ---
-
 <hr class="page-divider">
 <p class="story-status">Status: Designed during the sabbatical - generalized from the knowledge base I built and led at Zeta</p>
 
@@ -17,9 +16,9 @@ The knowledge architecture system is designed as a layered structure that connec
 </p>
 <p align="center"><em>Figure: Knowledge Architecture System — Structure, Flow, and Execution</em></p>
 <br>
+
 ### Taxonomy Structure
 At the foundation is a structured taxonomy that organizes knowledge into clear categories.
-
 ```text
 Enterprise Knowledge System
 │
@@ -30,6 +29,7 @@ Enterprise Knowledge System
 ```
 
 ### Knowledge Flow
+
 ```text
 Creation → Structuring → Storage → Discovery → Reuse → Governance
 ```
@@ -39,10 +39,10 @@ Creation → Structuring → Storage → Discovery → Reuse → Governance
 * **Discovery**: Users access knowledge through search and navigation
 * **Reuse**: Existing knowledge is applied across teams and workflows
 * **Governance**: Content is maintained, reviewed, and updated over time
-
 ---
 
 ### System View
+
 The architecture connects structure with usability.
 ```text
 Taxonomy
@@ -55,10 +55,10 @@ Search & Discovery
    ↓
 User Workflows
 ```
+
 This model is designed so that knowledge is not only stored, but actively supports how teams operate and scale.
 
 ---
-
 <h2>Related</h2>
 <a class="text-link" href="/showcase/knowledge-base-architecture/">Knowledge Base Architecture</a> - this model applied in practice at Zeta, with measured results
 <a class="text-link" href="/toolkit/documentation-governance-framework/">Documentation Governance Framework</a> - the governance layer that keeps this architecture consistent
