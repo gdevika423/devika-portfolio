@@ -126,3 +126,7 @@ Outside of that, I ride long-distance on a Royal Enfield Meteor 350 and a Triump
 I'm open to Senior Documentation Manager, Information Developer Manager, and documentation leadership roles where AI-readiness and team leadership both matter.
 
 If you're building complex products and need someone to lead that function, I'd be happy to connect.
+
+<a class="btn-primary" href="/contact/">Contact me</a>
+
+If you're building complex products and need someone to lead that function, I'd be happy to connect.
