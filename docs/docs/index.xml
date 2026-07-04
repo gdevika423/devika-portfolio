@@ -557,12 +557,11 @@ data-copied-label="Copied!"
 &lt;/ul>
 &lt;hr>
 &lt;h3>System View&lt;span class="hx:absolute hx:-mt-20" id="system-view">&lt;/span>
-&lt;a href="#system-view" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The architecture connects structure with usability.&lt;/p>
+&lt;a href="#system-view" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The architecture connects structure with usability. This model is designed so that knowledge is not only stored, but actively supports how teams operate and scale.&lt;/p>
 &lt;p align="center">
 &lt;img src="https://productnorth.in/images/kb-system-view.png" alt="Knowledge Architecture System View — Taxonomy to Structured Content to Central Repository to Search and Discovery to User Workflows" width="900">
 &lt;/p>
 &lt;p align="center">&lt;em>Figure: Knowledge Architecture System View — information flows from taxonomy through structured content into a central repository, surfaced via search and discovery into user workflows&lt;/em>&lt;/p>
-&lt;p>This model is designed so that knowledge is not only stored, but actively supports how teams operate and scale.&lt;/p>
 &lt;hr>
 &lt;h2>Related&lt;/h2>
 &lt;a class="text-link" href="https://productnorth.in/showcase/knowledge-base-architecture/">Knowledge Base Architecture&lt;/a> - this model applied in practice at Zeta, with measured results
