@@ -43,14 +43,14 @@ Creation → Structuring → Storage → Discovery → Reuse → Governance
 
 ### System View
 
-The architecture connects structure with usability.
+The architecture connects structure with usability. This model is designed so that knowledge is not only stored, but actively supports how teams operate and scale.
 
 <p align="center">
   <img src="/images/kb-system-view.png" alt="Knowledge Architecture System View — Taxonomy to Structured Content to Central Repository to Search and Discovery to User Workflows" width="900">
 </p>
 <p align="center"><em>Figure: Knowledge Architecture System View — information flows from taxonomy through structured content into a central repository, surfaced via search and discovery into user workflows</em></p>
 
-This model is designed so that knowledge is not only stored, but actively supports how teams operate and scale.
+
 
 ---
 
