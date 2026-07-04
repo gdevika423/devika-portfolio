@@ -26,6 +26,8 @@ At the foundation is a structured taxonomy that organizes knowledge into clear c
   <img src="/images/kb-taxonomy.png" alt="Enterprise Knowledge System taxonomy: Product Documentation, Operational Procedures, Developer Documentation, Knowledge Base Content" width="700">
 </p>
 <p align="center"><em>Figure: Enterprise Knowledge System — four content domains structured as a layered taxonomy</em></p>
+
+
 ### Knowledge Flow
 
 ```text
