@@ -1,32 +1,32 @@
 {
-  "generatedAt": "2026-06-30T01:40:05.029Z",
+  "generatedAt": "2026-07-06T09:58:28.786Z",
   "pages": [
     {
       "name": "_index",
       "url": "https://productnorth.in/",
       "contentPath": "content/_index.md",
-      "lastCommit": "2026-06-27T14:05:23+05:30",
-      "ageDays": 3,
+      "lastCommit": "2026-06-30T22:08:44+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "About",
       "url": "https://productnorth.in/about/",
       "contentPath": "content/about/_index.md",
-      "lastCommit": "2026-06-28T16:27:24+05:30",
+      "lastCommit": "2026-07-04T16:09:35+05:30",
       "ageDays": 2,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific examples or metrics provided to support claims about leading teams and systems.",
+      "coverageGaps": "The statement about leading and coaching a team at Zeta lacks specific outcomes or metrics to support the claim.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -34,13 +34,13 @@
       "url": "https://productnorth.in/authors/hugo-authors/",
       "contentPath": "content/authors/hugo-authors/_index.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -48,13 +48,13 @@
       "url": "https://productnorth.in/authors/hugo-authors/_index.pt-br/",
       "contentPath": "content/authors/hugo-authors/_index.pt-br.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -62,13 +62,13 @@
       "url": "https://productnorth.in/backup/GenAI/genai-process-innovation/",
       "contentPath": "content/backup/GenAI/genai-process-innovation.md",
       "lastCommit": "2026-04-12T22:19:28+05:30",
-      "ageDays": 78,
+      "ageDays": 85,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific examples or metrics provided to support claims about the impact of the GenAI-assisted editorial review workflow.",
+      "coverageGaps": "The impact claims lack specific metrics or evidence to support the '40% reduction in editorial review time'.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -76,13 +76,13 @@
       "url": "https://productnorth.in/case-studies/",
       "contentPath": "content/case-studies/_index.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the impact of case studies.",
+      "coverageGaps": "The impact claims for each case study lack specific metrics or evidence to support the results.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -90,13 +90,13 @@
       "url": "https://productnorth.in/categories/syntax/_index.pt-br/",
       "contentPath": "content/categories/syntax/_index.pt-br.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -104,13 +104,13 @@
       "url": "https://productnorth.in/categories/themes/_index.pt-br/",
       "contentPath": "content/categories/themes/_index.pt-br.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -118,13 +118,13 @@
       "url": "https://productnorth.in/contact/",
       "contentPath": "content/contact/_index.md",
       "lastCommit": "2026-06-25T18:56:21+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -132,13 +132,13 @@
       "url": "https://productnorth.in/content-samples/Onboarding/",
       "contentPath": "content/content-samples/Onboarding.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the onboarding process.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -146,13 +146,13 @@
       "url": "https://productnorth.in/content-samples/",
       "contentPath": "content/content-samples/_index.md",
       "lastCommit": "2026-04-06T13:45:06+05:30",
-      "ageDays": 85,
+      "ageDays": 91,
       "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
+        "emoji": "🟡",
+        "label": "aging (>3 months)",
+        "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the impact of documentation projects.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -160,13 +160,13 @@
       "url": "https://productnorth.in/content-samples/doc-growth-strategy/",
       "contentPath": "content/content-samples/doc-growth-strategy.md",
       "lastCommit": "2026-04-06T13:45:06+05:30",
-      "ageDays": 85,
+      "ageDays": 91,
       "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
+        "emoji": "🟡",
+        "label": "aging (>3 months)",
+        "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the impact of documentation strategy.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -174,13 +174,13 @@
       "url": "https://productnorth.in/content-samples/leadership/",
       "contentPath": "content/content-samples/leadership.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -188,13 +188,13 @@
       "url": "https://productnorth.in/content-samples/playbook/",
       "contentPath": "content/content-samples/playbook.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the playbook's effectiveness.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -202,13 +202,13 @@
       "url": "https://productnorth.in/content-samples/principles/",
       "contentPath": "content/content-samples/principles.md",
       "lastCommit": "2026-04-06T13:45:06+05:30",
-      "ageDays": 85,
+      "ageDays": 91,
       "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
+        "emoji": "🟡",
+        "label": "aging (>3 months)",
+        "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the impact of visuals in documentation.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -216,13 +216,13 @@
       "url": "https://productnorth.in/content-samples/scaling/",
       "contentPath": "content/content-samples/scaling.md",
       "lastCommit": "2026-04-06T13:45:06+05:30",
-      "ageDays": 85,
+      "ageDays": 91,
       "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
+        "emoji": "🟡",
+        "label": "aging (>3 months)",
+        "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -230,13 +230,13 @@
       "url": "https://productnorth.in/content-samples/vision/",
       "contentPath": "content/content-samples/vision.md",
       "lastCommit": "2026-04-06T13:45:06+05:30",
-      "ageDays": 85,
+      "ageDays": 91,
       "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
+        "emoji": "🟡",
+        "label": "aging (>3 months)",
+        "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the impact of leadership vision.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -244,13 +244,13 @@
       "url": "https://productnorth.in/docs/",
       "contentPath": "content/docs/_index.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -258,27 +258,27 @@
       "url": "https://productnorth.in/docs/taskly-onboarding/",
       "contentPath": "content/docs/taskly-onboarding.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the onboarding documentation.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "Platform & Systems",
       "url": "https://productnorth.in/platform-systems/",
       "contentPath": "content/platform-systems/_index.md",
-      "lastCommit": "2026-06-29T17:32:42+05:30",
-      "ageDays": 1,
+      "lastCommit": "2026-06-30T23:06:37+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the systems and models.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -286,55 +286,55 @@
       "url": "https://productnorth.in/platform-systems/core-architecture/",
       "contentPath": "content/platform-systems/core-architecture/_index.md",
       "lastCommit": "2026-06-25T14:27:38+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "Documentation Infrastructure",
       "url": "https://productnorth.in/platform-systems/core-architecture/documentation-infrastructure/index/",
       "contentPath": "content/platform-systems/core-architecture/documentation-infrastructure/index.md",
-      "lastCommit": "2026-06-25T17:56:56+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-06-30T23:22:02+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the infrastructure model.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "Knowledge Architecture Model",
       "url": "https://productnorth.in/platform-systems/core-architecture/knowledge-architecture/index/",
       "contentPath": "content/platform-systems/core-architecture/knowledge-architecture/index.md",
-      "lastCommit": "2026-06-25T17:56:52+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-07-04T17:43:51+05:30",
+      "ageDays": 2,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the knowledge architecture.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "End-to-End Product Documentation System",
       "url": "https://productnorth.in/platform-systems/core-architecture/product-documentation-system/index/",
       "contentPath": "content/platform-systems/core-architecture/product-documentation-system/index.md",
-      "lastCommit": "2026-06-25T17:56:49+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-06-30T23:38:42+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the operating model.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -342,27 +342,27 @@
       "url": "https://productnorth.in/platform-systems/developer-release-systems/",
       "contentPath": "content/platform-systems/developer-release-systems/_index.md",
       "lastCommit": "2026-06-25T14:27:39+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "API Documentation & Developer Experience",
       "url": "https://productnorth.in/platform-systems/developer-release-systems/api-doc-devx/index/",
       "contentPath": "content/platform-systems/developer-release-systems/api-doc-devx/index.md",
-      "lastCommit": "2026-06-25T17:56:59+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-07-01T00:02:02+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the API documentation model.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -370,139 +370,153 @@
       "url": "https://productnorth.in/platform-systems/developer-release-systems/in-app-help/index/",
       "contentPath": "content/platform-systems/developer-release-systems/in-app-help/index.md",
       "lastCommit": "2026-06-25T17:57:06+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the in-app help model.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "Release Documentation Workflow",
       "url": "https://productnorth.in/platform-systems/developer-release-systems/release-doc-workflow/index/",
       "contentPath": "content/platform-systems/developer-release-systems/release-doc-workflow/index.md",
-      "lastCommit": "2026-06-25T17:57:02+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-07-01T00:02:02+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the release documentation workflow.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
+    },
+    {
+      "name": "Release Notes: Search & Onboarding Improvements",
+      "url": "https://productnorth.in/platform-systems/developer-release-systems/release-notes/rel-2026-3/index/",
+      "contentPath": "content/platform-systems/developer-release-systems/release-notes/rel-2026-3/index.md",
+      "lastCommit": "2026-06-30T06:32:23Z",
+      "ageDays": 6,
+      "freshness": {
+        "emoji": "🟢",
+        "label": "fresh",
+        "level": "fresh"
+      },
+      "coverageGaps": "No data",
+      "freshnessRisk": "No data"
     },
     {
       "name": "Measurement",
       "url": "https://productnorth.in/platform-systems/measurement/",
       "contentPath": "content/platform-systems/measurement/_index.md",
       "lastCommit": "2026-06-25T14:27:40+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
-      "freshnessRisk": "No freshness risk; content is recent."
+      "coverageGaps": "No data",
+      "freshnessRisk": "No data"
     },
     {
       "name": "Documentation Metrics & Impact System",
       "url": "https://productnorth.in/platform-systems/measurement/metrix/index/",
       "contentPath": "content/platform-systems/measurement/metrix/index.md",
-      "lastCommit": "2026-06-25T17:57:09+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-07-01T00:02:02+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the measurement framework.",
-      "freshnessRisk": "No freshness risk; content is recent."
+      "coverageGaps": "No data",
+      "freshnessRisk": "No data"
     },
     {
       "name": "Systems & Operating Models",
       "url": "https://productnorth.in/platform-systems/systems-operating-models/",
       "contentPath": "content/platform-systems/systems-operating-models/_index.md",
       "lastCommit": "2026-06-29T17:37:36+05:30",
-      "ageDays": 1,
+      "ageDays": 7,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
-      "freshnessRisk": "No freshness risk; content is recent."
+      "coverageGaps": "No data",
+      "freshnessRisk": "No data"
     },
     {
       "name": "AI-Driven Documentation Workflow",
       "url": "https://productnorth.in/platform-systems/systems-operating-models/ai-driven/index/",
       "contentPath": "content/platform-systems/systems-operating-models/ai-driven/index.md",
-      "lastCommit": "2026-06-29T17:37:36+05:30",
-      "ageDays": 1,
+      "lastCommit": "2026-06-30T12:24:46+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the AI-driven workflow.",
-      "freshnessRisk": "No freshness risk; content is recent."
+      "coverageGaps": "No data",
+      "freshnessRisk": "No data"
     },
     {
       "name": "AI Governance & Review Operating Model",
       "url": "https://productnorth.in/platform-systems/systems-operating-models/ai-governance-model/index/",
       "contentPath": "content/platform-systems/systems-operating-models/ai-governance-model/index.md",
-      "lastCommit": "2026-06-29T22:56:08+05:30",
-      "ageDays": 0,
+      "lastCommit": "2026-07-01T00:02:02+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the governance model.",
-      "freshnessRisk": "No freshness risk; content is recent."
+      "coverageGaps": "No data",
+      "freshnessRisk": "No data"
     },
     {
       "name": "Documentation Health Operating Cycle",
       "url": "https://productnorth.in/platform-systems/systems-operating-models/doc-health-pipeline/index/",
       "contentPath": "content/platform-systems/systems-operating-models/doc-health-pipeline/index.md",
-      "lastCommit": "2026-06-29T17:37:36+05:30",
-      "ageDays": 1,
+      "lastCommit": "2026-07-01T00:02:02+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the health monitoring cycle.",
-      "freshnessRisk": "No freshness risk; content is recent."
+      "coverageGaps": "No data",
+      "freshnessRisk": "No data"
     },
     {
       "name": "End-to-End AI-Assisted Publication Pipeline",
       "url": "https://productnorth.in/platform-systems/systems-operating-models/publication-pipeline/index/",
       "contentPath": "content/platform-systems/systems-operating-models/publication-pipeline/index.md",
-      "lastCommit": "2026-06-29T17:37:36+05:30",
-      "ageDays": 1,
+      "lastCommit": "2026-07-01T00:02:02+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the AI-assisted publication pipeline.",
-      "freshnessRisk": "No freshness risk; content is recent."
+      "coverageGaps": "No data",
+      "freshnessRisk": "No data"
     },
     {
       "name": "Release Documentation Traceability Checker",
       "url": "https://productnorth.in/platform-systems/systems-operating-models/traceability-checker/index/",
       "contentPath": "content/platform-systems/systems-operating-models/traceability-checker/index.md",
       "lastCommit": "2026-06-29T20:31:25+05:30",
-      "ageDays": 0,
+      "ageDays": 7,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the traceability checker.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -510,13 +524,13 @@
       "url": "https://productnorth.in/posts/",
       "contentPath": "content/posts/_index.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -524,13 +538,13 @@
       "url": "https://productnorth.in/product/",
       "contentPath": "content/product/_index.md",
       "lastCommit": "2026-04-07T00:46:54+05:30",
-      "ageDays": 84,
+      "ageDays": 91,
       "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
+        "emoji": "🟡",
+        "label": "aging (>3 months)",
+        "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -538,13 +552,13 @@
       "url": "https://productnorth.in/product/feature-prioritization/",
       "contentPath": "content/product/feature-prioritization.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the prioritization framework.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -552,13 +566,13 @@
       "url": "https://productnorth.in/product/nordia-sap-automation-platform/",
       "contentPath": "content/product/nordia-sap-automation-platform.md",
       "lastCommit": "2026-04-06T13:45:06+05:30",
-      "ageDays": 85,
+      "ageDays": 91,
       "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
+        "emoji": "🟡",
+        "label": "aging (>3 months)",
+        "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the automation platform.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -566,13 +580,13 @@
       "url": "https://productnorth.in/product-thinking/",
       "contentPath": "content/product-thinking/_index.md",
       "lastCommit": "2026-04-13T16:45:20+05:30",
-      "ageDays": 78,
+      "ageDays": 84,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -580,13 +594,13 @@
       "url": "https://productnorth.in/product-thinking/automation-opportunity-map/",
       "contentPath": "content/product-thinking/automation-opportunity-map/_index.md",
       "lastCommit": "2026-04-13T19:40:27+05:30",
-      "ageDays": 77,
+      "ageDays": 84,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the opportunity evaluation.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -594,13 +608,13 @@
       "url": "https://productnorth.in/product-thinking/mvp-prioritization/",
       "contentPath": "content/product-thinking/mvp-prioritization/_index.md",
       "lastCommit": "2026-04-13T19:40:27+05:30",
-      "ageDays": 77,
+      "ageDays": 84,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the MVP scope.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -608,13 +622,13 @@
       "url": "https://productnorth.in/product-thinking/nordia-product-discovery/",
       "contentPath": "content/product-thinking/nordia-product-discovery/_index.md",
       "lastCommit": "2026-04-13T19:40:27+05:30",
-      "ageDays": 77,
+      "ageDays": 84,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the product discovery.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -622,13 +636,13 @@
       "url": "https://productnorth.in/projects/",
       "contentPath": "content/projects/_index.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -636,13 +650,13 @@
       "url": "https://productnorth.in/projects/agile-doc-process/",
       "contentPath": "content/projects/agile-doc-process.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about embedding documentation.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -650,13 +664,13 @@
       "url": "https://productnorth.in/projects/api-docs-migration/",
       "contentPath": "content/projects/api-docs-migration.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the migration and optimization.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -664,13 +678,13 @@
       "url": "https://productnorth.in/projects/chatgpt/chatgpt-editorial-pilot/",
       "contentPath": "content/projects/chatgpt/chatgpt-editorial-pilot.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the ChatGPT pilot.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -678,27 +692,27 @@
       "url": "https://productnorth.in/projects/zeta-knowledge-base/",
       "contentPath": "content/projects/zeta-knowledge-base.md",
       "lastCommit": "2026-03-23T23:41:15+05:30",
-      "ageDays": 98,
+      "ageDays": 105,
       "freshness": {
         "emoji": "🟡",
         "label": "aging (>3 months)",
         "level": "aging"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the knowledge base.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "Impact Stories",
       "url": "https://productnorth.in/showcase/",
       "contentPath": "content/showcase/_index.md",
-      "lastCommit": "2026-06-25T15:46:36+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-07-01T00:19:24+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -706,41 +720,41 @@
       "url": "https://productnorth.in/showcase/ai-quality/",
       "contentPath": "content/showcase/ai-quality/_index.md",
       "lastCommit": "2026-06-25T14:28:28+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "Content Strategy and Governance",
       "url": "https://productnorth.in/showcase/ai-quality/content-strategy-governance/index/",
       "contentPath": "content/showcase/ai-quality/content-strategy-governance/index.md",
-      "lastCommit": "2026-06-25T17:57:16+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-07-01T00:19:24+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the content strategy.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "GenAI Process Innovation",
       "url": "https://productnorth.in/showcase/ai-quality/genai-process-innovation/index/",
       "contentPath": "content/showcase/ai-quality/genai-process-innovation/index.md",
-      "lastCommit": "2026-06-25T17:57:13+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-07-01T00:19:24+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the GenAI process.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -748,55 +762,55 @@
       "url": "https://productnorth.in/showcase/developer-delivery/",
       "contentPath": "content/showcase/developer-delivery/_index.md",
       "lastCommit": "2026-06-25T14:28:29+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "API Documentation and Developer Experience",
       "url": "https://productnorth.in/showcase/developer-delivery/api-documentation-developer-experience/index/",
       "contentPath": "content/showcase/developer-delivery/api-documentation-developer-experience/index.md",
-      "lastCommit": "2026-06-25T17:57:20+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-07-01T00:19:24+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the API documentation.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "Documentation in Agile Product Development",
       "url": "https://productnorth.in/showcase/developer-delivery/documentation-agile-development/index/",
       "contentPath": "content/showcase/developer-delivery/documentation-agile-development/index.md",
-      "lastCommit": "2026-06-25T17:57:23+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-07-01T00:19:24+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the agile documentation.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "Knowledge Base Architecture",
       "url": "https://productnorth.in/showcase/developer-delivery/knowledge-base-architecture/index/",
       "contentPath": "content/showcase/developer-delivery/knowledge-base-architecture/index.md",
-      "lastCommit": "2026-06-25T17:57:26+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-07-01T00:19:24+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the knowledge base architecture.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -804,13 +818,13 @@
       "url": "https://productnorth.in/toolkit/",
       "contentPath": "content/toolkit/_index.md",
       "lastCommit": "2026-06-25T15:47:49+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -818,13 +832,13 @@
       "url": "https://productnorth.in/toolkit/process-models/",
       "contentPath": "content/toolkit/process-models/_index.md",
       "lastCommit": "2026-06-25T14:29:03+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -832,13 +846,13 @@
       "url": "https://productnorth.in/toolkit/process-models/documentation-development-lifecycle-ddlc/",
       "contentPath": "content/toolkit/process-models/documentation-development-lifecycle-ddlc/_index.md",
       "lastCommit": "2026-06-25T17:57:39+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the DDLC.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -846,13 +860,13 @@
       "url": "https://productnorth.in/toolkit/process-models/prioritization-execution-models/",
       "contentPath": "content/toolkit/process-models/prioritization-execution-models/_index.md",
       "lastCommit": "2026-06-25T17:57:43+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the prioritization models.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -860,13 +874,13 @@
       "url": "https://productnorth.in/toolkit/quality-frameworks/5cs-content-audit-model/",
       "contentPath": "content/toolkit/quality-frameworks/5cs-content-audit-model/_index.md",
       "lastCommit": "2026-06-25T17:57:33+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the 5Cs model.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -874,13 +888,13 @@
       "url": "https://productnorth.in/toolkit/quality-frameworks/",
       "contentPath": "content/toolkit/quality-frameworks/_index.md",
       "lastCommit": "2026-06-25T14:29:02+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -888,13 +902,13 @@
       "url": "https://productnorth.in/toolkit/quality-frameworks/documentation-governance-framework/",
       "contentPath": "content/toolkit/quality-frameworks/documentation-governance-framework/_index.md",
       "lastCommit": "2026-06-25T17:57:36+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the governance framework.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -902,27 +916,27 @@
       "url": "https://productnorth.in/toolkit/quality-frameworks/documentation-maturity-model/",
       "contentPath": "content/toolkit/quality-frameworks/documentation-maturity-model/_index.md",
       "lastCommit": "2026-06-25T17:57:29+05:30",
-      "ageDays": 5,
+      "ageDays": 11,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the maturity model.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
       "name": "Writing",
       "url": "https://productnorth.in/writing/",
       "contentPath": "content/writing/_index.md",
-      "lastCommit": "2026-06-25T17:27:06+05:30",
-      "ageDays": 5,
+      "lastCommit": "2026-07-01T00:23:10+05:30",
+      "ageDays": 6,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -930,13 +944,13 @@
       "url": "https://productnorth.in/writing/developer-experience/",
       "contentPath": "content/writing/developer-experience/_index.md",
       "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
+      "ageDays": 85,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -944,13 +958,13 @@
       "url": "https://productnorth.in/writing/developer-experience/docs-and-developer-productivity/",
       "contentPath": "content/writing/developer-experience/docs-and-developer-productivity.md",
       "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
+      "ageDays": 85,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about documentation productivity.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -958,111 +972,13 @@
       "url": "https://productnorth.in/writing/developer-experience/knowledge-systems-in-engineering/",
       "contentPath": "content/writing/developer-experience/knowledge-systems-in-engineering.md",
       "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
+      "ageDays": 85,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No specific metrics or examples provided to support claims about knowledge systems.",
-      "freshnessRisk": "No freshness risk; content is recent."
-    },
-    {
-      "name": "Product and Platform Thinking",
-      "url": "https://productnorth.in/writing/product-platform-thinking/",
-      "contentPath": "content/writing/product-platform-thinking/_index.md",
-      "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
-      "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
-      },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
-      "freshnessRisk": "No freshness risk; content is recent."
-    },
-    {
-      "name": "Discovery Before Solutions",
-      "url": "https://productnorth.in/writing/product-platform-thinking/discovery-before-solutions/",
-      "contentPath": "content/writing/product-platform-thinking/discovery-before-solutions.md",
-      "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
-      "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
-      },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the discovery process.",
-      "freshnessRisk": "No freshness risk; content is recent."
-    },
-    {
-      "name": "Products vs Services",
-      "url": "https://productnorth.in/writing/product-platform-thinking/products-vs-services/",
-      "contentPath": "content/writing/product-platform-thinking/products-vs-services.md",
-      "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
-      "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
-      },
-      "coverageGaps": "No specific metrics or examples provided to support claims about the distinction between products and services.",
-      "freshnessRisk": "No freshness risk; content is recent."
-    },
-    {
-      "name": "Thinking in Platforms",
-      "url": "https://productnorth.in/writing/product-platform-thinking/thinking-in-platforms/",
-      "contentPath": "content/writing/product-platform-thinking/thinking-in-platforms.md",
-      "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
-      "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
-      },
-      "coverageGaps": "No specific metrics or examples provided to support claims about platform thinking.",
-      "freshnessRisk": "No freshness risk; content is recent."
-    },
-    {
-      "name": "Systems and Operations",
-      "url": "https://productnorth.in/writing/systems-operations/",
-      "contentPath": "content/writing/systems-operations/_index.md",
-      "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
-      "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
-      },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
-      "freshnessRisk": "No freshness risk; content is recent."
-    },
-    {
-      "name": "Automation in Enterprise Systems",
-      "url": "https://productnorth.in/writing/systems-operations/automation-in-enterprise-systems/",
-      "contentPath": "content/writing/systems-operations/automation-in-enterprise-systems.md",
-      "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
-      "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
-      },
-      "coverageGaps": "No specific metrics or examples provided to support claims about automation in enterprise systems.",
-      "freshnessRisk": "No freshness risk; content is recent."
-    },
-    {
-      "name": "Operations as Products",
-      "url": "https://productnorth.in/writing/systems-operations/operations-as-products/",
-      "contentPath": "content/writing/systems-operations/operations-as-products.md",
-      "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
-      "freshness": {
-        "emoji": "🟢",
-        "label": "fresh",
-        "level": "fresh"
-      },
-      "coverageGaps": "No specific metrics or examples provided to support claims about operations as products.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -1070,13 +986,13 @@
       "url": "https://productnorth.in/writing/working-notes/",
       "contentPath": "content/writing/working-notes/_index.md",
       "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
+      "ageDays": 85,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -1084,13 +1000,13 @@
       "url": "https://productnorth.in/writing/working-notes/automation-observations/",
       "contentPath": "content/writing/working-notes/automation-observations.md",
       "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
+      "ageDays": 85,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -1098,13 +1014,13 @@
       "url": "https://productnorth.in/writing/working-notes/knowledge-systems-notes/",
       "contentPath": "content/writing/working-notes/knowledge-systems-notes.md",
       "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
+      "ageDays": 85,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     },
     {
@@ -1112,15 +1028,15 @@
       "url": "https://productnorth.in/writing/working-notes/product-discovery-notes/",
       "contentPath": "content/writing/working-notes/product-discovery-notes.md",
       "lastCommit": "2026-04-12T15:30:46+05:30",
-      "ageDays": 79,
+      "ageDays": 85,
       "freshness": {
         "emoji": "🟢",
         "label": "fresh",
         "level": "fresh"
       },
-      "coverageGaps": "No coverage gaps identified; content is minimal.",
+      "coverageGaps": "No coverage gaps identified.",
       "freshnessRisk": "No freshness risk; content is recent."
     }
   ],
-  "crossPageConsistency": "No cross-page conflicts exist."
+  "crossPageConsistency": "The claim of '15+ years leading documentation functions' is consistent across the About and _index pages. However, the About page states '300+ API endpoints owned' while the Scaling Editorial Reviews with GenAI page states '300+ API endpoints owned at a sustained 15-20 endpoint review cadence per sprint', which could imply different contexts or metrics."
 }
