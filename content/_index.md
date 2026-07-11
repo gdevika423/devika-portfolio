@@ -23,7 +23,7 @@ toc: false
 </svg>
 
 <p class="hero-diagram-caption">
-  Five systems on this site run this exact pattern — two rule-based, three AI-powered, all gated by human review. <a class="text-link" href="https://gdevika423.github.io/sabbatical-dashboards/">See them running →</a>
+  I proved this pattern in production at Zeta. During my sabbatical I built four checkers that run it end to end on sample data, and designed the team operating models around them. <a class="text-link" href="https://gdevika423.github.io/sabbatical-dashboards/">See the checkers running →</a>
 </p>
 
 <section class="hero">
@@ -32,9 +32,9 @@ toc: false
   <p class="hero-status">Currently consulting independently · 15+ years leading documentation functions in enterprise SaaS, fintech, and networking software</p>
   <h3>Building documentation systems that make complex products usable at scale</h3>
   <p class="hero-subtitle">
-    I've led documentation teams and built the AI-enabled systems they run on, turning fragmented content efforts into a governed, measurable function that scales with the product.
+    I've led documentation teams and built the <span class="kw">AI-assisted</span> editorial workflow they ran on, turning fragmented content efforts into a governed, measurable function that scaled with the product.
     <br>
-    My focus is building the operating model, the editorial standards, and the <span class="kw">AI-assisted</span> workflows that let a documentation team grow without growing headcount 1:1.
+    My focus is the operating model, the editorial standards, and the <span class="kw">AI-assisted</span> workflows that let a documentation team grow without growing headcount 1:1.
   </p>
   <div class="hero-actions">
     <a class="btn-primary" href="/platform-systems/">See the systems I design</a>
@@ -70,7 +70,7 @@ toc: false
 <h2>Sabbatical project</h2>
 
 <p class="page-intro">
-During my career break, I designed the operating models I'd bring into a Senior Documentation Manager role on day one - reasoning forward from what I've already proven in production.
+During my career break, I designed the operating models I'd bring into a Senior Documentation Manager role on day one - reasoning forward from what I've already proven in production. The checkers behind them are built and running on sample data; the operating models have not yet been run with a team.
 </p>
 
 <div class="home-grid">
