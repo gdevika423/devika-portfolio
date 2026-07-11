@@ -11,8 +11,6 @@ url: "/platform-systems/developer-release-systems/release-notes/rel-2026-3/"
 
 Release REL-2026.3, shipping 2026-07-10.
 
-# Release Notes: Search & Onboarding Improvements (REL-2026.3)
-
 ## What changed
 This release introduces enhancements to search functionality and onboarding for new users. The search relevance ranking for multi-word queries has been improved, prioritizing exact phrase matches over partial matches. Additionally, a new onboarding tour has been implemented for first-time users, providing a guided experience during their initial login. 
 
