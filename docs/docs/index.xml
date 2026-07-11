@@ -2441,7 +2441,7 @@ data-copied-label="Copied!"
 &lt;p class="page-tag">AI-generated release notes — pending PM review&lt;/p>
 &lt;hr class="page-divider">
 &lt;p>Release REL-2026.3, shipping 2026-07-10.&lt;/p>
-&lt;h1>Release Notes: Search &amp;amp; Onboarding Improvements (REL-2026.3)&lt;/h1>&lt;h2>What changed&lt;span class="hx:absolute hx:-mt-20" id="what-changed">&lt;/span>
+&lt;h2>What changed&lt;span class="hx:absolute hx:-mt-20" id="what-changed">&lt;/span>
 &lt;a href="#what-changed" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This release introduces enhancements to search functionality and onboarding for new users. The search relevance ranking for multi-word queries has been improved, prioritizing exact phrase matches over partial matches. Additionally, a new onboarding tour has been implemented for first-time users, providing a guided experience during their initial login.&lt;/p>
 &lt;p>A bug fix has corrected the timestamp display in the release notes automation log, ensuring timestamps now reflect the user&amp;rsquo;s local timezone. Lastly, the legacy v1 search API endpoint has been deprecated, with a planned discontinuation of support in 90 days.&lt;/p>
 &lt;h2>Who is impacted&lt;span class="hx:absolute hx:-mt-20" id="who-is-impacted">&lt;/span>
