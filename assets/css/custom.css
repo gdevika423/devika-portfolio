@@ -499,3 +499,12 @@ main#content li {
   margin-top: -0.5rem;
   margin-bottom: 0.5rem;
 }
+
+.home-card .card-status {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 0.78rem;
+  color: var(--dj-rust);
+  margin-top: 0.6rem;
+  margin-bottom: 0.6rem;
+  letter-spacing: 0.01em;
+}
