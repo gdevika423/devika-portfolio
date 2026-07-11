@@ -144,7 +144,7 @@ When documentation is designed as a system, it becomes infrastructure for produc
 
 <div class="feature-card">
 
-<p class="feature-tag">Zeta • Knowledge Systems Lead</p>
+<p class="feature-tag">Zeta • Lead Information Developer</p>
 
 <h3>Building the knowledge base management system at Zeta</h3>
 
