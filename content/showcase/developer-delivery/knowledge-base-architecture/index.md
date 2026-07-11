@@ -2,7 +2,7 @@
 title: "Knowledge Base Architecture"
 type: docs
 company: "Zeta"
-role: "Knowledge Systems Lead"
+role: "Lead Information Developer"
 toc: true
 url: "/showcase/knowledge-base-architecture/"
 ---
@@ -10,7 +10,6 @@ url: "/showcase/knowledge-base-architecture/"
 I led the knowledge architecture initiative end-to-end — taxonomy, <span class="kw">governance</span> model, contributor workflows — that took the team from scattered documents to a structured, ownable system.
 
 ## 60-Second Summary
-
 
 <p align="center">
 <img src="/images/kb.png" alt="60-Second Summary" width="900">
@@ -42,13 +41,12 @@ The focus was on treating documentation as a **structured knowledge system rathe
 ## Impact
 
 - Reduced support ticket volume by **25%**
-- Improved knowledge discoverability across teams
-- Accelerated contributor onboarding through clearer structure and discoverability
-- Created sustainable governance models for knowledge systems that didn't depend on me being in the room
+- Authored 80+ troubleshooting guides for support-agent personas and revamped 40+ for end-user self-service
+- Built the taxonomy and contributor workflows that let other writers add knowledge without breaking structure
+- Established governance models for knowledge systems that did not depend on me being in the room
 
 ---
 
 <h2>Related</h2>
 
 <a class="text-link" href="/platform-systems/knowledge-architecture/">Knowledge Architecture Model</a> - the broader information model behind this work
-
