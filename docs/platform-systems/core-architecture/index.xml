@@ -6,89 +6,25 @@
 &lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Product documentation works best when it is treated as an operating system, not a collection of files.&lt;/p>
 &lt;hr>
 &lt;h2>1. System Overview&lt;span class="hx:absolute hx:-mt-20" id="1-system-overview">&lt;/span>
-&lt;a href="#1-system-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Product Change
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">PM + Engineering Input
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Documentation Planning
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Content Creation
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Review &amp;amp; Validation
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Publishing
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">User Feedback
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">Continuous Improvement&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
-aria-label="Copy code"
-data-copied-label="Copied!"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>Documentation connects product changes to user understanding through a structured flow.&lt;/p>
+&lt;a href="#1-system-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Documentation connects product changes to user understanding through a structured flow.&lt;/p>
+&lt;p align="center">
+&lt;img src="https://productnorth.in/images/pipeline.png" alt="Documentation system pipeline: Product Change to PM and Engineering Input to Documentation Planning to Content Creation to Review and Validation to Publishing to User Feedback to Continuous Improvement" width="500">
+&lt;/p>
+&lt;p align="center">&lt;em>Figure: End-to-End Product Documentation System — product changes flow through planning, creation, and review into publishing and continuous improvement&lt;/em>&lt;/p>
 &lt;hr>
 &lt;h2>2. Core Content Ecosystem&lt;span class="hx:absolute hx:-mt-20" id="2-core-content-ecosystem">&lt;/span>
-&lt;a href="#2-core-content-ecosystem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl"> ┌──────────────────────┐
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> │ Help Documentation │
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> └─────────┬────────────┘
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> │
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">┌──────────────┐ ┌──────▼──────┐ ┌──────────────┐
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ API Docs │ │ Release │ │ In-App Help │
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">│ │ │ Notes │ │ │
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">└──────┬───────┘ └──────┬──────┘ └──────┬───────┘
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> │ │ │
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> └──────────┬───────▼────────┬────────┘
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> │ Internal KB │
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> └────────────────┘&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
-aria-label="Copy code"
-data-copied-label="Copied!"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>Each content type serves a different user but operates as one system.&lt;/p>
+&lt;a href="#2-core-content-ecosystem" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Each content type serves a different user but operates as one system.&lt;/p>
+&lt;p align="center">
+&lt;img src="https://productnorth.in/images/doc-ecosystem.png" alt="Documentation ecosystem: Help Documentation connects to API Docs, Release Notes, and In-App Help, all feeding into Internal KB" width="500">
+&lt;/p>
+&lt;p align="center">&lt;em>Figure: Core Content Ecosystem — each content type serves a different user but operates as one connected system&lt;/em>&lt;/p>
 &lt;hr>
 &lt;h2>3. Operating Model&lt;span class="hx:absolute hx:-mt-20" id="3-operating-model">&lt;/span>
-&lt;a href="#3-operating-model" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
-&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
-&lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">[ Single Source of Truth ]
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[ Release-Aligned Content ]
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[ Cross-Functional Ownership ]
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> +
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">[ Continuous Improvement ]&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
-&lt;button
-class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
-title="Copy code"
-aria-label="Copy code"
-data-copied-label="Copied!"
->
-&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4">&lt;/div>
-&lt;/button>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;p>Documentation scales only when these principles are enforced.&lt;/p>
+&lt;a href="#3-operating-model" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Documentation scales only when these principles are enforced.&lt;/p>
+&lt;p align="center">
+&lt;img src="https://productnorth.in/images/operating-model.png" alt="Documentation operating model: Single Source of Truth, Release-Aligned Content, Cross-Functional Ownership, Continuous Improvement" width="700">
+&lt;/p>
+&lt;p align="center">&lt;em>Figure: Documentation Operating Model — four principles that enable documentation to scale consistently across teams and releases&lt;/em>&lt;/p>
 &lt;hr>
 &lt;h2>4. Documentation Workflow&lt;span class="hx:absolute hx:-mt-20" id="4-documentation-workflow">&lt;/span>
 &lt;a href="#4-documentation-workflow" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;div align="center">
@@ -278,16 +214,10 @@ data-copied-label="Copied!"
 The knowledge architecture system is designed as a layered structure that connects how information is organized with how it is consumed and reused across workflows.
 &lt;br>&lt;/p>
 &lt;p align="center">
-&lt;img src="https://productnorth.in/images/kb-scale.png" alt="Knowledge Architecture System Diagram" width="900">
+&lt;img src="https://productnorth.in/images/kb-scale.png" alt="Knowledge Architecture System Diagram" width="380" height="180">
 &lt;/p>
 &lt;p align="center">&lt;em>Figure: Knowledge Architecture System — Structure, Flow, and Execution&lt;/em>&lt;/p>
 &lt;br>
-&lt;h3>Taxonomy Structure&lt;span class="hx:absolute hx:-mt-20" id="taxonomy-structure">&lt;/span>
-&lt;a href="#taxonomy-structure" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>At the foundation is a structured taxonomy that organizes knowledge into clear categories.&lt;/p>
-&lt;p align="center">
-&lt;img src="https://productnorth.in/images/kb-taxonomy.png" alt="Enterprise Knowledge System taxonomy: Product Documentation, Operational Procedures, Developer Documentation, Knowledge Base Content" width="700">
-&lt;/p>
-&lt;p align="center">&lt;em>Figure: Enterprise Knowledge System — four content domains structured as a layered taxonomy&lt;/em>&lt;/p>
 &lt;h3>Knowledge Flow&lt;span class="hx:absolute hx:-mt-20" id="knowledge-flow">&lt;/span>
 &lt;a href="#knowledge-flow" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Creation → Structuring → Storage → Discovery → Reuse → Governance&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0">
@@ -314,7 +244,7 @@ data-copied-label="Copied!"
 &lt;h3>System View&lt;span class="hx:absolute hx:-mt-20" id="system-view">&lt;/span>
 &lt;a href="#system-view" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h3>&lt;p>The architecture connects structure with usability. This model is designed so that knowledge is not only stored, but actively supports how teams operate and scale.&lt;/p>
 &lt;p align="center">
-&lt;img src="https://productnorth.in/images/kb-system-view.png" alt="Knowledge Architecture System View — Taxonomy to Structured Content to Central Repository to Search and Discovery to User Workflows" width="900">
+&lt;img src="https://productnorth.in/images/kb-system-view.png" alt="Knowledge Architecture System View — Taxonomy to Structured Content to Central Repository to Search and Discovery to User Workflows" width="380" height="180">
 &lt;/p>
 &lt;p align="center">&lt;em>Figure: Knowledge Architecture System View — information flows from taxonomy through structured content into a central repository, surfaced via search and discovery into user workflows&lt;/em>&lt;/p>
 &lt;hr>
