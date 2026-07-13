@@ -23,7 +23,7 @@ toc: false
 </svg>
 
 <p class="hero-diagram-caption">
-  Five systems on this site run this exact pattern — two rule-based, three AI-powered, all gated by human review. <a class="text-link" href="https://gdevika423.github.io/sabbatical-dashboards/">See them running →</a>
+  I proved this pattern in production at Zeta. During my sabbatical I built the checkers that automate it - a documentation health check that runs weekly against this site's own content, plus traceability, governance and release-notes checkers. <a class="text-link" href="https://gdevika423.github.io/sabbatical-dashboards/">See the checkers running →</a>
 </p>
 
 <section class="hero">
@@ -70,26 +70,22 @@ toc: false
 <h2>Sabbatical project</h2>
 
 <p class="page-intro">
-During my career break, I designed the operating models I'd bring into a Senior Documentation Manager role on day one - reasoning forward from what I've already proven in production.
+During my career break, I built the checkers and designed the operating models I'd bring into a Senior Documentation Manager role on day one - reasoning forward from what I've already proven in production. Each card states what is built and what is still a model.
 </p>
 
 <div class="home-grid">
 
 <div class="home-card">
-<h3>AI Governance &amp; Review Operating Model</h3>
-<p>What AI owns, what the team owns, and what I own as manager - the accountability model that keeps AI-assisted documentation auditable as a team scales.</p>
-<a class="text-link" href="/platform-systems/ai-governance-model/">Read the model →</a>
-</div>
-
-<div class="home-card">
 <h3>Documentation Health Operating Cycle</h3>
-<p>A weekly cadence - flag, triage, assign, re-check - that would run a team against documentation health data instead of a quarterly manual audit.</p>
+<p>A weekly cadence - flag, triage, assign, re-check - that runs a team against documentation health data instead of a quarterly manual audit.</p>
+<p class="card-status">Checker built and running weekly against this site's own content; the team operating cycle is designed, not yet run with a team</p>
 <a class="text-link" href="/platform-systems/doc-health-pipeline/">Read the model →</a>
 </div>
 
 <div class="home-card">
 <h3>End-to-End AI-Assisted Publication Pipeline</h3>
-<p>Spec in, AI-assisted draft out, mandatory human review gate before anything publishes - and the planned link into ongoing health monitoring.</p>
+<p>Spec in, AI-assisted draft out, mandatory human review gate before anything publishes - and the link into ongoing health monitoring.</p>
+<p class="card-status">Built; one AI-drafted page merged through the PR gate on this site. Not yet run as a team workflow</p>
 <a class="text-link" href="/platform-systems/publication-pipeline/">Read the model →</a>
 </div>
 
