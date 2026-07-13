@@ -6,7 +6,8 @@ draft: true
 url: "/platform-systems/developer-release-systems/release-notes/rel-2026-3/"
 ---
 
-<p class="page-tag">AI-generated release notes — pending PM review</p>
+<p class="page-tag">Pipeline demo — AI-drafted release notes from a sample spec, merged through the PR review gate</p>
+
 <hr class="page-divider">
 
 Release REL-2026.3, shipping 2026-07-10.
