@@ -2213,21 +2213,24 @@ data-copied-label="Copied!"
 &lt;h2>Related&lt;/h2>
 &lt;p>&lt;a class="text-link" href="https://productnorth.in/toolkit/5cs-content-audit-model/">5Cs Content Audit Model&lt;/a> - the framework this initiative was built around&lt;/p>
 &lt;p>&lt;a class="text-link" href="https://productnorth.in/toolkit/documentation-governance-framework/">Documentation Governance Framework&lt;/a> - the standing governance model this work established&lt;/p></description></item><item><title>Documentation Health Operating Cycle</title><link>https://productnorth.in/platform-systems/doc-health-pipeline/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/platform-systems/doc-health-pipeline/</guid><description>
-&lt;p class="page-tag">sabbatical project — checker built and running weekly; team operating cycle designed, not yet run with a team&lt;/p>
+&lt;p class="page-tag">sabbatical project — checker built and running weekly against this site; team operating cycle designed, not yet run with a team&lt;/p>
 &lt;hr class="page-divider">
 &lt;p>Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.&lt;/p>
-&lt;p>This page describes the model I designed for replacing that manual audit with a standing, automated signal - extending the same principle I&amp;rsquo;ve already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. The checker behind it is built and runs weekly against this site&amp;rsquo;s own content. The weekly team cadence described below is the operating model I would run with a team; it has not been run with one.&lt;/p>
+&lt;p>This page describes two things, and I keep them separate. The &lt;strong>checker&lt;/strong> is built and runs weekly against this site&amp;rsquo;s own content. The &lt;strong>team operating cycle&lt;/strong> around it is the model I would run with a team, and it has not been run with one, because I do not have a team right now.&lt;/p>
+&lt;p>The principle underneath both is one I already proved in production at Zeta with AI-assisted editorial review: curated prompts, human sign-off retained. This extends it from a per-draft check into a continuous health signal.&lt;/p>
 &lt;hr>
-&lt;h2>Current Status&lt;span class="hx:absolute hx:-mt-20" id="current-status">&lt;/span>
-&lt;a href="#current-status" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This pipeline is live and running against this site:&lt;/p>
+&lt;h2>What Is Actually Running&lt;span class="hx:absolute hx:-mt-20" id="what-is-actually-running">&lt;/span>
+&lt;a href="#what-is-actually-running" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The checker is live. It is a GitHub Actions workflow on a weekly cron, and it runs against this repository.&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>7 pages&lt;/strong> checked on every run - this site&amp;rsquo;s homepage, About, Toolkit, and the four AI/platform-systems pages&lt;/li>
-&lt;li>&lt;strong>Weekly schedule&lt;/strong> via GitHub Actions, plus on-demand manual runs&lt;/li>
-&lt;li>&lt;strong>Coverage, consistency, and overclaim-risk checks&lt;/strong> per page via GPT, plus a small accuracy-evals layer: each page is checked against a short list of known-true facts, and the match rate is tracked over time in the repo&lt;/li>
-&lt;li>&lt;strong>Most recent run: 100% accuracy&lt;/strong> (13/13 ground-truth facts confirmed), up from 92.3% in the previous run - the gap was a real internal contradiction on this site&amp;rsquo;s own Publication Pipeline page, which I fixed and then re-ran to confirm&lt;/li>
-&lt;li>Reports are markdown files and a running CSV, committed straight back into the repo - no separate dashboard or subscription tooling&lt;/li>
+&lt;li>&lt;strong>73 pages checked on every run.&lt;/strong> It auto-discovers every markdown page under &lt;code>content/&lt;/code>. There is no manual page list to maintain, so a new page is monitored the moment it is committed.&lt;/li>
+&lt;li>&lt;strong>Weekly schedule&lt;/strong> via GitHub Actions, plus on-demand manual runs.&lt;/li>
+&lt;li>&lt;strong>Real freshness from commit history.&lt;/strong> Each page is paired with its actual last-commit date via &lt;code>git log&lt;/code>. Pages are graded fresh, aging (over 3 months), or stale (over 6 months). This is elapsed time, not a guess from the text.&lt;/li>
+&lt;li>&lt;strong>Cross-page contradiction detection.&lt;/strong> Every page goes into a single combined model call, so the check can compare pages against each other and flag a claim stated one way here and another way there. Years of experience, team size, metrics, role titles, dates.&lt;/li>
+&lt;li>&lt;strong>Coverage gaps&lt;/strong> per page: claims made with no supporting detail or evidence behind them.&lt;/li>
+&lt;li>&lt;strong>Reports committed straight back into the repo&lt;/strong> as a JSON snapshot, and pushed into a single running GitHub Issue as markdown. No separate dashboard, no subscription tooling.&lt;/li>
 &lt;/ul>
-&lt;p>This is a v1: it checks a fixed list of pages, not the whole site automatically, and it doesn&amp;rsquo;t yet check freshness against commit history - both are described as the fuller design below, not yet built.&lt;/p>
+&lt;p>Last run: 73 pages, 37 fresh and 36 aging.&lt;/p>
+&lt;p>The cross-page check is the one that earns its keep. A per-page review cannot catch an inconsistency that only exists &lt;em>between&lt;/em> two pages, and that is exactly the kind of error that survives a manual audit and then surfaces in an interview. This checker found a real contradiction on this site&amp;rsquo;s own Publication Pipeline page. I fixed it, re-ran, and confirmed it was gone.&lt;/p>
 &lt;hr>
 &lt;h2>Platform Objective&lt;span class="hx:absolute hx:-mt-20" id="platform-objective">&lt;/span>
 &lt;a href="#platform-objective" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The goal is to answer one resourcing question: can documentation health monitoring scale without scaling headcount?&lt;/p>
@@ -2235,41 +2238,37 @@ data-copied-label="Copied!"
 &lt;ul>
 &lt;li>continuous monitoring of content freshness&lt;/li>
 &lt;li>automated detection of coverage gaps&lt;/li>
-&lt;li>flagging of internal inconsistencies across pages&lt;/li>
-&lt;li>a human review step that stays firmly in control of what&amp;rsquo;s actually wrong&lt;/li>
+&lt;li>flagging of inconsistencies, including ones that only exist across pages&lt;/li>
+&lt;li>a human review step that stays firmly in control of what is actually wrong&lt;/li>
 &lt;/ul>
-&lt;p>The system is designed as a noticing layer on top of an existing documentation set - it would never edit content, only flag it.&lt;/p>
+&lt;p>The system is a noticing layer on top of an existing documentation set. It never edits content. It only flags it.&lt;/p>
 &lt;hr>
-&lt;h2>Platform Architecture Overview&lt;span class="hx:absolute hx:-mt-20" id="platform-architecture-overview">&lt;/span>
-&lt;a href="#platform-architecture-overview" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline is designed to run on a weekly schedule with four stages:&lt;/p>
+&lt;h2>Architecture&lt;span class="hx:absolute hx:-mt-20" id="architecture">&lt;/span>
+&lt;a href="#architecture" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Four stages, run weekly.&lt;/p>
 &lt;ol>
-&lt;li>Ingest - pull markdown source files directly from the live repository&lt;/li>
-&lt;li>Context build - pair each page&amp;rsquo;s content with its real last-commit date&lt;/li>
-&lt;li>Health checks - an LLM evaluates freshness, coverage, consistency, and overclaim risk per page&lt;/li>
-&lt;li>Report - flagged pages are compiled into a single report for human triage&lt;/li>
+&lt;li>&lt;strong>Ingest&lt;/strong> — read every markdown source file directly from the repository&lt;/li>
+&lt;li>&lt;strong>Context build&lt;/strong> — pair each page&amp;rsquo;s content with its real last-commit date&lt;/li>
+&lt;li>&lt;strong>Health checks&lt;/strong> — a model evaluates freshness, coverage, and cross-page consistency&lt;/li>
+&lt;li>&lt;strong>Report&lt;/strong> — flagged pages are compiled into a snapshot and a running GitHub Issue for human triage&lt;/li>
 &lt;/ol>
-&lt;p>Each stage performs a specific function in the monitoring pipeline.&lt;/p>
-&lt;p>In v1, stage 1 fetches each page&amp;rsquo;s live rendered page directly rather than raw markdown from the repository, and stage 2&amp;rsquo;s commit-history pairing isn&amp;rsquo;t built yet - the checks below run on page content alone for now.&lt;/p>
-&lt;hr>
-&lt;h2>Ingest and Context Build&lt;span class="hx:absolute hx:-mt-20" id="ingest-and-context-build">&lt;/span>
-&lt;a href="#ingest-and-context-build" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline would read every markdown file from the site&amp;rsquo;s content folder and pair it with metadata pulled from commit history - giving the system two real signals per page: the actual content, and how long it&amp;rsquo;s actually been since the page last changed.&lt;/p>
+&lt;p>Each stage does one thing. The value is in stage 2 and stage 3 together: content alone tells you what a page says, and commit history tells you how long it has been saying it. Neither signal is sufficient on its own.&lt;/p>
 &lt;hr>
 &lt;h2>Health Checks&lt;span class="hx:absolute hx:-mt-20" id="health-checks">&lt;/span>
-&lt;a href="#health-checks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The monitoring step evaluates each page against four checks:&lt;/p>
+&lt;a href="#health-checks" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The monitoring step evaluates each page against three checks:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Freshness&lt;/strong> - flags language signals (specific dates, &amp;ldquo;current,&amp;rdquo; &amp;ldquo;in progress&amp;rdquo;) that may need a human to reconfirm are still accurate. This is text-pattern based in v1, not tied to actual elapsed time - true age-based freshness via commit history is still future work.&lt;/li>
-&lt;li>&lt;strong>Coverage&lt;/strong> - flags missing prerequisites or undefined terms a reader would need&lt;/li>
-&lt;li>&lt;strong>Consistency&lt;/strong> - flags statements that read as internally contradictory&lt;/li>
-&lt;li>&lt;strong>Overclaim risk&lt;/strong> - flags language implying more system maturity than a page&amp;rsquo;s actual description supports. This check is built and running in v1 - it&amp;rsquo;s what caught and helped fix a real contradiction on this site&amp;rsquo;s own Publication Pipeline page.&lt;/li>
+&lt;li>&lt;strong>Freshness&lt;/strong> — graded from the actual last-commit date. Fresh, aging past 3 months, stale past 6 months.&lt;/li>
+&lt;li>&lt;strong>Coverage&lt;/strong> — flags claims made with no supporting detail, and prerequisites or terms a reader would need but cannot find.&lt;/li>
+&lt;li>&lt;strong>Cross-page consistency&lt;/strong> — compares all pages against each other and flags any factual claim stated differently in two places, naming the pages and quoting the conflicting values. If there is no conflict, it has to say so explicitly rather than stay silent.&lt;/li>
 &lt;/ul>
-&lt;p>This layer is designed to identify candidate issues and trigger a flag when a check fires - it would not decide what&amp;rsquo;s actually wrong. That stays human.&lt;/p>
+&lt;p>This layer identifies candidates and raises a flag. It does not decide what is actually wrong. That stays human.&lt;/p>
 &lt;hr>
 &lt;h2>Report and Human Review&lt;span class="hx:absolute hx:-mt-20" id="report-and-human-review">&lt;/span>
-&lt;a href="#report-and-human-review" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>When checks fire, the pipeline would compile every flag into one weekly report.&lt;/p>
-&lt;p>The report would include which page was flagged, how old it is, and which check fired and why. This is the point where judgment re-enters the system: a flag is a candidate, not a verdict.&lt;/p>
+&lt;a href="#report-and-human-review" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Every flag is compiled into one report: which page fired, how old it is, which check fired, and why.&lt;/p>
+&lt;p>This is where judgment re-enters the system. &lt;strong>A flag is a candidate, not a verdict.&lt;/strong> I have had the checker flag things that were fine, and I have had it catch a contradiction I had read past three times. Both outcomes are the reason a person still reads the report.&lt;/p>
 &lt;hr>
 &lt;h2>How I&amp;rsquo;d Run This as a Team Cadence&lt;span class="hx:absolute hx:-mt-20" id="how-id-run-this-as-a-team-cadence">&lt;/span>
-&lt;a href="#how-id-run-this-as-a-team-cadence" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>The pipeline produces a signal. Running it as a documentation manager means closing the loop on that signal every cycle, not just generating it.&lt;/p>
+&lt;a href="#how-id-run-this-as-a-team-cadence" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>This part is designed, not run. I do not have a team, so I have not operated it with one.&lt;/p>
+&lt;p>The pipeline produces a signal. Running it as a documentation manager means closing the loop on that signal every cycle, not just generating it.&lt;/p>
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code">
 &lt;div>&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-text" data-lang="text">&lt;span class="line">&lt;span class="cl">Weekly Report
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> ↓
@@ -2291,18 +2290,20 @@ data-copied-label="Copied!"
 &lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;p>In practice, this would mean:&lt;/p>
+&lt;p>In practice:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Triage as a standing weekly review, not an ad hoc glance.&lt;/strong> Every flag gets a real decision - real gap, false positive, or not worth fixing this cycle - and that decision is recorded, not just acted on silently.&lt;/li>
-&lt;li>&lt;strong>Every accepted flag gets a named owner and a cycle to resolve it.&lt;/strong> Health monitoring that doesn&amp;rsquo;t result in an assigned fix is just a dashboard nobody acts on.&lt;/li>
-&lt;li>&lt;strong>The next cycle checks whether the fix actually held.&lt;/strong> A flag that recurs after being marked resolved is itself a signal - either about the content or about the check.&lt;/li>
-&lt;li>&lt;strong>The pattern across cycles becomes the real management data.&lt;/strong> Which categories of pages flag repeatedly, which writers&amp;rsquo; content stays clean, where the team&amp;rsquo;s actual gaps are - that&amp;rsquo;s the conversation this cadence is built to support, not just one week&amp;rsquo;s report.&lt;/li>
+&lt;li>&lt;strong>Triage as a standing weekly review, not an ad hoc glance.&lt;/strong> Every flag gets a real decision — real gap, false positive, or not worth fixing this cycle — and that decision is recorded, not just acted on silently.&lt;/li>
+&lt;li>&lt;strong>Every accepted flag gets a named owner and a cycle to resolve it.&lt;/strong> Health monitoring that does not result in an assigned fix is just a dashboard nobody acts on.&lt;/li>
+&lt;li>&lt;strong>The next cycle checks whether the fix held.&lt;/strong> A flag that recurs after being marked resolved is itself a signal, either about the content or about the check.&lt;/li>
+&lt;li>&lt;strong>The pattern across cycles becomes the real management data.&lt;/strong> Which categories of page flag repeatedly, whose content stays clean, where the team&amp;rsquo;s actual gaps are. That is the conversation this cadence exists to support, not one week&amp;rsquo;s report.&lt;/li>
 &lt;/ul>
-&lt;p>This is the layer that would turn a working pipeline into a management system: the tool tells you what&amp;rsquo;s stale, the cadence makes sure something happens about it.&lt;/p>
+&lt;p>The tool tells you what is stale. The cadence makes sure something happens about it. I have built the first and designed the second.&lt;/p>
 &lt;hr>
-&lt;h2>Anticipated Limitations&lt;span class="hx:absolute hx:-mt-20" id="anticipated-limitations">&lt;/span>
-&lt;a href="#anticipated-limitations" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>One limitation I&amp;rsquo;d expect and design around from the start, based on what I already know about LLM-based review from running AI-assisted editorial workflows in production:&lt;/p>
-&lt;p>&lt;strong>Content-type blindness.&lt;/strong> An LLM check tuned for how-to content could easily misapply a &amp;ldquo;missing prerequisites&amp;rdquo; rubric to a marketing or positioning page, where that rubric doesn&amp;rsquo;t belong. I&amp;rsquo;d plan for content-type-aware checks from day one.&lt;/p></description></item><item><title>Documentation in Agile Product Development</title><link>https://productnorth.in/showcase/documentation-agile-development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/documentation-agile-development/</guid><description>
+&lt;h2>Known Limitations&lt;span class="hx:absolute hx:-mt-20" id="known-limitations">&lt;/span>
+&lt;a href="#known-limitations" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p>Real ones, from running it.&lt;/p>
+&lt;p>&lt;strong>Content-type blindness.&lt;/strong> A check tuned for how-to content will misapply a &amp;ldquo;missing prerequisites&amp;rdquo; rubric to a marketing or positioning page, where that rubric does not belong. I would build content-type-aware checks before running this on a real team&amp;rsquo;s content set.&lt;/p>
+&lt;p>&lt;strong>Freshness is not the same as staleness.&lt;/strong> A page can be six months old and perfectly correct. The commit date tells you when something last changed, not whether it is wrong. The check raises a candidate; the writer decides.&lt;/p>
+&lt;p>&lt;strong>False positives cost trust.&lt;/strong> A checker that cries wolf gets ignored by week three. That is the argument for keeping triage human and recording the decision, so a repeat false positive gets fixed at the check, not tolerated forever.&lt;/p></description></item><item><title>Documentation in Agile Product Development</title><link>https://productnorth.in/showcase/documentation-agile-development/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>gdevika423@gmail.com (Devika Jallegowda)</author><guid>https://productnorth.in/showcase/documentation-agile-development/</guid><description>
 &lt;p>I drove the process change that made documentation a sprint deliverable instead of a post-release scramble — a shift I led with engineering leadership, not just within my own team.&lt;/p>
 &lt;h2>60-Second Summary&lt;span class="hx:absolute hx:-mt-20" id="60-second-summary">&lt;/span>
 &lt;a href="#60-second-summary" class="subheading-anchor" aria-label="Permalink for this section">&lt;/a>&lt;/h2>&lt;p align="center">
