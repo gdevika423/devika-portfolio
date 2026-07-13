@@ -6,12 +6,12 @@ draft: false
 url: "/platform-systems/doc-health-pipeline/"
 ---
 
-<p class="page-tag">sabbatical project — v1 built and running</p>
+<p class="page-tag">sabbatical project — checker built and running weekly; team operating cycle designed, not yet run with a team</p>
 <hr class="page-divider">
 
 Most documentation teams catch staleness and gaps the same way: a quarterly audit, run manually, by whoever has a free afternoon. It works until the content base outgrows the time anyone has to re-check it.
 
-This page describes the model I designed for replacing that manual audit with a standing, automated signal - extending the same principle I've already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. A first version of this is built and running against this site: [view the repo](https://github.com/gdevika423/doc-health-pipeline).
+This page describes the model I designed for replacing that manual audit with a standing, automated signal - extending the same principle I've already proven in production with AI-assisted editorial review at Zeta (curated prompts, human sign-off retained) into a continuous health-monitoring cycle. The checker behind it is built and runs weekly against this site's own content. The weekly team cadence described below is the operating model I would run with a team; it has not been run with one.
 
 ---
 

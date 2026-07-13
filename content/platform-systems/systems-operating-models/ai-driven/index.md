@@ -7,7 +7,7 @@ weight: 8
 url: "/platform-systems/ai-driven/"
 ---
 
-<p class="page-tag">sabbatical project — one workflow built and running, wider model designed</p>
+<p class="page-tag">sabbatical project — one workflow (release notes) built and running; wider model designed, not built</p>
 <hr class="page-divider">
 
 

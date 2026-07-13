@@ -23,7 +23,7 @@ toc: false
 </svg>
 
 <p class="hero-diagram-caption">
-  I proved this pattern in production at Zeta. During my sabbatical I built four checkers that run it end to end on sample data, and designed the team operating models around them. <a class="text-link" href="https://gdevika423.github.io/sabbatical-dashboards/">See the checkers running →</a>
+  Five systems on this site run this exact pattern — two rule-based, three AI-powered, all gated by human review. <a class="text-link" href="https://gdevika423.github.io/sabbatical-dashboards/">See them running →</a>
 </p>
 
 <section class="hero">
@@ -70,30 +70,34 @@ toc: false
 <h2>Sabbatical project</h2>
 
 <p class="page-intro">
-During my career break, I built the checkers and designed the operating models I'd bring into a Senior Documentation Manager role on day one - reasoning forward from what I've already proven in production. The checkers run end to end on sample data; the operating models have not yet been run with a team.
+During my career break, I designed the operating models I'd bring into a Senior Documentation Manager role on day one - reasoning forward from what I've already proven in production.
 </p>
 
 <div class="home-grid">
 
 <div class="home-card">
-<h3>Release Documentation Traceability Checker</h3>
-<p>Catches a coverage gap most checks miss - a doc page that tags a ticket but was written before the sprint even started. Rule-based, no AI.</p>
-<p class="card-status">Built and running on sample data</p>
-<a class="text-link" href="/platform-systems/release-traceability/">See the checker →</a>
+<h3>AI Governance &amp; Review Operating Model</h3>
+<p>What AI owns, what the team owns, and what I own as manager - the accountability model that keeps AI-assisted documentation auditable as a team scales.</p>
+<a class="text-link" href="/platform-systems/ai-governance-model/">Read the model →</a>
 </div>
 
 <div class="home-card">
-<h3>AI Governance &amp; Review Operating Model</h3>
-<p>What AI owns, what the team owns, and what I own as manager - the accountability model that keeps AI-assisted documentation auditable as a team scales.</p>
-<p class="card-status">Compliance checker built (sample data); operating model designed, not yet run with a team</p>
-<a class="text-link" href="/platform-systems/ai-governance-model/">Read the model →</a>
+<h3>Documentation Health Operating Cycle</h3>
+<p>A weekly cadence - flag, triage, assign, re-check - that would run a team against documentation health data instead of a quarterly manual audit.</p>
+<a class="text-link" href="/platform-systems/doc-health-pipeline/">Read the model →</a>
 </div>
 
 <div class="home-card">
 <h3>End-to-End AI-Assisted Publication Pipeline</h3>
 <p>Spec in, AI-assisted draft out, mandatory human review gate before anything publishes - and the planned link into ongoing health monitoring.</p>
-<p class="card-status">Designed, not built</p>
 <a class="text-link" href="/platform-systems/publication-pipeline/">Read the model →</a>
+</div>
+
+<div class="home-card">
+<h3>AI Governance &amp; Review Operating Model</h3>
+<p>What AI owns, what the team owns, and what I own as manager - the accountability model that keeps AI-assisted documentation auditable as a team scales.</p>
+<p class="card-status">Compliance checker built; operating model designed, not yet run with a team</p>
+<a class="text-link" href="/platform-systems/ai-governance-model/">Read the model →</a>
 </div>
 
 </div>

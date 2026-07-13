@@ -13,20 +13,10 @@ The knowledge architecture system is designed as a layered structure that connec
 <br>
 
 <p align="center">
-  <img src="/images/kb-scale.png" alt="Knowledge Architecture System Diagram" width="900">
+  <img src="/images/kb-scale.png" alt="Knowledge Architecture System Diagram" width="380" height="180">
 </p>
 <p align="center"><em>Figure: Knowledge Architecture System — Structure, Flow, and Execution</em></p>
 <br>
-
-### Taxonomy Structure
-
-At the foundation is a structured taxonomy that organizes knowledge into clear categories.
-
-<p align="center">
-  <img src="/images/kb-taxonomy.png" alt="Enterprise Knowledge System taxonomy: Product Documentation, Operational Procedures, Developer Documentation, Knowledge Base Content" width="700">
-</p>
-<p align="center"><em>Figure: Enterprise Knowledge System — four content domains structured as a layered taxonomy</em></p>
-
 
 ### Knowledge Flow
 
@@ -47,7 +37,7 @@ Creation → Structuring → Storage → Discovery → Reuse → Governance
 The architecture connects structure with usability. This model is designed so that knowledge is not only stored, but actively supports how teams operate and scale.
 
 <p align="center">
-  <img src="/images/kb-system-view.png" alt="Knowledge Architecture System View — Taxonomy to Structured Content to Central Repository to Search and Discovery to User Workflows" width="900">
+  <img src="/images/kb-system-view.png" alt="Knowledge Architecture System View — Taxonomy to Structured Content to Central Repository to Search and Discovery to User Workflows" width="380" height="180">
 </p>
 <p align="center"><em>Figure: Knowledge Architecture System View — information flows from taxonomy through structured content into a central repository, surfaced via search and discovery into user workflows</em></p>
 

@@ -6,7 +6,7 @@ draft: false
 weight: 1
 url: "/platform-systems/ai-governance-model/"
 ---
-<p class="page-tag">Sabbatical project - built and running</p>
+<p class="page-tag">sabbatical project — compliance checker built; operating model designed, not yet run with a team</p>
 <hr class="page-divider">
 
 Most teams adopt AI in documentation informally — someone starts using it, it spreads, and nobody can say what AI touched, what a human checked, or where the line sits. That breaks the day something ships wrong.

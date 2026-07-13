@@ -17,7 +17,7 @@ Each system focuses on <strong>structure, flow, execution, and scalability</stro
 <h2>Systems & Operating Models</h2>
 
 <p class="page-intro">
-The systems behind how documentation gets built, reviewed, and kept accountable — including where AI fits, and where it doesn't. <a class="text-link" href="/platform-systems/systems-index/">Full build status for all five →</a>
+The systems behind how documentation gets built, reviewed, and kept accountable — including where AI fits, and where it doesn't. <a class="text-link" href="/platform-systems/systems-index/">Full build status for every system →</a>
 </p>
 
 <div class="story-grid">
@@ -44,7 +44,7 @@ See the model →
 <h3>AI Governance &amp; Review Operating Model</h3>
 
 <p class="story-meta"><strong>AI Operations</strong> • Governance Framework</p>
-<p class="story-status">Status: Built and running</p>
+<p class="story-status">Status: Compliance checker built; operating model designed, not yet run with a team</p>
 
 <p class="story-problem">
 What AI owns, what the team owns, and what I own as manager — the operating model that keeps AI-assisted documentation auditable as a team scales.
@@ -61,7 +61,7 @@ See the operating model →
 <h3>End-to-End AI-Assisted Publication Pipeline</h3>
 
 <p class="story-meta"><strong>AI Operations</strong> • Spec-to-Draft Workflow</p>
-<p class="story-status">Status: Built and running</p>
+<p class="story-status">Status: Built; one AI-drafted page merged through the PR gate on this site. Not yet run as a team workflow</p>
 
 <p class="story-problem">
 Spec in, AI-assisted draft out, mandatory human review gate before anything publishes — and the planned link into ongoing health monitoring.
@@ -78,7 +78,7 @@ See the pipeline →
 <h3>Documentation Health Operating Cycle</h3>
 
 <p class="story-meta"><strong>Documentation Operations</strong> • AI-Enabled Monitoring</p>
-<p class="story-status">Status: Built and running</p>
+<p class="story-status">Status: Checker built and running weekly against this site's own content; the team operating cycle is designed, not yet run with a team</p>
 
 <p class="story-problem">
 A weekly cadence — flag, triage, assign, re-check — that runs a team against documentation health data instead of a quarterly manual audit.
@@ -95,7 +95,7 @@ See the operating cycle →
 <h3>AI-Driven Documentation Workflow — Release Notes Automation</h3>
 
 <p class="story-meta"><strong>AI Operations</strong> • Production Workflow</p>
-<p class="story-status">Status: One real sub-workflow built and running; wider model designed</p>
+<p class="story-status">Status: One sub-workflow (release notes) built and running; wider model designed, not built</p>
 
 <p class="story-problem">
 The narrowest real slice of a broader vision — a batch of release tickets synthesized into structured, PM-ready release notes, using the same PR-gated review pattern as the Publication Pipeline.
@@ -201,7 +201,7 @@ See the case study →
 <h3>Release Documentation Workflow</h3>
 
 <p class="story-meta"><strong>Documentation Operations</strong> • Release Workflow</p>
-<p class="story-status">Status: Unconfirmed — pending your review, see flag in source</p>
+<p class="story-status">Status: Designed, not built</p>
 
 <p class="story-problem">
 A structured workflow for managing documentation across product releases, ensuring accuracy, consistency, and readiness at launch.

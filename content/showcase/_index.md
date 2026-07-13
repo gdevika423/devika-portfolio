@@ -99,7 +99,7 @@ Read the case study →
 
 <h3>Knowledge Base Architecture</h3>
 
-<p class="story-meta"><strong>Zeta</strong> • Knowledge Systems Lead</p>
+<p class="story-meta"><strong>Zeta</strong> • Lead Information Developer</p>
 
 <p class="story-problem">
 Product knowledge was scattered across teams, making reliable information difficult to find.

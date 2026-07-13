@@ -7,7 +7,7 @@ weight: 2
 url: "/platform-systems/release-traceability/"
 ---
 
-<p class="page-tag">sabbatical project — built and running</p>
+<p class="page-tag">sabbatical project — built and running; rule-based, no AI</p>
 <hr class="page-divider">
 
 Most coverage checks answer one question: does a page exist for this
